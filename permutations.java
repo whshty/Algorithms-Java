@@ -78,7 +78,9 @@ public class Solution {
 
 //--------------------------
 //dfs
-//swap 
+// time O(n! )
+// space O(n)
+// swap 
 public class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -97,13 +99,10 @@ public class Solution {
             res.add(list);
             return;
         }
-        Set<Integer> used = new HashSet<Integer>();
         for(int i = pos; i < nums.length; i++ ){
-            if(used.add(nums[i])){
-                swap(nums,i,pos);
-                helper(res,nums,pos+1);
-                swap(nums,i,pos);
-            }
+            swap(nums,i,pos);
+            helper(res,nums,pos+1);
+            swap(nums,i,pos);
         }
     }
     private void swap(int[] a, int i, int j) {

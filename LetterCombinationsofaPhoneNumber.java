@@ -1,3 +1,17 @@
+/*
+Input:Digit string "23"
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+*/
+// dfs
+
+
+
+
+
+// bfs
+// round 1 : ""
+// round 2 : a,b,c
+// round 3 : ad , ae , af , bd , be , bf , cd , ce , cf 
 public class Solution {
     public List<String> letterCombinations(String digits) {
         LinkedList<String> ans = new LinkedList<String>();

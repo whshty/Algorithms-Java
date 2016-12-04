@@ -49,8 +49,8 @@ public class Solution {
     }
 }
 
-// optimized 
-// two ds instead of two
+// optimized
+// two ds instead of two : two end 
 // set instead of queue
 // record two staring set
 public class Solution {
@@ -62,36 +62,38 @@ public class Solution {
     }
     private int helper(String beginWord, String endWord, Set<String> wordList){
   
-        // save node in each level -> Queue<String>
-        // Mark visited - Set<String>
-        // Record path length - int steps
-        Queue<String> queue = new LinkedList<String>();
-        Set<String> visited = new HashSet<String>();
         int steps = 0;
-        
-        queue.offer(beginWord);
+        Set<String> visited = new HashSet<String>();
         visited.add(beginWord);
+        visited.add(endWord);
+
+        Set<String> beginSet = new HashSet<String>();
+        Set<String> endSet = new HashSet<String>();
+        beginSet.add(beginWord);
+        endSet.add(endWord);
         
-        while(!queue.isEmpty()){
-            int size = queue.size();
+        while(!beginSet.isEmpty()&&!endSet.isEmpty()){
             steps++;
-            for(int i = 0 ; i < size ; i++ ){
-                String curStr = queue.poll();
-                // find candidate for next level
-                for(int j = 0 ; j < curStr.length(); j++ ){
-                    for( char k = 'a' ; k <= 'z' ; k++ ){
-                        String  toStr = replace(curStr,j,k);
-                        // check result first
-                        if(toStr.equals(endWord)){
-                            return ++steps;
-                        }
-                        // add to visited set and queue if it is in dictionary and not in visited
-                        if(visited.add(toStr)&&wordList.contains(toStr)){
-                            queue.offer(toStr);
+            // always start form a smaller one
+            if(beginSet.size() > endSet.size()){
+                Set<String> temp = beginSet;
+                beginSet = endSet;
+                endSet = temp;
+            }
+
+            Set<String> nextLevel = new HashSet<String>();
+            for(String curStr : beginSet){
+                for(int i = 0 ; i < curStr.length(); i++){
+                    for(char j= 'a' ; j <= 'z' ; j++){
+                        String toCheck = replace(curStr,i,j);
+                        if(endSet.contains(toCheck)) return steps+1;
+                        if(wordList.contains(toCheck) && visited.add(toCheck)){
+                            nextLevel.add(toCheck);
                         }
                     }
                 }
             }
+            beginSet = nextLevel;
         }
         return 0;
     }
@@ -100,5 +102,5 @@ public class Solution {
         chs[i] = c;
         return new String(chs);
     }
+}  }
 }
-

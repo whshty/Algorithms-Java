@@ -1,5 +1,6 @@
 // regular bfs
 // tow slow !!!! 
+// time : N * 26 * L
 public class Solution {
     public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
         // bfs
@@ -50,9 +51,13 @@ public class Solution {
 }
 
 // optimized
-// two ds instead of two : two end 
+// two ds instead of two : two end  -> bi-directional bfs
+// choose the set that has the smaller size,
+// which means it always try to waste less computation to meet the goal
 // set instead of queue
 // record two staring set
+/// the time complexicity is 26 * O(n), 
+// n is the length of wordList(only the word in the dict will do a 26-loop
 public class Solution {
     public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
         // bfs

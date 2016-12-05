@@ -9,6 +9,7 @@ public class Solution {
         int count=0;
         String str ="";
         for(int i=0;i<s.length();i++){
+            // calculate duplicate
             if(i+1<s.length()&&s.charAt(i)==s.charAt(i+1)){
                 count++;    
             } else if(i+1<s.length()&&s.charAt(i)!=s.charAt(i+1)){

@@ -1,5 +1,5 @@
-//O(n log n) 
-
+// O(n log n) 
+// Recursion
 public class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -17,4 +17,29 @@ public class Solution {
             list.remove(list.size()-1);
         }
     } 
+}
+
+// iteration 
+// time (2^n)
+// space o(2^n * n )
+public class Solution {
+    public List<List<Integer>> subsetsWithDup(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        if(nums == null || nums.length == 0 ) return res;
+        Arrays.sort(nums);
+        res.add(new ArrayList<Integer>());
+        // begin : wall to avoid calculate duplicate
+        int begin = 0;
+        for(int i = 0 ; i < nums.length ; i++ ){
+            if( i == 0 || nums[i] != nums[i-1]) begin = 0;
+            int size = res.size();
+            for(int j = begin ; j < size; j++ ){
+                List<Integer> temp = new ArrayList<Integer>(res.get(j));
+                temp.add(nums[i]);
+                res.add(temp);
+            }
+            begin = size;
+        }
+        return res;
+    }
 }

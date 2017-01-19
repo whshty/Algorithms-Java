@@ -1,4 +1,4 @@
-/*
+innnn/*
 在当前序列中，从尾端往前寻找两个相邻元素，
 前一个记为first，后一个记为second，
 并且满足first 小于 second。
@@ -21,34 +21,35 @@ example:
 // time o(n)
 // space o(1)
 public class Solution{
-	public void nextPermutation(int[] nums){
-		// corner case
-		if(nums.length<=1) return;
-		int i = nums.length - 1;
-		for( ; i>=1 ;i--){
-			if(nums[i] > nums[i-1]) break;
-		}
-		if(i!=0) swap(nums,i-1);
-		reverse(nums,i);
-	}
+    public void nextPermutation(int[] nums){
+        // corner case
+        if(nums.length<=1) return;
+        int i = nums.length - 1;
+        for( ; i>=1 ;i--){
+            if(nums[i] > nums[i-1]) break;
+        }
+        if(i!=0) swap(nums,i-1);
+        reverse(nums,i);
+    }
     private void swap(int[] a,int i){
         for(int j = a.length-1;j>i;j--){
             if(a[j]>a[i]){
-                int t = a[j];
+                int temp = a[j];
                 a[j] = a[i];
-                a[i] = t;
+                a[i] = temp;
                 break;
             }
         }
     }
     //reverse the number after the number we have found
+    //the orignal order is descending for sure
     private void reverse(int[] a,int i){
         int first = i;
         int last = a.length-1;
         while(first<last){
-            int t = a[first];
+            int temp = a[first];
             a[first] = a[last];
-            a[last] = t;
+            a[last] = temp;
             first ++;
             last --;
         }

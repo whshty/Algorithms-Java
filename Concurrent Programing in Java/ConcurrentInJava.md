@@ -16,14 +16,15 @@
 * new the Thread constructor using subclass which implements the runnable interface
 
 ## 3.1 Create thread in two ways
-### 3.1.1 run() VS start()
+### 3.1.1 run() vs start()
 Always override run() abd call start()
 
 * public void run(): no new thread will be created
 * public void start(): a new thread will be created
 
+### 3.1.2 Runnable vs Thread
 
-### Code
+### 3.1.3 Code Example
 ```
 class Solution {
     public static void main (String[] args) {

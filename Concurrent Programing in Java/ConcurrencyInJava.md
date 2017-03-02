@@ -45,7 +45,7 @@ class MyRunnable implements Runnable{
 ```
 ### 3.1.3 Thread priority* Thread priorities are the integer which decide how one thread should be treated with respect to other threads
 * Thread priority decides when to switch from one running thread to anothe, this process is call context switching
-* Whhen a thread is created, it inherits its priority from the thread that created it 
+* When a thread is created, it inherits its priority from the thread that created it 
 * yield() : used to give other threads, which has the same priority as the invoked thread, a chanece to execute, and the current running thread changes to runnable state
 
 ### 3.1.4 Thread Life Cycle
@@ -111,6 +111,14 @@ class MyThread extends Thread{
 * no join method : 00 11 22 33 44 55 66 77 88 99 
 
 
+### 3.1.5 wait(), notify() and notifyAll()
+Normally need a gobal boolean flag to avoid pre-notify
+
+* public final void notify() wakes up the first thread that invokes wait() on the same object and changes the thread to the ready state
+* public final voide notifyAll() wakkes up all the threads. The higher priority thread will run first
+* public final void wait() cause the current thread to wait until another thread invokdes the notify() method or the notifyAll() method for this object.
+
+## 4.Synchronization 50:00
 
 
 

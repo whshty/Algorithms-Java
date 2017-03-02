@@ -23,6 +23,20 @@ Always override run() abd call start()
 * public void start(): a new thread will be created
 
 ### 3.1.2 Runnable vs Thread
+#### 3.1.2.1 Runnable - more flexiable
+* java.lang.Runnable - interface
+* run()
+* The Runnable interface should be implemented by any class whost instances are intended to be executed by a thread. The class must (override) define a method of no arguments called run.
+
+#### 3.1.2.2 Thread - class
+* Methods: run(), start(), sleep()......
+
+#### 3.1.2.3 Similarities
+* The subclass should override the run() method
+* The functionality that expected be be executed concurrently should be implemented in the run() method
+
+#### 3.1.2.4 Difference
+
 
 ### 3.1.3 Code Example
 ```

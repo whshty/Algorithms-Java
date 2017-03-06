@@ -115,10 +115,105 @@ class MyThread extends Thread{
 Normally need a gobal boolean flag to avoid pre-notify
 
 * public final void notify() wakes up the first thread that invokes wait() on the same object and changes the thread to the ready state
-* public final voide notifyAll() wakkes up all the threads. The higher priority thread will run first
+* public final voide notifyAll() wakes up all the threads. The higher priority thread will run first
 * public final void wait() cause the current thread to wait until another thread invokdes the notify() method or the notifyAll() method for this object.
 
-## 4.Synchronization 50:00
+## 4.Synchronization(同步)
+### 4.1 Introduction
+* When two or more threads need access to the same resource at same time, there should be some way that the resource is ony avaible for one thread at one time. Synchronization helps to achieve this goal
+* Used for method and block 
+* 每个类的实例都有自己对象的锁， 当一个线程访问实例对象中的synchronized 同步代码块或者同步方法时，该线程便获取了该实例对象级别的锁。其他线程这时如果要访问synchronized同步代码块或者同步方法，便需要阻塞等待，知道前面线程从同步代码块或者方法中退出，释放了该对象级别的锁
+* 锁提供了两种主要特性: 互斥(mutual exclusion)／原子性（atomic）和可见性（visibility）
+* 互斥即一次只允许一个线程持有某个特定的锁，一次只有一个线程能够使用该共享数据。可见性确保释放锁之前对共享数据做出的的更改对于随后获得该锁的另一线程时可见的
+* volatile修饰variable。数据址保存在main memory中，只保证可见性（visibility),不保证原子性。是轻量级的Synchronization。
+
+#### 4.1.1 Code example 
+* static synchronized method(类锁)
+* synchronized method(对象锁)
+* 只能有一个thread拥有setNewValue()和getNewValue()对应的object lock
+* 锁可重入: setNewValue() 和 getNewValue()可以互相调用
+
+```
+class demo {
+    public static synchronized void getClassValue(){
+        // Class locked
+    }
+    public  synchronized void setNewValue(){
+        // Object lock
+    }
+    public synchronized void getNewValue(){
+        // Object lock
+    }
+    public void getNormalValue(){
+        // No-lock
+    }
+}
+
+```
+
+### 4.2 Deadlock 
+* Whenever there are multithreads content for exclusive access to multiple locks, there is a possibility of deadlock.
+* A set of threads is said to be deadlocked when EACH thread is waiting for an action that can ONLY performed by other threads
+* It describes a situation where two or more threads are blocked forever, and waiting for each other.
+* Deadlock occurs when multiple threads need the same locks but obtain them in different order.
+
+### 4.2.1 How to avoid deadlock
+* Keep synchronized blocks short. As short as possible while still protecting the integrity of shared data operations.
+* Don’t invoke methods of other objects while holding a lock.(no nested lock)
+
+### 4.2.2 Code example
+Result : no output, because of deadlock
+
+```
+package Deadlock;
+
+public class demo {
+    static Object Lock1 = new Object();
+    static Object Lock2 = new Object();
+
+    public static void main(String[] args) {
+        TreadDemo1 T1 = new TreadDemo1();
+        TreadDemo2 T2 = new TreadDemo2();
+        T1.start();
+        T2.start();
+    }
+
+    static class TreadDemo1 extends Thread {
+        public void  run(){
+            // A synchronized block
+            synchronized (Lock1) {
+                try {
+                    TreadDemo1.sleep(1);
+                } catch ( InterruptedException e ){
+
+                }
+                synchronized (Lock2){}
+            }
+        }
+    }
+
+    static class TreadDemo2 extends Thread {
+        public void  run(){
+            synchronized ( Lock2 ){
+                try {
+                    Thread.sleep(1);
+                } catch ( InterruptedException e ){
+
+                }
+                synchronized ( Lock1 ){
+
+                }
+            }
+        }
+    }
+}
+
+```
+
+## 4.Producer and consumer
+1:26
+
+
 
 
 

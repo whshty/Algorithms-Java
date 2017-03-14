@@ -325,6 +325,12 @@ class GetExecuter implements Runnable {
 ```
 
 ### 4.2 Lock and Condition interface
+* Lock interface 
+* A condition instance is intrinsically bound to a lock
+* Condition is used to replace wait(), notify() and notifyAll()
+
+# 5. Executor Service 线程池
+
 
 
 

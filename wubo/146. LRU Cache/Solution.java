@@ -7,8 +7,8 @@ public class LRUCache {
     public LRUCache(int capacity) {
         this.capicity = capacity;
         map = new HashMap<>();
-        head = new Node(0,0);
-        tail = new Node(0,0);
+        head = new Node(-1,-1);
+        tail = new Node(-1,-1);
         head.next = tail;
         tail.pre = head;
         
@@ -30,7 +30,7 @@ public class LRUCache {
     }
     
     public int get(int key) {
-        if( map.get(key) != null ){
+        if( map.containsKey(key) ){
             Node node = map.get(key);
             int res = node.value;
             deleteNode(node);
@@ -43,7 +43,7 @@ public class LRUCache {
     }
     
     public void put(int key, int value) {
-        if( map.get(key) != null ){
+        if( map.containsKey(key) ){
             Node node = map.get(key);
             node.value = value;
             deleteNode(node);

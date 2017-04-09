@@ -1,9 +1,3 @@
-package ExpressionEvaluation;
-
-/**
- * Created by tengy on 4/5/2017.
- */
-
 import java.util.Stack;
 
 class EvaluateString {

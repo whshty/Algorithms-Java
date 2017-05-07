@@ -9,39 +9,33 @@
  */
 public class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
-        List<List<Integer>> res = new ArrayList<List<Integer>>();
-        if (root  == null ) return res;
-        //Using a deque to maintain the current nodes in the same level with same order froem left to right 
+        List<List<Integer>> res = new ArrayList<>();
+        if( root == null ) return res;
         Deque<TreeNode> deque = new LinkedList<TreeNode>();
-        
-        // The order to put into result 
-        boolean lefttoRight = true; 
+        boolean leftToRight = true;
         deque.addFirst(root);
         
-        while ( !deque.isEmpty()){
+        while(!deque.isEmpty()){
             int size = deque.size();
-            List<Integer> list = new ArrayList<Integer>();
-            for (int i = 0 ; i < size ; i ++){
-                //case 1 
-                if (lefttoRight){
-                    TreeNode cur = deque.pollFirst();
-                    list.add(cur.val);
-                    if (cur.left != null) deque.addLast(cur.left);
-                    if (cur.right != null) deque.addLast(cur.right);
+            List<Integer> list = new ArrayList<>();
+            if(leftToRight){
+                for(int i = 0 ; i < size ; i++){
+                    TreeNode node = deque.pollFirst();
+                    list.add(node.val);  
+                    if(node.left != null ) deque.addLast(node.left);
+                    if(node.right != null) deque.addLast(node.right);
                 }
-                // case 2 
-                else {
-                    TreeNode cur = deque.pollLast();
-                    list.add(cur.val);
-                    if (cur.right != null) deque.addFirst(cur.right);
-                    if (cur.left != null) deque.addFirst(cur.left);
+            } else{
+                for(int i = 0 ; i < size ; i++){
+                    TreeNode node = deque.pollLast();
+                    list.add(node.val);
+                    if(node.right != null ) deque.addFirst(node.right);
+                    if(node.left != null ) deque.addFirst(node.left);
                 }
             }
-            lefttoRight = lefttoRight ? false: true;
             res.add(list);
-            
+            leftToRight = leftToRight ? false : true;
         }
         return res;
     }
-    
 }

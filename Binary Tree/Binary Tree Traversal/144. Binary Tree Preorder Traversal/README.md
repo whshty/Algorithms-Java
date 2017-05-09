@@ -7,5 +7,16 @@
 * Check right -> check left
 
 ### Time & Space
-* O(n)
-* O(n)
+* o(n)
+* o(n)
+
+## Recursion
+### Idea
+* DFS
+* Add node to result in every level
+* check left them check right
+
+
+### Time & Space
+* o(n)
+* o(n) + o(h)

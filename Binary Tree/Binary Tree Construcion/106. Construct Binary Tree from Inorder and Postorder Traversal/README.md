@@ -6,6 +6,7 @@
 * Recur the above process for following two
 
 ### Time & Space
+* o(n^2)
 
 ### Visualization
 

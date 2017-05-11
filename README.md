@@ -14,6 +14,8 @@
 ### Binary Tree Search
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
 
-### Binary Tree Construcion
+### Binary Tree Construction
+* 105. Construct Binary Tree from Preorder and Inorder Traversal
+* 106. Construct Binary Tree from Inorder and Postorder Traversal
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)

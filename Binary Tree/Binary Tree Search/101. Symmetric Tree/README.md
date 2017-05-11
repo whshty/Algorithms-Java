@@ -5,3 +5,5 @@
 
 ## Stack
 ### Idea
+* Pusht the most left right node to the stack and compare it every time
+* Compare the number of nodes in stack and the value of nodes

@@ -17,5 +17,6 @@
 ### Binary Tree Construction
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal)
+* 108. Convert Sorted Array to Binary Search Tree
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)

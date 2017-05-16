@@ -13,7 +13,7 @@
 
 ### Binary Tree Search
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
-* 110. Balanced Binary Tree
+* [110. Balanced Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/110.%20Balanced%20Binary%20Tree)
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal)

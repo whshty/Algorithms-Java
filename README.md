@@ -13,11 +13,12 @@
 
 ### Binary Tree Search
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
+* 110. Balanced Binary Tree
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal)
 * [108. Convert Sorted Array to Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
-* 109. Convert Sorted List to Binary Search Tree
+* [109. Convert Sorted List to Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree)
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)

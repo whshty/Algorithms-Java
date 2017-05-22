@@ -1,37 +1,39 @@
 public class BSTIterator {
-    private Stack<TreeNode> res = new Stack<>();
-
+    
+    private Stack<TreeNode> stack = new Stack<TreeNode>();
+     
     public BSTIterator(TreeNode root) {
-        postorder(root);
-    }
-    private void postorder(TreeNode root) {
-	    Stack<TreeNode> stack = new Stack<>();
-	    if (root == null) return;
-	    stack.push(root);
-	    while (!stack.isEmpty()) {
-		    TreeNode cur = stack.pop();
-		    res.push(cur);
-		    if (cur.left != null) {
-			    stack.push(cur.left);
-		    }
-		    if (cur.right != null) {
-			    stack.push(cur.right);
-		    } 
-	    }
+        TreeNode node = root;
+        while( node != null ){
+            stack.push(node);
+            if( node.left != null ){
+                node = node.left; 
+            } else{
+                break;
+            }
+        }
+        
     }
 
     /** @return whether we have a next smallest number */
     public boolean hasNext() {
-        return !res.isEmpty();
+        return !stack.isEmpty();
     }
 
     /** @return the next smallest number */
     public int next() {
-        if( hasNext() ) {
-            return res.pop().val;
+        TreeNode node = stack.pop();
+        TreeNode cur = node;
+        if( cur.right != null ){
+            cur = cur.right;
+            while( cur != null ){
+                stack.push(cur);
+                if(cur.left != null){
+                    cur = cur.left;
+                }
+                else break;
+            }
         }
-        else {
-            return 0;
-        }
+        return node.val;
     }
 }

@@ -17,6 +17,7 @@
 * [173. Binary Search Tree Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/173.%20Binary%20Search%20Tree%20Iterator)
 * [199. Binary Tree Right Side View](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/199.%20Binary%20Tree%20Right%20Side%20View)
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
+* 222. Count Complete Tree Nodes
 
 ### Binary Tree Search
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
@@ -24,6 +25,7 @@
 * [112. Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/112.%20Path%20Sum)
 * [113. Path Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/113.%20Path%20Sum%20II)
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/129.%20Sum%20Root%20to%20Leaf%20Numbers)
+* 230. Kth Smallest Element in a BSTs
 
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
@@ -35,8 +37,9 @@
 * [116. Populating Next Right Pointers in Each Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
 * [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/156.%20Binary%20Tree%20Upside%20Down)
+* 226. Invert Binary Tree
 
 ## Backtracking
 * 113. Path Sum II
 
-## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)
+## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   

@@ -1,25 +1,26 @@
 # Data Structure
 
-## Basic Concept
+# Basic Concept
 * Hash
 
 # Algorithm
 
-### Linear Algorithm
+## Linear Algorithm
 
-#### [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
+### [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
-#### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
+### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/21.%20Merge%20Two%20Sorted%20Lists)
 
 
-#### Stack and Queue
+## Stack and Queue
 
-#### [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
+## [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 
-### [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
-#### [Binary Tree Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal)
+## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
+
+### [Binary Tree Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal)
 * [94. Binary Tree Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/94.%20Binary%20Tree%20Inorder%20Traversal)
 * [102. Binary Tree Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/102.%20Binary%20Tree%20Level%20Order%20Traversal)
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
@@ -33,7 +34,7 @@
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
 * 222. Count Complete Tree Nodes
 
-#### Binary Tree Search
+### Binary Tree Search
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
 * [110. Balanced Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/110.%20Balanced%20Binary%20Tree)
 * [112. Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/112.%20Path%20Sum)
@@ -42,7 +43,7 @@
 * [230. Kth Smallest Element in a BSTs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/230.%20Kth%20Smallest%20Element%20in%20a%20BST)
 
 
-#### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
+### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
 * [105. Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal)
 * [106. Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/106.%20Construct%20Binary%20Tree%20from%20Inorder%20and%20Postorder%20Traversal)
 * [108. Convert Sorted Array to Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree)
@@ -53,7 +54,7 @@
 * [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/156.%20Binary%20Tree%20Upside%20Down)
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/226.%20Invert%20Binary%20Tree)
 
-### Backtracking
+## Backtracking
 * 113. Path Sum II
 
-### [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   
+## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   

@@ -1,8 +1,15 @@
 # Algorithm
-## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
+## Linear algorithm
+###[Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
-## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
+### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/21.%20Merge%20Two%20Sorted%20Lists)
+
+
+### Stack and Queue
+
+### Binary Search
+* 33. Search in Rotated Sorted Array
 
 ## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 ### [Binary Tree Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal)

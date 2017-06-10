@@ -12,7 +12,7 @@
 
 ## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/21.%20Merge%20Two%20Sorted%20Lists)
-* 82. Remove Duplicates from Sorted List II
+* [82. Remove Duplicates from Sorted List II]
 
 
 ### Stack and Queue

@@ -1,10 +1,8 @@
 # Data Structure
 
-# Basic Concept
 * Hash
 
 # Algorithm
-
 
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### Search

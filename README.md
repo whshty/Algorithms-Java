@@ -2,6 +2,8 @@
 
 * Linear Data Structure
 * Hash
+* Stack, Queue, Deque
+
 
 # Algorithm
 
@@ -10,7 +12,7 @@
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 
 ### Search
-* 26. Remove Duplicates from Sorted Array
+* [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 
 ### Pointers
 

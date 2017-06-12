@@ -6,6 +6,9 @@
 # Algorithm
 
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
+### Sort 
+* 274. H-Index (Bucket Sort)
+
 ### Search
 * 26. Remove Duplicates from Sorted Array
 

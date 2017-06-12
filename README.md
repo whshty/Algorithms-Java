@@ -11,7 +11,7 @@
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 
-### Search, Binary Search
+### [Search(Binary Search)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search%2C%20Binary%20Search)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * 69. Sqrt(x)

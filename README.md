@@ -24,8 +24,6 @@
 
 ## Stack & Queue
 
-## Sliding Window
-
 ## [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * 69. Sqrt(x)

@@ -22,6 +22,8 @@
 
 ### Pointers
 
+### String
+
 ## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
 
 ### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)

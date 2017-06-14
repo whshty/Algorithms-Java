@@ -24,6 +24,7 @@
 
 ### [Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
+* 80. Remove Duplicates from Sorted Array II
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/215.%20Kth%20Largest%20Element%20in%20an%20Array)
 
 ### Sliding window

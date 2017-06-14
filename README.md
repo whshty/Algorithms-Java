@@ -12,8 +12,8 @@
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
-* [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
-* [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search/215.%20Kth%20Largest%20Element%20in%20an%20Array)
+
+
 
 ### [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
@@ -23,6 +23,8 @@
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ### Pointers
+* [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
+* [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/215.%20Kth%20Largest%20Element%20in%20an%20Array)
 
 ### Sliding window
 * [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sliding%20Window/76.%20Minimum%20Window%20Substring)

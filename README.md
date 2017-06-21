@@ -63,6 +63,7 @@
 * [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/257.%20Binary%20Tree%20Paths)
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/222.%20Count%20Complete%20Tree%20Nodes)
+* 366. Find Leaves of Binary Tree
 
 ### [Binary Tree Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search)
 * 100. Same Tree
@@ -72,6 +73,7 @@
 * [113. Path Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/113.%20Path%20Sum%20II)
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/129.%20Sum%20Root%20to%20Leaf%20Numbers)
 * [230. Kth Smallest Element in a BSTs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/230.%20Kth%20Smallest%20Element%20in%20a%20BST)
+* 250. Count Univalue Subtrees
 * 270. Closest Binary Search Tree Value
 * 298. Binary Tree Longest Consecutive Sequence
 
@@ -94,6 +96,7 @@
 ## Graph
 ### DFS and BFS
 * 298. Binary Tree Longest Consecutive Sequence
+* 366. Find Leaves of Binary Tree
 ### Topological Sort
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   

@@ -77,6 +77,7 @@
 * 250. Count Univalue Subtrees
 * 270. Closest Binary Search Tree Value
 * 298. Binary Tree Longest Consecutive Sequence
+* 543. Diameter of Binary Tree
 
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)

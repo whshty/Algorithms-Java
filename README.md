@@ -37,6 +37,7 @@
 
 ### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
+* 23. Merge k Sorted Lists
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
 * [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
@@ -78,6 +79,7 @@
 * 270. Closest Binary Search Tree Value
 * 298. Binary Tree Longest Consecutive Sequence
 * 543. Diameter of Binary Tree
+* 549. Binary Tree Longest Consecutive Sequence II
 
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)

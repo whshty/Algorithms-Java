@@ -10,6 +10,7 @@
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
 * Qucik Sort
+* Maximum Gap
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
@@ -96,6 +97,7 @@
 ## Heap
 * 253. Meeting Rooms II
 * 347. Top K Frequent Elements
+* 373. Find K Pairs with Smallest Sums
 
 
 ## [Backtracking](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Backtracking)

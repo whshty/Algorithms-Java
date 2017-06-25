@@ -94,6 +94,8 @@
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/226.%20Invert%20Binary%20Tree)
 
 ## Heap
+* 253. Meeting Rooms II
+* 347. Top K Frequent Elements
 
 
 ## [Backtracking](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Backtracking)

@@ -12,9 +12,13 @@
 * Qucik Sort
 * Maximum Gap
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
+* 324. Wiggle Sort II
+
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 
+## Hash
+* 349. Intersection of Two Arrays
 
 
 ### [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search)
@@ -106,8 +110,9 @@
 
 ## Graph
 ### DFS and BFS
-* 298. Binary Tree Longest Consecutive Sequence
-* 366. Find Leaves of Binary Tree
+* 329. Longest Increasing Path in a Matrix
+
+
 ### Topological Sort
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   

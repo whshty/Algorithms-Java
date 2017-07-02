@@ -104,14 +104,13 @@
 * 373. Find K Pairs with Smallest Sums
 
 
-## [Backtracking](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Backtracking)
-
-* 78. Subsets
-* 113. Path Sum II
-
 
 ## Graph
 ### DFS and BFS
+
+* 46. Permutations
+* 78. Subsets
+* 113. Path Sum II
 * 329. Longest Increasing Path in a Matrix
 
 

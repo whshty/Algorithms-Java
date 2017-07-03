@@ -109,6 +109,7 @@
 ### DFS and BFS
 
 * 46. Permutations
+* 47. Permutations II
 * 78. Subsets
 * 113. Path Sum II
 * 329. Longest Increasing Path in a Matrix

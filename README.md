@@ -12,13 +12,14 @@
 * Qucik Sort
 * Maximum Gap
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
-* 324. Wiggle Sort II
+* [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/324.%20Wiggle%20Sort%20II)
 
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 
 ## Hash
-* 349. Intersection of Two Arrays
+* [349. Intersection of Two Arrays](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Hash/349.%20Intersection%20of%20Two%20Arrays)
+* [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 
 
 ### [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search)
@@ -42,7 +43,7 @@
 
 ### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
-* 23. Merge k Sorted Lists
+* [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/23.%20Merge%20k%20Sorted%20Lists)
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
 * [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
@@ -99,20 +100,20 @@
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/226.%20Invert%20Binary%20Tree)
 
 ## Heap
-* 253. Meeting Rooms II
-* 347. Top K Frequent Elements
-* 373. Find K Pairs with Smallest Sums
+* [253. Meeting Rooms II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/253.%20Meeting%20Rooms%20II)
+* [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
+* [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
 
 
 
 ## Graph
 ### DFS and BFS
 
-* 46. Permutations
-* 47. Permutations II
-* 78. Subsets
+* [46. Permutations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/46.%20Permutations)
+* [47. Permutations II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/47.%20Permutations%20II)
+* [78. Subsets](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/78.%20Subsets)
 * 113. Path Sum II
-* 329. Longest Increasing Path in a Matrix
+* [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 
 
 ### Topological Sort

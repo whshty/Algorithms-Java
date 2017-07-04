@@ -114,10 +114,10 @@
 * [46. Permutations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/46.%20Permutations)
 * [47. Permutations II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/47.%20Permutations%20II)
 * [78. Subsets](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/78.%20Subsets)
-* 77. Combinations
+* [77. Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/77.%20Combinations)
 * [90. Subsets II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/90.%20Subsets%20II)
 * 113. Path Sum II
-* 131. Palindrome Partitioning
+* [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/131.%20Palindrome%20Partitioning)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 
 

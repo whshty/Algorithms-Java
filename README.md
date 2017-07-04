@@ -119,6 +119,7 @@
 * 113. Path Sum II
 * [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/131.%20Palindrome%20Partitioning)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
+* 401. Binary Watch
 
 
 ### Topological Sort

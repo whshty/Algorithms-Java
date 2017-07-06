@@ -61,7 +61,7 @@
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [107. Binary Tree Level Order Traversal II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II2)
-* 114. Flatten Binary Tree to Linked List
+* [114. Flatten Binary Tree to Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
 * [111. Minimum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 * [144. Binary Tree Preorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal)
 * [145. Binary Tree Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal)
@@ -70,8 +70,8 @@
 * [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/257.%20Binary%20Tree%20Paths)
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/222.%20Count%20Complete%20Tree%20Nodes)
-* 366. Find Leaves of Binary Tree
-* 404. Sum of Left Leaves
+* [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/366.%20Find%20Leaves%20of%20Binary%20Tree)
+* [404. Sum of Left Leaves](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/404.%20Sum%20of%20Left%20Leaves)
 
 ### [Binary Tree Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search)
 * 100. Same Tree
@@ -109,22 +109,22 @@
 ## Graph
 ### DFS and BFS
 
-* [39. Combination Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/39.%20Combination%20Sum)
-* [40. Combination Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/40.%20Combination%20Sum%20II)
-* [46. Permutations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/46.%20Permutations)
-* [47. Permutations II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/47.%20Permutations%20II)
-* [78. Subsets](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/78.%20Subsets)
-* [77. Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/77.%20Combinations)
-* [90. Subsets II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/90.%20Subsets%20II)
-* 113. Path Sum II
-* [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/131.%20Palindrome%20Partitioning)
-* 254. Factor Combinations
-* [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
-* 401. Binary Watch
+* [39. Combination Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/39.%20Combination%20Sum)
+* [40. Combination Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/40.%20Combination%20Sum%20II)
+* [46. Permutations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/46.%20Permutations)
+* [47. Permutations II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/47.%20Permutations%20II)
+* [77. Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/77.%20Combinations)
+* [78. Subsets](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/78.%20Subsets)
+* [90. Subsets II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/90.%20Subsets%20II)
+* [113. Path Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/131.%20Palindrome%20Partitioning)
+* [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/131.%20Palindrome%20Partitioning)
+* [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/254.%20Factor%20Combinations)
+* [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
+* [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/401.%20Binary%20Watch)
 
 
 ## Memorized Search and DP 
-* 198. House Robber
+* [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * 213. House Robber II
 
 ## [Concurrent Programing in Java](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Concurrent%20Programing%20in%20Java)                                                   

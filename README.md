@@ -123,6 +123,8 @@
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/401.%20Binary%20Watch)
 
+## Greedy
+* 330. Patching Array
 
 ## Memorized Search and DP 
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)

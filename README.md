@@ -122,6 +122,7 @@
 * [216. Combination Sum III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/216.%20Combination%20Sum%20III)
 * [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/254.%20Factor%20Combinations)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
+* 377. Combination Sum IV
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/401.%20Binary%20Watch)
 
 ## [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
@@ -131,6 +132,7 @@
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
+* 377. Combination Sum IV
 
 ## Graph
 

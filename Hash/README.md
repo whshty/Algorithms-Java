@@ -19,7 +19,7 @@ For example , Two different strings ""Aa" and "BB" have the same key:
 #### Solutions
 * Separate Chaining
 
-The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
+	The idea is to make each cell of hash table point to a linked list of records that have same hash 	function value.
 
 
 * Linear Probing

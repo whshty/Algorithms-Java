@@ -1,12 +1,12 @@
 # Hash
-## Concept
+## 1.Concept
 * Used for speeding up searching
 * Use Hash function to tell us the index of a given value
 * Hashing : key - number
 
 
-## Collisions
-#### Description
+## 2.Collisions
+#### 2.1.Description
 When we put objects into a hashtable, it is possible that different objects (by the equals() method) might have the same hashcode. This is called a collision. Here is the example of collision. 
 
 For example , Two different strings ""Aa" and "BB" have the same key: 
@@ -16,13 +16,12 @@ For example , Two different strings ""Aa" and "BB" have the same key:
 "BB" = 'B' * 31 + 'B' = 2112
 ```
 
-#### Solutions
-* Separate Chaining
+#### 2.2.Solutions
+##### 2.2.1.Separate Chaining
+The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
 
-	The idea is to make each cell of hash table point to a linked list of records that have same hash 	function value.
 
-
-* Linear Probing
+##### 2.2.2.Linear Probing
 
 
 ## HashSet, HashMap and HashTable

@@ -1,11 +1,4 @@
-# Data Structure
-
-* Linear Data Structure
-* Hash
-* Stack, Queue, Deque
-
-
-# Algorithm
+# Data Structure and Algorithm
 
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)

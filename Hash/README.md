@@ -18,11 +18,12 @@ For example , Two different strings ""Aa" and "BB" have the same key:
 
 #### 2.2. Solutions
 ##### 2.2.1. Separate Chaining
-* The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
+The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
 
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Hash/hashChaining1.png)
 
 ##### 2.2.2. Linear Probing
+Both bucketing and chaining essentially makes use of a second dimension to handle collisions. This is not the case for linear probing. Linear Probing uses just a regular one dimensional array
 
 
 ## 3. HashSet, HashMap and HashTable

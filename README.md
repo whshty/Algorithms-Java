@@ -118,7 +118,7 @@
 * [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/131.%20Palindrome%20Partitioning)
 * [216. Combination Sum III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/216.%20Combination%20Sum%20III)
 * [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/254.%20Factor%20Combinations)
-* 261. Graph Valid Tree
+* [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/261.%20Graph%20Valid%20Tree)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/401.%20Binary%20Watch)

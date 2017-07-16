@@ -33,6 +33,14 @@ Each contiguous group of records (groups of record in adjacent indices without a
 
 
 ## 3. HashSet, HashMap and HashTable
-* HaseSet
-* HashMap
-* HashTable
+#### 3.1. HaseSet
+HashSet is a regular set - all objects in a set are distinct.HashSet stores and retrieves elements by their content, which is internally converted into an integer by applying a hash function. Elements from a HashSet are retrieved using an Iterator. The order in which elements are returned depends on their hash codes.
+#### 3.2. HashMap
+HashMap is a collection class that is designed to store elements as key-value pairs. Maps provide a way of looking up one thing based on the value of another.
+#### 3.3. HashTable
+Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones.
+
+Hashtable does not allow null keys or values.  HashMap allows one null key and any number of null values.
+
+
+## 4. Time Complexity

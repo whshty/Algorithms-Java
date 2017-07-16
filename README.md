@@ -11,13 +11,7 @@
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 
 
-### [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search)
-* 29. Divide Two Integers
-* [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
-* [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/69.%20Sqrt(x))
-* [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
-* [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/275.%20H-Index%20II)
-* [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
+
 
 ### [Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
@@ -40,6 +34,14 @@
 
 ### Doubly Linked List
 
+
+## [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search)
+* 29. Divide Two Integers
+* [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
+* [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/69.%20Sqrt(x))
+* [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
+* [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/275.%20H-Index%20II)
+* [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ## [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)
 * Design HashMap

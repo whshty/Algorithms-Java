@@ -42,5 +42,3 @@ Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for
 
 Hashtable does not allow null keys or values.  HashMap allows one null key and any number of null values.
 
-
-## 4. Time Complexity

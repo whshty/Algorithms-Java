@@ -25,6 +25,12 @@ The idea is to make each cell of hash table point to a linked list of records th
 ##### 2.2.2. Linear Probing
 Both bucketing and chaining essentially makes use of a second dimension to handle collisions. This is not the case for linear probing. Linear Probing uses just a regular one dimensional array
 
+The insertion algorithm is as follows:
+
+* Use hash function to find index for a record
+* If that spot is already use use next available spot in a "higher" index. Treat the hash table as if it is round, if you hit the end of the hash table, go back to the front
+Each contiguous group of records (groups of record in adjacent indices without any empty spots) in the table is called a cluster.
+
 
 ## 3. HashSet, HashMap and HashTable
 * HaseSet

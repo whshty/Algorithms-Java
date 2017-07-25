@@ -22,6 +22,7 @@
 
 ### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sliding%20Window)
 * [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sliding%20Window/76.%20Minimum%20Window%20Substring)
+* 159. Longest Substring with At Most Two Distinct Characters
 
 ### Subarry
 * 523. Continuous Subarray Sum

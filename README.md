@@ -9,7 +9,7 @@
 
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
-* 277. Find the Celebrity
+* [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 
 
 
@@ -18,23 +18,24 @@
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/215.%20Kth%20Largest%20Element%20in%20an%20Array)
-* 283. Move Zeroes
+* [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/283.%20Move%20Zeroes)
 
 
 
 ### Subarry
-* 523. Continuous Subarray Sum
+* [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
 
 ## String
 #### Calculation
-* 67. Add Binary
+* [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/67.%20Add%20Binary)
 
 #### Pointer
+* [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/161.%20One%20Edit%20Distance)
 
-### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sliding%20Window)
-* 3. Longest Substring Without Repeating Characters
-* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sliding%20Window/76.%20Minimum%20Window%20Substring)
-* 159. Longest Substring with At Most Two Distinct Characters
+### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window)
+* [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/76.%20Minimum%20Window%20Substring)
+* [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
 
 
 ## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)

@@ -3,6 +3,7 @@
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
 * Qucik Sort
+* 56. Merge Intervals
 * [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/164.%20Maximum%20Gap)
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 * [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/324.%20Wiggle%20Sort%20II)

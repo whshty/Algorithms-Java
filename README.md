@@ -113,6 +113,7 @@
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
 * [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/156.%20Binary%20Tree%20Upside%20Down)
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/226.%20Invert%20Binary%20Tree)
+* 297. Serialize and Deserialize Binary Tree
 * 606. Construct String from Binary Tree
 
 ### [Advanced Data Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure)

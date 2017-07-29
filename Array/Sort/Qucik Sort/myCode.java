@@ -17,7 +17,6 @@ class myCode {
         for( int i  : input){
             System.out.print(i + " ");
         }
-
     }
     
     private static void quickSort(int[] arr, int low , int high){
@@ -38,8 +37,7 @@ class myCode {
 
         if( i < high ){
             quickSort(arr,i,high);
-        }
-       
+        }   
     }
     
     private static void swap(int[] arr, int i , int j){

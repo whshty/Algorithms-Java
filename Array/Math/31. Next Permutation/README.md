@@ -28,32 +28,36 @@ public class Solution{
 	public void nextPermutation(int[] nums){
 		// corner case
 		if(nums.length<=1) return;
-		int i = nums.length - 1;
-		for( ; i>=1 ;i--){
-			if(nums[i] > nums[i-1]) break;
+        // i - 1 : first , i : second
+	    int second = 0;
+		for( int i = nums.length - 1; i>=1 ;i--){
+			if(nums[i] > nums[i-1]) {
+                second = i;
+                break;
+            }
 		}
-		if(i!=0) swap(nums,i-1);
-		reverse(nums,i);
+		if(second!=0) swap(nums,second-1);
+		reverse(nums,second);
 	}
-    private void swap(int[] a,int i){
-        for(int j = a.length-1;j>i;j--){
-            if(a[j]>a[i]){
-                int temp = a[j];
-                a[j] = a[i];
-                a[i] = temp;
+    private void swap(int[] nums,int i){
+        for(int j = nums.length-1;j>i;j--){
+            if( nums[j] > nums[i] ){
+                int temp = nums[j];
+                nums[j] = nums[i];
+                nums[i] = temp;
                 break;
             }
         }
     }
     //reverse the number after the number we have found
     //the orignal order is descending for sure
-    private void reverse(int[] a,int i){
+    private void reverse(int[] nums,int i){
         int first = i;
-        int last = a.length-1;
+        int last = nums.length-1;
         while(first<last){
-            int temp = a[first];
-            a[first] = a[last];
-            a[last] = temp;
+            int temp = nums[first];
+            nums[first] = nums[last];
+            nums[last] = temp;
             first ++;
             last --;
         }
@@ -62,11 +66,23 @@ public class Solution{
 
 ```
 
-## Followop (Previous Permutaion)
+## Follow - Up (Previous Permutaion)
 
 ## Idea 
-* Change  < to > 
+* Change < to > 
 * Change > to < 
+
+
+```
+1 , 3 , 2 , 3 
+previous = 3 , second = 2 
+then we found 2  and swap
+1 , 2 , 3 ,3
+sort 3 ,3 
+The final result is 1 , 2 , 3 ,3
+
+```
+
 
 ## Code
 

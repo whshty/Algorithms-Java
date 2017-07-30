@@ -71,7 +71,5 @@ class myCode {
         return sb.reverse().toString(); 
     }
 }
- }
-}
 
 ```

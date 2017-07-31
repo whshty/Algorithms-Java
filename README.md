@@ -33,7 +33,7 @@
 * 167. Two Sum II - Input array is sorted
 
 ### Math
-* 31. Next Permutation
+* [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/31.%20Next%20Permutation)
 
 ## [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String)
 #### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation)

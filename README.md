@@ -31,6 +31,7 @@
 ### Sum
 * 1. Two Sum
 * 167. Two Sum II - Input array is sorted
+* 170. Two Sum III - Data structure design
 
 ### Math
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/31.%20Next%20Permutation)

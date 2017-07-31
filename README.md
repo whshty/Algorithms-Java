@@ -31,6 +31,7 @@
 ### Sum
 * 1. Two Sum
 * 15. 3Sum
+* 16. 3Sum Closest
 * 167. Two Sum II - Input array is sorted
 * 170. Two Sum III - Data structure design
 * 259. 3Sum Smaller

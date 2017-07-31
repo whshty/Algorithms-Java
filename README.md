@@ -30,6 +30,7 @@
 
 ### Sum
 * 1. Two Sum
+* 15. 3Sum
 * 167. Two Sum II - Input array is sorted
 * 170. Two Sum III - Data structure design
 

@@ -2,8 +2,8 @@
 
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
-* Qucik Sort
-* 56. Merge Intervals
+* [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/Qucik%20Sort)
+* [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/56.%20Merge%20Intervals)
 * [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/164.%20Maximum%20Gap)
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
 * [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/324.%20Wiggle%20Sort%20II)
@@ -20,13 +20,17 @@
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/215.%20Kth%20Largest%20Element%20in%20an%20Array)
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/283.%20Move%20Zeroes)
-* 360. Sort Transformed Array
+* [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/360.%20Sort%20Transformed%20Array)
 
 
 
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray)
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
 
+
+### Sum
+* 1. Two Sum
+* 167. Two Sum II - Input array is sorted
 
 ### Math
 * 31. Next Permutation
@@ -118,8 +122,8 @@
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
 * [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/156.%20Binary%20Tree%20Upside%20Down)
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/226.%20Invert%20Binary%20Tree)
-* 297. Serialize and Deserialize Binary Tree
-* 606. Construct String from Binary Tree
+* [297. Serialize and Deserialize Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
+* [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/606.%20Construct%20String%20from%20Binary%20Tree)
 
 ### [Advanced Data Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure)
 * [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/208.%20Implement%20Trie%20(Prefix%20Tree))

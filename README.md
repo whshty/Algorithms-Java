@@ -159,8 +159,8 @@
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
 
-#### 2D
-* 490. The Maze
+#### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
+* [490. The Maze](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/490.%20The%20Maze)
 ## [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
 * [330. Patching Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy/330.%20Patching%20Array)
 

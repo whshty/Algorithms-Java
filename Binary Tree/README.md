@@ -13,3 +13,7 @@ public class TreeNode {
 	TreeNode(int x) { val = x; }
 }
 ```
+
+## Key Pointers
+* Iteration : Maintain a scanner in the tree using a value or stack 
+* Recursion : Is recommended, using recursion stack 

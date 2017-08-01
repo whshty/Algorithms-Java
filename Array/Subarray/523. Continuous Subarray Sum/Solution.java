@@ -7,9 +7,10 @@ public class Solution {
         for( int i = 0 ; i < nums.length ; i++ ){
             sum += nums[i];
             if( k != 0 ) sum %= k;
-            Integer prePos = map.get(sum);
-            if( prePos != null ){
-                if(i - prePos > 1 ) return true;
+            int prePos;
+            if( map.get(sum) != null ){
+                prePos = map.get(sum);
+                if( i - prePos > 1 ) return true;
             }
             else map.put(sum,i);
         }

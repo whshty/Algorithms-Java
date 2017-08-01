@@ -29,12 +29,12 @@
 
 
 ### Sum
-* 1. Two Sum
-* 15. 3Sum
-* 16. 3Sum Closest
-* 167. Two Sum II - Input array is sorted
-* 170. Two Sum III - Data structure design
-* 259. 3Sum Smaller
+* [1. Two Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/1.%20Two%20Sum)
+* [15. 3Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/15.%203Sum)
+* [16. 3Sum Closest](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/16.%203Sum%20Closest)
+* [167. Two Sum II - Input array is sorted](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)
+* [170. Two Sum III - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/170.%20Two%20Sum%20III%20-%20Data%20structure%20design)
+* [259. 3Sum Smaller](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/259.%203Sum%20Smaller)
 
 ### Math
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/31.%20Next%20Permutation)

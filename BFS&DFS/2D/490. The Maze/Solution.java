@@ -11,10 +11,11 @@ public class Solution {
     public boolean dfs(int[][] maze, boolean[][] visited, int[] cur, int[] des){
         int y = cur[0];
         int x = cur[1];
+        if( y == des[0] && x == des[1] ) return true;
         if( visited[y][x] ) return false;
         visited[y][x] = true;
         
-        if( y == des[0] && x == des[1] ) return true;
+        
 
         if (x > 0 && maze[y][x-1] != 1) {
             int i = x - 1;
@@ -39,7 +40,6 @@ public class Solution {
             while (i < maze.length-1 && maze[i+1][x] != 1) i++;
             if (dfs(maze, visited, new int[]{i, x},des)) return true;
         }
-        
         return false;
     }
 }

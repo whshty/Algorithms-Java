@@ -34,7 +34,7 @@ public class Solution {
 
 ### Iteration 
 
-##### Pre-Order and In-order
+##### Pre-Order and In-Order
 
 
 ```
@@ -60,6 +60,27 @@ public class Solution {
 
 ```
 
+##### Post-Order
+```
+public class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        LinkedList<Integer> res = new LinkedList<>();
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        TreeNode node = root;
+        while( node != null || !deque.isEmpty()){
+            if ( node != null ){
+                deque.addFirst(node);
+                res.addFirst(node.val); // Reverse the process of preorder
+                node = node.right; // Reverse the process of preorder
+            } else {
+                TreeNode temp = deque.removeFirst();
+                node = temp.left; // Reverse the process of preorder
+            }
+        }
+        return res;
+    }
+}
+```
 
 
 ### Morris Traversal

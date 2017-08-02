@@ -18,19 +18,17 @@ public class Solution {
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        
+        Deque<TreeNode> deque = new LinkedList<>();
         TreeNode node = root;
-        while( node != null || !stack.isEmpty()){
+        while( node != null || !deque.isEmpty()){
             while( node != null ){
-                stack.push(node);
+                deque.addFirst(node);
                 node = node.left;
             }
-            node = stack.pop();
+            node = deque.removeFirst();
             res.add(node.val);
             node = node.right;
         }
         return res;
     }
 }
-

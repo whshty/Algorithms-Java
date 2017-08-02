@@ -61,6 +61,7 @@ public class Solution {
 ```
 
 ##### Post-Order
+
 ```
 public class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
@@ -69,8 +70,8 @@ public class Solution {
         TreeNode node = root;
         while( node != null || !deque.isEmpty()){
             if ( node != null ){
-                deque.addFirst(node);
                 res.addFirst(node.val); // Reverse the process of preorder
+                deque.addFirst(node);
                 node = node.right; // Reverse the process of preorder
             } else {
                 TreeNode temp = deque.removeFirst();

@@ -21,13 +21,14 @@ public class Solution {
         Deque<TreeNode> deque = new LinkedList<>();
         TreeNode node = root;
         while( node != null || !deque.isEmpty()){
-            while( node != null ){
+            if ( node != null ){
                 deque.addFirst(node);
                 node = node.left;
+            } else{
+                node = deque.removeFirst();
+                res.add(node.val);
+                node = node.right;
             }
-            node = deque.removeFirst();
-            res.add(node.val);
-            node = node.right;
         }
         return res;
     }

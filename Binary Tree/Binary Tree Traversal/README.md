@@ -14,8 +14,30 @@ All these traversals can be solved by stack and recursion
 
 ### Recursion
 
+```
+public class Solution {
+    public List<Integer> traversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        if(root == null) return res;
+        helper(root,res);
+        return res;
+    }
+    public void helper(TreeNode node, List<Integer> res){
+        // res.add(node.val); Pre-Order
+        if(node.left != null )helper(node.left,res);
+        // res.add(node.val); In-Order
+        if(node.right != null )helper(node.right,res);
+        // res.add(node.val); Post-Order
+    }
+}
+
+```
 
 ### Iteration 
+
+##### Pre-Order and In-order
+
+
 
 
 ### Morris Traversal

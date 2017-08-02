@@ -37,6 +37,29 @@ public class Solution {
 ##### Pre-Order and In-order
 
 
+```
+public class Solution {
+    public List<Integer> traversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Deque<TreeNode> deque = new new ArrayDeque<>();
+        TreeNode node = root;
+        while( node != null || !deque.isEmpty()){
+            if ( node != null ){
+                // res.add(node.val); Pre-Order
+                deque.addFirst(node);
+                node = node.left;
+            } else {
+                node = deque.removeFirst(); 
+                // res.add(node.val); In-Order
+                node = node.right;
+            }
+        }
+        return res;
+    }
+}
+
+```
+
 
 
 ### Morris Traversal

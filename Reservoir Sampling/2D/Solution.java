@@ -2,9 +2,8 @@ import java.io.*;
 import java.util.*;
 
 class myCode {
-    public static void main (String[] args) throws java.lang.Exception {
-        
-        int[][] res = generateRandomMatrix(10,8,3);
+    public static void main (String[] args) throws java.lang.Exception {       
+        int[][] res = generateRandomMatrix(10,8,9);
         for( int i = 0 ; i < res.length ; i ++ ){
             for( int j = 0 ; j < res[0].length ; j++ ){
                 System.out.print(res[i][j] + " ");
@@ -17,11 +16,9 @@ class myCode {
     private static int[][] generateRandomMatrix(int h , int w , int k){
         int[][] res = new int[h][w];
         int size = h * w;
-        
         // key  : 0 ~ k - 1
         // value : pos
         Map<Integer,Integer> map = new HashMap<>();
-        
         for( int i = 0 ; i < h ; i++ ){
             for( int j = 0 ; j < w ; j++ ){
                 int index = i * w + j; 

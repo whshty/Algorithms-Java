@@ -76,6 +76,7 @@
 
 ## [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)
 * Design HashMap
+* 49. Group Anagrams
 * [349. Intersection of Two Arrays](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/349.%20Intersection%20of%20Two%20Arrays)
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 

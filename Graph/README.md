@@ -35,6 +35,8 @@
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/adjacencylist.png "Logo Title Text 1")
 
 * Advantages
-  1. 
+  1. Very flexiable for representing the graph, For example, HashMap, List<List<>>, List<Set<>>, List<>[]
+  2. Finding is O(1), traversal is O(E) 
   
 * Disadvantages 
+  1. In the medium of Edges lists and Adjacency matrices

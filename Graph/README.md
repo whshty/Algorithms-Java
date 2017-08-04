@@ -9,8 +9,10 @@
 [3,8], [4,5], [4,9], [7,8], [7,9] ]
 ```
 * Advantages : 
-  Good for dynammic adding
-  Save space
+
+  1. Good for dynammic adding
+  
+  2. Save space
 * Disadvantages : Not good for finding connection between i and j, Not good for treversal
 
 #### Adjacency matrices

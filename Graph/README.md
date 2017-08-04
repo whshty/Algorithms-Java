@@ -1,6 +1,9 @@
 # Graph
 
-## Representation
-* Edge lists
-* Adjacency matrices
-* Adjacency lists
+## Representations
+#### Edge lists
+
+
+
+#### Adjacency matrices
+#### Adjacency lists

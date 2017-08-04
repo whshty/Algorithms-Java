@@ -180,9 +180,9 @@
 ## [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 * [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/261.%20Graph%20Valid%20Tree)
 
-## Reservoir Sampling
+## [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)
 * 1D
-* 2D
+* [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/2D)
 
 
 ## [Java Concept](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept)

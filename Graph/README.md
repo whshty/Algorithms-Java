@@ -21,13 +21,20 @@
 #### Adjacency matrices
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/adjacencymatrices.png "Logo Title Text 1")
 
-* Advantages : 
+* Advantages 
 
-  Good for searching connections between two points O(n)
+  1. Good for searching connections between two points : O(1)
+  2. Good for traveral all nodes
 
-* Disadvantages :
+* Disadvantages
+
+  1. Waste of space 	
+  
+  
 #### Adjacency lists
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/adjacencylist.png "Logo Title Text 1")
 
-* Advantages : Good for dynammic adding, Can save space
+* Advantages
+  1. 
+  
 * Disadvantages 

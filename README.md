@@ -187,4 +187,4 @@
 
 ## [Java Concept](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept)
 * [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept/Bit%20Manipulation)
-* [Concurrent Programing](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept/Concurrent%20Programing%20in%20Java)                                                   
+* [Concurrent Programing](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept/Concurrent%20Programing)                                                   

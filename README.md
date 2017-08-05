@@ -133,6 +133,7 @@
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/606.%20Construct%20String%20from%20Binary%20Tree)
 
 ### [Top-Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down)
+* 257. Binary Tree Paths
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/104.%20Maximum%20Depth%20of%20Binary%20Tree)

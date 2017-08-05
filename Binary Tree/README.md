@@ -17,3 +17,9 @@ public class TreeNode {
 ## Key Pointers
 * Iteration : Maintain a scanner in the tree using a value or stack 
 * Recursion : Is recommended, using recursion stack 
+
+
+## Tips
+* Binary Search : traversal is not necessary, so we can also use iteration
+* Travesal by level : we can use queue
+* Tree and other Data struture (int[],String) : we can use top-down and bottom-up 

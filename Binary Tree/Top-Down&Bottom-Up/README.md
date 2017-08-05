@@ -18,3 +18,24 @@ public class Solution {
     }
 }
 ```
+
+In the same way, How we can deep copy a binary tree. We have 
+
+* Top-Down: This is how we build we tree
+* Bottom-Up: We return the node value from the bottom
+
+
+```
+public TreeNode deepCopyTree(TreeNode root) {
+	if (root == null) {
+		return null;
+	}
+	TreeNode leftNode = deepCopyTree(root.left);
+	TreeNode rightNode = deepCopyTree(root.right);
+
+	TreeNode cur = new TreeNode(root.val);
+	cur.left = leftNode;
+	cur.right = rightNode;
+	return cur;
+}
+```

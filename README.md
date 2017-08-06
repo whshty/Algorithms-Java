@@ -95,7 +95,6 @@
 * [144. Binary Tree Preorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal)
 * [145. Binary Tree Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal)
 * [173. Binary Search Tree Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/173.%20Binary%20Search%20Tree%20Iterator)
-* [199. Binary Tree Right Side View](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/199.%20Binary%20Tree%20Right%20Side%20View)
 * [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/257.%20Binary%20Tree%20Paths)
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/222.%20Count%20Complete%20Tree%20Nodes)
@@ -133,6 +132,7 @@
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/606.%20Construct%20String%20from%20Binary%20Tree)
 
 ### [Top-Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down)
+* 199. Binary Tree Right Side View
 * 257. Binary Tree Paths
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)

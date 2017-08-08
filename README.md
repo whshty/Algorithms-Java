@@ -195,7 +195,13 @@
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/416.%20Partition%20Equal%20Subset%20Sum)
 
 ## [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
+
+#### Basic 
 * [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/261.%20Graph%20Valid%20Tree)
+
+#### Topological Sort
+* 207. Course Schedule
+
 
 ## [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)
 * 1D

@@ -199,8 +199,8 @@
 #### Basic 
 * [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/261.%20Graph%20Valid%20Tree)
 
-#### Topological Sort
-* 207. Course Schedule
+#### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)
+* [207. Course Schedule](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/207.%20Course%20Schedule)
 
 
 ## [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)

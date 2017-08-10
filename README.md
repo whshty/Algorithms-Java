@@ -134,6 +134,7 @@
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)
+* 100. Same Tree
 * 104. Maximum Depth of Binary Tree
 * 110. Balanced Binary Tree
 * 226. Invert Binary Tree

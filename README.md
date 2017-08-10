@@ -1,5 +1,3 @@
-# Data Structure and Algorithm
-
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
 * [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/Qucik%20Sort)
@@ -196,12 +194,10 @@
 
 ## [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 
-#### Basic 
-* [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/261.%20Graph%20Valid%20Tree)
-
 #### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)
 * [207. Course Schedule](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/207.%20Course%20Schedule)
 * 210. Course Schedule II
+* 261. Graph Valid Tree
 * 310. Minimum Height Trees
 
 

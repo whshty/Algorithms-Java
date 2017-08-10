@@ -138,6 +138,7 @@
 * 110. Balanced Binary Tree
 * 114. Flatten Binary Tree to Linked List
 * 226. Invert Binary Tree
+* 366. Find Leaves of Binary Tree
 
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)
 * [Deep Copy a Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/Deep%20Copy%20a%20Tree)

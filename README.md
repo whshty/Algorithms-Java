@@ -88,7 +88,6 @@
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [107. Binary Tree Level Order Traversal II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II2)
-* [114. Flatten Binary Tree to Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
 * [111. Minimum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 * [144. Binary Tree Preorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal)
 * [145. Binary Tree Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal)
@@ -137,6 +136,7 @@
 * 100. Same Tree
 * 104. Maximum Depth of Binary Tree
 * 110. Balanced Binary Tree
+* 114. Flatten Binary Tree to Linked List
 * 226. Invert Binary Tree
 
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)

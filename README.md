@@ -103,7 +103,6 @@
 * [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/98.%20Validate%20Binary%20Search%20Tree)
 * [100. Same Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/100.%20Same%20Tree)
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
-
 * [112. Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/112.%20Path%20Sum)
 * [113. Path Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/113.%20Path%20Sum%20II)
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/129.%20Sum%20Root%20to%20Leaf%20Numbers)

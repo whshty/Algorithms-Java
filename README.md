@@ -141,6 +141,8 @@
 * 404. Sum of Left Leaves
 * 543. Diameter of Binary Tree
 * 549. Binary Tree Longest Consecutive Sequence II
+
+
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)
 * [Deep Copy a Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/Deep%20Copy%20a%20Tree)
 * [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/98.%20Validate%20Binary%20Search%20Tree)
@@ -150,7 +152,7 @@
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [285. Inorder Successor in BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/285.%20Inorder%20Successor%20in%20BST)
 
-### [Advanced Data Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure)
+### [Advanced Tree Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure)
 * [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/208.%20Implement%20Trie%20(Prefix%20Tree))
 
 ## [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)

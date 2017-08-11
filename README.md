@@ -131,16 +131,16 @@
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)
-* 100. Same Tree
-* 104. Maximum Depth of Binary Tree
-* 110. Balanced Binary Tree
-* 114. Flatten Binary Tree to Linked List
-* 226. Invert Binary Tree
-* 250. Count Univalue Subtrees
-* 366. Find Leaves of Binary Tree
-* 404. Sum of Left Leaves
-* 543. Diameter of Binary Tree
-* 549. Binary Tree Longest Consecutive Sequence II
+* [100. Same Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/100.%20Same%20Tree)
+* [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/104.%20Maximum%20Depth%20of%20Binary%20Tree)
+* [110. Balanced Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/110.%20Balanced%20Binary%20Tree)
+* [114. Flatten Binary Tree to Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
+* [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/226.%20Invert%20Binary%20Tree)
+* [250. Count Univalue Subtrees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/250.%20Count%20Univalue%20Subtrees)
+* [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/366.%20Find%20Leaves%20of%20Binary%20Tree)
+* [404. Sum of Left Leaves](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/404.%20Sum%20of%20Left%20Leaves)
+* [543. Diameter of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/543.%20Diameter%20of%20Binary%20Tree)
+* [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
 
 
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)

@@ -1,9 +1,9 @@
 public class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
-        if( root == null ) return 0;
-        int res = 0; 
+        int res = 0;
+        if( root == null ) return res;
         if( root.left != null ){
-            if( root.left.left == null && root.left.right == null ) {
+            if( root.left.left == null && root.left.right == null ){
                 res += root.left.val;
             } else {
                 res += sumOfLeftLeaves(root.left);
@@ -11,5 +11,6 @@ public class Solution {
         }
         res += sumOfLeftLeaves(root.right);
         return res;
+    
     }
 }

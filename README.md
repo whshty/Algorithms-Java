@@ -109,7 +109,7 @@
 
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
-* [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
+
 
 
 ### [Binary Tree Construction](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion)
@@ -141,7 +141,7 @@
 * 366. Find Leaves of Binary Tree
 * 404. Sum of Left Leaves
 * 543. Diameter of Binary Tree
-
+* 549. Binary Tree Longest Consecutive Sequence II
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)
 * [Deep Copy a Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/Deep%20Copy%20a%20Tree)
 * [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/98.%20Validate%20Binary%20Search%20Tree)

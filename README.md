@@ -146,6 +146,7 @@
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)
 * [Deep Copy a Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/Deep%20Copy%20a%20Tree)
 * [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/98.%20Validate%20Binary%20Search%20Tree)
+* 236. Lowest Common Ancestor of a Binary Tree
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)

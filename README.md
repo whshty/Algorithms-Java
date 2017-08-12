@@ -88,7 +88,6 @@
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [107. Binary Tree Level Order Traversal II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II2)
-* [111. Minimum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 * [144. Binary Tree Preorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal)
 * [145. Binary Tree Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal)
 * [173. Binary Search Tree Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/173.%20Binary%20Search%20Tree%20Iterator)
@@ -146,6 +145,7 @@
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)
 * [Deep Copy a Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/Deep%20Copy%20a%20Tree)
 * [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/98.%20Validate%20Binary%20Search%20Tree)
+* 111. Minimum Depth of Binary Tree
 * 236. Lowest Common Ancestor of a Binary Tree
 
 

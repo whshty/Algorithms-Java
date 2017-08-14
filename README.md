@@ -86,15 +86,11 @@
 * [94. Binary Tree Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/94.%20Binary%20Tree%20Inorder%20Traversal)
 * [102. Binary Tree Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/102.%20Binary%20Tree%20Level%20Order%20Traversal)
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)
-* [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [107. Binary Tree Level Order Traversal II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/107.%20Binary%20Tree%20Level%20Order%20Traversal%20II2)
 * [144. Binary Tree Preorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/144.%20Binary%20Tree%20Preorder%20Traversal)
 * [145. Binary Tree Postorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/145.%20Binary%20Tree%20Postorder%20Traversal)
 * [173. Binary Search Tree Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/173.%20Binary%20Search%20Tree%20Iterator)
-* [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/257.%20Binary%20Tree%20Paths)
 * [314. Binary Tree Vertical Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/314.%20Binary%20Tree%20Vertical%20Order%20Traversal)
-* [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/222.%20Count%20Complete%20Tree%20Nodes)
-* [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/366.%20Find%20Leaves%20of%20Binary%20Tree)
 
 
 ### [Binary Tree Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search)
@@ -148,6 +144,7 @@
 * [111. Minimum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/111.%20Minimum%20Depth%20of%20Binary%20Tree)
 * [112. Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/112.%20Path%20Sum)
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
+* 222. Count Complete Tree Nodes
 * [236. Lowest Common Ancestor of a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
 
 

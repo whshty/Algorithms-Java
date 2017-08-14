@@ -6,6 +6,27 @@ public class Solution {
     }
 }
 
+public class Solution {
+    public int countNodes(TreeNode root) {
+        if( root == null ) return 0;
+        int left = countLeftHeight(root);
+        int right = countRightHeight(root);
+        if( left == right ){
+            return (1 << left) - 1;
+        } else {
+            return 1 + countNodes(root.left) + countNodes(root.right);
+        }
+    }
+    public int countLeftHeight(TreeNode root){
+        if( root == null) return 0;
+        return 1 + countLeftHeight(root.left);
+    }
+    public int countRightHeight(TreeNode root){
+        if( root == null) return 0;
+        return 1 + countRightHeight(root.right);
+    }
+}
+
 // Recursion 
 public class Solution {
     public int countNodes(TreeNode root) {

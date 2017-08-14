@@ -94,12 +94,8 @@
 
 
 ### [Binary Tree Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search)
-* [98. Validate Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/98.%20Validate%20Binary%20Search%20Tree)
-* [100. Same Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/100.%20Same%20Tree)
 * [101. Symmetric Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/101.%20Symmetric%20Tree)
-
 * [113. Path Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/113.%20Path%20Sum%20II)
-
 * [230. Kth Smallest Element in a BSTs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/230.%20Kth%20Smallest%20Element%20in%20a%20BST)
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Search/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)

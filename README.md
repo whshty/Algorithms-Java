@@ -204,9 +204,9 @@
 
 #### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)
 * [207. Course Schedule](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/207.%20Course%20Schedule)
-* 210. Course Schedule II
-* 261. Graph Valid Tree
-* 310. Minimum Height Trees
+* [210. Course Schedule II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/210.%20Course%20Schedule%20II)
+* [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/261.%20Graph%20Valid%20Tree)
+* [310. Minimum Height Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/310.%20Minimum%20Height%20Trees)
 
 
 ## [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)

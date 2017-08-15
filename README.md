@@ -100,7 +100,7 @@
 * [109. Convert Sorted List to Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree)
 * [116. Populating Next Right Pointers in Each Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
-* [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/156.%20Binary%20Tree%20Upside%20Down)
+
 
 
 
@@ -118,6 +118,7 @@
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [110. Balanced Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/110.%20Balanced%20Binary%20Tree)
 * [114. Flatten Binary Tree to Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
+* 156. Binary Tree Upside Down
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/226.%20Invert%20Binary%20Tree)
 * [250. Count Univalue Subtrees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/250.%20Count%20Univalue%20Subtrees)
 * [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/366.%20Find%20Leaves%20of%20Binary%20Tree)

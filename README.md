@@ -124,6 +124,7 @@
 * [250. Count Univalue Subtrees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/250.%20Count%20Univalue%20Subtrees)
 * [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/366.%20Find%20Leaves%20of%20Binary%20Tree)
 * [404. Sum of Left Leaves](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/404.%20Sum%20of%20Left%20Leaves)
+* 515. Find Largest Value in Each Tree Row
 * [543. Diameter of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/543.%20Diameter%20of%20Binary%20Tree)
 * [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
 
@@ -136,6 +137,8 @@
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/222.%20Count%20Complete%20Tree%20Nodes)
 * [236. Lowest Common Ancestor of a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
+* 501. Find Mode in Binary Search Tree
+* 508. Most Frequent Subtree Sum
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)

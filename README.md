@@ -100,8 +100,8 @@
 * [109. Convert Sorted List to Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/109.%20Convert%20Sorted%20List%20to%20Binary%20Search%20Tree)
 * [116. Populating Next Right Pointers in Each Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node)
 * [117. Populating Next Right Pointers in Each Node II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/117.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20II)
-* 536. Construct Binary Tree from String
-* 654. Maximum Binary Tree
+* [536. Construct Binary Tree from String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/536.%20Construct%20Binary%20Tree%20from%20String)
+* [654. Maximum Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Construcion/654.%20Maximum%20Binary%20Tree)
 
 
 ### [Top-Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down)
@@ -111,10 +111,11 @@
 * [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/257.%20Binary%20Tree%20Paths)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 * [298. Binary Tree Longest Consecutive Sequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence)
-* 449. Serialize and Deserialize BST
+* [449. Serialize and Deserialize BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
+* [515. Find Largest Value in Each Tree Row](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row)
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
-* 653. Two Sum IV - Input is a BST
-* 655. Print Binary Tree
+* [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
+* [655. Print Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/655.%20Print%20Binary%20Tree)
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)
 * [100. Same Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/100.%20Same%20Tree)
@@ -126,7 +127,6 @@
 * [250. Count Univalue Subtrees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/250.%20Count%20Univalue%20Subtrees)
 * [366. Find Leaves of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/366.%20Find%20Leaves%20of%20Binary%20Tree)
 * [404. Sum of Left Leaves](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/404.%20Sum%20of%20Left%20Leaves)
-* 515. Find Largest Value in Each Tree Row
 * [543. Diameter of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/543.%20Diameter%20of%20Binary%20Tree)
 * [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
 
@@ -139,8 +139,8 @@
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/222.%20Count%20Complete%20Tree%20Nodes)
 * [236. Lowest Common Ancestor of a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
-* 501. Find Mode in Binary Search Tree
-* 508. Most Frequent Subtree Sum
+* [501. Find Mode in Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/501.%20Find%20Mode%20in%20Binary%20Search%20Tree)
+* [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)
@@ -197,8 +197,8 @@
 
 
 ## [Memorized Search and DP](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20)
-* 10. Regular Expression Matching
-* 62. Unique Paths
+* [10. Regular Expression Matching](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/10.%20Regular%20Expression%20Matching)
+* [62. Unique Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/62.%20Unique%20Paths)
 * [91. Decode Ways](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/91.%20Decode%20Ways)
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)

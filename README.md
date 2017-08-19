@@ -79,6 +79,7 @@
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 
 ## Stack and Queue
+* Expression Evaluation
 
 ## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

@@ -5,11 +5,13 @@ public class Solution {
         int[] indegree = new int[numCourses];
         int count = numCourses;
         
-        for (int i = 0; i < numCourses; i++) {
-            map.put(i, new ArrayList<Integer>());
-        }
+        // for (int i = 0; i < numCourses; i++) {
+        //     map.put(i, new ArrayList<Integer>());
+        // }
         for( int i = 0 ; i < pre.length ; i++ ){
-            map.getOrDefault(pre[i][0],new ArrayList<Integer>()).add(pre[i][1]);
+            map.putIfAbsent(pre[i][0], new ArrayList<Integer>());
+            map.get(pre[i][0]).add(pre[i][1]);
+            //map.put(pre[i][0],map.getOrDefault(pre[i][0],new ArrayList<Integer>()).add(pre[i][1]));
             indegree[pre[i][1]]++;
         }
         for( int i = 0 ; i < numCourses ; i++ ){

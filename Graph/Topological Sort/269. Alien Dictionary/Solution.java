@@ -4,8 +4,21 @@ class Solution {
         Map<Character, Integer> degree = new HashMap<Character, Integer>();
         StringBuilder sb = new StringBuilder();
 
-        initIndegree(words,degree);
-                
+        initIndegree(words,degree);         
+        updateMapAndDegree(words,map,degree); 
+        return topoSort(words,sb,map,degree);
+
+    }
+    
+    private void initIndegree(String[] words,Map<Character,Integer> degree){
+        for(String s: words){
+            for(char c: s.toCharArray()){
+                degree.put(c,0);
+            }
+        }
+    }
+    
+    private void updateMapAndDegree(String[] words,Map<Character, Set<Character>> map,Map<Character,Integer> degree){
         for(int i = 0; i < words.length-1; i++){
             String one = words[i];
             String two = words[i+1];
@@ -25,13 +38,15 @@ class Solution {
                 }
             }
         }
+    }
+    
+    private String topoSort(String[] words, StringBuilder sb, Map<Character, Set<Character>> map,Map<Character,Integer> degree){
         Queue<Character> queue =new LinkedList<Character>();
         for(char ch: degree.keySet()){
             if(degree.get(ch)==0) queue.add(ch);
         }
         while(!queue.isEmpty()){
             char ch = queue.remove();
-            //result+=c;
             sb.append(ch);
             if(map.containsKey(ch)){
                 for(char ch2: map.get(ch)){
@@ -43,14 +58,4 @@ class Solution {
         if( sb.length() != degree.size()) return "";
         return sb.toString();
     }
-    
-    private void initIndegree(String[] words,Map<Character,Integer> degree){
-        for(String s: words){
-            for(char c: s.toCharArray()){
-                degree.put(c,0);
-            }
-        }
-    }
-    
-    
 }

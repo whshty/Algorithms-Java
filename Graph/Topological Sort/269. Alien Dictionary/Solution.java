@@ -1,14 +1,11 @@
 class Solution {
     public String alienOrder(String[] words) {
         Map<Character, Set<Character>> map=new HashMap<Character, Set<Character>>();
-        Map<Character, Integer> degree=new HashMap<Character, Integer>();
+        Map<Character, Integer> degree = new HashMap<Character, Integer>();
         StringBuilder sb = new StringBuilder();
-        if (words == null || words.length == 0 ) return sb.toString();
-        for(String s: words){
-            for(char c: s.toCharArray()){
-                degree.put(c,0);
-            }
-        }
+
+        initIndegree(words,degree);
+                
         for(int i = 0; i < words.length-1; i++){
             String one = words[i];
             String two = words[i+1];
@@ -46,4 +43,14 @@ class Solution {
         if( sb.length() != degree.size()) return "";
         return sb.toString();
     }
+    
+    private void initIndegree(String[] words,Map<Character,Integer> degree){
+        for(String s: words){
+            for(char c: s.toCharArray()){
+                degree.put(c,0);
+            }
+        }
+    }
+    
+    
 }

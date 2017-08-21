@@ -9,18 +9,23 @@ class Solution {
         int count = 1;
         beginSet.add(beginWord); 
         endSet.add(endWord);
+        
+        return bfs(beginSet,endSet,words,visited,count);
+    }
+    
+    private int bfs(Set<String> beginSet, Set<String> endSet, Set<String> words, Set<String> visited, int count){
         while (!beginSet.isEmpty() && !endSet.isEmpty()) {
             swapSet(beginSet,endSet);
 
             Set<String> temp = new HashSet<>();
             for (String word : beginSet) {
                 char[] ch = word.toCharArray();
-                
+
                 for (int i = 0; i < ch.length; i++) {
                     char old = ch[i];
                     for (char c = 'a'; c <= 'z'; c++) {
                         ch[i] = c;
-                        String tempRes = String.valueOf(ch);
+                        String tempRes = replace(ch,i,c);
 
                         if (endSet.contains(tempRes)) return count + 1;
                         if (!visited.contains(tempRes) && words.contains(tempRes)) {
@@ -44,5 +49,10 @@ class Solution {
             beginSet = endSet;
             endSet = temp;
         }
+    }
+    
+    private String replace(char[] ch, int i , char c ){
+        ch[i] = c;
+        return new String(ch);
     }
 }

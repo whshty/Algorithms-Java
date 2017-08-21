@@ -23,3 +23,4 @@ public class TreeNode {
 * Binary Search : traversal is not necessary, so we can also use iteration
 * Travesal by level : we can use queue
 * Tree and other Data struture (int[],String) : we can use top-down and bottom-up 
+* Pre-Order is top-down, Post-Order is bottom-up. In-Order is more likely to be implemented in Binary Search Tree

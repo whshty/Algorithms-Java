@@ -85,8 +85,8 @@
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 
 ## Stack and Queue
-* Expression Evaluation
-* 155. Min Stack
+* [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/Expression%20Evaluation)
+* [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/155.%20Min%20Stack)
 
 ## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

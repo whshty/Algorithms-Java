@@ -85,6 +85,7 @@
 
 ## Stack and Queue
 * Expression Evaluation
+* 155. Min Stack
 
 ## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

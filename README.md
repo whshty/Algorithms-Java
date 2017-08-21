@@ -63,6 +63,7 @@
 * [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/23.%20Merge%20k%20Sorted%20Lists)
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
 * [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
+* 138. Copy List with Random Pointer
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
 
 ### Doubly Linked List
@@ -195,6 +196,7 @@
 ## [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 ## Traversal
 * 127. Word Ladder
+* 133. Clone Graph
 
 
 #### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)

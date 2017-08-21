@@ -1,5 +1,27 @@
 public class Solution {
     public boolean isMatch(String s, String p) {
+        return dfs(s, p, 0, 0);
+    }
+    private boolean dfs(String s, String p, int i, int j) {
+        if (j == p.length()) return i == s.length();
+          
+        if (j == p.length() - 1 || p.charAt(j + 1) != '*') {
+            if ( i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) return dfs(s,p, i + 1, j + 1);
+            else return false;
+        }
+        else {
+            while (i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
+                if (dfs(s, p, i, j + 2)) return true;
+                i++;
+            }
+            return dfs(s, p, i, j + 2);
+        }
+    }
+}
+
+
+public class Solution {
+    public boolean isMatch(String s, String p) {
         int m = s.length()+1;
         int n = p.length()+1;
         char[] sc = s.toCharArray();

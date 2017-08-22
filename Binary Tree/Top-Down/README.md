@@ -12,6 +12,7 @@ Normally we put the res in a "containers", such as StringBuilder, list or array.
 
 ### Boolean
 * [101. Symmetric Tree]()
+* [606. Construct String from Binary Tree]()
 
 ### List
 * [113. Path Sum II]()
@@ -19,6 +20,7 @@ Normally we put the res in a "containers", such as StringBuilder, list or array.
 
 ### String
 * [297. Serialize and Deserialize Binary Tree]()
+* [606. Construct String from Binary Tree]()
 
 ### Level
 * [199. Binary Tree Right Side View]()

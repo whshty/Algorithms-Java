@@ -1,24 +1,25 @@
-public class Solution {
-    public String tree2str(TreeNode t) {
-        if(  t == null ) return "";
+class Solution {
+    public String tree2str(TreeNode root) {
         StringBuilder sb = new StringBuilder();
-        helper(t,sb,false);
-        return sb.substring(1,sb.length()-1);
+        if(root == null ) return sb.toString();
+        helper(root,sb,false);
+        return sb.toString().substring(1,sb.length()-1);
     }
-    private void helper(TreeNode node, StringBuilder sb , boolean isLeft){
+    public void helper(TreeNode node, StringBuilder sb, boolean isLeft){
         if( node == null ){
-            if( isLeft ){
+            if(isLeft){
                 sb.append("()");
             }
             return;
         }
         sb.append("(").append(node.val);
-        if( node.left != null || node.right != null ){
+        if( node.left != null || node.right != null ) {
             helper(node.left,sb,true);
             helper(node.right,sb,false);
         }
-        sb.append(")");   
+        sb.append(")");
     }
+}
 }
 
 

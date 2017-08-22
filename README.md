@@ -118,7 +118,6 @@
 * [199. Binary Tree Right Side View](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/199.%20Binary%20Tree%20Right%20Side%20View)
 * [257. Binary Tree Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/257.%20Binary%20Tree%20Paths)
 * [297. Serialize and Deserialize Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
-* [298. Binary Tree Longest Consecutive Sequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence)
 * [449. Serialize and Deserialize BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 * [515. Find Largest Value in Each Tree Row](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row)
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
@@ -147,6 +146,7 @@
 * [129. Sum Root to Leaf Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
 * [222. Count Complete Tree Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/222.%20Count%20Complete%20Tree%20Nodes)
 * [236. Lowest Common Ancestor of a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/129.%20Sum%20Root%20to%20Leaf%20Numbers)
+* 298. Binary Tree Longest Consecutive Sequence
 * [501. Find Mode in Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/501.%20Find%20Mode%20in%20Binary%20Search%20Tree)
 * [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
 

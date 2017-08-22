@@ -24,5 +24,9 @@ public int maxDepth(TreeNode root) {
 * [104. Maximum Depth of Binary Tree]()
 * [110. Balanced Binary Tree]()
 
-## No return value
-* [114. Flatten Binary Tree to Linked List](114. Flatten Binary Tree to Linked List)
+### TreeNode
+* [156. Binary Tree Upside Down]()
+* [226. Invert Binary Tree]()
+
+### No return value
+* [114. Flatten Binary Tree to Linked List]()

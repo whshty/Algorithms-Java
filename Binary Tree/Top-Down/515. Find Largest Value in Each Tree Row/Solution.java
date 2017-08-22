@@ -1,19 +1,18 @@
-public class Solution {
+class Solution {
     public List<Integer> largestValues(TreeNode root) {
-	    List<Integer> res = new ArrayList<>();
-	    dfs(res, root, 0);
-	    return res;
+        List<Integer> res = new ArrayList<>();
+        if( root == null ) return res;
+        helper(root,res,0);
+        return res;
     }
-
-    private void dfs(List<Integer> res, TreeNode root, int row) {
-	    if (root == null) return;    	
-	    setMax(res, root, row);
-	    dfs(res, root.left, row + 1);
-	    dfs(res, root.right, row + 1);
+    public void helper(TreeNode node, List<Integer> res, int level){
+        if( node == null ) return;
+        setMax(res,node,level);
+        helper(node.left,res,level+1);
+        helper(node.right,res,level+1);
     }
-
-    private void setMax(List<Integer> res, TreeNode root, int row) {
-	    if (row >= res.size()) res.add(root.val);
-	    else res.set(row, Math.max(root.val, res.get(row)));
+    private void setMax(List<Integer> res, TreeNode root, int level) {
+	    if (level  == res.size()) res.add(root.val);
+	    else res.set(level, Math.max(root.val, res.get(level)));
     }
 }

@@ -20,6 +20,9 @@ public int maxDepth(TreeNode root) {
 ### Boolean
 * [100. Same Tree]()
 
-### int
+### Int
 * [104. Maximum Depth of Binary Tree]()
 * [110. Balanced Binary Tree]()
+
+## No return value
+* [114. Flatten Binary Tree to Linked List](114. Flatten Binary Tree to Linked List)

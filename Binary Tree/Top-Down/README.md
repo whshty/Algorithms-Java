@@ -17,5 +17,8 @@ Normally we put the res in a "containers", such as StringBuilder, list or array.
 * 113. Path Sum II
 * 257. Binary Tree Paths
 
+### String
+* 297. Serialize and Deserialize Binary Tree
+
 ### Level
 * 199. Binary Tree Right Side View

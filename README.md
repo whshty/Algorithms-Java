@@ -25,6 +25,7 @@
 
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray)
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
+* 525. Contiguous Array
 
 
 ### [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)

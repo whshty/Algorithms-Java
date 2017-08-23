@@ -17,6 +17,7 @@ Normally we put the res in a "containers", such as StringBuilder, list or array.
 ### List
 * [113. Path Sum II]()
 * [257. Binary Tree Paths]()
+* [637. Average of Levels in Binary Tree]()
 
 ### String
 * [297. Serialize and Deserialize Binary Tree]()

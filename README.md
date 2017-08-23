@@ -121,6 +121,7 @@
 * [449. Serialize and Deserialize BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/297.%20Serialize%20and%20Deserialize%20Binary%20Tree)
 * [515. Find Largest Value in Each Tree Row](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/515.%20Find%20Largest%20Value%20in%20Each%20Tree%20Row)
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
+* 637. Average of Levels in Binary Tree
 * [655. Print Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/655.%20Print%20Binary%20Tree)
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)

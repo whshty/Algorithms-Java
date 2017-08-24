@@ -165,6 +165,7 @@
 * 211. Add and Search Word - Data structure design
 
 ## [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)
+* 23. Merge k Sorted Lists
 * [253. Meeting Rooms II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/253.%20Meeting%20Rooms%20II)
 * [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)

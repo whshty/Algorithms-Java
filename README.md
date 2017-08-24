@@ -81,6 +81,7 @@
 * [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/69.%20Sqrt(x))
 * [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
 * [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/275.%20H-Index%20II)
+* 278. First Bad Version
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ## [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)

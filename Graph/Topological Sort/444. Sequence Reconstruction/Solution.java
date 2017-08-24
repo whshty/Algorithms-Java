@@ -10,14 +10,17 @@ class Solution {
                 queue.offer(key);
             }
         }
-
         int index = 0;
         while (!queue.isEmpty()) {
-            int size = queue.size();
-            if (size > 1) return false;
-            int curr = queue.poll();
-            if (index == org.length || curr != org[index++]) return false;
-            for (int next : map.get(curr)) {
+            if (queue.size() > 1) return false;
+            int cur = queue.poll();
+            if( index == org.length ) return false;
+
+            if( cur != org[index]) {
+                return false;
+            }
+            index++;
+            for (int next : map.get(cur)) {
                 indegree.put(next, indegree.get(next) - 1);
                 if (indegree.get(next) == 0) queue.offer(next);
             }

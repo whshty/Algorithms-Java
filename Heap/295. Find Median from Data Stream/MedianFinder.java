@@ -1,7 +1,7 @@
 public class MedianFinder {
     // min for small , max for large
-    PriorityQueue<Integer> min = new PriorityQueue<>();
-    PriorityQueue<Integer> max = new PriorityQueue<>((a,b)->(b - a));
+    PriorityQueue<Integer> min = new PriorityQueue<>();// minHeap default
+    PriorityQueue<Integer> max = new PriorityQueue<>((a,b)->(b-a)); // maxHeap
     // Adds a number into the data structure.
     public void addNum(int num) {
         max.offer(num);
@@ -17,4 +17,3 @@ public class MedianFinder {
         else return max.peek();
     }
 }
-

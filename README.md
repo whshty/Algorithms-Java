@@ -53,7 +53,7 @@
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/161.%20One%20Edit%20Distance)
 
 #### [Splice](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice)
-* 28. Implement strStr()
+* [28. Implement strStr()](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice/28.%20Implement%20strStr())
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice/273.%20Integer%20to%20English%20Words)
 
 ### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window)

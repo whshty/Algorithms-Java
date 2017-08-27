@@ -43,6 +43,7 @@
 * [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 * [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 * 311. Sparse Matrix Multiplication
+* 334. Increasing Triplet Subsequence
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Math/621.%20Task%20Scheduler)
 
 ## [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String)
@@ -63,6 +64,7 @@
 * [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/76.%20Minimum%20Window%20Substring)
 * [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
 * [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
+* 340. Longest Substring with At Most K Distinct Characters
 
 
 ## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
@@ -85,6 +87,7 @@
 * [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
 * [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/275.%20H-Index%20II)
 * [278. First Bad Version](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/278.%20First%20Bad%20Version)
+* 367. Valid Perfect Square
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ## [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)

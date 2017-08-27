@@ -25,6 +25,7 @@
 
 
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray)
+* 325. Maximum Size Subarray Sum Equals k
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
 * [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/252.%20Meeting%20Rooms)
 

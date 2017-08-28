@@ -49,14 +49,14 @@
 ## [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String)
 #### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation)
 * [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/12.%20Integer%20to%20Roman)
-* 43. Multiply Strings
+* [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/43.%20Multiply%20Strings)
 * [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/67.%20Add%20Binary)
 
 #### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer)
-* 5. Longest Palindromic Substring
-* 38. Count and Say
+* [5. Longest Palindromic Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/5.%20Longest%20Palindromic%20Substring)
+* [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/38.%20Count%20and%20Say)
 * [125. Valid Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/125.%20Valid%20Palindrome)
-* 151. Reverse Words in a String
+* [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Pointer/161.%20One%20Edit%20Distance)
 
 #### [Splice](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice)
@@ -105,7 +105,7 @@
 ## [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/Expression%20Evaluation)
 * [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/155.%20Min%20Stack)
-* 394. Decode String
+* [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/394.%20Decode%20String)
 
 ## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

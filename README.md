@@ -14,7 +14,7 @@
 
 
 
-### [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)
+## [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)
 * [1. Two Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/1.%20Two%20Sum)
 * [15. 3Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/15.%203Sum)
 * [16. 3Sum Closest](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/16.%203Sum%20Closest)
@@ -60,7 +60,7 @@
 
 # [Linear Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
 
-## [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort)
+### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort)
 * [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/Qucik%20Sort)
 * [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/164.%20Maximum%20Gap)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array)
@@ -69,20 +69,20 @@
 * [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/324.%20Wiggle%20Sort%20II)
 
 
-## [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
+### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
 * [209. Minimum Size Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/209.%20Minimum%20Size%20Subarray%20Sum)
 * [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/523.%20Continuous%20Subarray%20Sum)
 * [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/525.%20Contiguous%20Array)
 
-## [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window)
+### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window)
 * [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 * [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 * [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
 * [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
 * [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
 
-## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
+### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
 
 ##### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
@@ -104,12 +104,12 @@
 * [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/56.%20Merge%20Intervals)
 * [57. Insert Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/57.%20Insert%20Interval)
 
-## [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue)
+# [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/Expression%20Evaluation)
 * [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/155.%20Min%20Stack)
 * [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/394.%20Decode%20String)
 
-## [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
+# [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 
 ### [Binary Tree Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal)
 * [94. Binary Tree Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/94.%20Binary%20Tree%20Inorder%20Traversal)
@@ -183,7 +183,7 @@
 * [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/208.%20Implement%20Trie%20(Prefix%20Tree))
 * [211. Add and Search Word - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design)
 
-## [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)
+# [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)
 * [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/23.%20Merge%20k%20Sorted%20Lists)
 * [253. Meeting Rooms II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/253.%20Meeting%20Rooms%20II)
 * [295. Find Median from Data Stream](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/295.%20Find%20Median%20from%20Data%20Stream)
@@ -194,7 +194,7 @@
 
 
 # [DFS and BFS](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS)
-## [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D)
+### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D)
 * [17. Letter Combinations of a Phone Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/17.%20Letter%20Combinations%20of%20a%20Phone%20Number)
 * [39. Combination Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/39.%20Combination%20Sum)
 * [40. Combination Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/40.%20Combination%20Sum%20II)
@@ -213,14 +213,9 @@
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
 
-## [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
+### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/200.%20Number%20of%20Islands)
 * [490. The Maze](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/490.%20The%20Maze)
-
-
-## [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
-* [330. Patching Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy/330.%20Patching%20Array)
-
 
 
 # [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
@@ -249,6 +244,9 @@
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/416.%20Partition%20Equal%20Subset%20Sum)
 
+
+# [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
+* [330. Patching Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy/330.%20Patching%20Array)
 
 # [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)
 * [382. Linked List Random Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/382.%20Linked%20List%20Random%20Node)

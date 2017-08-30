@@ -1,4 +1,6 @@
-Typical solution of calculating subarray sum. Using slidng window
+Typical solution of calculating subarray sum. 
+
+Using slidng window.
 
 ```
 class myCode {
@@ -24,5 +26,28 @@ class myCode {
         return false;
     }
 }
+```
 
+Use HashMap
+
+```
+class myCode {
+    public static void main (String[] args) throws java.lang.Exception {        
+        int[] nums = new int[]{0,2,3,1,5,-1,-1,8};
+        System.out.println(subArraySum(nums,7));    
+    }
+    
+    public static boolean subArraySum(int[] nums, int k){
+        if( nums == null || nums.length == 0 ) return false;
+        Map<Integer,Integer> map = new HashMap<>();
+
+        int sum = 0;
+        for(int i = 0 ; i < nums.length ; i++){
+            sum += nums[i];
+            map.putIfAbsent(sum,1);
+            if(map.get(sum-k) != null ) return true;
+        }
+        return false;
+    }
+}
 ```

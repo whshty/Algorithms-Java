@@ -27,10 +27,7 @@
 
 
 
-### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray)
-* [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
-* [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
-* [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/252.%20Meeting%20Rooms)
+
 
 
 ### [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)
@@ -80,6 +77,10 @@
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ## Linear Structure
+### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray)
+* [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
+* [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Subarray/523.%20Continuous%20Subarray%20Sum)
+* [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/252.%20Meeting%20Rooms)
 
 ### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window)
 * [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
@@ -90,7 +91,7 @@
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
 
-#### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
+##### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
 * [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/23.%20Merge%20k%20Sorted%20Lists)
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)

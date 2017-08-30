@@ -1,6 +1,6 @@
 Typical solution of calculating subarray sum. 
 
-Using slidng window.
+Use slidng window, move left point when the current sum is bigger than result
 
 ```
 class myCode {
@@ -28,7 +28,7 @@ class myCode {
 }
 ```
 
-Use HashMap
+Use HashMap or HashMap to save prefix sum results
 
 ```
 class myCode {

@@ -1,12 +1,12 @@
 public class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         if( nums == null || nums.length == 0) return 0;
-        int pre = 0 , cur = 0 , sum = 0 , min = Integer.MAX_VALUE;
-        while( cur < nums.length ){
-            sum += nums[cur++];
+        int start = 0 , end = 0 , sum = 0 , min = Integer.MAX_VALUE;
+        while( end < nums.length ){
+            sum += nums[end++];
             while(sum >= s){
-                min = Math.min(min,cur-pre);
-                sum -= nums[pre++];
+                min = Math.min(min,end-start);
+                sum -= nums[start++];
             }
         }
         return min == Integer.MAX_VALUE ? 0:min;

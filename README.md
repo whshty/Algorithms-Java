@@ -1,11 +1,11 @@
 # [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
 
-## [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
+### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 * [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
 
 
-## [Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers)
+### [Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Pointers/215.%20Kth%20Largest%20Element%20in%20an%20Array)
@@ -14,7 +14,7 @@
 
 
 
-## [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)
+### [Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum)
 * [1. Two Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/1.%20Two%20Sum)
 * [15. 3Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/15.%203Sum)
 * [16. 3Sum Closest](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sum/16.%203Sum%20Closest)

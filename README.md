@@ -102,9 +102,9 @@
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/380.%20Insert%20Delete%20GetRandom%20O(1))
 
-### Interval
-* [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/56.%20Merge%20Intervals)
-* 57. Insert Interval
+### [Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval)
+* [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/56.%20Merge%20Intervals)
+* [57. Insert Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/57.%20Insert%20Interval)
 
 ## [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/Expression%20Evaluation)

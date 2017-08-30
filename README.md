@@ -64,10 +64,10 @@
 * [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/252.%20Meeting%20Rooms)
 * [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/324.%20Wiggle%20Sort%20II)
 
-### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation)
+### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculationn)
 * [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/12.%20Integer%20to%20Roman)
-* [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/43.%20Multiply%20Strings)
-* [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/67.%20Add%20Binary)
+* [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
+* [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
 
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
 * [209. Minimum Size Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/209.%20Minimum%20Size%20Subarray%20Sum)

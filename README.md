@@ -1,6 +1,6 @@
-## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
-### Test
+
+## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
 * [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/Qucik%20Sort)
@@ -66,25 +66,7 @@
 * [28. Implement strStr()](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice/28.%20Implement%20strStr())
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Splice/273.%20Integer%20to%20English%20Words)
 
-### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window)
-* [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
-* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/76.%20Minimum%20Window%20Substring)
-* [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
-* [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
-* [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
 
-
-## [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
-
-### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
-* [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
-* [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/23.%20Merge%20k%20Sorted%20Lists)
-* [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
-* [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
-* [138. Copy List with Random Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer)
-* [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
-
-### Doubly Linked List
 
 
 ## [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
@@ -97,7 +79,26 @@
 * [367. Valid Perfect Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/367.%20Valid%20Perfect%20Square)
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
-## [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)
+## Linear Structure
+
+### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window)
+* [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/76.%20Minimum%20Window%20Substring)
+* [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
+* [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
+* [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
+
+### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList)
+
+#### [Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List)
+* [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
+* [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/23.%20Merge%20k%20Sorted%20Lists)
+* [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
+* [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/82.%20Remove%20Duplicates%20from%20Sorted%20List%20II)
+* [138. Copy List with Random Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer)
+* [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
+
+### [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash)
 * [Design HashMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/Implement%20Hash%20Map)
 * [49. Group Anagrams](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/49.%20Group%20Anagrams)
 * [128. Longest Consecutive Sequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Hash/128.%20Longest%20Consecutive%20Sequence)

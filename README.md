@@ -1,18 +1,4 @@
-# [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
-### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
-* [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
-
-
-# [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
-* [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
-* [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
-* [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/69.%20Sqrt(x))
-* [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
-* [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/275.%20H-Index%20II)
-* [278. First Bad Version](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/278.%20First%20Bad%20Version)
-* [367. Valid Perfect Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/367.%20Valid%20Perfect%20Square)
-* [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 # [Linear Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
 
@@ -107,6 +93,19 @@
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/Expression%20Evaluation)
 * [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
+
+
+
+# [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
+* [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
+* [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
+* [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/69.%20Sqrt(x))
+* [81. Search in Rotated Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/81.%20Search%20in%20Rotated%20Sorted%20Array%20II)
+* [275. H-Index II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/275.%20H-Index%20II)
+* [278. First Bad Version](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/278.%20First%20Bad%20Version)
+* [367. Valid Perfect Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/367.%20Valid%20Perfect%20Square)
+* [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
+
 
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

@@ -2,14 +2,7 @@
 
 ## [Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array)
 
-### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
-* [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/Qucik%20Sort)
-* [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/56.%20Merge%20Intervals)
-* [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/164.%20Maximum%20Gap)
-* [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array)
-* [252. Meeting Rooms](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/252.%20Meeting%20Rooms)
-* [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
-* [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/324.%20Wiggle%20Sort%20II)
+
 
 
 ### [Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Search)
@@ -77,6 +70,17 @@
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
 ## [Linear Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
+
+### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort)
+* [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/Qucik%20Sort)
+* [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/56.%20Merge%20Intervals)
+* [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/164.%20Maximum%20Gap)
+* [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array)
+* [252. Meeting Rooms](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/252.%20Meeting%20Rooms)
+* [274. H-Index (Bucket Sort)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/274.%20H-Index)
+* [324. Wiggle Sort II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Array/Sort/324.%20Wiggle%20Sort%20II)
+
+
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
 * [209. Minimum Size Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/209.%20Minimum%20Size%20Subarray%20Sum)
 * [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
@@ -107,6 +111,8 @@
 * [349. Intersection of Two Arrays](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/349.%20Intersection%20of%20Two%20Arrays)
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/380.%20Insert%20Delete%20GetRandom%20O(1))
+
+### Interval
 
 ## [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Stack%20and%20Queue/Expression%20Evaluation)

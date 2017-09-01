@@ -6,17 +6,20 @@ public class Solution {
         return res;
     }
     private void helper(TreeNode node, List<String> res, StringBuilder sb){
-        if( node == null ) return; 
         int len = sb.length();
         sb.append(node.val);
         if( node.left == null && node.right == null ) {
             res.add(sb.toString());
         } else{
             sb.append("->");            
-            helper(node.left,res,sb);
-            helper(node.right,res,sb);
+            if( node.left != null ){
+                helper(node.left,res,sb);
+            }
+            if( node.right != null ){
+                helper(node.right,res,sb);
+            }
         }
-        sb.delete(len,sb.length());
+        sb.setLength(len);
     }
 }
 

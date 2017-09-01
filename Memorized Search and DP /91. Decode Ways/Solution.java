@@ -1,4 +1,21 @@
-public class Solution {
+class Solution {
+    public int numDecodings(String s) {
+        if( s.length() == 0 ) return 0;
+        return helper(s,0);
+    }
+    public int helper(String s, int index){
+        int len = s.length();
+        if( index == len ) return 1;
+        if(s.charAt(index) == '0') return 0;
+        int res = helper(s,index+1);
+        if( index < len - 1 && ( s.charAt(index) == '1' || (s.charAt(index) == '2' && s.charAt(index+1) < '7'))){
+            res += helper(s,index+2);
+        }
+        return res;
+    }
+
+
+class Solution {
     public int numDecodings(String s) {
         if( s == null || s.length() == 0 ) return 0;
         int n = s.length();

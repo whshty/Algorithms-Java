@@ -1,5 +1,5 @@
 
-### DFS
+### DFS O(2^n)
 
 ```
 class Solution {
@@ -17,10 +17,35 @@ class Solution {
         }
         return res;
     }
-    
 }
 ```
 
+
+### Memoization DFS O(n) 
+
+```
+class Solution {
+    public int numDecodings(String s) {
+        if( s.length() == 0 ) return 0;
+        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        return helper(s,0,map);
+    }
+    public int helper(String s, int index,Map<Integer,Integer> map){
+        Integer cur = map.get(index);
+        if( cur != null ) return cur;
+        int len = s.length();
+        if( index == len ) return 1;
+        if( s.charAt(index) == '0' ) return 0;
+        int res = 0;
+        res += helper(s,index+1,map);
+        if( index < len - 1 && ( s.charAt(index) == '1' || (s.charAt(index) == '2' && s.charAt(index+1) < '7'))){
+            res += helper(s,index+2,map);
+        }
+        map.put(index,res);
+        return res;
+    } 
+}
+```
 
 
 

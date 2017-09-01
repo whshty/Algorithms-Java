@@ -1,14 +1,16 @@
-# 91. Decode Ways
-## Idea ( Dp ： Fibonacci)
+
+
+
+
+
+
+Dp : Like Fibonacci
+
 * Create a int array to update ways of decoding 
 * dp[0] = 1
 * Keep checking one digit adn two digit combination
 * Give a sample example "12", we have 2 ways od decoding it. Because "1" is between 1 and 9, and 12 is between 10 and 26
 
-## Time 
-* O(n)
-
-## Visualization
 ```
 For exmplple, given string
    1    0     3     8    2     1
@@ -23,7 +25,6 @@ For exmplple, given string
 
 ```
 
-## Code 
 
 ```
 public class Solution {

@@ -206,6 +206,7 @@
 * [90. Subsets II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/90.%20Subsets%20II)
 * [131. Palindrome Partitioning](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/131.%20Palindrome%20Partitioning)
 * [216. Combination Sum III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/216.%20Combination%20Sum%20III)
+* 247. Strobogrammatic Number II
 * [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/254.%20Factor%20Combinations)
 * [261. Graph Valid Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [282. Expression Add Operators](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/282.%20Expression%20Add%20Operators)

@@ -1,4 +1,8 @@
+In-order : cannot find the root
+Level-order : waste of space 
+
 Pre-Order
+
 ```
 public class Codec {
     private String N = "N";

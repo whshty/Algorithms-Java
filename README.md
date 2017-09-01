@@ -30,7 +30,7 @@
 * [125. Valid Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/161.%20One%20Edit%20Distance)
-* 163. Missing Ranges
+* [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/163.%20Missing%20Ranges)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/215.%20Kth%20Largest%20Element%20in%20an%20Array)
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)

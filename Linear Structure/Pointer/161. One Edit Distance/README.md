@@ -1,3 +1,5 @@
+### Use subString
+
 
 ```
 public class Solution {
@@ -22,6 +24,11 @@ public class Solution {
 }
 ```
 
+
+### Use two pointers
+* Assume the length of common prefix (from left to right) is i 
+* The length of common suffix after i (from right to left) is j
+* The answer is then max(m, n) - 1 == i + j
 
 
 ```

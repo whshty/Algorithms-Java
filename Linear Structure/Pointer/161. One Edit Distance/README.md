@@ -25,7 +25,9 @@ public class Solution {
 ```
 
 
-### Use two pointers
+### Use two pointers ( count common characters)
+If s and t are one distance away then no matter it is insert or delete or replace the count of common characters must be max(m, n) - 1, where m is the length of s and n is the length of t. It is easy to see that the reverse is also true.
+
 * Assume the length of common prefix (from left to right) is i 
 * The length of common suffix after i (from right to left) is j
 * The answer is then max(m, n) - 1 == i + j

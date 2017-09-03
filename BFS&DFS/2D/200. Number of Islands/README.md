@@ -88,9 +88,8 @@ public class Solution {
 
 
 
-# Follow ( Calculate islands of max size)
+### Calculate islands of max size
 
-## Code
 
 ```
 

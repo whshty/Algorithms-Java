@@ -1,4 +1,4 @@
-Use pointers
+### Use pointers
 
 * left : first wall , the end of 0
 * right : second wall , the start of 2 
@@ -28,13 +28,13 @@ public class Solution {
 }
 ```
 
-Use HashMap 
+### Use HashMap 
 
 * Use hashmap to maintain the frequency of 0, 1, 2
 * Generate a new array by frequency 
 
 
-Follow up ( sort k colors)
+### Follow up ( sort k colors)
 
 ```
 public void sortKCategory(int[] nums, int k) {

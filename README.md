@@ -258,7 +258,8 @@
 * [382. Linked List Random Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/382.%20Linked%20List%20Random%20Node)
 * [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/2D)
 
-# [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept/Bit%20Manipulation)
+# [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation)
+* 477. Total Hamming Distance
 
 
 # [Design API](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API)

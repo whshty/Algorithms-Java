@@ -1,3 +1,5 @@
+### Use XOR to find the different bit
+```
 class Solution {
     public int totalHammingDistance(int[] nums) {
         int count = 0;
@@ -12,9 +14,14 @@ class Solution {
         return Integer.bitCount(x^y);
     }
 }
+```
 
+### Optimization
+* Suppose that i numbers have a rightmost 0-bit
+* and j numbers have a 1-bit. 
+* Then out of the pairs, i * j of them will have 1 in the rightmost bit of the XOR.
 
-
+```
 class Solution {
     public int totalHammingDistance(int[] nums) {
         int n = 31;
@@ -34,3 +41,4 @@ class Solution {
 
     }
 }
+```

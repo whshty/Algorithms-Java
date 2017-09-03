@@ -1,6 +1,6 @@
 public class Solution {
     public List<List<String>> printTree(TreeNode root) {
-        List<List<String>> res = new LinkedList<>();
+        List<List<String>> res = new ArrayList<>();
         int height = root == null ? 1 : getHeight(root);
         int width = (int)(Math.pow(2, height) - 1);
         List<String> list = new ArrayList<>();

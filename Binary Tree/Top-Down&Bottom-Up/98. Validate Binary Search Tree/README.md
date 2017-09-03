@@ -16,7 +16,7 @@ public class Solution {
 }
 ```
 
-### Iteration (Pre-Order)
+### Iteration (In-Order)
 
 ```
 public class Solution {

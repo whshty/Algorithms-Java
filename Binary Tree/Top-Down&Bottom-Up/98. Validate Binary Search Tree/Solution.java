@@ -11,3 +11,26 @@ public class Solution {
         else return false;
     }
 }
+
+
+
+public class Solution {
+    public boolean isValidBST(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode node = root;
+        TreeNode pre = null;
+        while( !stack.isEmpty() || node != null ){
+            if( node != null ){
+                stack.push(node);
+                node = node.left;
+            } else {
+                TreeNode temp = stack.pop();
+                if( pre != null && temp.val <= pre.val ) return false;
+                pre = temp;
+                node = temp.right;
+            }
+        }
+        return true;
+    
+    }
+}

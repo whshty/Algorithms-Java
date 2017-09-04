@@ -11,10 +11,11 @@ public class Solution {
     }
 
     public void dfs(TreeNode root, List<List<String>> res, int row, int totalRows, int i, int j) {
-        if (row == totalRows || root == null) return;
-        res.get(row).set((i+j)/2, Integer.toString(root.val));
-        dfs(root.left, res, row+1, totalRows, i, (i+j)/2 - 1);
-        dfs(root.right, res, row+1, totalRows, (i+j)/2+1, j);
+        if (root == null || row == totalRows ) return;
+        int pos = (i+j)/2;
+        res.get(row).set(pos, Integer.toString(root.val));
+        dfs(root.left, res, row + 1, totalRows, i, pos - 1);
+        dfs(root.right, res, row + 1, totalRows, pos + 1, j);
     }
 
     public int getHeight(TreeNode root) {

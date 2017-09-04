@@ -15,17 +15,19 @@ public class Solution {
                 if( word.length() == s.length() ){
                     res.add(word);
                     continue;
+                } else {
+                    List<String> strs = helper(s.substring(word.length()),wordDict,map);
+                    for( String str : strs ){
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(word).append(" ");
+                        int len = sb.length();
+                        sb.append(str);
+                        res.add(sb.toString());
+                        sb.setLength(len);
+                        //res.add(word + " " + str);
+                    }
                 }
-                List<String> strs = helper(s.substring(word.length()),wordDict,map);
-                for( String str : strs ){
-                    StringBuilder sb = new StringBuilder();
-                    sb.append(word).append(" ");
-                    int len = sb.length();
-                    sb.append(str);
-                    res.add(sb.toString());
-                    sb.setLength(len);
-                    //res.add(word + " " + str);
-                }
+         
             }
         }
         map.put(s, res);

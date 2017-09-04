@@ -58,6 +58,7 @@
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
 
 ### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
+* 152. Maximum Product Subarray
 * [209. Minimum Size Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/209.%20Minimum%20Size%20Subarray%20Sum)
 * [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/523.%20Continuous%20Subarray%20Sum)

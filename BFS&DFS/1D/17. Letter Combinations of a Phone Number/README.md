@@ -1,3 +1,10 @@
+### BFS
+* Create a string array for keyboard and check it by number 
+* Create a list of strng to save res
+* For every digit, add new characters from the keyborad to old string and add these to res
+* O(3~4)^n : For every number has 3 or 4 characters to be generated 
+
+```
 class Solution {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<String>();
@@ -19,28 +26,31 @@ class Solution {
         return res;
     }
 }
+```
 
+### DFS
+
+```
 public class Solution {
+    private static final String[] keys = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
-        if( digits.length() == 0 ) return res;
-        String[] keys = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        dfs(keys,res,new StringBuilder(),digits.toCharArray(),0);
+        if( digits == null || digits.length() == 0 ) return res;
+        StringBuilder sb = new StringBuilder();
+        dfs(sb,digits,0,res);
         return res;
     }
-    
-    private void dfs(String[] keys, List<String> res, StringBuilder sb , char[] digits, int pos){
-        if( pos == digits.length ){
+    private void dfs(StringBuilder sb, String digits, int pos , List<String> res){
+        if( sb.length() >= digits.length()){
             res.add(sb.toString());
             return;
         }
-        
-        String cur = keys[digits[pos] - '0'];
-        
-        for( int i = 0 ; i < cur.length() ; i++ ){
-            StringBuilder temp = new StringBuilder(sb);
-            temp.append(cur.charAt(i));
-            dfs(keys,res,new StringBuilder(temp),digits,pos+1);
+        String s = keys[digits.charAt(pos) - '0'];
+        int len = sb.length();
+        for( int i = 0 ; i < s.length(); i++ ){
+            dfs(sb.append(s.charAt(i)), digits, pos + 1 , res );
+            sb.setLength(len);
         }
     }
 }
+```

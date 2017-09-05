@@ -1,3 +1,4 @@
+```
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
         if( nums == null || nums.length == 0 || target <= 0 ){
@@ -27,3 +28,5 @@ public class Solution {
         return map.get(sum);  
     }
 }
+
+```

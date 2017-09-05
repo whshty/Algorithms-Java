@@ -22,13 +22,13 @@ public class Solution {
             return 0;
         }
         Map<Integer,Integer> map = new HashMap<>();
-        map.put(0,1);
         helper(nums,map,target);
         return map.get(target);
     }
     
     private int helper(int[] nums, Map<Integer,Integer> map, int sum ){
         if( sum < 0 ) return 0;
+        if( sum == 0 ) return 1;
         if( map.containsKey(sum)) return map.get(sum);
         
         int res = 0;

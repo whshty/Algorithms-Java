@@ -1,3 +1,8 @@
+### Recursion 
+* If We can find left and right, return root
+* If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
+
+```
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if( root == null || root == p || root == q ) return root;
@@ -10,7 +15,11 @@ public class Solution {
         else return root;
     }
 }
+```
 
+Iteration
+
+```
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         Map<TreeNode, TreeNode> map = new HashMap<>();
@@ -38,3 +47,5 @@ public class Solution {
         return q;
     }
 }
+
+```

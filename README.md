@@ -48,7 +48,7 @@
 
 ### [Math](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math)
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/31.%20Next%20Permutation)
-* 65. Valid Number
+* [65. Valid Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/65.%20Valid%20Number)
 * [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 * [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 * [246. Strobogrammatic Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/246.%20Strobogrammatic%20Number)
@@ -58,8 +58,12 @@
 * [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/334.%20Increasing%20Triplet%20Subsequence)
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
 
-### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
+
+### Subarray Product
 * 152. Maximum Product Subarray
+
+### [Subarry](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray)
+
 * [209. Minimum Size Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/209.%20Minimum%20Size%20Subarray%20Sum)
 * [325. Maximum Size Subarray Sum Equals k](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/325.%20Maximum%20Size%20Subarray%20Sum%20Equals%20k)
 * [523. Continuous Subarray Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/523.%20Continuous%20Subarray%20Sum)

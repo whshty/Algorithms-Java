@@ -1,12 +1,5 @@
-# 215. Kth Largest Element in an Array 
-
-## Idea( brute force)
-* Sort and return kth
-
-## Time & Space 
+### Brute force
 * O(nlgn) + O(1)
-
-## Code
 
 ```
 public class Solution {
@@ -18,16 +11,11 @@ public class Solution {
 
 ```
 
-## Idea( min heap )
+### Min heap
 * Use a min head that will store the kth largest values;
 * Iterate over the whole input and  maintains the size of head 
+* O(n*lgk) running time + O(K) memory
 
-## Time & Space 
-* PQ is implemented as a binary heap
-* n time for heap's offer() and poll()
-* O(N lg K) running time + O(K) memory
-
-## Code 
 ```
 public class Solution {
     public int findKthLargest(int[] nums, int k) {

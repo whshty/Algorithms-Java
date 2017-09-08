@@ -68,25 +68,25 @@ i   j
 
 
 ```
-public class Solution {
+class Solution {
     public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
         int pos = quickSelect(nums, 0 , n - 1 , n- k + 1);
         return nums[pos];
     }
-    public int quickSelect(int[] a, int l , int r , int k){
-        int i = l , j = r , pivot = a[r];
+    public int quickSelect(int[] nums, int left , int right , int k){
+        int i = left , j = right , pivot = nums[right];
         while( i < j ){
-            if( a[i++] > pivot ){
-                swap(a,--i,--j);
+            if( nums[i++] > pivot ){
+                swap(nums,--i,--j);
             }
         }
-        swap(a,i,r);
+        swap(nums,i,right);
             
-        int pos = i - l + 1;
+        int pos = i - left + 1;
         if( pos == k) return i;
-        else if( pos > k ) return quickSelect(a,l,i-1,k);
-        else return quickSelect(a,i+1,r,k-pos);
+        else if( pos > k ) return quickSelect(nums,left,i-1,k);
+        else return quickSelect(nums,i+1,right,k-pos);
     }
     public void swap(int[] n, int i , int j){
         int temp = n[i];

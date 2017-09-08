@@ -32,21 +32,13 @@ public class Solution {
 
 ```
 
-## Idea ( quick select )
-* Quick select based on partiton method
-* Create a qucik select helper function and return the index of kth
+### Quick select )
 * put nums that are <= pivot to the left 
 * Put nums that are > pivot to the right
 * Count the nums that are smaller than pivot from start
 * If the count is k, return index 
-* Else quick select from left if the pivot is bigger 
-* Or qucik select from right if the pviot is smaller
-
-## Time
 * Average O(n)
 
-
-## Visulization 
 Set nums[right] as the pivot, set i = lo , j = hi
 Put all the numbers that are greater the pivot to the right
 
@@ -74,7 +66,6 @@ i   j
 
 ```
 
-## Code 
 
 ```
 public class Solution {

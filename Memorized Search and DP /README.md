@@ -1,5 +1,5 @@
-## Fibonacci
-### Brute Force
+### Fibonacci
+#### Brute Force
 * O(2^n)
 
 ```
@@ -58,7 +58,4 @@ class myCode {
 
 
 
-### 0/1 背包问题 （ Knapsack problem ）
-* 基本背包（最多拿一次）
-* 完全背包（可以拿无限次）
-* 多重背包（第i个可以拿n[i]）次
+### Knapsack Problem 

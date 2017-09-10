@@ -1,3 +1,5 @@
+
+```
 public class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         if( s.length() < 1 ) return 0;
@@ -29,3 +31,4 @@ public class Solution {
         return res;
     }
 }
+```

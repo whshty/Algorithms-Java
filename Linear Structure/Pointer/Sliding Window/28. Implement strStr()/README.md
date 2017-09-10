@@ -1,6 +1,8 @@
-// haystack abcdsda
-// needle bcd
-// res = 1
+* haystack abcdsda
+* needle bcd
+* res = 1
+
+```
 public class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.length()==0) return 0;
@@ -14,3 +16,4 @@ public class Solution {
         return -1;
     }
 }
+```

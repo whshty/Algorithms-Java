@@ -53,9 +53,4 @@ class myCode {
 }
 
 ```
-
-
-
-
-
 ### Knapsack Problem 

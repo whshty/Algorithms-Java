@@ -44,16 +44,10 @@ class Solution {
         
         Deque<Integer> deque = new ArrayDeque<>();
         for(int i = 0 ; i < len ; i++ ){
-            while( !deque.isEmpty()  && deque.peek() < i - k + 1 ){
-                deque.poll();
-            }
-            while( !deque.isEmpty() && n[deque.peekLast()] < n[i]){
-                deque.pollLast();
-            }
+            while( !deque.isEmpty()  && deque.peek() < i - k + 1 ) deque.poll(); // handle the case of k = 1 
+            while( !deque.isEmpty() && n[deque.peekLast()] < n[i]) deque.pollLast();
             deque.offer(i);
-            if( i >= k - 1 ){
-                res[index++] = n[deque.peek()];
-            }
+            if( i >= k - 1 ) res[index++] = n[deque.peek()];
         }
         return res;
     }

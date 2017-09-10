@@ -3,32 +3,30 @@ Two pointers
 
 ```
 public class Solution {
-    public String minWindow(String s, String t) {
-        if( s == null || t.length() > s.length()) return "";
-        int[] freq = new int[128];
+    public String minWindow(String s, String t) {   
+        if( s == null || s.length() == 0 || s.length() < t.length() ) return "";
+        int[] map = new int[128];
+        for( char ch : t.toCharArray()) map[ch]++;
+        
         int start = 0 , end = 0;
         int minStart = 0;
-        int count = t.length();
         int minLen = Integer.MAX_VALUE;
-        for( char c : t.toCharArray()) freq[c]++;
-
+        int count = t.length();
         
         while( end < s.length() ){
-            if(freq[s.charAt(end)] > 0 ) count--; // find the character
-            freq[s.charAt(end)]--;
+            if( map[s.charAt(end)]-- > 0 ) count--;
             end++;
             while( count == 0 ){
-                if( end - start < minLen ){
+                if( end - start < minLen){
                     minStart = start;
                     minLen = end - start;
                 }
-                freq[s.charAt(start)]++;
-                if( freq[s.charAt(start)] > 0 ) count++;
-                start++;
+                map[s.charAt(start)]++;
+                if( map[s.charAt(start++)] > 0 ) count++;
             }
-        }   
-        return (minLen==Integer.MAX_VALUE) ? "" : s.substring(minStart,minStart+minLen);
+        }
+        if( minLen == Integer.MAX_VALUE ) return "";
+        else return s.substring(minStart,minStart+minLen);
     }
 }
-
 ```

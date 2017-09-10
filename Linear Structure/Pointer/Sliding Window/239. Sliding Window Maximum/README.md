@@ -1,3 +1,6 @@
+### Sliding Window of Size k
+
+```
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {
         int[] input = new int[]{1,3,-1,-3,5,3,6,7};
@@ -27,9 +30,11 @@ class myCode {
     }
     
 }
+```
 
+### Deque
 
-
+```
 class Solution {
     public int[] maxSlidingWindow(int[] n, int k) {
         if( n == null || k <= 0 ) return new int[0];
@@ -53,3 +58,4 @@ class Solution {
         return res;
     }
 }
+```

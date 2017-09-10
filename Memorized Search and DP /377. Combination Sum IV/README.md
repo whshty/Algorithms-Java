@@ -39,8 +39,7 @@ public class Solution {
         
         int res = 0;
         for( int i = 0 ; i < nums.length ; i++ ){
-            if(map.containsKey(sum)) res += map.get(sum);
-            else res += helper(nums,map,sum - nums[i]);
+            res += helper(nums,map,sum - nums[i]);
         }
         map.put(sum,res);
         return map.get(sum);  

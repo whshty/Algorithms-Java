@@ -1,24 +1,21 @@
 public class Solution {
     public int numSquares(int n) {
-        int[] res = new int[n+1];
-        for( int i = 1 ; i <= n ; i++ ){
-            res[i] = Integer.MAX_VALUE;
-        }
-        return helper(res,n)[n];
+        if( n ==  1 ) return 1;
+        Map<Integer,Integer> map = new HashMap<>();
+        return dfs(n,map);
     }
-    public int[] helper(int[]res, int remain){
-        if( remain == 1 ){
-            res[1] = 1;
-            return res;
-        }
-        if( res[remain] < Integer.MAX_VALUE){
-            return res;
-        }
-        int k = (int)Math.sqrt(remain);
+    public int dfs(int n, Map<Integer,Integer> map){
+        if( n == 0 ) return 0;
+        if( n == 1 ) return 1;
+        if(map.containsKey(n)) return map.get(n);
+        int k = (int)Math.sqrt(n);
+        int min = Integer.MAX_VALUE;
         for( int i = 1; i <= k ; i++ ){
-            int temp = remain -  ( i * i );
-            res[remain] = Math.min(res[remain], 1 + helper(res,temp)[temp]);
+            int temp = n -  ( i * i );
+            int res = dfs(temp,map) +  1;
+            if( res >= 0 ) min = Math.min(min,res);
         }
-        return res;
+        map.put(n,min);
+        return map.get(n);
     }
 }

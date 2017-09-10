@@ -34,6 +34,15 @@
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
 
+###### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window)
+* [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+* [28. Implement strStr()](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/28.%20Implement%20strStr())
+* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/76.%20Minimum%20Window%20Substring)
+* [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
+* [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
+* [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
+
+
 ### [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String)
 * [68. Text Justification](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/68.%20Text%20Justification)
 
@@ -68,13 +77,7 @@
 * [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/525.%20Contiguous%20Array)
 * [560. Subarray Sum Equals K](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/560.%20Subarray%20Sum%20Equals%20K)
 
-### [Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window)
-* [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
-* [28. Implement strStr()](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/28.%20Implement%20strStr())
-* [76. Minimum Window Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/76.%20Minimum%20Window%20Substring)
-* [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
-* [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
-* [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
+
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
 

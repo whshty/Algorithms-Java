@@ -3,25 +3,25 @@ public class Solution {
         int[] res = new int[nums.length];
         int start = 0;
         int end = nums.length - 1;
-        int i = a >=0 ? nums.length - 1 : 0;
+        int index = a >= 0 ? nums.length - 1 : 0;
         while( start <= end ){
             int startNum = calculate(nums[start],a,b,c);
             int endNum = calculate(nums[end],a,b,c);
             if( a >= 0 ){
                 if(startNum >= endNum){
-                    res[i--] = startNum;
+                    res[index--] = startNum;
                     start++;
                 } else{
-                    res[i--] = endNum;
+                    res[index--] = endNum;
                     end--;
                 }
-            } else{
+            } else {
                 if(startNum <= endNum) {
-                    res[i++] = startNum;
+                    res[index++] = startNum;
                     start++;
                 }
                 else{
-                    res[i++] = endNum;
+                    res[index++] = endNum;
                     end--;
                 }
             }

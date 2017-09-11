@@ -28,12 +28,13 @@
 ###### [B. Pointers]()
 * [38. Count and Say]
 * [75. Sort Colors]
+* [88. Merge Sorted Array](
 
 
 ###### [A. General]()
-* [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
-* [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/151.%20Reverse%20Words%20in%20a%20String)
-* [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/161.%20One%20Edit%20Distance)
+
+
+
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/163.%20Missing%20Ranges)
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
@@ -53,7 +54,10 @@
 
 
 ### [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String)
+
 * [68. Text Justification](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/68.%20Text%20Justification)
+* 151. Reverse Words in a String
+* [161. One Edit Distance]
 
 ### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculationn)
 * [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/12.%20Integer%20to%20Roman)

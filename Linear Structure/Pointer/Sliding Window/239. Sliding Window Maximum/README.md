@@ -44,8 +44,10 @@ public class Solution {
         
         Deque<Integer> deque = new ArrayDeque<>();
         for(int i = 0 ; i < len ; i++ ){
-            // remove numbers out of range k
-            while( !deque.isEmpty() && deque.peek() < i - k + 1 ) deque.poll(); 
+            // window [(i-(k-1)),i]
+            // remove numbers out of range k 
+            int start = i - ( k - 1 );
+            while( !deque.isEmpty() && deque.peek() < start   ) deque.poll(); 
             // remove smaller numbers in k range as they are useless
             while( !deque.isEmpty() && n[deque.peekLast()] < n[i]) deque.pollLast(); 
             deque.offer(i);

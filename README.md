@@ -22,16 +22,16 @@
 
 ### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer)
 ###### [A. Single pointer]()
-* 26. Remove Duplicates from Sorted Array
-* [80. Remove Duplicates from Sorted Array II]
-* [163. Missing Ranges]
-* 283. Move Zeroes
+* [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
+* [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
+* [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/163.%20Missing%20Ranges)
+* [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/283.%20Move%20Zeroes)
 
 ###### [B. Pointers]()
-* [38. Count and Say]
-* [75. Sort Colors]
-* [88. Merge Sorted Array]
-* 360. Sort Transformed Array
+* [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/38.%20Count%20and%20Say)
+* [75. Sort Colors](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/75.%20Sort%20Colors)
+* [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/88.%20Merge%20Sorted%20Array)
+* [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/360.%20Sort%20Transformed%20Array)
 
 
 ###### [C. Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome)
@@ -50,8 +50,8 @@
 ### [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String)
 
 * [68. Text Justification](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/68.%20Text%20Justification)
-* 151. Reverse Words in a String
-* 161. One Edit Distance
+* [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/151.%20Reverse%20Words%20in%20a%20String)
+* [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/161.%20One%20Edit%20Distance)
 
 ### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculationn)
 * [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/String/Calculation/12.%20Integer%20to%20Roman)
@@ -59,7 +59,7 @@
 * [66. Plus One](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/66.%20Plus%20One)
 * [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/273.%20Integer%20to%20English%20Words)
-* 415. Add Strings
+* [415. Add Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/415.%20Add%20Strings)
 
 ### [Math](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math)
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/31.%20Next%20Permutation)

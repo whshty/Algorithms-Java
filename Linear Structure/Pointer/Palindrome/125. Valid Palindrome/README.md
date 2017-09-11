@@ -1,3 +1,4 @@
+```
 public class Solution {
     public boolean isPalindrome(String s) {
         if( s.isEmpty() ) return true;
@@ -17,3 +18,4 @@ public class Solution {
         return true;
     }
 }
+```

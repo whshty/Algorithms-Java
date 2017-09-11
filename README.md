@@ -28,7 +28,6 @@
 * [75. Sort Colors](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/75.%20Sort%20Colors)
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
-
 * [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/161.%20One%20Edit%20Distance)
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/163.%20Missing%20Ranges)
@@ -38,7 +37,7 @@
 
 ###### [A. Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome)
 * [5. Longest Palindromic Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome/5.%20Longest%20Palindromic%20Substring)
-* 125. Valid Palindrome
+* [125. Valid Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome/125.%20Valid%20Palindrome)
 
 ###### [B. Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window)
 * [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)

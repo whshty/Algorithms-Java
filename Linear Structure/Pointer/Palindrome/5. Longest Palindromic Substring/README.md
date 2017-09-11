@@ -1,3 +1,4 @@
+```
 public class Solution {
     public String longestPalindrome(String s) {
         int start = 0;
@@ -21,3 +22,5 @@ public class Solution {
         return end - start - 1;
     }
 }
+
+```

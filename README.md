@@ -22,18 +22,23 @@
 
 ### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer)
 ###### [A. General]()
-* [5. Longest Palindromic Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/5.%20Longest%20Palindromic%20Substring)
+
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [75. Sort Colors](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/75.%20Sort%20Colors)
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure)
-* [125. Valid Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
+
 * [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/161.%20One%20Edit%20Distance)
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/163.%20Missing%20Ranges)
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/283.%20Move%20Zeroes)
+
+
+###### A. Palindrome
+* 5. Longest Palindromic Substring
+* 125. Valid Palindrome
 
 ###### [B. Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window)
 * [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)

@@ -1,3 +1,6 @@
+### Queue
+
+```
 public class Solution {
     public List<String> removeInvalidParentheses(String s) {
         List<String> res = new ArrayList<>();
@@ -37,3 +40,4 @@ public class Solution {
         return count == 0;
     }
 }
+```

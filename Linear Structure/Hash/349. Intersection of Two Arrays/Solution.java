@@ -8,7 +8,7 @@ public class Solution {
         }
         
         for( int num : nums2 ){
-            if( set.contains(num)){
+            if( set.contains(num)){ 
                 intersection.add(num);
             }
         }

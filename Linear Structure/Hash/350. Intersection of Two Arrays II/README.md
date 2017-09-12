@@ -1,3 +1,6 @@
+### HashMap
+
+```
 public class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -19,8 +22,11 @@ public class Solution {
         return res;
     }
 }
+```
 
+### Follow Up (Sorted Input) - Two Pointer
 
+```
 public class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
@@ -44,3 +50,4 @@ public class Solution {
         return res;
     }
 }
+```

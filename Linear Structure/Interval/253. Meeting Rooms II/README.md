@@ -44,3 +44,23 @@ public class Solution {
     }
 }
 ```
+
+
+### TreeMap
+
+```
+class Solution {
+    public int minMeetingRooms(Interval[] intervals) {
+        Map<Integer,Integer> map = new TreeMap<Integer,Integer>();
+        for(Interval i : intervals){
+            map.put(i.start,map.getOrDefault(i.start,0)+1);
+            map.put(i.end,map.getOrDefault(i.end,0)-1);
+        }
+        int count = 0 , curRoom = 0;
+        for( int i : map.keySet()){
+            count = Math.max(count,curRoom += map.get(i));
+        }
+        return count;
+    }
+}
+```

@@ -110,8 +110,8 @@
 ### [Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval)
 * [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/56.%20Merge%20Intervals)
 * [57. Insert Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/57.%20Insert%20Interval)
-* 252. Meeting Rooms
-* 253. Meeting Rooms II
+* [252. Meeting Rooms](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/252.%20Meeting%20Rooms)
+* [253. Meeting Rooms II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Interval/253.%20Meeting%20Rooms%20II/Solution.java)
 
 ### [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/Expression%20Evaluation)

@@ -1,3 +1,4 @@
+```
 public class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         int[] start = new int[intervals.length];
@@ -17,8 +18,10 @@ public class Solution {
         return count;
     }
 }
+```
 
 
+```
 public class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         if ( intervals == null || intervals.length == 0) return 0;
@@ -34,3 +37,4 @@ public class Solution {
         return minHeap.size();
     }
 }
+```

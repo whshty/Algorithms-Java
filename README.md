@@ -25,6 +25,7 @@
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/163.%20Missing%20Ranges)
+* [189. Rotate Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/189.%20Rotate%20Array)
 * [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/283.%20Move%20Zeroes)
 
 ###### [B. Pointers]()

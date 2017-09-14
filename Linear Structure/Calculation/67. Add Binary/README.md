@@ -1,14 +1,6 @@
-# 67. Add Binary
-## Idea 
 * Count from end to start, then reverse
 * Use carry to mark the extra value of the next position
 
-
-## Follow - up 
-* Add Decimal
-
-
-## Code 
 ```
 public class Solution {
     public String addBinary(String a, String b) {
@@ -38,7 +30,10 @@ public class Solution {
     }
 }
 
+```
+### Follow - Up (Add Decimal)
 
+```
 import java.io.*;
 
 class myCode {
@@ -73,3 +68,4 @@ class myCode {
 }
 
 ```
+

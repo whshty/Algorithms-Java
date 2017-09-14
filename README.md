@@ -58,7 +58,7 @@
 * [13. Roman to Integer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/13.%20Roman%20to%20Integer)
 * [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
 * [66. Plus One](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/66.%20Plus%20One)
-* [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
+* [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/67.%20Add%20Binary)
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/273.%20Integer%20to%20English%20Words)
 * [415. Add Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/415.%20Add%20Strings)
 

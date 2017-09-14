@@ -1,3 +1,6 @@
+### DFS
+
+```
 public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -30,8 +33,11 @@ public class Solution {
         a[j] = temp;
     }
 }
+```
 
+### BFS
 
+```
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         Set<List<Integer>> res = new HashSet<>();
@@ -57,3 +63,5 @@ class Solution {
         return new ArrayList<>(res);
     }
 }
+
+```

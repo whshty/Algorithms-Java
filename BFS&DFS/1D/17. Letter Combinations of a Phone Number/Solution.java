@@ -6,7 +6,7 @@ class Solution {
         String[] keys = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         char[] nums = digits.toCharArray();
         for(int i = 0 ;i < nums.length ; i++){
-            int num = Character.getNumericValue(nums[i]);
+            int num = nums[i] - '0';
             List<String> list = new ArrayList<>();
             String cur = keys[num];
             for( int j = 0 ; j < cur.length(); j++ ){

@@ -19,14 +19,15 @@
 * [170. Two Sum III - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/170.%20Two%20Sum%20III%20-%20Data%20structure%20design)
 * [259. 3Sum Smaller](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/259.%203Sum%20Smaller)
 
+### Scan and Search
+* 26. Remove Duplicates from Sorted Array
+* 80. Remove Duplicates from Sorted Array II
+* 163. Missing Ranges
+* 189. Rotate Array
+* 670. Maximum Swap
+* 674. Longest Continuous Increasing Subsequence
+
 ### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer)
-###### [A. Single pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer)
-* [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
-* [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
-* [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/163.%20Missing%20Ranges)
-* [189. Rotate Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/189.%20Rotate%20Array)
-* [283. Move Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/283.%20Move%20Zeroes)
-* [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Single%20Pointer/674.%20Longest%20Continuous%20Increasing%20Subsequence)
 
 ###### [B. Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers)
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/38.%20Count%20and%20Say)

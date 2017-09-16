@@ -2,17 +2,17 @@
 ```
 public class Solution {
     public boolean isMatch(String s, String p) {
-        return dfs(s.toCharArray(), p.toCharArray(), 0, 0);
+        return dfs(s, p , 0, 0);
     }
-    private boolean dfs(char[] s, char[] p, int i, int j) {
-        if (j == p.length) return i == s.length;
+    private boolean dfs(String s, String p, int i, int j) {
+        if (j == p.length()) return i == s.length();
           
-        if (j == p.length - 1 || p[j + 1] != '*') {
-            if ( i < s.length && (s[i] == p[j] || p[j] == '.')) return dfs(s,p, i + 1, j + 1);
+        if (j == p.length() - 1 || p.charAt(j + 1) != '*') {
+            if ( i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) return dfs(s,p, i + 1, j + 1);
             else return false;
         }
         else {
-            while (i < s.length && (s[i] == p[j] || p[j] == '.')) {
+            while (i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
                 if (dfs(s, p, i, j + 2)) return true;
                 i++;
             }

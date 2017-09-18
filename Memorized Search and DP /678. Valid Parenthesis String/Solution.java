@@ -30,3 +30,17 @@ class Solution {
         return count == 0;
     }
 }
+
+
+class Solution {
+    public boolean checkValidString(String s) {
+       int start = 0, end = 0;
+       for (char c: s.toCharArray()) {
+           start += c == '(' ? 1 : -1;
+           end += c == ')' ? -1 : 1;
+           if ( end < 0) break;
+           start = Math.max(start, 0);
+       }
+       return start == 0;
+    }
+}

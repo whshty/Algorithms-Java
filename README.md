@@ -39,7 +39,7 @@
 ###### [B. Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome)
 * [5. Longest Palindromic Substring](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome/5.%20Longest%20Palindromic%20Substring)
 * [125. Valid Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome/125.%20Valid%20Palindrome)
-* 680. Valid Palindrome II
+* [680. Valid Palindrome II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Pointer/Palindrome/680.%20Valid%20Palindrome%20II/Solution.java)
 
 ###### [C. Sliding Window](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window)
 * [3. Longest Substring Without Repeating Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/3.%20Longest%20Substring%20Without%20Repeating%20Characters)
@@ -284,7 +284,7 @@
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/416.%20Partition%20Equal%20Subset%20Sum)
 * [518. Coin Change 2](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/518.%20Coin%20Change%202)
-* 678. Valid Parenthesis String
+* [678. Valid Parenthesis String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/678.%20Valid%20Parenthesis%20String)
 
 
 # [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
@@ -304,7 +304,7 @@
 * [157. Read N Characters Given Read4](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/157.%20Read%20N%20Characters%20Given%20Read4)
 * [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/380.%20Insert%20Delete%20GetRandom%20O(1))
-* 677. Map Sum Pairs
+* [677. Map Sum Pairs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/677.%20Map%20Sum%20Pairs)
 
 
 # [Java Concept](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept)

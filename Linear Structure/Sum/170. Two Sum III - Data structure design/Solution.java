@@ -1,8 +1,12 @@
-public class TwoSum {
-    List<Integer> list = new ArrayList<Integer>();
-    HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
-
-    // Add the number to an internal data structure.
+class TwoSum {
+    List<Integer> list;
+    HashMap<Integer, Integer> map;
+    /** Initialize your data structure here. */
+    public TwoSum() {
+        list = new ArrayList<Integer>();
+        map = new HashMap<Integer, Integer>();
+    }
+    
 	public void add(int number) {
         if(!map.containsKey(number)) list.add(number);
         map.put(number, map.getOrDefault(number,0) + 1);

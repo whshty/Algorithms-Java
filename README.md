@@ -24,14 +24,17 @@
 * [80. Remove Duplicates from Sorted Array II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II)
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/163.%20Missing%20Ranges)
 * [189. Rotate Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
-* 392. Is Subsequence
+* [392. Is Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/392.%20Is%20Subsequence)
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
+
+### Track Previous Value
+* [38. Count and Say]()
+
 
 ### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer)
 
 ###### [A. Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers)
-* [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/38.%20Count%20and%20Say)
 * [75. Sort Colors](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/75.%20Sort%20Colors)
 * [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/88.%20Merge%20Sorted%20Array)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/360.%20Sort%20Transformed%20Array)

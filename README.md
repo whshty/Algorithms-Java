@@ -62,26 +62,12 @@
 * [468. Validate IP Address](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/468.%20Validate%20IP%20Address)
 
 ### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation)
-* [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
-* [13. Roman to Integer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/13.%20Roman%20to%20Integer)
+
 * [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
 * [66. Plus One](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/66.%20Plus%20One)
 * [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/67.%20Add%20Binary)
-* [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/273.%20Integer%20to%20English%20Words)
+
 * [415. Add Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/415.%20Add%20Strings)
-
-### [Math](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math)
-* [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/31.%20Next%20Permutation)
-* [65. Valid Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/65.%20Valid%20Number)
-* [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
-* [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
-* [246. Strobogrammatic Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/246.%20Strobogrammatic%20Number)
-* [247. Strobogrammatic Number II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/247.%20Strobogrammatic%20Number%20II)
-* [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/277.%20Find%20the%20Celebrity)
-* [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/311.%20Sparse%20Matrix%20Multiplication)
-* [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/334.%20Increasing%20Triplet%20Subsequence)
-* [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
-
 
 ### [Subarray Product](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product)
 * [152. Maximum Product Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/152.%20Maximum%20Product%20Subarray)
@@ -94,6 +80,20 @@
 * [525. Contiguous Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/525.%20Contiguous%20Array)
 * [560. Subarray Sum Equals K](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray/560.%20Subarray%20Sum%20Equals%20K)
 
+### Other
+* [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
+* [13. Roman to Integer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/13.%20Roman%20to%20Integer)
+* [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/31.%20Next%20Permutation)
+* [65. Valid Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/65.%20Valid%20Number)
+* [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+* [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
+* [246. Strobogrammatic Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/246.%20Strobogrammatic%20Number)
+* [247. Strobogrammatic Number II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/247.%20Strobogrammatic%20Number%20II)
+* [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/273.%20Integer%20to%20English%20Words)
+* [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/277.%20Find%20the%20Celebrity)
+* [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/311.%20Sparse%20Matrix%20Multiplication)
+* [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/334.%20Increasing%20Triplet%20Subsequence)
+* [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
 
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)

@@ -31,6 +31,10 @@
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
 
+
+* [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/334.%20Increasing%20Triplet%20Subsequence)
+* [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
+
 ### [Track Previous Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Track%20Previous%20Value)
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Track%20Previous%20Value/38.%20Count%20and%20Say)
 
@@ -70,7 +74,7 @@
 * [66. Plus One](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/66.%20Plus%20One)
 * [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/67.%20Add%20Binary)
 * [415. Add Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/415.%20Add%20Strings)
-* [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/311.%20Sparse%20Matrix%20Multiplication)
+* [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/311.%20Sparse%20Matrix%20Multiplication)
 
 ### [Subarray Product](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product)
 * [152. Maximum Product Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/152.%20Maximum%20Product%20Subarray)
@@ -93,8 +97,7 @@
 
 
 
-* [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/334.%20Increasing%20Triplet%20Subsequence)
-* [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Math/621.%20Task%20Scheduler)
+
 
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)

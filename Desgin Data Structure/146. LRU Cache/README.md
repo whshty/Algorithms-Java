@@ -1,3 +1,5 @@
+### Double Linked List + HashMap
+```
 class LRUCache {
     HashMap<Integer,Node> map;
     int CAP, count;
@@ -74,9 +76,10 @@ class Node{
         this.value = value;
     }
 }
-
-
-// Use LinkedHashMap
+```
+ 
+### LinkedHashMap
+```
 
 class LRUCache {
     Map<Integer,Integer> map;
@@ -107,6 +110,6 @@ class LRUCache {
         map.put(key,value);
     }
 }
-
+```
 
 

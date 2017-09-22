@@ -263,7 +263,7 @@
 
 # [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 ### [Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal)
-* Check Bipartite Graph
+* [Check Bipartite Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/Check%20Bipartite%20Graph)
 * [127. Word Ladder](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/127.%20Word%20Ladder)
 * [133. Clone Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/133.%20Clone%20Graph)
 * [323. Number of Connected Components in an Undirected Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph)

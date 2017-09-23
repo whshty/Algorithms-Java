@@ -35,6 +35,7 @@
 
 
 ### [Track Previous Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Track%20Previous%20Value)
+* Run Length Encoding
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Track%20Previous%20Value/38.%20Count%20and%20Say)
 
 

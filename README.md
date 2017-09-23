@@ -27,6 +27,7 @@
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/163.%20Missing%20Ranges)
 * [189. Rotate Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
 * [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/277.%20Find%20the%20Celebrity)
+* 228. Summary Ranges
 * [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/334.%20Increasing%20Triplet%20Subsequence)
 * [392. Is Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/392.%20Is%20Subsequence)
 * 561. Array Partition I

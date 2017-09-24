@@ -137,6 +137,7 @@
 * [225. Implement Stack using Queues](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues)
 * [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [636. Exclusive Time of Functions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/636.%20Exclusive%20Time%20of%20Functions)
+* 682. Baseball Game
 
 
 

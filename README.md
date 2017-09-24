@@ -192,7 +192,7 @@
 * [104. Maximum Depth of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/104.%20Maximum%20Depth%20of%20Binary%20Tree)
 * [110. Balanced Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/110.%20Balanced%20Binary%20Tree)
 * [114. Flatten Binary Tree to Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List)
-* 124. Binary Tree Maximum Path Sum
+* [124. Binary Tree Maximum Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/124.%20Binary%20Tree%20Maximum%20Path%20Sum)
 * [156. Binary Tree Upside Down](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/156.%20Binary%20Tree%20Upside%20Down)
 * [226. Invert Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/226.%20Invert%20Binary%20Tree)
 * [250. Count Univalue Subtrees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/250.%20Count%20Univalue%20Subtrees)

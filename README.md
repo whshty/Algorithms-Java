@@ -137,7 +137,7 @@
 * [225. Implement Stack using Queues](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues)
 * [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [636. Exclusive Time of Functions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/636.%20Exclusive%20Time%20of%20Functions)
-* 682. Baseball Game
+* [682. Baseball Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/682.%20Baseball%20Game)
 
 
 
@@ -234,7 +234,8 @@
 * [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
 
-
+# TreeSet
+* 683. K Empty Slots
 
 
 # [DFS and BFS](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS)

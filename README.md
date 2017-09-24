@@ -5,6 +5,7 @@
 ### [Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort)
 * [Qucik Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/Qucik%20Sort)
 * Merge Sort
+* Insertion Sort
 * Cycle Sort
 * [164. Maximum Gap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/164.%20Maximum%20Gap)
 * [215. Kth Largest Element in an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sort/215.%20Kth%20Largest%20Element%20in%20an%20Array)

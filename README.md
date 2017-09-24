@@ -234,9 +234,11 @@
 * [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
 
-# TreeSet
-* 683. K Empty Slots
+# [TreeSet](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet)
+* [683. K Empty Slots](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet/683.%20K%20Empty%20Slots)
 
+
+# Union Find
 
 # [DFS and BFS](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS)
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D)

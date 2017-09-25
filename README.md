@@ -327,6 +327,7 @@
 * [157. Read N Characters Given Read4](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/157.%20Read%20N%20Characters%20Given%20Read4)
 * [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/380.%20Insert%20Delete%20GetRandom%20O(1))
+* 384. Shuffle an Array
 * [677. Map Sum Pairs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/677.%20Map%20Sum%20Pairs)
 
 

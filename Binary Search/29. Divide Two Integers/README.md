@@ -1,3 +1,4 @@
+```
 class Solution {
     public int divide(int a, int b) {
         if( a == 0) return 0;
@@ -6,7 +7,13 @@ class Solution {
         return a / b;
     }
 }
+```
 
+整数近似除法：32/3 = 10
+
+显然求近似除法可以用乘法来二分查找：32 ~ 3*10 = 3*[1*(2^3) + 0*(2^2) + 1*(2^1) + 0*(2^0)]
+
+```
 
 class Solution {
     public int divide(int a, int b) {
@@ -31,6 +38,9 @@ class Solution {
         return res * sign;
     }
 }
+```
+
+```
 
 class Solution {
     public int divide(int a, int b) {
@@ -54,3 +64,4 @@ class Solution {
         return res*sign;
     }
 }
+```

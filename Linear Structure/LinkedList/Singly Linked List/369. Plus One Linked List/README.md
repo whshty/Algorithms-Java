@@ -1,11 +1,4 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
+```
 public class Solution {
     public ListNode plusOne(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -25,3 +18,4 @@ public class Solution {
         return dummy.val == 1 ? dummy : dummy.next;
     }
 }
+```

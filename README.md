@@ -69,6 +69,7 @@
 * [68. Text Justification](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/68.%20Text%20Justification)
 * [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/161.%20One%20Edit%20Distance)
+* [214. Shortest Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/214.%20Shortest%20Palindrome)
 * [468. Validate IP Address](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/468.%20Validate%20IP%20Address)
 
 ### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation)
@@ -76,7 +77,6 @@
 * [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/12.%20Integer%20to%20Roman)
 * [66. Plus One](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/66.%20Plus%20One)
 * [67. Add Binary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/67.%20Add%20Binary)
-* 214. Shortest Palindrome
 * [415. Add Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/415.%20Add%20Strings)
 * [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation/311.%20Sparse%20Matrix%20Multiplication)
 
@@ -325,7 +325,7 @@
 * [146. LRU Cache](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/146.%20LRU%20Cache)
 * [157. Read N Characters Given Read4](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/157.%20Read%20N%20Characters%20Given%20Read4)
 * [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)
-* 348. Design Tic-Tac-Toe
+* [348. Design Tic-Tac-Toe](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/348.%20Design%20Tic-Tac-Toe)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/380.%20Insert%20Delete%20GetRandom%20O(1))
 * [384. Shuffle an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/384.%20Shuffle%20an%20Array)
 * [677. Map Sum Pairs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/677.%20Map%20Sum%20Pairs)

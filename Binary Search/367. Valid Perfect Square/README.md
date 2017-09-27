@@ -1,3 +1,4 @@
+```
 public class Solution {
     public boolean isPerfectSquare(int num) {
         if( num < 1 ) return false;
@@ -13,3 +14,4 @@ public class Solution {
         return false;
     }
 }
+```

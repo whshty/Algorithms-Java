@@ -36,7 +36,7 @@
 * [392. Is Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/392.%20Is%20Subsequence)
 * [561. Array Partition I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/561.%20Array%20Partition%20I)
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/621.%20Task%20Scheduler)
-* [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
+* [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Scan%20and%20Search/670.%20Maximum%20Swap/Solution.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
 
 

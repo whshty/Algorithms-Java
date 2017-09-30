@@ -1,3 +1,4 @@
+```
 public class Solution {
     public int[] findOrder(int numCourses, int[][] pre) {
         if( numCourses == 0 ) return null;
@@ -47,3 +48,4 @@ public class Solution {
         return map;
     }
 }
+```

@@ -1,3 +1,6 @@
+### Recursion : Successor 
+
+```
 class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;
@@ -11,8 +14,32 @@ class Solution {
         }
     }
 }
+```
+
+### Recursion : Predecessor
+
+```
+class Solution {
+    public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+        TreeNode res = null;
+        if( root == null ) return res;
+        if( root.val >= p.val ){
+            return inorderSuccessor(root.left,p);
+        } else {
+            res = inorderSuccessor(root.right,p);
+            if( res == null ) return root;
+            else return res;
+        }
+    }
+}
 
 
+```
+
+
+### Iteration : Successor
+
+```
 public class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;
@@ -28,3 +55,4 @@ public class Solution {
         return res;
     }
 }
+```

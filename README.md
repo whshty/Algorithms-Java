@@ -158,6 +158,9 @@
 * [367. Valid Perfect Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/367.%20Valid%20Perfect%20Square)
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 
+# [Divide and Conquer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Divide%20and%20Conquer)
+* [50. Pow(x, n)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Divide%20and%20Conquer/50.%20Pow(x%2C%20n))
+
 
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

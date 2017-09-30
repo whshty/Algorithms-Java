@@ -1,7 +1,7 @@
 class Solution {
     public List<Interval> merge(List<Interval> list) {
         List<Interval> res = new ArrayList<>();
-        if( list.size() == 0 ) return res;
+        if( list == null || list.size() == 0 ) return res;
         if( list.size() == 1 ) return list;
         list.sort((a, b) -> Integer.compare(a.start, b.start));
         
@@ -9,6 +9,7 @@ class Solution {
         int end = list.get(0).end;
         
         for( Interval i : list ){
+            // [1,3],[2,6]
             if( i.start <= end ){
                 end = Math.max(end,i.end);
             } else {
@@ -21,5 +22,4 @@ class Solution {
 
         return res; 
     }
-}
 }

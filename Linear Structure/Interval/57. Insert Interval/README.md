@@ -1,3 +1,4 @@
+```
 class Solution {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         List<Interval> res = new LinkedList<>();
@@ -19,3 +20,4 @@ class Solution {
         return res;
     }
 }
+```

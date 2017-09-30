@@ -3,10 +3,7 @@ public class Solution {
         if( numCourses == 0 ) return null;
         // // Convert graph presentation from edges to indegree of adjacent list.      
         int indegree[] = new int[numCourses];
-        Map<Integer,Set<Integer>> map = getAdjacencLists(pre);
-        
-        System.out.println(map);
-        
+        Map<Integer,Set<Integer>> map = getAdjacencLists(pre);    
         int[] res = new int[numCourses];
        
         for( int i = 0 ; i < pre.length; i++) indegree[pre[i][0]]++; 

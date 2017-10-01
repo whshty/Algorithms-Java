@@ -21,7 +21,8 @@ class Solution {
 ```
 
 
-### Memoization DFS O(n) 
+### Memoization DFS 
+* O(2^n) worst case :111111, every digit visit twice 
 
 ```
 class Solution {

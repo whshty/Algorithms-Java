@@ -1,3 +1,5 @@
+### Ordered, Write : O(n)
+```
 public class Solution {
     public void moveZeroes(int[] nums) {
         if( nums == null || nums.length == 0 ) return;
@@ -14,7 +16,10 @@ public class Solution {
     }
 }
 
-// two pointers and minium writes
+```
+
+### Two Pointers, Unordered and  Minium Writes
+```
 class Solution {
     public void moveZeroes(int[] nums) {
         int start = 0 , end = nums.length -1;
@@ -35,6 +40,7 @@ class Solution {
                 end--;
             }
         }
+        // return left;
     }
     public void swap(int[] nums, int i , int j ){
         int temp = nums[i];
@@ -42,3 +48,5 @@ class Solution {
         nums[j] = temp;
     }
 }
+
+```

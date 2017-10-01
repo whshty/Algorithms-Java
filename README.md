@@ -34,7 +34,7 @@
 * [228. Summary Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/228.%20Summary%20Ranges)
 * [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/334.%20Increasing%20Triplet%20Subsequence)
 * [392. Is Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/392.%20Is%20Subsequence)
-* 451. Sort Characters By Frequency
+* [451. Sort Characters By Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/451.%20Sort%20Characters%20By%20Frequency)
 * [561. Array Partition I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/561.%20Array%20Partition%20I)
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/621.%20Task%20Scheduler)
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Scan%20and%20Search/670.%20Maximum%20Swap/Solution.java)
@@ -48,7 +48,7 @@
 ### [Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer)
 
 ###### [A. Pointers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers)
-* [Swap Once For Ascending Order]
+* [Swap Once For Ascending Order](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/Swap%20Once%20For%20Ascending%20Order)
 * [75. Sort Colors](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/75.%20Sort%20Colors)
 * [88. Merge Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/88.%20Merge%20Sorted%20Array)
 * [360. Sort Transformed Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Pointers/360.%20Sort%20Transformed%20Array)
@@ -77,7 +77,7 @@
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/161.%20One%20Edit%20Distance)
 * [214. Shortest Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/214.%20Shortest%20Palindrome)
 * [468. Validate IP Address](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/468.%20Validate%20IP%20Address)
-* 686. Repeated String Match
+* [686. Repeated String Match](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/686.%20Repeated%20String%20Match)
 
 ### [Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Calculation)
 
@@ -149,7 +149,7 @@
 
 
 # [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
-* Run Length Encoding
+* [Run Length Encoding](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Run%20Length%20Encoding)
 * [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/69.%20Sqrt(x))
@@ -214,6 +214,7 @@
 * [543. Diameter of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/543.%20Diameter%20of%20Binary%20Tree)
 * [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
 * [572. Subtree of Another Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/572.%20Subtree%20of%20Another%20Tree)
+* [687. Longest Univalue Path](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Bottom-Up/687.%20Longest%20Univalue%20Path/Solution.java)
 
 
 ### [Top-Down&Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up)

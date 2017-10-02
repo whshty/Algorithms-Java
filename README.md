@@ -115,6 +115,7 @@
 
 ##### [A. Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List)
 * [Print Linked List Reversely](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/Print%20Linked%20List%20Reversely)
+* Flatten A Multilevel LinkedList
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
 * [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)

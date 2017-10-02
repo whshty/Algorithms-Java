@@ -20,6 +20,21 @@ class Solution {
 
 ### DP
 
+###### Time  : O(n^2)
+
+```
+s = "facebook"
+words = ["face" , "book"]
+dp
+0 1 2 3 4 5 6 7 8 
+t       t       t   
+  f a c e 
+         b o o k 
+```
+
+dp[i] is true if ther a word in the dictionary that end at ith of s adnd is also true at the beginning of the word
+
+
 ```
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {

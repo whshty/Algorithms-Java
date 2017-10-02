@@ -337,7 +337,7 @@
 * [Design HashMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/Implement%20Hash%20Map)
 * [146. LRU Cache](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/146.%20LRU%20Cache)
 * [157. Read N Characters Given Read4](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/157.%20Read%20N%20Characters%20Given%20Read4)
-* [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)
+* [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)
 * [348. Design Tic-Tac-Toe](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/348.%20Design%20Tic-Tac-Toe)
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20API/380.%20Insert%20Delete%20GetRandom%20O(1))
 * [384. Shuffle an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/384.%20Shuffle%20an%20Array)

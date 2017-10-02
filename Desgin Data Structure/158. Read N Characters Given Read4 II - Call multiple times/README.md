@@ -1,3 +1,4 @@
+```
 public class Solution extends Reader4 {
     // store the data received in previous calls
     private int pointer = 0;
@@ -23,3 +24,4 @@ public class Solution extends Reader4 {
         return index;
     }
 }
+```

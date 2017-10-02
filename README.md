@@ -89,7 +89,7 @@
 
 ### [Subarray Product](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product)
 * [152. Maximum Product Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/152.%20Maximum%20Product%20Subarray)
-* 238. Product of Array Except Self
+* [238. Product of Array Except Self](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/238.%20Product%20of%20Array%20Except%20Self)
 
 ### [Subarry Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Sum)
 
@@ -115,7 +115,7 @@
 
 ##### [A. Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List)
 * [Print Linked List Reversely](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/Print%20Linked%20List%20Reversely)
-* Flatten A Multilevel LinkedList
+* [Flatten A Multilevel LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/Flatten%20A%20Multilevel%20LinkedList)
 * [21. Merge Two Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/21.%20Merge%20Two%20Sorted%20Lists)
 * [25. Reverse Nodes in k-Group](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
 * [82. Remove Duplicates from Sorted List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/25.%20Reverse%20Nodes%20in%20k-Group)
@@ -152,7 +152,7 @@
 
 # [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
 * [Run Length Encoding](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Run%20Length%20Encoding)
-* Search Frequency
+* [Search Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Search%20Frequency)
 * [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * [69. Sqrt(x)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/69.%20Sqrt(x))

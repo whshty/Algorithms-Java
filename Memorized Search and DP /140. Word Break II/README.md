@@ -1,4 +1,6 @@
 ### Memo DFS
+###### Time: O(2^n)
+###### Space: O(n)
 
 ```
 public class Solution {

@@ -264,6 +264,7 @@
 * [40. Combination Sum II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/40.%20Combination%20Sum%20II)
 * [46. Permutations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/46.%20Permutations)
 * [47. Permutations II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/47.%20Permutations%20II)
+* 51. N-Queens
 * [77. Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/77.%20Combinations)
 * [78. Subsets](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/78.%20Subsets)
 * [90. Subsets II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/90.%20Subsets%20II)

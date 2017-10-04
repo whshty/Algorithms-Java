@@ -7,13 +7,15 @@ class Solution {
         long a = Math.abs((long)numerator);
         long b = Math.abs((long)denominator);
         
+        // Integer
         sb.append( a / b);
         a %= b;
         if ( a == 0)  return sb.toString();
         
+        // Double
         sb.append(".");
         HashMap<Long, Integer> map = new HashMap<Long, Integer>();
-        map.put(a, sb.length());
+        map.put( a, sb.length());
         
         while (a != 0) {
             a *= 10;

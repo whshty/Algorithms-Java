@@ -234,6 +234,7 @@
 * [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
 * 617. Merge Two Binary Trees
 * [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
+* 671. Second Minimum Node In a Binary Tree
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)

@@ -283,6 +283,7 @@
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [36. Valid Sudoku](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/36.%20Valid%20Sudoku)
 * [73. Set Matrix Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/73.%20Set%20Matrix%20Zeroes)
+* 79. Word Search
 * [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/200.%20Number%20of%20Islands)
 * [289. Game of Life](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/289.%20Game%20of%20Life)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)

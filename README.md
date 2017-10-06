@@ -37,6 +37,7 @@
 * [392. Is Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/392.%20Is%20Subsequence)
 * [451. Sort Characters By Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/451.%20Sort%20Characters%20By%20Frequency)
 * [561. Array Partition I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/561.%20Array%20Partition%20I)
+* 640. Solve the Equation
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/621.%20Task%20Scheduler)
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Scan%20and%20Search/670.%20Maximum%20Swap/Solution.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
@@ -319,6 +320,7 @@
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [279. Perfect Squares](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/279.%20Perfect%20Squares)
+* 304. Range Sum Query 2D - Immutable
 * 309. Best Time to Buy and Sell Stock with Cooldown
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/322.%20Coin%20Change  )
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)

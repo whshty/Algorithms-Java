@@ -233,9 +233,9 @@
 * [298. Binary Tree Longest Consecutive Sequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/298.%20Binary%20Tree%20Longest%20Consecutive%20Sequence)
 * [501. Find Mode in Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/501.%20Find%20Mode%20in%20Binary%20Search%20Tree)
 * [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
-* 617. Merge Two Binary Trees
+* [617. Merge Two Binary Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/617.%20Merge%20Two%20Binary%20Trees)
 * [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
-* 671. Second Minimum Node In a Binary Tree
+* [671. Second Minimum Node In a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)
@@ -285,7 +285,7 @@
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [36. Valid Sudoku](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/36.%20Valid%20Sudoku)
 * [73. Set Matrix Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/73.%20Set%20Matrix%20Zeroes)
-* 79. Word Search
+* [79. Word Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/79.%20Word%20Search)
 * [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/200.%20Number%20of%20Islands)
 * [289. Game of Life](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/289.%20Game%20of%20Life)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
@@ -320,8 +320,8 @@
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [279. Perfect Squares](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/279.%20Perfect%20Squares)
-* 304. Range Sum Query 2D - Immutable
-* 309. Best Time to Buy and Sell Stock with Cooldown
+* [304. Range Sum Query 2D - Immutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/304.%20Range%20Sum%20Query%202D%20-%20Immutable)
+* [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown)
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/322.%20Coin%20Change  )
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)

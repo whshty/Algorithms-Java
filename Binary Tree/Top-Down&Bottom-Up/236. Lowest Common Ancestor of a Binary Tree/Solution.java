@@ -38,3 +38,18 @@ public class Solution {
         return q;
     }
 }
+
+
+// Find distance between two nodes of a Binary Tree
+public int getShortestDistance(TreeNode root, TreeNode p ,TreeNode q ){
+    TreeNode lca = lowestCommonAncestor(root,p,q);
+    return getDepth(lca,p.val,0) + getDepth(lca,q.val,0);
+}
+    
+public int getDepth(TreeNode root, int target, int level) {
+    if (root == null) return -1;
+    if (root.val == target) return level;
+    int leftLevel = getDepth(root.left, target, level + 1);
+    if (leftLevel == -1) return getDepth(root.right, target, level);
+    else return leftLevel;
+}

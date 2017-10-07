@@ -1,4 +1,4 @@
-### Recursion 
+### 1.Recursion 
 * If We can find left and right, return root
 * If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
 
@@ -17,7 +17,7 @@ public class Solution {
 }
 ```
 
-Iteration
+### 2.Iteration
 
 ```
 public class Solution {
@@ -48,4 +48,21 @@ public class Solution {
     }
 }
 
+```
+
+### 3. Find the length of shortest path between two nodes in a tree
+
+```
+public int getShortestDistance(TreeNode root, TreeNode p ,TreeNode q ){
+    TreeNode lca = lowestCommonAncestor(root,p,q);
+    return getDepth(lca,p.val,0) + getDepth(lca,q.val,0);
+}
+    
+public int getDepth(TreeNode root, int target, int level) {
+    if (root == null) return -1;
+    if (root.val == target) return level;
+    int leftLevel = getDepth(root.left, target, level + 1);
+    if (leftLevel == -1) return getDepth(root.right, target, level);
+    else return leftLevel;
+}
 ```

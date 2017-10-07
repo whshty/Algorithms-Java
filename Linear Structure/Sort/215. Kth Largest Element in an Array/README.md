@@ -32,7 +32,7 @@ public class Solution {
 
 ```
 
-### Quick select )
+### Quick select
 * put nums that are <= pivot to the left 
 * Put nums that are > pivot to the right
 * Count the nums that are smaller than pivot from start
@@ -70,28 +70,27 @@ i   j
 ```
 class Solution {
     public int findKthLargest(int[] nums, int k) {
-        int n = nums.length;
-        int pos = quickSelect(nums, 0 , n - 1 , n- k + 1);
-        return nums[pos];
+        int len = nums.length;
+        return quickSelect(nums,0,len-1,len-k+1);
     }
-    public int quickSelect(int[] nums, int left , int right , int k){
-        int i = left , j = right , pivot = nums[right];
-        while( i < j ){
-            if( nums[i++] > pivot ){
+    
+    public int quickSelect(int[] nums, int start , int end , int k){
+        int i = start , j = end, pivot = nums[end];
+        while( i < j ) {
+            if( nums[i++] > pivot ) {
                 swap(nums,--i,--j);
             }
         }
-        swap(nums,i,right);
-            
-        int pos = i - left + 1;
-        if( pos == k) return i;
-        else if( pos > k ) return quickSelect(nums,left,i-1,k);
-        else return quickSelect(nums,i+1,right,k-pos);
+        swap(nums,i,end);
+        int index = i - start + 1;
+        if( index == k ) return nums[i];
+        else if( index > k ) return quickSelect(nums,start,i-1,k);
+        else return quickSelect(nums,i+1,end,k-index);
     }
-    public void swap(int[] n, int i , int j){
-        int temp = n[i];
-        n[i] = n[j];
-        n[j] = temp;
+    public void swap(int[] nums, int i , int j ){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
 ```

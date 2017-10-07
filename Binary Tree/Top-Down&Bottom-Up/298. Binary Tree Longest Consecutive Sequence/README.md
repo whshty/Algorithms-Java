@@ -1,3 +1,4 @@
+```
 public class Solution {
     public int longestConsecutive(TreeNode root) {
         if( root == null ) return 0;
@@ -12,3 +13,4 @@ public class Solution {
         return Math.max(temp,max);
     }
 }
+```

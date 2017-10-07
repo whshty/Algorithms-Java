@@ -359,4 +359,5 @@
 
 # [Java Concept](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept)
 * Iterator
+* Lambda Expressions
 * [Concurrent Programing](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Java%20Concept/Concurrent%20Programing)                                                   

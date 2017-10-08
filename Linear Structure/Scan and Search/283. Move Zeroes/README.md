@@ -3,7 +3,7 @@
 public class Solution {
     public void moveZeroes(int[] nums) {
         if( nums == null || nums.length == 0 ) return;
-        int index = 0;
+        int index = 0; // index of 0 elements
         for( int i = 0 ; i < nums.length ; i++ ){
             if( nums[i] != 0 ){
                 int temp = nums[index];
@@ -19,6 +19,9 @@ public class Solution {
 ```
 
 ### Two Pointers, Unordered and  Minium Writes
+* Find the start that equals to 0
+* Find the end that not equals to 0
+
 ```
 class Solution {
     public void moveZeroes(int[] nums) {

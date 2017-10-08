@@ -252,7 +252,6 @@
 
 # [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)
 * [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/23.%20Merge%20k%20Sorted%20Lists)
-* [253. Meeting Rooms II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/253.%20Meeting%20Rooms%20II)
 * [295. Find Median from Data Stream](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/295.%20Find%20Median%20from%20Data%20Stream)
 * [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
@@ -342,7 +341,7 @@
 
 # [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation)
 * [191. Number of 1 Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/191.%20Number%20of%201%20Bits)
-* 393. UTF-8 Validation
+* [393. UTF-8 Validation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/393.%20UTF-8%20Validation)
 * [461. Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/461.%20Hamming%20Distance)
 * [477. Total Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/477.%20Total%20Hamming%20Distance)
 

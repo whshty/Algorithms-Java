@@ -340,6 +340,7 @@
 
 # [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation)
 * [191. Number of 1 Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/191.%20Number%20of%201%20Bits)
+* 393. UTF-8 Validation
 * [461. Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/461.%20Hamming%20Distance)
 * [477. Total Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/477.%20Total%20Hamming%20Distance)
 

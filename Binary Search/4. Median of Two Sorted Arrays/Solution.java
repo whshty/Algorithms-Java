@@ -1,23 +1,27 @@
 public class Solution {
     public double findMedianSortedArrays(int[] A, int[] B) {
-	    int m = A.length, n = B.length;
-	    int l = (m + n + 1) / 2;
-	    int r = (m + n + 2) / 2;
-	    return (getkth(A, 0, B, 0, l) + getkth(A, 0, B, 0, r)) / 2.0;
+	    int len1 = A.length, len2 = B.length;
+	    int index1 = (len1 + len2 + 1) / 2;
+	    int index2 = (len1 + len2 + 2) / 2;
+	    return (getKth(A, 0, len1 - 1 , B, 0, len2 - 1 , index1) + getKth(A, 0, len1 -1  , B, 0, len2 - 1 , index2)) / 2.0;
 	}
 
-    public double getkth(int[] A, int aStart, int[] B, int bStart, int k) {
-	    if (aStart > A.length - 1) return B[bStart + k - 1];            
-	    if (bStart > B.length - 1) return A[aStart + k - 1];                
-	    if (k == 1) return Math.min(A[aStart], B[bStart]);
-	
-    	int aMid = Integer.MAX_VALUE, bMid = Integer.MAX_VALUE;
-	    if (aStart + k/2 - 1 < A.length) aMid = A[aStart + k/2 - 1]; 
-	    if (bStart + k/2 - 1 < B.length) bMid = B[bStart + k/2 - 1];        
-	
-	    if (aMid < bMid) 
-	        return getkth(A, aStart + k/2, B, bStart,       k - k/2);// Check: aRight + bLeft 
-	    else 
-	        return getkth(A, aStart,       B, bStart + k/2, k - k/2);// Check: bRight + aLeft
+    public double getKth(int[] A, int aStart, int aEnd, int[] B, int bStart, int bEnd, int index) { 
+        if( aStart > aEnd ) return B[bStart + index - 1];
+        if( bStart > bEnd ) return A[aStart + index - 1];
+        
+        int aMid = ( aStart + aEnd ) >>> 1;
+        int bMid = ( bStart + bEnd ) >>> 1;
+        
+        //A[aMid] <= B[bMid], x: mid len of a, y: mid len of b, then wen can know
+        //(1) there will be at least (x + 1 + y) elements before bMid
+        //(2) there will be at least (m - x - 1 + n - y) = m + n - (x + y +1) elements after aMid
+        if( A[aMid] <= B[bMid]) {
+            if ( index <= (aMid - aStart) + (bMid - bStart) + 1) return getKth(A, aStart, aEnd, B, bStart, bMid - 1, index);
+            else return getKth(A, aMid + 1, aEnd, B, bStart, bEnd, index - (aMid - aStart) - 1);
+        } else {
+            if( index <= (aMid - aStart) + (bMid - bStart) + 1 ) return getKth(A,aStart,aMid-1,B,bStart,bEnd,index);
+            else return getKth(A,aStart,aEnd,B,bMid+1,bEnd,index-(bMid-bStart)-1);
+        }
     }
 }

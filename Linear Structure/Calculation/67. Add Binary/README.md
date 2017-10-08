@@ -1,3 +1,4 @@
+### 67. Add Binary
 * Count from end to start, then reverse
 * Use carry to mark the extra value of the next position
 
@@ -69,3 +70,37 @@ class myCode {
 
 ```
 
+### Follow - Up (Multiplication)
+
+```
+public class Solution {
+    public String timeBinary(String a, String b) {
+        if( a == null || a.length() == 0 ) return b;
+        if( b == null || b.length() == 0 ) return a;
+        int m = a.length();
+        int n = b.length();
+
+
+        int[] res = new int[m+n];
+
+        for( int i = m - 1 ; i >=0 ; i--){
+            for( int j = n - 1 ; j >= 0 ; j--){
+                int mul = (a.charAt(i) - '0') * (b.charAt(j) - '0');
+                int p1 = i + j, p2 = i+j+1;
+                int sum = mul + res[p2];
+
+                res[p1] += sum/2;
+                res[p2] = sum%2;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for( int num : res ){
+            if(!(sb.length() == 0 && num == 0)){
+                sb.append(num);
+            }
+        }
+        if(sb.length() ==0 ) return "0";
+        return sb.toString();
+    }
+}
+```

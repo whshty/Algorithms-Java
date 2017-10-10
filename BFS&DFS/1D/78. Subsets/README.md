@@ -65,36 +65,33 @@ public class Solution {
 }
 ```
 
+## Follow-Up:Multiplication
+
+```
+public class Solution {
+    public List<Integer> subsets(int[] nums) {
+        List<Integer> res = new ArrayList<>();
+        for( int num : nums ){
+            List<Integer> temp = new ArrayList<>();
+            for( int i = 0 ; i < res.size() ; i++ ){
+                int cur = res.get(i);
+                temp.add(cur*num);
+            }
+            res.add(num);
+            res.addAll(temp);
+        }
+        res.add(0);
+        return res;
+    }
+}
+
+
+```
+
 ## Follow-Up:Iterator
 
 ```
-import java.util.*;
 class myCode {
-    public static void main (String[] args) throws java.lang.Exception {
-        int[] tes = {1,2,3};
-        myCode sol = new myCode();
-        List<List<Integer>> result = new ArrayList<>(sol.subsets(tes));
-        for( List<Integer> list : result){
-            for( int i = 0 ; i < list.size(); i++){
-                System.out.print(list.get(i) + ",");
-            }
-            System.out.println();
-        }
-        System.out.println("Using next()");
-        List<Integer> test1 = sol.next(result);
-        for(int num : test1 ){
-            System.out.print(num);
-        }
-        List<Integer> test2 = sol.next(result);
-        for(int num : test2 ){
-            System.out.print(num);
-        }
-        List<Integer> test3 = sol.next(result);
-        for(int num : test3 ){
-            System.out.print(num);
-        }
-
-    }
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
         res.add( new ArrayList<>());

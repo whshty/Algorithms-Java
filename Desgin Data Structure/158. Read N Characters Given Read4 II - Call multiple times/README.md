@@ -1,4 +1,4 @@
-```
+```java
 public class Solution extends Reader4 {
     // store the data received in previous calls
     private int pointer = 0;

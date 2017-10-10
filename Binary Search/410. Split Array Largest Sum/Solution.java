@@ -1,7 +1,7 @@
 public class Solution {
     public int splitArray(int[] nums, int m) {
         long sum = 0;
-        int max = 0;
+        int max = Integer.MIN_VALUE;
         for( int num : nums ){
             max = Math.max(max,num);
             sum += num;
@@ -10,17 +10,16 @@ public class Solution {
     
     }
     
-    private long binarySearch(int[] nums, int m, long low, long high){
-        long mid = 0;
-        while( low < high ){
-            mid = ( low + high ) >>> 1; 
+    private long binarySearch(int[] nums, int m, long start , long end){
+        while( start < end ){
+            long mid = ( start + end ) >>> 1; 
             if( isValid(nums,m,mid)){
-                high = mid;
+                end = mid;
             } else {
-                low = mid + 1;
+                start = mid + 1;
             }
         }
-        return high;
+        return end;
     }
     
     private boolean isValid(int[] nums, int m, long max){
@@ -31,9 +30,7 @@ public class Solution {
             if( cur > max ){
                 cur = num;
                 count++;
-                if( count > m ){
-                    return false;
-                }
+                if( count > m ) return false;
             }
         }
         return true;

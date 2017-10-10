@@ -42,7 +42,7 @@ public void generateCycle(TreeNode root){
 	while( head.right != null ){
 		head = head.right;
    	}
-   head.right = pre;
+   	head.right = pre;
    pre.left = head;
 }
 ```

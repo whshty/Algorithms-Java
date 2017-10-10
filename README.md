@@ -149,7 +149,7 @@
 * [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [224. Basic Calculator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Stack%20and%20Queue/224.%20Basic%20Calculator/Solution.java)
 * [225. Implement Stack using Queues](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/225.%20Implement%20Stack%20using%20Queues)
-* 227. Basic Calculator II
+* [227. Basic Calculator II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/227.%20Basic%20Calculator%20II)
 * [394. Decode String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [636. Exclusive Time of Functions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/636.%20Exclusive%20Time%20of%20Functions)
 * [682. Baseball Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/682.%20Baseball%20Game)
@@ -158,7 +158,7 @@
 
 # [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
 * [Run Length Encoding](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Run%20Length%20Encoding)
-* Wood Cut
+* [Wood Cut](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Wood%20Cut)
 * [Search Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Search%20Frequency)
 * [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
@@ -178,7 +178,7 @@
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 
 ### [Binary Tree Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal)
-* Convert Binary Search Tree to Doubly Linked List
+* [Convert Binary Search Tree to Doubly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/Convert%20Binary%20Search%20Tree%20to%20Doubly%20Linked%20List)
 * [94. Binary Tree Inorder Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/94.%20Binary%20Tree%20Inorder%20Traversal)
 * [102. Binary Tree Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/102.%20Binary%20Tree%20Level%20Order%20Traversal)
 * [103. Binary Tree Zigzag Level Order Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Tree%20Traversal/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal)

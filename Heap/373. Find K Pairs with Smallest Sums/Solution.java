@@ -12,7 +12,8 @@ public class Solution {
             int[] cur = minHeap.poll();
             res.add(new int[]{cur[0],cur[1]});
             if( cur[2] == nums2.length - 1 ) continue;
-            minHeap.offer(new int[]{cur[0],nums2[cur[2]+1], cur[2]+1});
+            int curIndex2 = cur[2];
+            minHeap.offer(new int[]{cur[0],nums2[curIndex2+1],curIndex2+1});
         }
         return res;
     }

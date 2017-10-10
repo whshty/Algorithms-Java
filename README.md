@@ -73,7 +73,7 @@
 * [159. Longest Substring with At Most Two Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/159.%20Longest%20Substring%20with%20At%20Most%20Two%20Distinct%20Characters)
 * [239. Sliding Window Maximum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/239.%20Sliding%20Window%20Maximum)
 * [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
-* 643. Maximum Average Subarray I
+* [643. Maximum Average Subarray I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window)
 
 
 ### [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String)
@@ -297,6 +297,8 @@
 * [289. Game of Life](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/289.%20Game%20of%20Life)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [490. The Maze](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/490.%20The%20Maze)
+* [694. Number of Distinct Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/694.%20Number%20of%20Distinct%20Islands)
+* [695. Max Area of Island](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/695.%20Max%20Area%20of%20Island)
 
 
 # [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
@@ -349,7 +351,7 @@
 * [393. UTF-8 Validation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/393.%20UTF-8%20Validation)
 * [461. Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/461.%20Hamming%20Distance)
 * [477. Total Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/477.%20Total%20Hamming%20Distance)
-* 693. Binary Number with Alternating Bits
+* [693. Binary Number with Alternating Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/693.%20Binary%20Number%20with%20Alternating%20Bits)
 
 
 # [Desgin Data Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure)

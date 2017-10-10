@@ -23,7 +23,7 @@ public class Solution {
             if ( node != null ){
                 deque.addFirst(node);
                 node = node.left;
-            } else{
+            } else {
                 node = deque.removeFirst();
                 DoublyListNode cur = new DoublyListNode(node.val);
                 head.next = cur;

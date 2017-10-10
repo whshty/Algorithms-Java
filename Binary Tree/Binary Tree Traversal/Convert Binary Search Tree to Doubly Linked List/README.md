@@ -1,4 +1,4 @@
-[alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Binary%20Tree%20Traversal/Convert%20Binary%20Search%20Tree%20to%20Doubly%20Linked%20List/Pic.png)
+![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Binary%20Tree%20Traversal/Convert%20Binary%20Search%20Tree%20to%20Doubly%20Linked%20List/Pic.png)
 
 # Use Tree as DLL
 

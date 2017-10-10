@@ -47,6 +47,6 @@ public void generateCycle(TreeNode root){
 		head = head.right;
    	}
    	head.right = pre;
-   pre.left = head;
+   	pre.left = head;
 }
 ```

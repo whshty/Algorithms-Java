@@ -28,10 +28,10 @@ class Solution {
 class Solution {
     public int numDecodings(String s) {
         if( s.length() == 0 ) return 0;
-        Map<Integer,Integer> map = new HashMap<Integer,Integer>();
+        Map<Integer,Integer> map = new HashMap<>();
         return helper(s,0,map);
     }
-    public int helper(String s, int index,Map<Integer,Integer> map){
+    public int helper(String s, int index, Map<Integer,Integer> map){
         Integer cur = map.get(index);
         if( cur != null ) return cur;
         int len = s.length();
@@ -44,8 +44,10 @@ class Solution {
         }
         map.put(index,res);
         return res;
-    } 
+    }
 }
+
+
 ```
 
 

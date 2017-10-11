@@ -56,10 +56,10 @@ class Solution {
 
 ### Dp : Like Fibonacci
 
-* Create a int array to update ways of decoding 
+* Create a dp array to update ways of decoding 
 * dp[0] = 1
 * Keep checking one digit adn two digit combination
-* Give a sample example "12", we have 2 ways od decoding it. Because "1" is between 1 and 9, and 12 is between 10 and 26
+* Give a sample example "12", we have 2 ways of decoding it. Because "1" is between 1 and 9, and 12 is between 10 and 26
 
 ```
 For exmplple, given string
@@ -69,22 +69,22 @@ For exmplple, given string
 
 
 For exmplple, given string
-   1    2     2     2    1     0
------------------------------------
-1  1   2     1+2   2+3   3+5   5
+   1     2         2      2       1     0
+--------------------------------------------
+1  1   1+1=2     1+2=3   2+3=5   3+5    5
 
 ```
 
 
 ```java
-public class Solution {
+class Solution {
     public int numDecodings(String s) {
         if ( s == null || s.length() == 0 ) return 0;
-        int n = s.length();
-        int[] dp = new int[n+1];
+        int len = s.length();
+        int[] dp = new int[len+1];
         dp[0] = 1;
         dp[1] = s.charAt(0) == '0' ? 0:1;
-        for( int i = 2 ; i <= n ; i++ ){
+        for( int i = 2 ; i <= len ; i++ ){
             int first = Integer.valueOf(s.substring(i-1, i));
             int second = Integer.valueOf(s.substring(i-2, i));
             if(first >= 1 && first <= 9){
@@ -92,10 +92,9 @@ public class Solution {
             }
             if(second >= 10 && second <=26 ){
                 dp[i] += dp[i-2];
-            }
-            
+            }   
         }
-        return dp[n];
+        return dp[len];
     }
 }
 ```

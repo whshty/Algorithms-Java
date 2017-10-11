@@ -1,4 +1,6 @@
 ### Subtract b and count
+* Time : O(logn)
+
 ```java
 class Solution {
     public int divide(int a, int b) {
@@ -21,6 +23,8 @@ class Solution {
 }
 ```
 ### Divide and Conquer
+* Time : O(logn)
+
 ```
 32/3 = 10
 

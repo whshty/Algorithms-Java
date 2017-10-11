@@ -52,8 +52,7 @@ class Solution {
 }
 ```
 
-```
-
+```java
 class Solution {
     public int divide(int a, int b) {
         if( a == 0) return 0;

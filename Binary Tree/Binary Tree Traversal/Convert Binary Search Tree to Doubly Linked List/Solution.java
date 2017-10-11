@@ -29,3 +29,29 @@ public class Solution {
         return dummy.next;
     }
 }
+
+
+public class Solution{
+    TreeNode prev = null;
+    static TreeNode head;
+    public void convert(TreeNode root){
+        if(root == null ) return;
+        convert(root.left);
+        if(prev == null) head = root;
+        else {
+            root.left = prev;
+            prev.right = root;
+        }
+        prev = root;
+        convert(root.right);
+    }
+
+    public void generateCycle(TreeNode root){
+        TreeNode pre = root , head = root;
+        while( head.right != null ){
+            head = head.right;
+        }
+        head.right = pre;
+        pre.left = head;
+    }
+}

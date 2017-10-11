@@ -1,4 +1,4 @@
-# Use Tree as DLL
+# Use Tree Class as DLL
 ### Inorder - Recursion
 ```java
 public class Solution{
@@ -32,10 +32,6 @@ public class Solution{
 
 ```java
 public class Solution {
-    /*
-     * @param root: The root of tree
-     * @return: the head of doubly list node
-     */
     public DoublyListNode bstToDoublyList(TreeNode root) {
         // write your code here
         if( root == null ) return null;
@@ -61,18 +57,5 @@ public class Solution {
         } 
         return dummy.next;
     }
-}
-```
-
-### Generate Cycle
-
-```java
-public void generateCycle(TreeNode root){
-	TreeNode pre = root , head = root;
-	while( head.right != null ){
-		head = head.right;
-   	}
-   	head.right = pre;
-   	pre.left = head;
 }
 ```

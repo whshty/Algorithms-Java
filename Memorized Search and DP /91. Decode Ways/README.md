@@ -27,25 +27,27 @@ class Solution {
 ```java
 class Solution {
     public int numDecodings(String s) {
-        if( s.length() == 0 ) return 0;
+        if( s == null || s.length() == 0 ) return 0;
         Map<Integer,Integer> map = new HashMap<>();
         return helper(s,0,map);
+    
     }
     public int helper(String s, int index, Map<Integer,Integer> map){
-        Integer cur = map.get(index);
-        if( cur != null ) return cur;
-        int len = s.length();
-        if( index == len ) return 1;
-        if( s.charAt(index) == '0' ) return 0;
+        if( map.containsKey(index)) return map.get(index);
+        if( index == s.length() ) return 1; // see if the recursion can reach the end
+        char cur = s.charAt(index);
+        if( cur == '0')  return 0;
         int res = 0;
         res += helper(s,index+1,map);
-        if( index < len - 1 && ( s.charAt(index) == '1' || (s.charAt(index) == '2' && s.charAt(index+1) < '7'))){
+        if( index < s.length() - 1 && ( cur == '1' || (cur == '2' && s.charAt(index+1) < '7'))){
             res += helper(s,index+2,map);
         }
         map.put(index,res);
         return res;
+        
     }
 }
+
 
 
 ```

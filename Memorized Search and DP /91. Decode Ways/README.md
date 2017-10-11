@@ -1,7 +1,7 @@
 
 ### DFS O(2^n)
 
-```
+```java
 class Solution {
     public int numDecodings(String s) {
         if( s.length() == 0 ) return 0;
@@ -24,7 +24,7 @@ class Solution {
 ### Memoization DFS 
 * O(2^n) worst case :111111, every digit visit twice 
 
-```
+```java
 class Solution {
     public int numDecodings(String s) {
         if( s.length() == 0 ) return 0;
@@ -72,7 +72,7 @@ For exmplple, given string
 ```
 
 
-```
+```java
 public class Solution {
     public int numDecodings(String s) {
         if ( s == null || s.length() == 0 ) return 0;

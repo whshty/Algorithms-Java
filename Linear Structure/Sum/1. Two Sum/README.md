@@ -1,4 +1,4 @@
-```
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];

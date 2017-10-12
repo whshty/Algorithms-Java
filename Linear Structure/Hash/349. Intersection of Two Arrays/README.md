@@ -92,3 +92,49 @@ public class Solution {
     }
 }
 ```
+
+### Binary Search In Two Pointers
+
+```java
+public class Solution {
+    public int[] intersection(int[] nums1, int[] nums2) {
+        Set<Integer> set = new HashSet<>();
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+        int i = 0;
+        int j = 0;
+        // the size of num1 is much more bigger than nums2 and nums1 is sparse
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] < nums2[j]) {
+                //i++;
+                i = binarySearch(nums1,nums2[j],i,nums1.length-1);
+            } else if (nums1[i] > nums2[j]) {
+                j++;
+            } else {
+                set.add(nums1[i]);
+                i++;
+                j++;
+            }
+        }
+        int[] res = new int[set.size()];
+        int index = 0;
+        for (Integer num : set) {
+            res[index++] = num;
+        }
+        return res;
+    }
+    
+    public int binarySearch(int[] nums, int target, int start, int end) {
+        while ( start < end ) {
+            int mid = ( start + end ) >>> 1;
+            if ( nums[mid] >= target) {
+                end = mid ;
+            }
+            else {
+                start = mid;
+            }
+        }
+        return start;
+    }
+}
+```

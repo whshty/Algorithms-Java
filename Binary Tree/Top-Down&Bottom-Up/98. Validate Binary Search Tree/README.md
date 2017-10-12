@@ -1,6 +1,6 @@
 ### Recursion
 
-```
+```java
 public class Solution {
     public boolean isValidBST(TreeNode root) {
         if( root == null ) return true;
@@ -18,7 +18,7 @@ public class Solution {
 
 ### Iteration (In-Order)
 
-```
+```java
 public class Solution {
     public boolean isValidBST(TreeNode root) {
         Stack<TreeNode> stack = new Stack<>();

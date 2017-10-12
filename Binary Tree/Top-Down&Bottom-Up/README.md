@@ -3,7 +3,7 @@
 Some problems need both top-down and bottom-up traversal.
 For example, check if a tree is a valid BST, there node, min and max is traversaled from top and the return boolean values are traveraled from bottom to top
 
-```
+```java
 public class Solution {
     public boolean isValidBST(TreeNode root) {
         if( root == null ) return true;
@@ -25,7 +25,7 @@ In the same way, How we can deep copy a binary tree. We have
 * Bottom-Up: We return the node value from the bottom
 
 
-```
+```java
 public TreeNode deepCopyTree(TreeNode root) {
 	if (root == null) {
 		return null;

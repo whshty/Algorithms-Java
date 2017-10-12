@@ -4,7 +4,7 @@ Postorder-traversal is a kind of bottom-down traversal. Normally, bottom-up trav
 
 For example,
 
-```
+```java
 public int maxDepth(TreeNode root) {
     if (root == null) { 
 		return 0; 

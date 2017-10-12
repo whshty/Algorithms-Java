@@ -14,7 +14,7 @@ All these traversals can be solved by stack and recursion
 
 ### Recursion
 
-```
+```java
 public class Solution {
     public List<Integer> traversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -37,7 +37,7 @@ public class Solution {
 ##### Pre-Order and In-Order
 
 
-```
+```java
 public class Solution {
     public List<Integer> traversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();

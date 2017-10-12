@@ -159,7 +159,7 @@
 
 
 # [Binary Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search)
-* Sparse Vector Dot Product
+* [Sparse Vector Dot Product](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Sparse%20Vector%20Dot%20Product)
 * [Run Length Encoding](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Run%20Length%20Encoding)
 * [Wood Cut](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Wood%20Cut)
 * [Search Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Search%20Frequency)

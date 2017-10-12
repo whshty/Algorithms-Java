@@ -15,33 +15,26 @@ class Solution {
 ### Sparse vector
 ##### Int array to store index and value
 ```java
-class myCode {
-    public static void main (String[] args) throws java.lang.Exception {
-        List<int[]> listA = new ArrayList<>();
-        List<int[]> listB = new ArrayList<>();
-        listA.add(new int[]{1,1});
-        listA.add(new int[]{300,2});
-        listA.add(new int[]{500,2});
-        listB.add(new int[]{300,2});
-        listB.add(new int[]{500,10});
-        myCode sol = new myCode();
-        int ans = sol.dotProduct(listA,listB);
-        System.out.print(ans);
-
-    }
+class Solution {
     public int dotProduct(List<int[]> listA, List<int[]> listB){
         int res = 0;
-        for( int[] a : listA){
-            int indexA = a[0];
-            for( int[] b : listB ){
-                int indexB =  b[0];
-                if( indexA == indexB ) res += a[1] * b[1];
-                else if ( indexA > indexB ) continue;
-                else break;
-            }
+
+        int len1 = listA.size();
+        int len2 = listB.size();
+
+        int i = 0 , j = 0;
+        while( i < len1 || j < len2 ){
+            int[] indexA = listA.get(i);
+            int[] indexB = listB.get(j);
+            if(indexA[0] == indexB[0]){
+                res +=  indexA[1] * indexB[1];
+                i++;
+                j++;
+            } else if(indexA[0] > indexB[0]) {
+                j++;
+            } else  i++;
         }
         return res;
-
     }
 }
 

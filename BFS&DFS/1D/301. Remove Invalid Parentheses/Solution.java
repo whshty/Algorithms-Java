@@ -8,20 +8,20 @@ public class Solution {
         queue.add(s);
         visited.add(s);
         
-        boolean found = false;
+        boolean isFound = false;
         while( !queue.isEmpty() ){
             s = queue.poll();
             if(isValid(s)){
                 res.add(s);
-                found = true;
+                isFound = true;
             }
-            if(found) continue;
+            if(isFound) continue;
             for( int i = 0 ; i < s.length(); i++ ){
                 if(s.charAt(i) != '(' && s.charAt(i) != ')') continue;
-                String t = s.substring(0,i) + s.substring(i+1);
-                if(!visited.contains(t)){
-                    queue.add(t);
-                    visited.add(t);
+                String temp = s.substring(0,i) + s.substring(i+1);
+                if(!visited.contains(temp)){
+                    queue.add(temp);
+                    visited.add(temp);
                 }
             }
         }

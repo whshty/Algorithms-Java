@@ -57,7 +57,7 @@ public class Solution {
 * Time O(n! )
 * Space O(n)
 
-```
+```java
 public class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();

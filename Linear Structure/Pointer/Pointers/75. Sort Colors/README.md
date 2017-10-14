@@ -1,4 +1,4 @@
-### Use pointers
+### Use Pointers
 
 * left : first wall , the end of 0
 * right : second wall , the start of 2 
@@ -34,7 +34,7 @@ public class Solution {
 * Generate a new array by frequency 
 
 
-### Follow up ( sort k colors)
+### Follow-Up ( Sort K Colors)
 
 ```java
 public void sortKCategory(int[] nums, int k) {

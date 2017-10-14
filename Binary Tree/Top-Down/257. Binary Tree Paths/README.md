@@ -1,4 +1,7 @@
 ### DFS + Backtracking
+* Time:O(n)
+* Space:O(logn), Worst case:O(n)
+
 ```java
 public class Solution {
     public List<String> binaryTreePaths(TreeNode root) {

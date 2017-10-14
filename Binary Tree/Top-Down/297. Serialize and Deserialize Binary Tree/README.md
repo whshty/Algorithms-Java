@@ -3,7 +3,7 @@ Level-order : waste of space
 
 Pre-Order
 
-```
+```java
 public class Codec {
     private String N = "N";
     private String M = ",";

@@ -1,3 +1,5 @@
+### BFS + Color Array
+```java
 class Solution {
     // public static void main(String[] args) {
     //     int input[][] = {{0, 1, 0, 1},
@@ -35,3 +37,4 @@ class Solution {
         return true;
     }
 }
+```

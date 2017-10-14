@@ -1,4 +1,4 @@
-```
+```java
 public class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<>();

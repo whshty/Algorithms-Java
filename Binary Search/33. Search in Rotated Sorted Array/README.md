@@ -1,3 +1,4 @@
+### Two Pointers
 ```java
 class Solution {
     public int search(int[] nums, int target) {
@@ -7,7 +8,7 @@ class Solution {
         while( start <= end ){
             int mid = ( start + end ) >>> 1;
             if( nums[mid] == target ) return mid;
-            // eg. 3,4,5,6,1,2
+            // eg. 3,4,5,6,7,1,2
             if( nums[mid] > nums[end]){
                 if( nums[mid] < target || nums[end] >= target ){
                     start = mid + 1;

@@ -88,3 +88,40 @@ public class Solution {
         a[j] = temp;
     }
 }
+
+// Permute String
+public class Solution {
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        List<String> res =  sol.permuteString("abc");
+        System.out.println(res);
+    }
+
+    public List<String> permuteString(String s) {
+        List<List<Character>> lists = permuteCharArray(s.toCharArray());
+
+        List<String> res = new ArrayList<>();
+        for(List<Character> list : lists){
+            res.add(list.toString());
+        }
+        return res;
+    }
+
+    public List<List<Character>> permuteCharArray(char[] chs) {
+        List<List<Character>> res = new ArrayList<>();
+        if (chs == null || chs.length == 0) return res;
+        res.add(new ArrayList<>());
+        for (int i = 0; i < chs.length; i++) {
+            List<List<Character>> nextRes = new ArrayList<>();
+            for (List<Character> list : res) {
+                for (int j = 0; j <= list.size(); j++) {
+                    List<Character> nextList = new ArrayList<>(list);
+                    nextList.add(j, chs[i]);
+                    nextRes.add(nextList);
+                }
+            }
+            res = nextRes;
+        }
+        return res;
+    }
+}

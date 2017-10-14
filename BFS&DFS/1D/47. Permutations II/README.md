@@ -29,7 +29,7 @@ class Solution {
 
 ```
 
-### DFS
+### DFS + Set
 
 ```java
 public class Solution {

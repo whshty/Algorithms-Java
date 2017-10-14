@@ -1,4 +1,7 @@
 ### Binary Search
+* Search the min value, which is the rotated break point
+* Binary search based on break point 
+
 ```java
 class Solution {
     public int search(int[] nums, int target) {

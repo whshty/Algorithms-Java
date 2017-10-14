@@ -1,5 +1,5 @@
 ### Ordered, Write : O(n)
-```
+```java
 public class Solution {
     public void moveZeroes(int[] nums) {
         if( nums == null || nums.length == 0 ) return;
@@ -22,7 +22,7 @@ public class Solution {
 * Find the start that equals to 0
 * Find the end that not equals to 0
 
-```
+```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int start = 0 , end = nums.length -1;

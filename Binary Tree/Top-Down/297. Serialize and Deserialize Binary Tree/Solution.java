@@ -1,6 +1,6 @@
 public class Codec {
-    private String N = "N";
-    private String M = ",";
+    private String N = "N"; // N for null
+    private String M = ","; // M for marker
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {

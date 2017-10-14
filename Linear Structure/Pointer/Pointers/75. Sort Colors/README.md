@@ -4,7 +4,7 @@
 * right : second wall , the start of 2 
 * cur : scanner for unprocessed data
 
-```
+```java
 public class Solution {
     public void sortColors(int[] nums) {
         if( nums == null || nums.length <= 1) return;
@@ -36,7 +36,7 @@ public class Solution {
 
 ### Follow up ( sort k colors)
 
-```
+```java
 public void sortKCategory(int[] nums, int k) {
         int left = 0;
         int right = nums.length - 1;

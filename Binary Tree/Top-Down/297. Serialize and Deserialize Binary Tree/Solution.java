@@ -20,13 +20,13 @@ public class Codec {
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String s) {
-        Deque<String> deque = new LinkedList<>();
+        Deque<String> deque = new ArrayDeque<>();
         deque.addAll(Arrays.asList(s.split(M)));
         return buildTree(deque);
     }
     
     private TreeNode buildTree(Deque<String> deque){
-        String root = deque.remove();
+        String root = deque.removeFirst();
         if(root.equals(N)) return null;
         else{
             TreeNode node = new TreeNode(Integer.valueOf(root));

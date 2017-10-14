@@ -2,7 +2,7 @@
 * needle bcd
 * res = 1
 
-```
+```java
 public class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.length()==0) return 0;

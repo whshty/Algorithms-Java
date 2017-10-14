@@ -16,8 +16,6 @@ public class Solution {
             if( nums[cur] == 1 ) cur++;
             else if( nums[cur] == 0 ) swap(nums,left++,cur++);
             else if( nums[cur] == 2 ) swap(nums,cur,right--);
-            
-            
         }
     }
     private void swap(int[] nums, int a , int b){

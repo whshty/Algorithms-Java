@@ -1,6 +1,37 @@
-### DFS
+### BFS + Set
+
+```java
+class Solution {
+    public List<List<Integer>> permuteUnique(int[] nums) {
+        Set<List<Integer>> res = new HashSet<>();
+        res.add(new ArrayList<Integer>());
+        
+        for(int i = 0; i< nums.length;i++){
+            //next level
+            Set<List<Integer>> nextRes = new HashSet<>();
+            // for each list in line
+            for(List<Integer> list: res){
+                for(int j = 0 ; j < list.size()+1 ; j++){
+                    //copy a list to nextList
+                    List<Integer> nextList = new ArrayList<Integer>(list);
+                    //for each postion in list
+                    //left - mid - right
+                    nextList.add(j,nums[i]);
+                    nextRes.add(nextList);
+                }
+            }
+            // move to next level
+            res = nextRes;
+        }
+        return new ArrayList<>(res);
+    }
+}
 
 ```
+
+### DFS
+
+```java
 public class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -35,33 +66,3 @@ public class Solution {
 }
 ```
 
-### BFS
-
-```
-class Solution {
-    public List<List<Integer>> permuteUnique(int[] nums) {
-        Set<List<Integer>> res = new HashSet<>();
-        res.add(new ArrayList<Integer>());
-        
-        for(int i = 0; i< nums.length;i++){
-            //next level
-            Set<List<Integer>> nextRes = new HashSet<>();
-            // for each list in line
-            for(List<Integer> list: res){
-                for(int j = 0 ; j < list.size()+1 ; j++){
-                    //copy a list to nextList
-                    List<Integer> nextList = new ArrayList<Integer>(list);
-                    //for each postion in list
-                    //left - mid - right
-                    nextList.add(j,nums[i]);
-                    nextRes.add(nextList);
-                }
-            }
-            // move to next level
-            res = nextRes;
-        }
-        return new ArrayList<>(res);
-    }
-}
-
-```

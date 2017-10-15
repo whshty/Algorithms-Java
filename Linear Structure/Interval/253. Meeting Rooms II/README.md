@@ -1,4 +1,4 @@
-### Pointers
+### Two Pointers
 *  When we need extra room, end event occurs and there is a starting event happened before that ( generate overlapping)
 * Create a variable "current end time" to point to the current end event, and move the start event pointer
 
@@ -20,7 +20,7 @@ Next, because endsItr moves to the next end event, we’ll find that the start e
 
 
 
-```
+```java
 public class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         int[] start = new int[intervals.length];
@@ -45,7 +45,7 @@ public class Solution {
 ### Heap
 * minHeap for saving the end times
 
-```
+```java
 public class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         if ( intervals == null || intervals.length == 0) return 0;
@@ -66,8 +66,10 @@ public class Solution {
 
 ### TreeMap
 * Sort using TreeMap by start and end 
+* Key is time
+* Value is frequency is this time, start is postive and end is negative
 
-```
+```java
 class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         Map<Integer,Integer> map = new TreeMap<Integer,Integer>();

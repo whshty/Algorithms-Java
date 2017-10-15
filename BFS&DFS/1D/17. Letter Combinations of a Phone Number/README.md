@@ -4,7 +4,7 @@
 * For every digit, add new characters from the keyborad to old string and add these to res
 * O(3~4)^n : For every number has 3 or 4 characters to be generated 
 
-```
+```java
 class Solution {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<String>();
@@ -30,7 +30,7 @@ class Solution {
 
 ### DFS
 
-```
+```java
 public class Solution {
     private static final String[] keys = new String[] {"0", "1", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     public List<String> letterCombinations(String digits) {

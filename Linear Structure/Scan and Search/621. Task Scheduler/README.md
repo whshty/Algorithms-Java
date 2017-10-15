@@ -32,6 +32,7 @@ class Solution {
 ```
 
 ### Cannot Reorder 
+* Use HashMap to save the end time of each tasks
 ```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {

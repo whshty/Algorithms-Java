@@ -2,7 +2,7 @@
 * Use a HashMap to store the TreeNode and the according cloumn value
 * Map's key is column, we assume the root column is zero, the left node will minus 1 ,and the right node will plus 1
 
-```
+```java
 public class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();

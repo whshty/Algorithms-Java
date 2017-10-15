@@ -20,7 +20,7 @@ next element 3 :
 
 ## Code
 
-```
+```java
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -46,7 +46,7 @@ public class Solution {
 
 ## Code
 
-```
+```java
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -67,7 +67,7 @@ public class Solution {
 
 ## Follow-Up:Multiplication
 
-```
+```java
 public class Solution {
     public List<Integer> subsets(int[] nums) {
         List<Integer> res = new ArrayList<>();

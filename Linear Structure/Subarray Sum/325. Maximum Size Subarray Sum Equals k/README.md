@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public int maxSubArrayLen(int[] nums, int k) {
         if( nums == null || nums.length == 0) return 0;
@@ -15,3 +16,4 @@ public class Solution {
         return res;
     }
 }
+```

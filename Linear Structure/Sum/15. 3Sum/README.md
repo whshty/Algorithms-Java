@@ -30,3 +30,28 @@ public class Solution {
     }
 }
 ```
+
+### HashSet
+```java
+class Solution {
+    public List<List<Integer>> threeSum(int[] n) {
+        Set<List<Integer>> res = new HashSet<>();
+        if( n == null || n.length == 0) return new ArrayList<>();
+        Arrays.sort(n);
+        for(int i = 0 ; i < n.length - 2 ; i++){
+            if ( i - 1 >= 0  && n[i] == n[i-1]) continue;
+            Set<Integer> set = new HashSet();
+            int target = 0 - n[i];
+            int start = i + 1, end = n.length - 1;
+            for( int j = start ; j <= end ; j++){
+                if( set.contains(target-n[j])){
+                    res.add(Arrays.asList(n[i],target-n[j],n[j]));
+                } else {
+                    set.add(n[j]);
+                }
+            }
+        }
+        return new ArrayList<>(res);
+    }
+}
+```

@@ -1,8 +1,8 @@
-### 67. Add Binary
+### Pointers
 * Count from end to start, then reverse
 * Use carry to mark the extra value of the next position
 
-```
+```java
 public class Solution {
     public String addBinary(String a, String b) {
         if( a == null || a.length() == 0 ) return b;
@@ -34,8 +34,7 @@ public class Solution {
 ```
 ### Follow - Up (Add Decimal)
 
-```
-import java.io.*;
+```java
 
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {
@@ -72,7 +71,7 @@ class myCode {
 
 ### Follow - Up (Multiplication)
 
-```
+```java
 public class Solution {
     public String timeBinary(String a, String b) {
         if( a == null || a.length() == 0 ) return b;

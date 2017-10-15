@@ -1,19 +1,20 @@
 ### BFS 
 
-* index = x*n + y
+* Index = x*n + y
 
 ```java
-public class Solution {
+class Solution {
     public int numIslands(char[][] grid) {
         int res = 0;
         if( grid == null || grid.length == 0) return res;
         if( grid[0] == null || grid[0].length == 0 ) return res;
         int row = grid.length;
         int col = grid[0].length;
+        int[][] dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         for( int i = 0 ; i < row ; i ++) {
             for(int j = 0 ; j < col ; j++ ){
                 if(grid[i][j] == '1'){
-                    bfs(grid, row, col, i, j);
+                    bfs(grid, row, col, i, j, dir);
                     res++;   
                 }
             }
@@ -21,27 +22,28 @@ public class Solution {
         return res;
        
     }
-    public void bfs(char[][] grid, int m, int n, int x, int y){
+    public void bfs(char[][] grid, int row, int col, int x, int y, int[][] dir){
         Queue<Integer> queue = new LinkedList<Integer>();
-        queue.offer(x*n+y);
+        queue.offer(x*col+y);
         grid[x][y] = '0';
         
         while(!queue.isEmpty()){
             int cur = queue.poll();
-            int curX = cur/n;
-            int curY = cur%n;
-            for(int i = -1; i <= 1 ; i++ ){
-                for(int j = -1 ; j <= 1; j++){
-                    if( isValid(i, j, curX, curY, m, n) && grid[curX+i][curY+j] == '1'){
-                        queue.offer((curX+i) * n + (curY+j));
-                        grid[curX+i][curY+j] = '0'; 
-                    }
+            int curX = cur/col;
+            int curY = cur%col;
+            for(int i = 0 ; i < dir.length ; i++ ){
+                int tempX = curX + dir[i][0];
+                int tempY = curY + dir[i][1];
+                if( isValid(tempX, tempY , row , col) && grid[tempX][tempY] == '1'){
+                    queue.offer(tempX  * col + tempY );
+                    grid[tempX][tempY] = '0'; 
                 }
+                
             }
         }
     }
-    private boolean isValid(int i , int j , int x , int y , int row , int col){
-        return i+x >=0 && i+x < row && j+y >= 0 && j+y < col && Math.abs(i) != Math.abs(j);
+    private boolean isValid( int x , int y , int row , int col){
+        return x >=0 && x < row && y >= 0 && y < col;
     }
 }
 ```

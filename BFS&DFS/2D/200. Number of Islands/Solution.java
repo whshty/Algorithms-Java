@@ -75,8 +75,6 @@ public class Solution {
 
 
 // Remove islands smaller than k
-
-
 public class remove {
     public static void main(String[] args) {
         int[][] n = {

@@ -2,7 +2,7 @@ Typical solution of calculating subarray sum.
 
 Use slidng window, move left point when the current sum is bigger than result
 
-```
+```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {        
         int[] nums = new int[]{2,3,1,5,8};
@@ -30,7 +30,7 @@ class myCode {
 
 Use HashMap or HashMap to save prefix sum results
 
-```
+```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {        
         int[] nums = new int[]{0,2,3,1,5,-1,-1,8};

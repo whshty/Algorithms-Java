@@ -1,3 +1,4 @@
+```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] pre) {
         Queue<Integer> queue = new LinkedList<>();
@@ -36,3 +37,4 @@ class Solution {
         return map;
     }
 }
+```

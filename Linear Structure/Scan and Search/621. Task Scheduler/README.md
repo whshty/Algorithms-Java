@@ -2,6 +2,8 @@
 * The result is decided by the maximum count and the number of tasks with maximum count
 * The min result is the length of the tasks
 * Consider k+1 as a time slot
+* maxFreq is the value which appears most
+* maxCount the count of maxFreq character. Given that, aaabbbccc, maxCount is 3 
 
 ```java
 class Solution {

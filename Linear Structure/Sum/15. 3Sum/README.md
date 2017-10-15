@@ -1,6 +1,6 @@
 ### Three pointers
 
-```
+```java
 public class Solution {
     public List<List<Integer>> threeSum(int[] n) {
         List<List<Integer>> res = new ArrayList<>();

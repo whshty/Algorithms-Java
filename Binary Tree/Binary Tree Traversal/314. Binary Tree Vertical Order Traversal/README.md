@@ -3,12 +3,12 @@
 * Map's key is column, we assume the root column is zero, the left node will minus 1 ,and the right node will plus 1
 
 ```java
-public class Solution {
+class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if( root == null ) return res;
-        HashMap<Integer,ArrayList<Integer>> map = new HashMap<>();
-        HashMap<TreeNode,Integer> weightMap = new HashMap<>();
+        HashMap<Integer,ArrayList<Integer>> resMap = new HashMap<>();// map for generating output basde on weight values
+        HashMap<TreeNode,Integer> weightMap = new HashMap<>(); // assign weigth values in BFS
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         weightMap.put(root,0);
@@ -18,9 +18,8 @@ public class Solution {
             TreeNode node = queue.poll();
             int weight = weightMap.get(node);
             
-            map.putIfAbsent(weight,new ArrayList<>());
-            
-            map.get(weight).add(node.val);
+            resMap.putIfAbsent(weight,new ArrayList<>());
+            resMap.get(weight).add(node.val);
             
             if( node.left != null){
                 queue.add(node.left);
@@ -34,8 +33,8 @@ public class Solution {
             min = Math.min(min,weight);
         }
         
-        while( map.containsKey(min)){
-            res.add(map.get(min++));
+        while( resMap.containsKey(min)){
+            res.add(resMap.get(min++));
         }
         
         return res;

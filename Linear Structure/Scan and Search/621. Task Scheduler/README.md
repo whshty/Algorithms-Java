@@ -1,9 +1,9 @@
-### Can reorder 
+### Can Reorder 
 * The result is decided by the maximum count and the number of tasks with maximum count
 * The min result is the length of the tasks
 * Consider k+1 as a time slot
 
-```
+```java
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         if(tasks == null || tasks.length == 0) return 0;
@@ -29,8 +29,8 @@ class Solution {
 }
 ```
 
-### Cannot reorder 
-```
+### Cannot Reorder 
+```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {
         int[] test = {1,1,2,2,1};

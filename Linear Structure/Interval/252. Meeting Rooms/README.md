@@ -1,4 +1,4 @@
-```
+```java
 public class Solution {
     public boolean canAttendMeetings(Interval[] intervals) {
         Arrays.sort(intervals, (a,b) -> a.start - b.start);

@@ -1,3 +1,17 @@
+```
+Input : IX
+Output : 9
+
+Input : XL
+Output : 40
+
+Input : MCMIV
+Output :  1904
+M is a thousand, CM is nine hundred 
+and IV is four
+```
+
+```java
 public class Solution {
     public int romanToInt(String s) {
         int sum = 0;
@@ -20,3 +34,4 @@ public class Solution {
         return sum;
     }
 }
+```

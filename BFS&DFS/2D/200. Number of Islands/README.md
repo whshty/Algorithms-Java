@@ -60,10 +60,11 @@ public class Solution {
         if( grid[0] == null || grid[0].length == 0 ) return res;
         int row = grid.length;
         int col = grid[0].length;
+        int[][] dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
         for( int i = 0 ; i < row ; i ++) {
             for(int j = 0 ; j < col ; j++ ){
                 if(grid[i][j] == '1'){
-                    removeIsland(grid, row,col, i, j);
+                    dfs(grid, row,col, i, j , dir);
                     res++;   
                 }
             }
@@ -71,21 +72,20 @@ public class Solution {
         return res;
         
     }
-    private void removeIsland(char[][] grid, int row, int col, int x ,int y){
+    private void dfs(char[][] grid, int row, int col, int x ,int y,int[][] dir){
         grid[x][y] = '0';
-        for(int i = -1 ; i <= 1 ; i++ ){
-            for( int j = -1 ; j <= 1 ; j++ ){
-                if(isValid(i,j,x,y,row,col) && grid[x+i][y+j] == '1'){
-                    removeIsland(grid,row,col,x+i,y+j);
-                }
-            }
+        for( int i = 0 ; i < dir.length ; i++ ){
+            int tempX = x + dir[i][0];
+            int tempY = y + dir[i][1];
+            if( isValid(tempX, tempY , row , col) && grid[tempX][tempY] == '1'){
+                dfs(grid,row,col,tempX,tempY,dir);
+            }            
         }
     }
-    private boolean isValid(int i , int j , int x , int y , int row , int col){
-        return i+x >=0 && i+x < row && j+y >= 0 && j+y < col && Math.abs(i) != Math.abs(j);
+    private boolean isValid( int x , int y , int row , int col){
+        return x >=0 && x < row && y >= 0 && y < col;
     }
 }
-
 ```
 
 

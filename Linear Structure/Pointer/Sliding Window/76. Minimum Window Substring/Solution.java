@@ -12,13 +12,16 @@ public class Solution {
         while( end < s.length() ){
             if( map[s.charAt(end)]-- > 0 ) count--;
             end++;
+            // When we found the required string
             while( count == 0 ){
+                // Update min length
                 if( end - start < minLen){
                     minStart = start;
                     minLen = end - start;
                 }
+                // move left point
                 map[s.charAt(start)]++;
-                if( map[s.charAt(start++)] > 0 ) count++;
+                if( map[s.charAt(start++)] >= 1 ) count++;
             }
         }
         if( minLen == Integer.MAX_VALUE ) return "";

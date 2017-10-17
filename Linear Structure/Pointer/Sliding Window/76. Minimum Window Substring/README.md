@@ -1,4 +1,6 @@
 ### Two pointers
+* Move the end pointer when count is bigger than 0
+* Move the start pointer is the count is 0
 
 ```java
 public class Solution {

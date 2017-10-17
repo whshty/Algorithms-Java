@@ -1,3 +1,6 @@
+### Inorder
+
+```java
 public class BSTIterator {
     private Deque<TreeNode> deque = new ArrayDeque<TreeNode>();
      
@@ -36,3 +39,4 @@ public class BSTIterator {
         return node.val;
     }
 }
+```

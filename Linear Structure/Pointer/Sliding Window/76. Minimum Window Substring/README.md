@@ -1,7 +1,6 @@
 Two pointers
 
-
-```
+```java
 public class Solution {
     public String minWindow(String s, String t) {   
         if( s == null || s.length() == 0 || s.length() < t.length() ) return "";

@@ -15,9 +15,7 @@
 * O(3^n)
 * O(n) for recursion stack
 
-```
-import java.util.*;
-
+```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {
         myCode sol = new myCode();
@@ -61,12 +59,9 @@ class myCode {
 ```
 
 
-
-
-
 ### + and - and * 
 
-```
+```java
 public class Solution {
     public List<String> addOperators(String num, int target) {
         List<String> res = new ArrayList<String>();

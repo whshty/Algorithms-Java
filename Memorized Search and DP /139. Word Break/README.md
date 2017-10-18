@@ -1,6 +1,6 @@
 ### DFS
 
-```
+```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         return dfs(s,wordDict,new HashSet<String>());
@@ -20,9 +20,9 @@ class Solution {
 
 ### DP
 
-###### Time  : O(n^2)
+* Time  : O(n^2)
 
-```
+```java
 s = "facebook"
 words = ["face" , "book"]
 dp

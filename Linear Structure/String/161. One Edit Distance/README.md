@@ -1,5 +1,10 @@
 ### Check Substring
 
+* substring() is O(n)
+* time : O(2n) = O(n)
+* Find the first different character
+1. If the length is the same , aabc  vs aadc
+2. If the length is different, aabcd vs aacd  
 
 ```java
 public class Solution {

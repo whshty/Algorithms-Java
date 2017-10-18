@@ -1,7 +1,7 @@
-### Use subString
+### Check Substring
 
 
-```
+```java
 public class Solution {
     public boolean isOneEditDistance(String s, String t) {
         if( s.length() == 0 && t.length() == 0 ) return false;
@@ -25,7 +25,7 @@ public class Solution {
 ```
 
 
-### Use two pointers ( count common characters)
+### Two Pointers ( Count Common Characters)
 If s and t are one distance away then no matter it is insert or delete or replace the count of common characters must be max(m, n) - 1, where m is the length of s and n is the length of t. It is easy to see that the reverse is also true.
 
 * Assume the length of common prefix (from left to right) is i 
@@ -33,7 +33,7 @@ If s and t are one distance away then no matter it is insert or delete or replac
 * The answer is then max(m, n) - 1 == i + j
 
 
-```
+```java
 public class Solution {
     public boolean isOneEditDistance(String s, String t) {
         if( s.length() == 0 && t.length() == 0 ) return false;

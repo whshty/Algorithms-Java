@@ -1,6 +1,6 @@
 ### Recursion : Successor 
 
-```
+```java
 class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;
@@ -18,7 +18,7 @@ class Solution {
 
 ### Recursion : Predecessor
 
-```
+```java
 class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;
@@ -39,7 +39,7 @@ class Solution {
 
 ### Iteration : Successor
 
-```
+```java
 public class Solution {
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         TreeNode res = null;

@@ -1,4 +1,5 @@
 ### DFS
+* Worst case : O(n^2)
 
 ```java
 class Solution {
@@ -22,7 +23,7 @@ class Solution {
 
 * Time  : O(n^2)
 
-```java
+```
 s = "facebook"
 words = ["face" , "book"]
 dp
@@ -35,7 +36,7 @@ t       t       t
 dp[i] is true if ther a word in the dictionary that end at ith of s adnd is also true at the beginning of the word
 
 
-```
+```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int len = s.length();

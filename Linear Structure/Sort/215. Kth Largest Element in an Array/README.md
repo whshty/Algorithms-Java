@@ -1,7 +1,7 @@
 ### 1.Brute force
 * O(nlgn) + O(1)
 
-```
+```java
 public class Solution {
     public int findKthLargest(int[] nums, int k) {
         Arrays.sort(nums);
@@ -16,7 +16,7 @@ public class Solution {
 * Iterate over the whole input and  maintains the size of head 
 * O(n*lgk) running time + O(K) memory
 
-```
+```java
 public class Solution {
     public int findKthLargest(int[] nums, int k) {
         PriorityQueue<Integer> heap = new PriorityQueue<>();
@@ -67,7 +67,7 @@ i   j
 ```
 
 
-```
+```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         int len = nums.length;

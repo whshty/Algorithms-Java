@@ -30,11 +30,13 @@ public class Solution {
 // Recursion 2
 public class Solution {
     public int countNodes(TreeNode root) {
-        int treeHeight = countHeight(root);
+        int treeHeight = countHeight(root); // the height of next level
         if( treeHeight < 0 ) return 0;
-        if( countHeight(root.right) == treeHeight-1 ) {
+        if( countHeight(root.right) == treeHeight - 1 ) {
+             // left full tree - 1 + root(1) + right tree
             return (1 << treeHeight) + countNodes(root.right);
         }
+        // left tree + right sub full tree nodes
         else return countNodes(root.left) + (1 << treeHeight-1);
     }
     public int countHeight(TreeNode root){

@@ -9,9 +9,7 @@ class Solution {
         for( int i = 0 ; i < nums.length ; i++ ){
             for( int j = 9 ; j > nums[i] ; j-- ){
                 if( bucket[j] > i ){
-                    int temp =  nums[i];
-                    nums[i] = nums[bucket[j]];
-                    nums[bucket[j]] = temp;
+                    swap(nums,i,bucket[j]);
                     
                     int res = convertBackToIntArray(nums);
                     return res;   
@@ -19,6 +17,11 @@ class Solution {
             }
         }
         return num;
+    }
+    public void swap(int[] nums, int i , int j ){
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
     
     private int convertBackToIntArray(int[] nums){
@@ -28,3 +31,4 @@ class Solution {
         }
         return res;
     }
+}

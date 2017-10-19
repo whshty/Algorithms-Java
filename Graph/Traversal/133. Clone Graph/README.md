@@ -10,7 +10,7 @@ class UndirectedGraphNode {
 ```
 
 ### BFS
-```
+```java
 public class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if( node == null ) return null;
@@ -35,10 +35,10 @@ public class Solution {
 
 ```
 
-### Follow Up : Copy a list of graph nodes
+### Follow-Up : Copy A List of Graph Nodes
 
-```
-import java.io.*;
+```java
+
 import java.util.*;
 
 class myCode {

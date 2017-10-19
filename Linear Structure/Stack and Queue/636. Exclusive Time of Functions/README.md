@@ -1,3 +1,6 @@
+### Stack
+
+```java
 class Solution {
     public int[] exclusiveTime(int n, List<String> logs) {
         int[] res = new int[n];
@@ -29,3 +32,4 @@ class Solution {
         return res;
     }
 }
+```

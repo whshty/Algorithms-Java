@@ -18,7 +18,7 @@ index 0         4 5
 ```
 
 
-```
+```java
 public class Solution {
     public String multiply(String num1, String num2) {
         int m = num1.length();

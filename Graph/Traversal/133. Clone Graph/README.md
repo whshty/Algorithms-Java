@@ -9,14 +9,14 @@ class UndirectedGraphNode {
 }
 ```
 
-### BFS
+### HashMap To Saved Cloned Nodes
 ```java
 public class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if( node == null ) return null;
         Queue<UndirectedGraphNode> queue = new LinkedList<UndirectedGraphNode>();
         queue.add(node);
-        Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<UndirectedGraphNode, UndirectedGraphNode>();
+        Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
         map.put(node, new UndirectedGraphNode(node.label));
         
         while( !queue.isEmpty() ){

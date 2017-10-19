@@ -19,7 +19,9 @@ Otherwise check whether the height of the right subtree is just one less than th
 
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/222.%20Count%20Complete%20Tree%20Nodes/CompleteBinary.jpg)
 
+
 ```java
+// Recursion 1
 public class Solution {
     public int countNodes(TreeNode root) {
         if( root == null ) return 0;
@@ -41,7 +43,7 @@ public class Solution {
     }
 }
 
-// Recursion 
+// Recursion 2
 public class Solution {
     public int countNodes(TreeNode root) {
         int treeHeight = countHeight(root);

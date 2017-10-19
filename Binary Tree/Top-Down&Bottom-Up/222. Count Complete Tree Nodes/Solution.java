@@ -1,4 +1,4 @@
-// Brute force 
+// Recursion 1
 public class Solution {
     public int countNodes(TreeNode root) {
         if( root == null ) return 0;
@@ -27,7 +27,7 @@ public class Solution {
     }
 }
 
-// Recursion 
+// Recursion 2
 public class Solution {
     public int countNodes(TreeNode root) {
         int treeHeight = countHeight(root);

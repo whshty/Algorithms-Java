@@ -1,4 +1,5 @@
-// Iteration
+### Iteration
+```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode pre = null;
@@ -12,9 +13,10 @@ class Solution {
         return pre;
     }
 }
+```
 
-
-// Recursion 
+### Recursion 
+```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         if( head == null ) return null;
@@ -28,3 +30,4 @@ class Solution {
         return helper(next,cur);
     }
 }
+```

@@ -11,13 +11,15 @@ public class Solution {
     }
 }
 
+// Iteration
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         Map<TreeNode, TreeNode> map = new HashMap<>();
-        Deque<TreeNode> deque = new ArrayDeque<>();
+        Deque<TreeNode> deque = new ArrayDeque<>(); // Stack
         map.put(root, null);
         deque.push(root);
-
+        
+        // Create child - root relationship
         while (!map.containsKey(p) || !map.containsKey(q)) {
             TreeNode node = deque.pop();
             if (node.left != null) {
@@ -29,11 +31,13 @@ public class Solution {
                 deque.push(node.right);
             }
         }
+        // Create a path from node P to from
         Set<TreeNode> set = new HashSet<>();
         while (p != null) {
             set.add(p);
             p = map.get(p);
         }
+        // Traverse backwards from q to this path 
         while (!set.contains(q)) q = map.get(q);
         return q;
     }

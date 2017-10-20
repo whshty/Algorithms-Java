@@ -2,10 +2,6 @@
 * If We can find left and right, return root
 * If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
 
-![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic1.png)
-
-![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic2.png)
-
 ```java
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -20,6 +16,9 @@ public class Solution {
     }
 }
 ```
+![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic1.png)
+
+![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic2.png)
 
 ### Iteration
 

@@ -21,6 +21,7 @@ public class Solution {
 
 
 ### Memorized DFS
+* Worst Case : Time : O(2^n)
 
 ```java
 public class Solution {

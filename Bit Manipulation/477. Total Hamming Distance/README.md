@@ -1,5 +1,5 @@
 ### Use XOR to find the different bit
-```
+```java
 class Solution {
     public int totalHammingDistance(int[] nums) {
         int count = 0;
@@ -21,7 +21,7 @@ class Solution {
 * and j numbers have a 1-bit. 
 * Then out of the pairs, i * j of them will have 1 in the rightmost bit of the XOR.
 
-```
+```java
 class Solution {
     public int totalHammingDistance(int[] nums) {
         int n = 31;

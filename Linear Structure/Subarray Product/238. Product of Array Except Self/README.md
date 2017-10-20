@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public int[] productExceptSelf(int[] nums) {
         int[] res = new int[nums.length];
@@ -12,3 +13,4 @@ public class Solution {
         return res;
     }
 }
+```

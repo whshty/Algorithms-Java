@@ -21,6 +21,13 @@ class Solution {
 * and j numbers have a 1-bit. 
 * Then out of the pairs, i * j of them will have 1 in the rightmost bit of the XOR.
 
+```
+1,1,1,0,0
+
+The result will be 3 * 2
+
+```
+
 ```java
 class Solution {
     public int totalHammingDistance(int[] nums) {

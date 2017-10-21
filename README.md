@@ -148,6 +148,7 @@
 
 ### [Stack and Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue)
 * [Expression Evaluation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/Expression%20Evaluation)
+* [50. Pow(x, n)]
 * [71. Simplify Path](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/71.%20Simplify%20Path)
 * [155. Min Stack](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/155.%20Min%20Stack)
 * [224. Basic Calculator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Stack%20and%20Queue/224.%20Basic%20Calculator/Solution.java)
@@ -175,10 +176,6 @@
 * [367. Valid Perfect Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/367.%20Valid%20Perfect%20Square)
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 * [540. Single Element in a Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/540.%20Single%20Element%20in%20a%20Sorted%20Array)
-
-# [Divide and Conquer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Divide%20and%20Conquer)
-* [50. Pow(x, n)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Divide%20and%20Conquer/50.%20Pow(x%2C%20n))
-
 
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

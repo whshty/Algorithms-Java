@@ -1,6 +1,6 @@
 public class Solution {
     public String simplifyPath(String path) {
-        Deque<String> stack = new LinkedList<>();
+        Deque<String> stack = new ArrayDeque<>();
         Set<String> set = new HashSet<>(Arrays.asList("..",".",""));
         for(String dir : path.split("/")){
             if( dir.equals("..") && !stack.isEmpty()){
@@ -10,7 +10,8 @@ public class Solution {
             }
         }
         String res = "";
+        if(stack.isEmpty()) return "/";
         for (String dir : stack) res = "/" + dir + res;
-        return res.isEmpty() ? "/" : res;
+        return res;
     }
 }

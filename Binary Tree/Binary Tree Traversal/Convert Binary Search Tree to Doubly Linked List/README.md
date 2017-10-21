@@ -25,6 +25,37 @@ public class Solution {
     }
 }
 ```
+### Inorder - Iteration
+```
+public class Solution {
+    public void convert(TreeNode root) {
+        // write your code here
+        if( root == null ) return;
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        TreeNode node = root;
+        TreeNode pre = null;
+
+        while( node != null || !deque.isEmpty()){
+            if ( node != null ){
+                deque.addFirst(node);
+                node = node.left;
+            } else {
+                node = deque.removeFirst();
+                if( pre != null )pre.right = node;
+                node.left = pre;
+                pre = node;
+                node = node.right;
+
+            }
+        }
+    }
+}
+
+```
+
+
+
+
 # Create DLL class
 
 ### Inorder - Iteration

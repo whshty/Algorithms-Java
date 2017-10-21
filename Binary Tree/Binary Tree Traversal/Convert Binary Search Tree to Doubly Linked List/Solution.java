@@ -1,35 +1,3 @@
-public class Solution {
-    /*
-     * @param root: The root of tree
-     * @return: the head of doubly list node
-     */
-    public DoublyListNode bstToDoublyList(TreeNode root) {
-        // write your code here
-        if( root == null ) return null;
-        Deque<TreeNode> deque = new ArrayDeque<>();
-        TreeNode node = root;
-        
-        DoublyListNode dummy = new DoublyListNode(-1);
-        DoublyListNode head = dummy;
-        
-        while( node != null || !deque.isEmpty()){
-            if ( node != null ){
-                deque.addFirst(node);
-                node = node.left;
-            } else{
-                node = deque.removeFirst();
-                DoublyListNode cur = new DoublyListNode(node.val);
-                head.next = cur;
-                
-                cur.prev = head;
-                head = head.next;
-                node = node.right;
-            }
-        } 
-        return dummy.next;
-    }
-}
-
 // Recursion
 public class Solution {
     public static void main(String[] args) {
@@ -58,8 +26,6 @@ public class Solution {
             cur = cur.left;
         }
         System.out.print(cur.val);
-
-
     }
 
 
@@ -94,6 +60,65 @@ class TreeNode {
 
     TreeNode(int x) {
         val = x;
+    }
+}
+
+
+// Inorder - Iteration
+public class Solution {
+    public void convert(TreeNode root) {
+        // write your code here
+        if( root == null ) return;
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        TreeNode node = root;
+        TreeNode pre = null;
+
+        while( node != null || !deque.isEmpty()){
+            if ( node != null ){
+                deque.addFirst(node);
+                node = node.left;
+            } else {
+                node = deque.removeFirst();
+                if( pre != null )pre.right = node;
+                node.left = pre;
+                pre = node;
+                node = node.right;
+
+            }
+        }
+    }
+}
+
+// Use Dll class
+public class Solution {
+    /*
+     * @param root: The root of tree
+     * @return: the head of doubly list node
+     */
+    public DoublyListNode bstToDoublyList(TreeNode root) {
+        // write your code here
+        if( root == null ) return null;
+        Deque<TreeNode> deque = new ArrayDeque<>();
+        TreeNode node = root;
+        
+        DoublyListNode dummy = new DoublyListNode(-1);
+        DoublyListNode head = dummy;
+        
+        while( node != null || !deque.isEmpty()){
+            if ( node != null ){
+                deque.addFirst(node);
+                node = node.left;
+            } else{
+                node = deque.removeFirst();
+                DoublyListNode cur = new DoublyListNode(node.val);
+                head.next = cur;
+                
+                cur.prev = head;
+                head = head.next;
+                node = node.right;
+            }
+        } 
+        return dummy.next;
     }
 }
 

@@ -1,3 +1,8 @@
+### HashMap
+* Save the value - index to map
+* When we want to remove a certain value, we put the last value to this positon and reduce the size of map and array
+
+```java
 public class RandomizedSet {
     // ArrayList to store values : for getRandom
     // HashMap to track each value and its location
@@ -38,3 +43,4 @@ public class RandomizedSet {
         return nums.get(rand.nextInt(nums.size()));
     }
 }
+```

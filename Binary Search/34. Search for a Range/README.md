@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public int[] searchRange(int[] nums, int target) {
         if( nums.length == 1 ){
@@ -26,3 +27,4 @@ public class Solution {
         return start;
     }
 }
+```

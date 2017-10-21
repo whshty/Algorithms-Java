@@ -1,5 +1,5 @@
 
-### Dp
+### DP
 ```java
 class TicTacToe {
     int[][] board;

@@ -252,6 +252,7 @@
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)
 * [230. Kth Smallest Element in a BSTs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/222.%20Count%20Complete%20Tree%20Nodes)
+* 235. Lowest Common Ancestor of a Binary Search Tree
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [285. Inorder Successor in BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/285.%20Inorder%20Successor%20in%20BST)
 

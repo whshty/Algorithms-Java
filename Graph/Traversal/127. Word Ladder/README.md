@@ -1,6 +1,8 @@
 ### BFS
+* Worst Time : O(word.length() * 25 ^ list.size())
 
 ### Dual Direction BFS
+* Time : About to reduce the brute force time squre root
 
 ```java
 class Solution {
@@ -18,11 +20,11 @@ class Solution {
         return bfs(beginSet,endSet,words,visited,count);
     }
     
-    private int bfs(Set<String> beginSet, Set<String> endSet, Set<String> words, Set<String> visited, int count){
+    private int bfs(Set<String> beginSet, Set<String> endSet , Set<String> words, Set<String> visited, int count){
         while (!beginSet.isEmpty() && !endSet.isEmpty()) {
             swapSet(beginSet,endSet);
 
-            Set<String> temp = new HashSet<>();
+            Set<String> nextSet = new HashSet<>();
             for (String word : beginSet) {
                 char[] ch = word.toCharArray();
 
@@ -34,14 +36,14 @@ class Solution {
 
                         if (endSet.contains(tempRes)) return count + 1;
                         if (!visited.contains(tempRes) && words.contains(tempRes)) {
-                            temp.add(tempRes);
+                            nextSet.add(tempRes);
                             visited.add(tempRes);
                         }
                         ch[i] = old;
                     }
                 }
             }
-            beginSet = temp;
+            beginSet = nextSet;
             count++;
         }
         return 0;

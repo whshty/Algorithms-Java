@@ -40,3 +40,15 @@
   
 * Disadvantages 
   1. In the medium of Edges lists and Adjacency matrices
+
+  
+## Time and Space
+* If you just care about connectivity, instead of path info, Union Find is better 
+
+|       | DFS                   | BFS    | Union Find |
+|-------|-----------------------|--------|------------|
+| Time  | O(E+V)                | O(E+V) | O(V*h)     |
+| Space | O(E+V)                | O(E+V) | O(V)       |
+|       | O(V)                  |        |            |
+|       | Recursion Stack :O(h) |        |            |
+

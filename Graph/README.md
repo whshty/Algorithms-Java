@@ -1,7 +1,5 @@
-# Graph
-
-## Representations
-### Edge lists
+### Representations
+###### Edge lists
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/edgelists.png "Logo Title Text 1")
 
 ```
@@ -18,7 +16,7 @@
   1. Not good for finding connection between i and j
   2. Not good for treversal
 
-### Adjacency matrices
+###### Adjacency matrices
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/adjacencymatrices.png "Logo Title Text 1")
 
 * Advantages 
@@ -31,7 +29,7 @@
   1. Waste of space 	
   
   
-### Adjacency lists
+###### Adjacency lists
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Graph/Pictures/adjacencylist.png "Logo Title Text 1")
 
 * Advantages
@@ -42,7 +40,7 @@
   1. In the medium of Edges lists and Adjacency matrices
 
   
-## Time and Space
+### Time and Space
 * If you just care about connectivity, instead of path info, Union Find is better 
 
 |       | DFS                   | BFS    | Union Find |

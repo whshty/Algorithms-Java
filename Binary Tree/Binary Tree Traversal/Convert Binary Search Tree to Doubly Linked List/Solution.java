@@ -30,15 +30,45 @@ public class Solution {
     }
 }
 
+// Recursion
+public class Solution {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(2);
+        root.left = new TreeNode(1);
+        root.right = new TreeNode(3);
+        root.right.left = new TreeNode(4);
+        root.right.right = new TreeNode(5);
 
-public class Solution{
+        Solution sol = new Solution();
+        sol.convert(root);
+
+        TreeNode cur = root;
+        while (cur.left != null) {
+            cur = cur.left;
+        }
+        while (cur.right != null) {
+            System.out.print(cur.val);
+            cur = cur.right;
+        }
+        System.out.print(cur.val);
+        System.out.println("");
+
+        while (cur.left != null) {
+            System.out.print(cur.val);
+            cur = cur.left;
+        }
+        System.out.print(cur.val);
+
+
+    }
+
+
     TreeNode prev = null;
-    static TreeNode head;
-    public void convert(TreeNode root){
-        if(root == null ) return;
+
+    public void convert(TreeNode root) {
+        if (root == null) return;
         convert(root.left);
-        if(prev == null) head = root;
-        else {
+        if (prev != null) {
             root.left = prev;
             prev.right = root;
         }
@@ -46,12 +76,24 @@ public class Solution{
         convert(root.right);
     }
 
-    public void generateCycle(TreeNode root){
-        TreeNode pre = root , head = root;
-        while( head.right != null ){
+    public void generateCycle(TreeNode root) {
+        TreeNode pre = root, head = root;
+        while (head.right != null) {
             head = head.right;
         }
         head.right = pre;
         pre.left = head;
     }
 }
+
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+

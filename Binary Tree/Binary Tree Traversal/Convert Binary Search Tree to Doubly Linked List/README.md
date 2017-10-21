@@ -1,14 +1,13 @@
 # Use Tree Class as DLL
 ### Inorder - Recursion
 ```java
-public class Solution{
+public class Solution {
     TreeNode prev = null;
-    static TreeNode head;
-    public void convert(TreeNode root){
-        if(root == null ) return;
+
+    public void convert(TreeNode root) {
+        if (root == null) return;
         convert(root.left);
-        if(prev == null) head = root;
-        else {
+        if (prev != null) {
             root.left = prev;
             prev.right = root;
         }
@@ -16,9 +15,9 @@ public class Solution{
         convert(root.right);
     }
 
-    public void generateCycle(TreeNode root){
-        TreeNode pre = root , head = root;
-        while( head.right != null ){
+    public void generateCycle(TreeNode root) {
+        TreeNode pre = root, head = root;
+        while (head.right != null) {
             head = head.right;
         }
         head.right = pre;

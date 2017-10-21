@@ -45,7 +45,6 @@ public class Solution {
                 node.left = pre;
                 pre = node;
                 node = node.right;
-
             }
         }
     }

@@ -117,9 +117,6 @@
 * [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/311.%20Sparse%20Matrix%20Multiplication)
 
 
-
-
-
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
 
 ##### [A. Singly Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List)

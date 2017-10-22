@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int maxPathSum(TreeNode root) {
         int[] max = new int[1];
@@ -16,3 +17,4 @@ class Solution {
         return res;      
     }
 }
+```

@@ -87,15 +87,17 @@ class Solution {
 
         return secondScan.reverse().toString(); 
     }   
-}
+}git a
 
 ```
 
 
 
-# Find All Solution : Queue + Set
+# Find All Solution
+### Queue + Set
 * Queue : BFS
 * Set : Cache search result
+* Time : T(n) = n x C(n, n) + (n-1) x C(n, n-1) + … + 1 x C(n, 1) + 0 * C(n, 0)= n x 2^n
 
 ```java
 public class Solution {

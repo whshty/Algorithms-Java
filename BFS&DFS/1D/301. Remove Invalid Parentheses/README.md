@@ -1,4 +1,5 @@
-### Find One Solution
+# Find One Solution 
+### Brtue Force BFS
 ```java
 public class Solution {
     public List<String> removeInvalidParentheses(String s) {
@@ -43,8 +44,56 @@ public class Solution {
 
 ```
 
+### Two Pointers
 
-### Find All Solution : Queue + Set
+```java
+class Solution {
+    public List<String> removeInvalidParentheses(String s) {
+        List<String> res = new ArrayList<>();
+        res.add(getValidParentheses(s));
+        return res;
+    }
+    public String getValidParentheses(String s){
+        StringBuilder firstScan = new StringBuilder();
+        int left = 0, right = 0;
+        for (int i = 0; i < s.length() ; i++) {
+            char ch = s.charAt(i);
+            if ( ch == '(') {
+                left++;
+                firstScan.append(ch);
+            } else if (ch == ')' && right < left) {
+                right++;
+                firstScan.append(ch);
+            } else if ( ch != ')' && ch != '(') {
+                firstScan.append(ch);
+            }
+        }
+
+        left = 0;
+        right = 0;
+        StringBuilder secondScan = new StringBuilder();
+        for(int i = firstScan.length() - 1 ; i >= 0 ; i--) {
+            char ch = firstScan.charAt(i);
+            if ( ch == ')') {
+                right++;
+                secondScan.append(')');
+            } else if (ch == '(' && left < right) {
+                left++;
+                secondScan.append('(');
+            } else if (ch != ')' && ch != '(') {
+                secondScan.append(ch);
+            }
+        }
+
+        return secondScan.reverse().toString(); 
+    }   
+}
+
+```
+
+
+
+# Find All Solution : Queue + Set
 * Queue : BFS
 * Set : Cache search result
 

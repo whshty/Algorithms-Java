@@ -75,6 +75,7 @@
 * [340. Longest Substring with At Most K Distinct Characters](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/340.%20Longest%20Substring%20with%20At%20Most%20K%20Distinct%20Characters)
 * [567. Permutation in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/567.%20Permutation%20in%20String)
 * [643. Maximum Average Subarray I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window)
+* 713. Subarray Product Less Than K
 
 ###### [D. Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Calculation)
 * [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Calculation/43.%20Multiply%20Strings)

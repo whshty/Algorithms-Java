@@ -164,6 +164,7 @@
 * [Run Length Encoding](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Run%20Length%20Encoding)
 * [Wood Cut](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Wood%20Cut)
 * [Search Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Search%20Frequency)
+* Left Most One In Matrix
 * [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * [34. Search for a Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/34.%20Search%20for%20a%20Range)

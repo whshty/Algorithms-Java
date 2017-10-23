@@ -93,7 +93,7 @@ public class Solution {
 }
 ```
 
-### Binary Search In Two Pointers
+### Both Arrays Are Sorted : Binary Search In Two Pointers
 
 ```java
 public class Solution {

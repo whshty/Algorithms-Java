@@ -1,3 +1,7 @@
+### Scan
+* Update two values : res and min
+
+```java
 class Solution {
     public int maxProfit(int[] prices) {
         int min = Integer.MAX_VALUE;
@@ -9,3 +13,4 @@ class Solution {
         return res;
     }
 }
+```

@@ -87,7 +87,7 @@ class Solution {
 
         return secondScan.reverse().toString(); 
     }   
-}git a
+}
 
 ```
 

@@ -296,7 +296,6 @@
 * [51. N-Queens](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/51.%20N-Queens)
 * [73. Set Matrix Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/73.%20Set%20Matrix%20Zeroes)
 * [79. Word Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/79.%20Word%20Search)
-* [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/200.%20Number%20of%20Islands)
 * [289. Game of Life](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/289.%20Game%20of%20Life)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [490. The Maze](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/490.%20The%20Maze)
@@ -308,8 +307,9 @@
 ### [Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal)
 * [Check Bipartite Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/Check%20Bipartite%20Graph)
 * [127. Word Ladder](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/127.%20Word%20Ladder)
-* [130. Surrounded Regions]
+* [130. Surrounded Regions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/130.%20Surrounded%20Regions)
 * [133. Clone Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/133.%20Clone%20Graph)
+* [200. Number of Islands]
 * [323. Number of Connected Components in an Undirected Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph)
 
 

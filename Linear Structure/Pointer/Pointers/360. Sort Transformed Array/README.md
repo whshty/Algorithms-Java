@@ -25,7 +25,7 @@ public class Solution {
             if( startVal >= endVal ){
                 res[index--] = startVal;
                 start++;
-            } else{
+            } else {
                 res[index--] = endVal;
                 end--;
             }

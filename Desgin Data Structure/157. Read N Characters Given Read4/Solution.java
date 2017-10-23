@@ -5,16 +5,17 @@ public class Solution extends Reader4 {
      * @return    The number of characters read
      */
     public int read(char[] buf, int n) {
-        boolean isFinished = false; // end of file flag 
+        boolean isFinished = false;
         int index = 0;
         char[] bufForRead4 = new char[4];
-        while( !isFinished  && index < n){
-            int totalToRead  = read4(bufForRead4);
-            isFinished  = totalToRead  < 4 ; // totalToRead  == 4 -> false, continue to read
-            totalToRead = Math.min(totalToRead , n - index);
-            for(int i = 0 ; i < totalToRead ; i ++){
+        while( !isFinished && index < n ){
+            int totalToRead = read4(bufForRead4);
+            if( totalToRead < 4 ) isFinished = true; // totalToRead  == 4 -> false, continue to read
+            totalToRead = Math.min(n-index,totalToRead);// if n - index = 2 but toRead is 3
+            for( int i = 0 ; i < totalToRead ; i++ ){
                 buf[index++] = bufForRead4[i];
             }
+            
         }
         return index;
     }

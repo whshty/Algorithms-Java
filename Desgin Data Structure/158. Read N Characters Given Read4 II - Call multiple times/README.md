@@ -1,8 +1,8 @@
 ```java
 public class Solution extends Reader4 {
     // store the data received in previous calls
-    private int pointer = 0;
-    private int count = 0; 
+    private int read4Pointer = 0; 
+    private int totalToRead = 0; 
     private char[] bufferForRead4 = new char[4];
     /**
      * @param buf Destination buffer
@@ -13,18 +13,17 @@ public class Solution extends Reader4 {
         int index = 0;
         while( index < n ){
             // start new read , put data into temp buff 
-            if( pointer == 0 ) {
-                count = read4(bufferForRead4);
+            if( read4Pointer == 0 ) {
+                totalToRead = read4(bufferForRead4);
                 //if( bufferForRead4 == null || bufferForRead4.length == 0 ) return index;
             }
-            if( count == 0 ) break;
+            if( totalToRead == 0 ) break;
             //while( index == 0 || buffer[index-1] == '\n')
-            while( index < n && pointer < count ) {
-                buffer[index++] = bufferForRead4[pointer++];
+            while( index < n && read4Pointer < totalToRead ) {
+                buffer[index++] = bufferForRead4[read4Pointer++];
                 //if(buffer[index-1] == '\n') break;
             }
-            // reset bufferPointer
-            if( pointer == count ) pointer = 0;
+            if( read4Pointer == totalToRead ) read4Pointer = 0;
         }
         return index;
     }

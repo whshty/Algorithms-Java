@@ -15,13 +15,13 @@ public class Solution {
         queue.add(0);
         
         while(!queue.isEmpty()){
-            int entry = queue.remove();
-            if( set.contains(entry)) return false;
-            for( int node : map.get(entry)){
-                queue.add(node);
-                map.get(node).remove(entry);
+            int node = queue.poll();
+            if( set.contains(node)) return false;
+            for( int temp : map.get(node)){
+                queue.add(temp);
+                map.get(temp).remove(node);
             }
-            set.add(entry);
+            set.add(node);
         }
         return set.size() == n;
     }

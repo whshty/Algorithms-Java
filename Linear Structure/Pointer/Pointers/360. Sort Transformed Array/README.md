@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {
         int[] res = new int[nums.length];
@@ -32,3 +33,4 @@ public class Solution {
         return a * x * x + b * x + c;
     }
 }
+```

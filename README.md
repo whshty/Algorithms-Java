@@ -30,7 +30,6 @@
 * [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 * [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 * [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)
-* 714. Best Time to Buy and Sell Stock with Transaction Fee
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/163.%20Missing%20Ranges)
 * [166. Fraction to Recurring Decimal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/166.%20Fraction%20to%20Recurring%20Decimal)
 * [188. Best Time to Buy and Sell Stock IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV)
@@ -47,7 +46,7 @@
 * [621. Task Scheduler](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/621.%20Task%20Scheduler)
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Scan%20and%20Search/670.%20Maximum%20Swap/Solution.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
-
+* [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
 
 

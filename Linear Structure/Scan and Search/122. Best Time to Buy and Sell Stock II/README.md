@@ -1,4 +1,6 @@
-// Peak Valley Approach 
+### Peak Valley Approach
+
+```java
 class Solution {
     public int maxProfit(int[] prices) {
         if( prices == null || prices.length == 0 ) return 0;
@@ -17,7 +19,10 @@ class Solution {
     }
 }
 
-// Single one pass
+```
+
+### One Pass
+```java
 class Solution {
     public int maxProfit(int[] prices) {
         int res = 0;
@@ -29,3 +34,4 @@ class Solution {
         return res;
     }
 }
+```

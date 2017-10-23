@@ -24,7 +24,7 @@ public class Solution {
 }
 ```
 
-### Sort + Two pointers
+### Both Arrays Are Sorted + Two pointers
 ```java
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -55,7 +55,7 @@ public class Solution {
 ```
 
 
-### Binary Search 
+### Binary Search - Only One Input Array is sorted
 
 ```java
 public class Solution {

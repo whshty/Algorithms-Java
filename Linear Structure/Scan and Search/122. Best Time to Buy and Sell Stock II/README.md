@@ -22,6 +22,8 @@ class Solution {
 ```
 
 ### One Pass
+* Optimize to solve the situation of continually increasing array
+
 ```java
 class Solution {
     public int maxProfit(int[] prices) {

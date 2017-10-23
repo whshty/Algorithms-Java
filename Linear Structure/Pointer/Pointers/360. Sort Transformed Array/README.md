@@ -1,5 +1,6 @@
-### Two Pointers
+### Two Pointers 
 
+### f(x) = x^2
 ```
 -5,-1,2,4 
 a = 1, b = 0 , c = 0
@@ -10,6 +11,37 @@ n,n,16,25
 1,n,16,25 
 1,4,16,25 
 ```
+```java
+public class Solution {
+    public int[] sortTransformedArray(int[] nums) {
+        int[] res = new int[nums.length];
+        int start = 0;
+        int end = nums.length - 1;
+        int index = nums.length - 1;
+        while( start <= end ){
+            int startVal = calculate(nums[start]);
+            int endVal = calculate(nums[end]);
+    
+            if( startVal >= endVal ){
+                res[index--] = startVal;
+                start++;
+            } else{
+                res[index--] = endVal;
+                end--;
+            }
+           
+        }
+        return res;
+    }
+    private int calculate(int x){
+        return x * x ;
+    }
+}
+```
+
+
+
+### f(x) = ax^2 + bx + c
 
 ```java
 public class Solution {

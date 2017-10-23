@@ -1,3 +1,10 @@
+### DP
+* buy1 means that we have to borrow money from others, we want to borrow less so that we have to make our balance as max as we can(because this is negative)
+* sell1 means we decide to sell the stock
+* buy2 means we want to buy another stock
+* sell2 means we want to sell stock2, this will be the result
+
+```java
 class Solution {
     public int maxProfit(int[] prices) {
         int sellOne = 0, sellTwo = 0;
@@ -16,3 +23,4 @@ class Solution {
         return sellTwo;
     }
 }
+```

@@ -1,3 +1,4 @@
+```java
 public class Solution extends Reader4 {
     /**
      * @param buf Destination buffer
@@ -19,3 +20,4 @@ public class Solution extends Reader4 {
         return index;
     }
 }
+```

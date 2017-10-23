@@ -1,3 +1,16 @@
+### Two Pointers
+
+```
+-5,-1,2,4 
+a = 1, b = 0 , c = 0
+
+res : 
+n,n,n,25
+n,n,16,25
+1,n,16,25 
+1,4,16,25 
+```
+
 ```java
 public class Solution {
     public int[] sortTransformedArray(int[] nums, int a, int b, int c) {

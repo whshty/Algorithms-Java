@@ -32,7 +32,7 @@
 * [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)
 * [163. Missing Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/163.%20Missing%20Ranges)
 * [166. Fraction to Recurring Decimal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/166.%20Fraction%20to%20Recurring%20Decimal)
-* 188. Best Time to Buy and Sell Stock IV
+* [188. Best Time to Buy and Sell Stock IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV)
 * [189. Rotate Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/189.%20Rotate%20Array)
 * [228. Summary Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/228.%20Summary%20Ranges)
 * [268. Missing Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/268.%20Missing%20Number)

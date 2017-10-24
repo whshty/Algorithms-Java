@@ -130,6 +130,7 @@
 * [92. Reverse Linked List II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/92.%20Reverse%20Linked%20List%20II)
 * [138. Copy List with Random Pointer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/138.%20Copy%20List%20with%20Random%20Pointer)
 * [143. Reorder List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/143.%20Reorder%20List)
+* 141. Linked List Cycle
 * [206. Reverse Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/206.%20Reverse%20Linked%20List)
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
 

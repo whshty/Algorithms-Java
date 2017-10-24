@@ -1,3 +1,5 @@
+### Push twice if there is a new min value
+```java
 public class MinStack {
     /** initialize your data structure here. */
     Deque<Integer> stack = new ArrayDeque<Integer>();
@@ -25,3 +27,4 @@ public class MinStack {
         return min;
     }
 }
+```

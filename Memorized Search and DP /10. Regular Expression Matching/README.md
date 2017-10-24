@@ -1,4 +1,12 @@
 ## DFS
+* Time : Worst Case O(2^n)
+
+```
+假设P全是a*a*a*这样组成，s = aaaaaaaa 而s的每一个字符都有2种可能：与当前的a*匹配,或者与下一个a*匹配（前一个匹配空)
+s[] = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+p[] = "a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*a*b"
+```
+
 ```java
 class Solution {
     public boolean isMatch(String s, String p) {
@@ -65,7 +73,7 @@ Second loop
 | 2 | 1:a |   |     |     |     | T   |     |
 | 3 | 2:b |   |     |     |     |     | T   |
 
-```
+```java
 public class Solution {
     public boolean isMatch(String s, String p) {
         int m = s.length()+1;

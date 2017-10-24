@@ -1,6 +1,6 @@
 Same as 100. Same Tree
 
-```
+```java
 class Solution {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null) return false;

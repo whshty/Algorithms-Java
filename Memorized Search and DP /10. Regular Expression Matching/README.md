@@ -1,20 +1,24 @@
 ## DFS
-```
-public class Solution {
+```java
+class Solution {
     public boolean isMatch(String s, String p) {
         return dfs(s, p , 0, 0);
     }
     private boolean dfs(String s, String p, int i, int j) {
-        if (j == p.length()) return i == s.length();
-          
-        if (j == p.length() - 1 || p.charAt(j + 1) != '*') {
+        // If j reach the end, i should also in the end
+        if( j == p.length() ) return i == s.length();
+        
+        // No * situation in j + 1
+        // j == p.length() - 1 is the end case 
+        if( j == p.length() - 1 || p.charAt(j + 1) != '*') {
             if ( i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) return dfs(s,p, i + 1, j + 1);
             else return false;
         }
+        // * in j + 1  
         else {
-            while (i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
+            while( i < s.length() && (s.charAt(i) == p.charAt(j) || p.charAt(j) == '.')) {
                 if (dfs(s, p, i, j + 2)) return true;
-                i++;
+                i++;// "aaaaaaaa",".*"
             }
             return dfs(s, p, i, j + 2);
         }

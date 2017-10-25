@@ -1,4 +1,4 @@
-```
+```java
 public class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         if( s.length() < 1 ) return 0;

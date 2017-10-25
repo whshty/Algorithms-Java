@@ -1,4 +1,4 @@
-### Recursion 
+## 1. Recursion 
 * Time : O(n)
 * If We can find left and right, return root
 * If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
@@ -22,7 +22,7 @@ public class Solution {
 
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic2.png)
 
-### Iteration
+## 2.Iteration
 
 ```java
 public class Solution {
@@ -58,7 +58,7 @@ public class Solution {
 
 ```
 
-### Find the length of shortest path between two nodes in a tree
+## 3. Find the length of shortest path between two nodes in a tree
 
 ```java
 public int getShortestDistance(TreeNode root, TreeNode p ,TreeNode q ){

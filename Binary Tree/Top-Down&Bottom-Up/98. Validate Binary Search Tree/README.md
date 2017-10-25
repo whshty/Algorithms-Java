@@ -1,4 +1,6 @@
 ## 1.Recursion
+* Time : O(n)
+* Space : O(h)
 
 ```java
 public class Solution {
@@ -17,6 +19,8 @@ public class Solution {
 ```
 
 ## 2.Iteration (In-Order)
+* Time : O(n)
+* Space : O(n)
 
 ```java
 public class Solution {

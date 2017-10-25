@@ -1,4 +1,4 @@
-### Recursion
+## 1.Recursion
 
 ```java
 public class Solution {
@@ -16,7 +16,7 @@ public class Solution {
 }
 ```
 
-### Iteration (In-Order)
+## 2.Iteration (In-Order)
 
 ```java
 public class Solution {

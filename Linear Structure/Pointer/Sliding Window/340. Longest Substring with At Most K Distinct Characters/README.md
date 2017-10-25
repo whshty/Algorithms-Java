@@ -1,8 +1,8 @@
 ```java
-public class Solution {
+class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         if( s.length() < 1 ) return 0;
-        HashMap<Character,Integer> map = new HashMap<Character,Integer>();
+        Map<Character,Integer> map = new HashMap<Character,Integer>();
         int start = 0 , end = 0;
         int maxLen = 0;
         while( end < s.length() ){

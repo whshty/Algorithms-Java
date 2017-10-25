@@ -266,7 +266,7 @@
 * [295. Find Median from Data Stream](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/295.%20Find%20Median%20from%20Data%20Stream)
 * [347. Top K Frequent Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/347.%20Top%20K%20Frequent%20Elements)
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
-* 632. Smallest Range
+* [632. Smallest Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/632.%20Smallest%20Range)
 
 # [TreeSet](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet)
 * [683. K Empty Slots](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet/683.%20K%20Empty%20Slots)

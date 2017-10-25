@@ -1,11 +1,13 @@
 ### Recursion 
+* Time : O(n)
 * If We can find left and right, return root
 * If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
 
 ```java
 public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if( root == null || root == p || root == q ) return root;
+        if( root == null ) return root;
+        if( root == p || root == q ) return root;
         
         TreeNode left = lowestCommonAncestor(root.left,p,q);
         TreeNode right = lowestCommonAncestor(root.right,p,q);

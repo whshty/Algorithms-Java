@@ -1,6 +1,6 @@
 # Typical Solution for Calculating Subarray Sum 
 
-### Use slidng window, move left point when the current sum is bigger than result
+### 1.Use slidng window, move left point when the current sum is bigger than result
 
 ```java
 class myCode {
@@ -28,7 +28,7 @@ class myCode {
 }
 ```
 
-### Use HashMap or HashMap to save prefix sum results
+### 2.Use HashMap or HashMap to save prefix sum results
 
 ```java
 class myCode {

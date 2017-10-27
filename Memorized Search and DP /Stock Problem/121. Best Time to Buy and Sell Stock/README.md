@@ -5,13 +5,13 @@
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
-        int sell = 0, buy = Integer.MIN_VALUE;
+        int cur = 0, cost = Integer.MIN_VALUE;
         
         for (int price : prices) {
-            sell = Math.max(sell, buy + price);
-            buy = Math.max(buy, -price);
+            cur = Math.max(cur, cost + price);
+            cost = Math.max(cost, -price);
         }
-        return sell;
+        return cur;
     }
 }
 ```

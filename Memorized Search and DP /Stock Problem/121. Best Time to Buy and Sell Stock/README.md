@@ -1,6 +1,6 @@
 ### 1.DP
-* Sell : How much money we have, should choose max value
-* Buy : How much money will cost, should choose min value
+* Cur : How much money we have, should choose max value
+* cost : How much money will cost, should choose min value
 
 ```java
 class Solution {

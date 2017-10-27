@@ -324,10 +324,11 @@
 
 # [Memorized Search and DP](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20)
 ### [Stock Problem](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem)
-* [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
-* [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
-* [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)
-* [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
+* [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
+* [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
+* [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)
+* [188. Best Time to Buy and Sell Stock IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV)
+* [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
 
 ### Other

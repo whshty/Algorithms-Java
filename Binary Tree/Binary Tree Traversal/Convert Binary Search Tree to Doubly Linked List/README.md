@@ -1,5 +1,5 @@
-# Use Tree Class as DLL
-### Inorder - Recursion
+## 1.Use Tree Class as DLL
+### 1.1 Inorder & Recursion & Global Variable
 ```java
 public class Solution {
     TreeNode prev = null;
@@ -25,7 +25,55 @@ public class Solution {
     }
 }
 ```
-### Inorder - Iteration
+### 1.2 Inorder & Recursion & Without Global Variable
+
+``` java
+class Solution {
+    public void treeToDll(TreeNode root) {
+        if (root == null) return;
+        helper(root);
+        // Generate Cycle
+//        TreeNode head = root;
+//        TreeNode tail = root;
+//        while (head.left != null) {
+//            head = head.left;
+//        }
+//        while (tail.right != null) {
+//            tail = tail.right;
+//        }
+//        head.left = tail;
+//        tail.right = head;
+//        return head;
+    }
+    private void helper(TreeNode root) {
+        if (root == null) return;
+        if (root.left != null) {
+            TreeNode left = root.left;
+            helper(left);
+            while (left.right != null) {
+                left = left.right;
+            }
+            left.right = root;
+            root.left = left;
+        }
+        if (root.right != null) {
+            TreeNode right =root.right;
+            helper(right);
+            while (right.left != null) {
+                right = right.left;
+            }
+            right.left = root;
+            root.right = right;
+        }
+    }
+}
+
+```
+
+
+
+
+### 1.3 Inorder - Iteration
 ```java
 public class Solution {
     public void convert(TreeNode root) {
@@ -53,9 +101,9 @@ public class Solution {
 ```
 
 
-# Create DLL class
+## 2.Create DLL class
 
-### Inorder - Iteration
+### 2.1 Inorder - Iteration
 
 ```java
 public class Solution {

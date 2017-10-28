@@ -1,5 +1,5 @@
-### Fibonacci
-#### Brute Force
+## 1.Fibonacci
+### 1.1.Brute Force
 * O(2^n)
 
 ```
@@ -29,7 +29,7 @@ class myCode {
 ```
 
 
-### Iteration
+### 1.2.Iteration
 * O(n)
 
 ```

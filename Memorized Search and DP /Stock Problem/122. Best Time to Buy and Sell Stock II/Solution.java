@@ -1,3 +1,16 @@
+// DP + Greedy
+class Solution {
+    public int maxProfit(int[] prices) {
+        int cur = 0 , cost = Integer.MIN_VALUE;
+        for( int price : prices ){
+            int temp = cur;// cur at i - 1
+            cur = Math.max(cur,price+cost);// price[i] + cur[i-1] - price[i-1] 
+            cost = Math.max(cost,temp-price);
+        }
+        return cur;
+    }
+}
+
 // Peak Valley Approach 
 class Solution {
     public int maxProfit(int[] prices) {

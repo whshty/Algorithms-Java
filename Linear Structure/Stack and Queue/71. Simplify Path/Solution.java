@@ -11,7 +11,10 @@ public class Solution {
         }
         String res = "";
         if(stack.isEmpty()) return "/";
-        for (String dir : stack) res = "/" + dir + res;
+        // "/abc/..." ->  "/abc/..."
+        for (String dir : stack) {
+            res = "/" + dir + res;
+        }
         return res;
     }
 }

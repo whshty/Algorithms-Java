@@ -1,4 +1,4 @@
-### BFS
+## 1.BFS
 * Node 0 is the root
 * Keep on adding nodes to a set, if the nodes is already added, there is a cycle
 
@@ -33,7 +33,7 @@ public class Solution {
 }
 ```
 
-### DFS
+### 2.DFS
 
 ```
 public class Solution {

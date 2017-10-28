@@ -1,26 +1,30 @@
 ### DP
-* buy1 means that we have to borrow money from others, we want to borrow less so that we have to make our balance as max as we can(because this is negative)
-* sell1 means we decide to sell the stock
-* buy2 means we want to buy another stock
-* sell2 means we want to sell stock2, this will be the result
+* cost1 means that we have to borrow money from others, we want to borrow less so that we have to make our balance as max as we can(because this is negative)
+* cur1 means we decide to sell the stock
+* cost2 means we want to buy another stock
+* cur2 means we want to sell stock2, this will be the result
 
+```
+input:[1,1,1,1,5,8,1]
+output:7
+
+```
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
-        int sellOne = 0, sellTwo = 0;
-        int buyOne = Integer.MIN_VALUE, buyTwo = Integer.MIN_VALUE;
+        int curOne = 0, curTwo = 0;
+        int costOne = Integer.MIN_VALUE, costTwo = Integer.MIN_VALUE;
         
-        for( int i = 0 ; i < prices.length ; i++ ){
-            // Use max because buyone is assign as Integer.MIN_VALUE
-            buyOne = Math.max(buyOne,-prices[i]); 
-            sellOne = Math.max(sellOne,buyOne+prices[i]);
-            // We already have sell1 money, so after buying stock2 we have buy2 = sell1 - price[i] money left
-            // we want more money left, so we make it max
-            buyTwo = Math.max(buyTwo,sellOne-prices[i]);
+        for( int price : prices ){
+            costOne = Math.max(costOne , -price); 
+            curOne = Math.max(curOne , costOne + price);
+            // We already have curOne money
+            // so after buying stock2 we have costTwo = curOne - price money left
+            costTwo = Math.max(costTwo , curOne - price);
             // find the max money left + current price
-            sellTwo = Math.max(sellTwo,buyTwo+prices[i]);
+            curTwo = Math.max(curTwo , costTwo + price);
         }
-        return sellTwo;
+        return curTwo;
     }
 }
 ```

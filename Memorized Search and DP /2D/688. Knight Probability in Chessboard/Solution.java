@@ -1,3 +1,4 @@
+// Brute Force BFS
 class Solution {
     public double knightProbability(int N, int K, int row, int col) {
         int[][] dirs = {{-2, 1}, {-1, 2}, {1, 2}, {2, 1}, {2, -1}, {1, -2}, {-1, -2}, {-2, -1}};
@@ -24,3 +25,4 @@ class Solution {
         }
         return prob;
     }
+}

@@ -1,3 +1,9 @@
+### Heap
+* Heap to save a index from each list, which means every list has a value in the range
+* int array to save value, index of list, index of value in this list
+
+
+```java
 class Solution {
     public int[] smallestRange(List<List<Integer>> nums) {
         PriorityQueue<int[]> minHeap = new PriorityQueue<int[]>((a, b) -> a[0] - b[0]);
@@ -26,3 +32,4 @@ class Solution {
         return res;
     }
 }
+```

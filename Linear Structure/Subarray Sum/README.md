@@ -28,7 +28,7 @@ class myCode {
 }
 ```
 
-### 2.Use HashMap or HashMap to save prefix sum results
+### 2.Use HashMap or HashSet to save prefix sum results
 
 ```java
 class myCode {

@@ -1,4 +1,5 @@
-// Memo DFS
+## 1.Memorized DFS
+```java
 public class Solution {
     public boolean canPartition(int[] nums) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -25,3 +26,4 @@ public class Solution {
         return false;   
     }
 }
+```

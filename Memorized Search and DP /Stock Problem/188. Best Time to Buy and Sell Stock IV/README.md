@@ -1,3 +1,5 @@
+## DP
+```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
         if ( k >= prices.length >>> 1) {
@@ -24,3 +26,4 @@ class Solution {
         return cur[k];
     }
 }
+```

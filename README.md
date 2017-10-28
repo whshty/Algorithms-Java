@@ -331,6 +331,8 @@
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown)
 * [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
+### 2D
+* 688. Knight Probability in Chessboard
 
 ### Other
 * [Can Win](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Can%20Win)

@@ -330,8 +330,9 @@
 * [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D)
+* [647. Palindromic Substrings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/647.%20Palindromic%20Substrings)
 * [688. Knight Probability in Chessboard](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/688.%20Knight%20Probability%20in%20Chessboard)
-* [647. Palindromic Substrings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Palindrome/647.%20Palindromic%20Substrings)
+
 
 ### Other
 * [Can Win](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Can%20Win)

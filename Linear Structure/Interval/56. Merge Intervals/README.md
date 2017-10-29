@@ -1,10 +1,9 @@
-
 * Sort the intervals by the start time first
 * Use two integer values to save the start and end time of previous intervals
 * If the start end of current intervals is smaller than preivous end time, we need to update the end value
 
 
-```
+```java
 class Solution {
     public List<Interval> merge(List<Interval> list) {
         List<Interval> res = new ArrayList<>();

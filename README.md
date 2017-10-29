@@ -80,6 +80,7 @@
 
 ### [String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String)
 
+* String Comparator
 * [68. Text Justification](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/68.%20Text%20Justification)
 * [151. Reverse Words in a String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/151.%20Reverse%20Words%20in%20a%20String)
 * [161. One Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/161.%20One%20Edit%20Distance)

@@ -2,8 +2,8 @@ class Solution {
     public List<List<Integer>> verticalOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if( root == null ) return res;
-        HashMap<Integer,ArrayList<Integer>> resMap = new HashMap<>();// map for generating output basde on weight values
-        HashMap<TreeNode,Integer> weightMap = new HashMap<>(); // assign weigth values in BFS
+        Map<Integer,ArrayList<Integer>> resMap = new HashMap<>();// map for generating output basde on weight values
+        Map<TreeNode,Integer> weightMap = new HashMap<>(); // assign weigth values in BFS
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         weightMap.put(root,0);
@@ -11,27 +11,26 @@ class Solution {
         
         while( !queue.isEmpty()){
             TreeNode node = queue.poll();
-            int weight = weightMap.get(node);
+            int curWeight = weightMap.get(node);
             
-            resMap.putIfAbsent(weight,new ArrayList<>());
-            resMap.get(weight).add(node.val);
+            resMap.putIfAbsent(curWeight,new ArrayList<>());
+            resMap.get(curWeight).add(node.val);
             
             if( node.left != null){
                 queue.add(node.left);
-                weightMap.put(node.left,weight-1);
+                weightMap.put(node.left,curWeight-1);
             }
             
             if( node.right != null ){
                 queue.add(node.right);
-                weightMap.put(node.right,weight+1);
+                weightMap.put(node.right,curWeight+1);
             }
-            min = Math.min(min,weight);
+            min = Math.min(min,curWeight);
         }
         
         while( resMap.containsKey(min)){
             res.add(resMap.get(min++));
-        }
-        
+        } 
         return res;
     }
 }

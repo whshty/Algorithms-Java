@@ -1,6 +1,9 @@
-* haystack abcdsda
-* needle bcd
-* res = 1
+## Sliding Window
+```
+haystack abcdsda
+needle bcd
+res = 1
+```
 
 ```java
 public class Solution {

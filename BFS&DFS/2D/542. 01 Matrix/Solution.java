@@ -15,15 +15,14 @@ class Solution {
         while (!queue.isEmpty()) {
             int[] cur = queue.poll();
             for (int[] dir : dirs) {
-                int row = cur[0] + dir[0];
-                int col = cur[1] + dir[1];
-                if( row < 0 || row >= m || col < 0 || col >= n ) continue;
-                if( matrix[row][col] <= matrix[cur[0]][cur[1]] + 1) continue;
-                queue.add(new int[] {row, col});
-                matrix[row][col] = matrix[cur[0]][cur[1]] + 1;
+                int tempX = cur[0] + dir[0];
+                int tempY = cur[1] + dir[1];
+                if( tempX < 0 || tempX >= m || tempY < 0 || tempY >= n ) continue;
+                if( matrix[tempX][tempY] <= matrix[cur[0]][cur[1]] + 1) continue;
+                queue.add(new int[] {tempX, tempY});
+                matrix[tempX][tempY] = matrix[cur[0]][cur[1]] + 1;
             }
         }
-        
         return matrix;
     }
 }

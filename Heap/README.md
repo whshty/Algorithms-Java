@@ -1,4 +1,9 @@
-### Two Ways of Creating minHeap
+## 1.Time Complexity
+* Basic heap operation of Heapify runs in O(logn) time, because the heap has O(log n) levels
+* Building a Binary Heap is O(n)
+
+
+## 2.Two Ways of Creating minHeap
 
 ```
  PriorityQueue<ListNode> heap = new PriorityQueue<ListNode>(lists.length, new Comparator<ListNode>(){
@@ -15,3 +20,5 @@
 ```
 PriorityQueue<ListNode> heap = new PriorityQueue<ListNode>((a,b) -> a.val - b.val );
 ```
+
+## 3.Design Heap

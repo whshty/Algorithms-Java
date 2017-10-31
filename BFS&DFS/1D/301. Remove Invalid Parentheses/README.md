@@ -98,34 +98,33 @@ class Solution {
 
 ```java
 public class Solution {
-    public String getValidParentheses(String s) {
-        Deque<Integer> deque = new ArrayDeque<>();
+    public String getValidParentheses(String str) {
+        if (str == null || str.length() == 0) return "";
+        Deque<Integer> stack = new ArrayDeque<>();
+        int start = 0, end = 0;
         StringBuilder sb = new StringBuilder();
-        
-        for( int i = 0 ; i < s.length() ; i++ ){
-            char ch = s.charAt(i);
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
             if ( ch == '(') {
-                deque.push(i);
-            } else if (ch == ')' ) {
-                if( !deque.isEmpty() ) {
-                    deque.pop();
-                } 
-            } 
-        }
-        if( deque.isEmpty()) return s;
-        else {
-            int index = deque.removeLast();
-            for( int i = 0 ; i < s.length() ; i++ ){
-                if( i != index ) sb.append(s.charAt(i));
-                else {
-                    if( !deque.isEmpty() ) index = deque.removeLast();
+                stack.push(i);
+            } else if (ch == ')') {
+                if (!stack.isEmpty()) {
+                    start = stack.pop();
+                    if (start > end) {
+                        sb.append(str.substring(start, i + 1));
+                    } else {
+                       sb = new StringBuilder(str.substring(start, i + 1));
+                    }
+                    end = start;
                 }
+            } else {
+                sb.append(ch);
             }
-            
         }
         return sb.toString();
     }
 }
+
 ```
 
 

@@ -101,7 +101,7 @@ public class Solution {
     public String getValidParentheses(String str) {
         if (str == null || str.length() == 0) return "";
         Deque<Integer> stack = new ArrayDeque<>();
-        int start = 0, end = 0;
+        int index = 0, pre = 0;
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < str.length(); i++) {
             char ch = str.charAt(i);
@@ -109,13 +109,15 @@ public class Solution {
                 stack.push(i);
             } else if (ch == ')') {
                 if (!stack.isEmpty()) {
-                    start = stack.pop();
-                    if (start > end) {
-                        sb.append(str.substring(start, i + 1));
+                    index = stack.pop();
+                    if (index > pre) {
+                        // ())()
+                        sb.append(str.substring(index, i + 1));
                     } else {
-                       sb = new StringBuilder(str.substring(start, i + 1));
+                        //"(())"
+                       sb = new StringBuilder(str.substring(index, i + 1));
                     }
-                    end = start;
+                    pre = index;
                 }
             } else {
                 sb.append(ch);

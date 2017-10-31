@@ -61,6 +61,19 @@ public class Solution {
 ```
 
 ## 3.Follow-Up:Multiplication
+```
+For example 
+[1,2,3]
+
+start with :
+[]
+next element 1  :
+[1]
+next element 2 :
+[1] [2] [1*2] =  [1][2]
+next element 3 :
+[1] [2] [1*3] [2*3]
+```
 
 ```java
 public class Solution {
@@ -74,7 +87,7 @@ public class Solution {
             set.add(num);
             set.addAll(temp);
         }
-        set.add(0);
+        //set.add(0);
         return new ArrayList<>(set);
     }
 }

@@ -47,7 +47,7 @@ public class Solution {
             set.add(num);
             set.addAll(temp);
         }
-        set.add(0);
+        //set.add(0);
         return new ArrayList<>(set);
     }
 }

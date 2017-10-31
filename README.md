@@ -336,6 +336,11 @@
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown)
 * [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
+### Range Sum Query
+* [64. Minimum Path Sum]
+* [62. Unique Paths]
+* [63. Unique Paths II]
+
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D)
 * [139. Word Break](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/139.%20Word%20Break)
 * [140. Word Break II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/140.%20Word%20Break%20II)
@@ -351,8 +356,6 @@
 ### Other
 * [Can Win](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Can%20Win)
 * [10. Regular Expression Matching](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/10.%20Regular%20Expression%20Matching)
-* [62. Unique Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/62.%20Unique%20Paths)
-* [63. Unique Paths II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/63.%20Unique%20Paths%20II)
 * [91. Decode Ways](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/91.%20Decode%20Ways)
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)

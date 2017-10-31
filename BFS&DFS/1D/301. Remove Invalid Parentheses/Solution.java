@@ -1,4 +1,5 @@
-// Generate one result
+// Generate one result 
+// 1.Two pointers
 class Solution {
     public String getValidParentheses(String s){
         StringBuilder firstScan = new StringBuilder();
@@ -36,6 +37,37 @@ class Solution {
     }   
 }
 
+// 2.Stack
+
+public class Solution {
+    public String getValidParentheses(String s) {
+        Deque<Integer> deque = new ArrayDeque<>();
+        StringBuilder sb = new StringBuilder();
+        
+        for( int i = 0 ; i < s.length() ; i++ ){
+            char ch = s.charAt(i);
+            if ( ch == '(') {
+                deque.push(i);
+            } else if (ch == ')' ) {
+                if( !deque.isEmpty() ) {
+                    deque.pop();
+                } 
+            } 
+        }
+        if( deque.isEmpty()) return s;
+        else {
+            int index = deque.removeLast();
+            for( int i = 0 ; i < s.length() ; i++ ){
+                if( i != index ) sb.append(s.charAt(i));
+                else {
+                    if( !deque.isEmpty() ) index = deque.removeLast();
+                }
+            }
+            
+        }
+        return sb.toString();
+    }
+}
 
 
 // Generate all results

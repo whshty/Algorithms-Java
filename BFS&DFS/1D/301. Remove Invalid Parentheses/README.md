@@ -1,5 +1,5 @@
-# Find One Solution 
-### Brtue Force BFS
+## 1.Find One Solution 
+### 1.1.Brtue Force BFS
 ```java
 public class Solution {
     public List<String> removeInvalidParentheses(String s) {
@@ -44,7 +44,10 @@ public class Solution {
 
 ```
 
-### Two Pointers
+
+
+
+### 1.2.Two Pointers
 
 ```java
 class Solution {
@@ -91,10 +94,43 @@ class Solution {
 
 ```
 
+### 1.3.Stack
+
+```java
+public class Solution {
+    public String getValidParentheses(String s) {
+        Deque<Integer> deque = new ArrayDeque<>();
+        StringBuilder sb = new StringBuilder();
+        
+        for( int i = 0 ; i < s.length() ; i++ ){
+            char ch = s.charAt(i);
+            if ( ch == '(') {
+                deque.push(i);
+            } else if (ch == ')' ) {
+                if( !deque.isEmpty() ) {
+                    deque.pop();
+                } 
+            } 
+        }
+        if( deque.isEmpty()) return s;
+        else {
+            int index = deque.removeLast();
+            for( int i = 0 ; i < s.length() ; i++ ){
+                if( i != index ) sb.append(s.charAt(i));
+                else {
+                    if( !deque.isEmpty() ) index = deque.removeLast();
+                }
+            }
+            
+        }
+        return sb.toString();
+    }
+}
+```
 
 
-# Find All Solution
-### Queue + Set
+## 2.Find All Solution
+### 2.1.Queue + Set
 * Queue : BFS
 * Set : Cache search result
 * Time : T(n) = n x C(n, n) + (n-1) x C(n, n-1) + … + 1 x C(n, 1) + 0 * C(n, 0)= n x 2^n

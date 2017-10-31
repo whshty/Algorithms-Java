@@ -1,4 +1,4 @@
-## 1.Two Pointers
+## 1.Scan Line
 * O(nlogn)
 *  When we need extra room, end event occurs and there is a starting event happened before that ( generate overlapping)
 * Create a variable "current end time" to point to the current end event, and move the start event pointer

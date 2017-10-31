@@ -1,4 +1,4 @@
-### Pointers
+## 1.Pointers
 * Count from end to start, then reverse
 * Use carry to mark the extra value of the next position
 
@@ -32,7 +32,7 @@ public class Solution {
 }
 
 ```
-### Follow - Up (Add Decimal)
+## 2.Follow - Up (Add Decimal)
 
 ```java
 
@@ -69,7 +69,7 @@ class myCode {
 
 ```
 
-### Follow - Up (Multiplication)
+## 3.Follow - Up (Multiplication)
 
 ```java
 public class Solution {

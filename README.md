@@ -336,10 +336,10 @@
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown)
 * [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)
 
-### Range Sum Query
-* [64. Minimum Path Sum]
-* [62. Unique Paths]
-* [63. Unique Paths II]
+### [Range Sum Query](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Range%20Sum%20Query)
+* [62. Unique Paths](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Range%20Sum%20Query/62.%20Unique%20Paths)
+* [63. Unique Paths II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Range%20Sum%20Query/63.%20Unique%20Paths%20II)
+* [64. Minimum Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Range%20Sum%20Query/64.%20Minimum%20Path%20Sum)
 
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D)
 * [139. Word Break](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/139.%20Word%20Break)

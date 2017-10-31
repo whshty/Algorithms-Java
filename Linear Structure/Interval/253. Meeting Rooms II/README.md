@@ -1,4 +1,4 @@
-### Two Pointers
+## 1.Two Pointers
 *  When we need extra room, end event occurs and there is a starting event happened before that ( generate overlapping)
 * Create a variable "current end time" to point to the current end event, and move the start event pointer
 
@@ -42,7 +42,7 @@ public class Solution {
 }
 ```
 
-### Heap
+## 2.Heap
 * minHeap for saving the end times
 
 ```java
@@ -64,7 +64,7 @@ public class Solution {
 ```
 
 
-### TreeMap
+## 3.TreeMap
 * Sort using TreeMap by start and end 
 * Key is time
 * Value is frequency is this time, start is postive and end is negative

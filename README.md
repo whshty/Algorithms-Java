@@ -338,6 +338,7 @@
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D)
 * [139. Word Break](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/139.%20Word%20Break)
 * [140. Word Break II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/140.%20Word%20Break%20II)
+* 303. Range Sum Query - Immutable
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/416.%20Partition%20Equal%20Subset%20Sum)
 * 718. Maximum Length of Repeated Subarray
 

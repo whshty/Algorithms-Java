@@ -30,8 +30,8 @@ public class Solution {
 
 ## 2.Recursion
 * If the current very left node has right child node, we need to consider it as parent node and go the right subtree
-* Time:o(n)
-* Space: o(h) is stack space, o(h) = o(logn) is the tree is balanced
+* Time : O(n)
+* Space : O(n) + O(h) is stack space, o(h) = o(logn) is the tree is balanced
 
 
 ```java

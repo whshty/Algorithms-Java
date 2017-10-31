@@ -1,3 +1,4 @@
+//BFS
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -14,7 +15,7 @@ public class Solution {
     }
 }
 
-
+// DFS
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -29,5 +30,24 @@ public class Solution {
             helper(res,list,nums,i+1);
             list.remove(list.size() -1);
         }
+    }
+}
+
+
+
+// Follow-Up:Multiplication
+public class Solution {
+    public List<Integer> subsets(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for( int num : nums ){
+            Set<Integer> temp = new HashSet<>();
+            for( int i : set ){
+                temp.add(i*num);
+            }
+            set.add(num);
+            set.addAll(temp);
+        }
+        set.add(0);
+        return new ArrayList<>(set);
     }
 }

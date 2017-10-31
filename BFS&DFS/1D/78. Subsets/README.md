@@ -1,4 +1,4 @@
-### BFS 
+## 1.BFS 
 * Tims : o(2^n)
 * Space : o(2^n*n)
 
@@ -17,9 +17,6 @@ next element 3 :
 [] [3] [2] [2，3] [1] [1,3] [1,2] [1,2,3] 
 
 ```
-
-## Code
-
 ```java
 public class Solution {
     public List<List<Integer>> subsets(int[] nums) {
@@ -40,11 +37,9 @@ public class Solution {
 
 ```
 
-### DFS 
+## 2.DFS 
 * Time : o(2^n)
 * Space : o(n) for stack, o(2^n*n) for result
-
-## Code
 
 ```java
 public class Solution {
@@ -65,30 +60,27 @@ public class Solution {
 }
 ```
 
-## Follow-Up:Multiplication
+## 3.Follow-Up:Multiplication
 
 ```java
 public class Solution {
     public List<Integer> subsets(int[] nums) {
-        List<Integer> res = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
         for( int num : nums ){
-            List<Integer> temp = new ArrayList<>();
-            for( int i = 0 ; i < res.size() ; i++ ){
-                int cur = res.get(i);
-                temp.add(cur*num);
+            Set<Integer> temp = new HashSet<>();
+            for( int i : set ){
+                temp.add(i*num);
             }
-            res.add(num);
-            res.addAll(temp);
+            set.add(num);
+            set.addAll(temp);
         }
-        res.add(0);
-        return res;
+        set.add(0);
+        return new ArrayList<>(set);
     }
 }
-
-
 ```
 
-## Follow-Up:Iterator
+## 4.Follow-Up:Iterator
 
 ```
 class myCode {

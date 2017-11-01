@@ -1,6 +1,7 @@
-### BFS 
+## 1.BFS 
 
 * Index = x*n + y
+* Time : O(mn) + Space : O(mn)
 
 ```java
 class Solution {
@@ -50,7 +51,8 @@ class Solution {
 
 
 
-### DFS 
+## 2.DFS
+* Time : O(mn) + Recurion Stack : O(mn) 
 
 ```java
 public class Solution {

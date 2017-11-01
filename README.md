@@ -106,6 +106,7 @@
 * [560. Subarray Sum Equals K](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Sum/560.%20Subarray%20Sum%20Equals%20K)
 
 ### [Other](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other)
+* 8. String to Integer (atoi)
 * [12. Integer to Roman](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/12.%20Integer%20to%20Roman)
 * [13. Roman to Integer](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/13.%20Roman%20to%20Integer)
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/31.%20Next%20Permutation)

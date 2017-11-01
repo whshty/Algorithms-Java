@@ -1,6 +1,6 @@
-### Brute Force DFS
+## 1.Brute Force DFS
 ```java
-public class Solution {
+class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int res = 0;
         if( nums == null || nums.length == 0 ) return res;
@@ -15,16 +15,14 @@ public class Solution {
         return dfs(nums,target+nums[pos],pos+1,res) + dfs(nums,target-nums[pos],pos+1,res);
     }
 }
-
-
 ```
 
 
-### Memorized DFS
+## 2.Memorized DFS
 * Worst Case : Time : O(2^n)
 
 ```java
-public class Solution {
+class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int res = 0;
         if( nums == null || nums.length == 0 ) return res;
@@ -49,7 +47,7 @@ public class Solution {
 ```
 
 
-### DP : Subset sum 
+## 3.DP : Subset sum 
 Let P be the positive subset and N be the negative subset
 For example:
 Given nums = [1, 2, 3, 4, 5] and target = 3 then one possible solution is +1-2+3-4+5 = 3

@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int res = 0;
         if( nums == null || nums.length == 0 ) return res;
@@ -15,7 +15,7 @@ public class Solution {
 }
 
 
-public class Solution {
+class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int res = 0;
         if( nums == null || nums.length == 0 ) return res;
@@ -39,7 +39,7 @@ public class Solution {
 }
 
 
-public class Solution {
+class Solution {
     public int findTargetSumWays(int[] nums, int S) {
         int sum = 0;
         for( int i : nums ) sum += i;

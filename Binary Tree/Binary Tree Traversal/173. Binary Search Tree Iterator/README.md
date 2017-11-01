@@ -1,4 +1,4 @@
-### Inorder
+## 1.Inorder-Iteration
 
 ```java
 public class BSTIterator {
@@ -39,4 +39,10 @@ public class BSTIterator {
         return node.val;
     }
 }
+
+/**
+ * Your BSTIterator will be called like this:
+ * BSTIterator i = new BSTIterator(root);
+ * while (i.hasNext()) v[f()] = i.next();
+ */
 ```

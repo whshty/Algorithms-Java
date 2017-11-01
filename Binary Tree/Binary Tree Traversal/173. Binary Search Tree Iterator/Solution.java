@@ -36,3 +36,57 @@ public class BSTIterator {
         return node.val;
     }
 }
+// Output two bst in sorted order
+class Solution {
+    public static void main(String[] args) {
+        TreeNode root1 = new TreeNode(5);
+        root1.left = new TreeNode(2);
+        root1.left.left = new TreeNode(1);
+        root1.right = new TreeNode(6);
+
+        TreeNode root2 = new TreeNode(3);
+        root2.left = new TreeNode(1);
+        root2.right = new TreeNode(9);
+
+
+        Solution sol = new Solution();
+        List<Integer> res = sol.outputBSTsInSortedOrder(root1, root2);
+        System.out.print(res);
+    }
+
+    public List<Integer> outputBSTsInSortedOrder(TreeNode one, TreeNode two) {
+        List<Integer> res = new ArrayList<>();
+        BSTIterator itrOne = new BSTIterator(one);
+        BSTIterator itrTwo = new BSTIterator(two);
+
+        int valOne = itrOne.next();
+        int valTwo = itrTwo.next();
+        while (itrOne.hasNext() || itrTwo.hasNext()) {
+            if (valOne < valTwo) {
+                res.add(valOne);
+                if (itrOne.hasNext()) valOne = itrOne.next();
+            } else {
+                res.add(valTwo);
+                if (itrTwo.hasNext()) valTwo = itrTwo.next();
+            }
+        }
+        if (valOne > valTwo) {
+            res.add(valTwo);
+            res.add(valOne);
+        } else {
+            res.add(valOne);
+            res.add(valTwo);
+        }
+        return res;
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}

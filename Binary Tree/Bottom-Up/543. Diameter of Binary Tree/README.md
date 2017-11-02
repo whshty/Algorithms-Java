@@ -1,4 +1,6 @@
-### Bottom-Up
+## Bottom-Up
+* O(N^2)
+
 ```java
 public class Solution {
     // int max;

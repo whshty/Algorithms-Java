@@ -1,4 +1,4 @@
-## DFS
+## 1.DFS
 * Time : Worst Case O(2^n)
 
 ```
@@ -35,7 +35,7 @@ class Solution {
 
 ```
 
-## DP
+## 2.DP
  
  If p.charAt(j) == s.charAt(i) :  dp[i][j] = dp[i-1][j-1];
  

@@ -7,7 +7,9 @@ public class Solution {
     }
 
     public double getKth(int[] A, int aStart, int aEnd, int[] B, int bStart, int bEnd, int index) { 
+        // if we reach the end of A array 
         if( aStart > aEnd ) return B[bStart + index - 1];
+        // if we reach the end of B array 
         if( bStart > bEnd ) return A[aStart + index - 1];
         
         int aMid = ( aStart + aEnd ) >>> 1;

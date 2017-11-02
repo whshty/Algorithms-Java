@@ -22,7 +22,7 @@
 * [259. 3Sum Smaller](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/259.%203Sum%20Smaller)
 
 ### [Scan and Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search)
-* Print Matrix in Diagonal Order
+* [Print Matrix in Diagonal Order](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/Print%20Matrix%20in%20Diagonal%20Order)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/38.%20Count%20and%20Say)
 * [59. Spiral Matrix II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/59.%20Spiral%20Matrix%20II)
@@ -114,7 +114,7 @@
 * [246. Strobogrammatic Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/246.%20Strobogrammatic%20Number)
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/273.%20Integer%20to%20English%20Words)
 * [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/311.%20Sparse%20Matrix%20Multiplication)
-* 593. Valid Square
+* [593. Valid Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/593.%20Valid%20Square)
 
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
@@ -167,6 +167,7 @@
 * [Wood Cut](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Wood%20Cut)
 * [Search Frequency](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Search%20Frequency)
 * [Left Most One In Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/Left%20Most%20One%20In%20Matrix)
+* [4. Median of Two Sorted Arrays](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/4.%20Median%20of%20Two%20Sorted%20Arrays)
 * [29. Divide Two Integers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/29.%20Divide%20Two%20Integers)
 * [33. Search in Rotated Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/33.%20Search%20in%20Rotated%20Sorted%20Array)
 * [34. Search for a Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/34.%20Search%20for%20a%20Range)

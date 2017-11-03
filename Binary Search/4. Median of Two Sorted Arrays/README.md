@@ -1,4 +1,5 @@
-## Binary Search
+## Binary Search 
+* Time : O(log(min(m,n)) 
 
 ```java
 public class Solution {

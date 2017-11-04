@@ -1,4 +1,4 @@
-## 1.Subtract b and count
+## 1.Subtract b and Count
 * Time : O(logn)
 
 ```java

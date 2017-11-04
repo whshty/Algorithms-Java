@@ -17,7 +17,7 @@ public class Solution {
             }
         }
         // nums1 = [4,5,0,0,0]
-        // nums2 = [1,2,,3]
+        // nums2 = [1,2,3]
         while ( j >= 0 ){
             nums1[index] = nums2[j];
             index--;

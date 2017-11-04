@@ -1,19 +1,10 @@
-### Backtracking for + and - 
+## 1.Backtracking for + and - 
 * Use backing tracking (string path, postion, sum and other values into a helper function)
 * When the position is at the end  and target is met, add the path to res
 * Deal with 0, 0 can not be the start of a number 
 * Avoid overflow, use long
-
-
-###### Time 
-* Each digit have 3 situations(+,-,nothing)
-* O(3^n)
-
-###### Space 
-* For nums = 00000....0 target 0 
-* you get output of 3^(n-1) string
-* O(3^n)
-* O(n) for recursion stack
+* Time : O(3^n), Each digit have 3 situations(+,-,nothing)
+* Space : O(3^n) + O(n) for recursion stack, For nums = 00000....0 target 0, you get output of 3^(n-1) string 
 
 ```java
 class myCode {
@@ -59,7 +50,7 @@ class myCode {
 ```
 
 
-### + and - and * 
+## 2.Backtracking + & - & * 
 
 ```java
 public class Solution {

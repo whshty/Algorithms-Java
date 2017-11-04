@@ -1,3 +1,4 @@
+```java
 public class Solution extends Relation {
     public int findCelebrity(int n) {
         if ( n <= 0 ) return -1;
@@ -17,3 +18,4 @@ public class Solution extends Relation {
         return celebrity;
     }
 }
+```

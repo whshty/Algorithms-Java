@@ -64,3 +64,47 @@ public class Solution {
 }
 ```
 
+## 3. Merge Two Sorted Array Iterator
+```java
+public class mergeTwoListIterator {
+    List<Integer> listOne;
+    List<Integer> listTwo;
+    int i;
+    int j;
+    public void ListIterator(List<List<Integer>> list){
+        listOne = list.get(0);
+        listTwo = list.get(1);
+        i = 0;
+        j = 0;
+    }
+
+    public boolean hasNext(){
+        return i < listOne.size() || j < listTwo.size();
+    }
+
+    public int next(){
+        int res;
+        if( i > listOne.size() - 1 ) {
+            res = listTwo.get(j);
+            j++;
+            return res;
+        }
+        if( j > listTwo.size() - 1 ){
+            res = listOne.get(i);
+            i++;
+            return res;
+        }
+
+        if( listOne.get(i) < listTwo.get(j)) {
+            res = listOne.get(i);
+            i++;
+        } else {
+            res = listTwo.get(j);
+            j++;
+        }
+        return res;
+    }
+}
+
+```
+

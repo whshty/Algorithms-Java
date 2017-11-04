@@ -1,14 +1,11 @@
 public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
-        if( s.length() == 0 ){
-            return new ArrayList<String>();
-        }
+        if( s.length() == 0 ) return new ArrayList<String>();
         return helper(s,wordDict, new HashMap<String, List<String>>());
     }
     public List<String> helper(String s, List<String> wordDict, HashMap<String, List<String>> map){
-        if( map.containsKey(s)){
-            return map.get(s);
-        }
+        if( map.containsKey(s)) return map.get(s);
+        
         List<String> res = new ArrayList<>();
         for( String word : wordDict ){
             if( s.startsWith(word)){
@@ -27,7 +24,6 @@ public class Solution {
                         //res.add(word + " " + str);
                     }
                 }
-         
             }
         }
         map.put(s, res);

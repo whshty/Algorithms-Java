@@ -1,4 +1,4 @@
-### 1.Brute force
+## 1.Brute force
 * O(nlgn) + O(1)
 
 ```java
@@ -11,7 +11,7 @@ public class Solution {
 
 ```
 
-### 2.Min heap
+## 2.Min heap
 * Use a min head that will store the kth largest values;
 * Iterate over the whole input and  maintains the size of head 
 * O(n*lgk) running time + O(K) memory
@@ -32,12 +32,12 @@ public class Solution {
 
 ```
 
-### 3.Quick select
+## 3.Quick select
 * put nums that are <= pivot to the left 
 * Put nums that are > pivot to the right
 * Count the nums that are smaller than pivot from start
 * If the count is k, return index 
-* Average O(n)
+* Time : Average O(n), Worst O(n^2)
 
 Set nums[right] as the pivot, set i = lo , j = hi
 Put all the numbers that are greater the pivot to the right

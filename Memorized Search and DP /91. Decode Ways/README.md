@@ -1,5 +1,5 @@
 
-### DFS O(2^n)
+## 1.DFS O(2^n)
 
 ```java
 class Solution {
@@ -21,7 +21,7 @@ class Solution {
 ```
 
 
-### Memoization DFS 
+## 2.Memoization DFS 
 * O(2^n) worst case :111111, every digit visit twice 
 
 ```java
@@ -54,7 +54,7 @@ class Solution {
 
 
 
-### Dp : Like Fibonacci
+## 3.Dp : Like Fibonacci
 
 * Create a dp array to update ways of decoding 
 * dp[0] = 1

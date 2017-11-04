@@ -37,7 +37,8 @@ public class Solution {
 * Put nums that are > pivot to the right
 * Count the nums that are smaller than pivot from start
 * If the count is k, return index 
-* Time : Average O(n), Worst O(n^2)
+* Average Time : O(n) = O(n + n/2 + n/4 + ... + 1) 
+* Worst Time : O(n^2), every pivot is max or min value. O(n + n -1 + n -2 + ... + 1 ) = O(n^2)
 
 Set nums[right] as the pivot, set i = lo , j = hi
 Put all the numbers that are greater the pivot to the right

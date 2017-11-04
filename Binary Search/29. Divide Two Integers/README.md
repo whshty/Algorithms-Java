@@ -1,4 +1,4 @@
-### Subtract b and count
+## 1.Subtract b and count
 * Time : O(logn)
 
 ```java
@@ -22,7 +22,7 @@ class Solution {
     }
 }
 ```
-### Divide and Conquer
+## 2.Divide and Conquer
 * Time : O(logn)
 
 ```
@@ -60,6 +60,9 @@ class Solution {
     }
 }
 ```
+
+
+## 3.Divide and Conquer - Bit Manipulation
 
 ```java
 class Solution {

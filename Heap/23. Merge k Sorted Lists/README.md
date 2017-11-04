@@ -20,7 +20,7 @@ public class Solution {
     }
 }
 ```
-## 2.Merge K sorted Array 
+## 2.Merge K Sorted Array 
 
 
 ## 3.Merge K sorted Array Iterator

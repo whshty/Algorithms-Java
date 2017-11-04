@@ -403,7 +403,6 @@
 * [Design Queue](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/Design%20Queue)
 * Design Heap
 * [Design HashMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/Implement%20Hash%20Map)
-* [Merge k Sorted Array Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/Merge%20k%20Sorted%20Array%20Iterator)
 * [146. LRU Cache](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/146.%20LRU%20Cache)
 * [157. Read N Characters Given Read4](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/157.%20Read%20N%20Characters%20Given%20Read4)
 * [158. Read N Characters Given Read4 II - Call multiple times](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/158.%20Read%20N%20Characters%20Given%20Read4%20II%20-%20Call%20multiple%20times)

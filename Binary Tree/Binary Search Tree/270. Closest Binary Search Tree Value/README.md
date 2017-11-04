@@ -1,3 +1,7 @@
+## 1.Recursion
+* Time : O(logN)
+ 
+```java
 class Solution {
     public int closestValue(TreeNode root, double target) {
         int curVal = root.val;
@@ -14,7 +18,10 @@ class Solution {
         else return curVal;
     }
 }
+```
 
+## 2.Iteration
+```
 class Solution {
     public int closestValue(TreeNode root, double target) {
         int res = root.val;
@@ -27,3 +34,4 @@ class Solution {
         return res;
     }
 }
+```

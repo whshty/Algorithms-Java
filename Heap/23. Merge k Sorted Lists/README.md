@@ -1,4 +1,6 @@
-## 1.Heap
+## 1.Heap 
+* Time : O(nlogk) where k is the number of linked lists
+
 ```java
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {

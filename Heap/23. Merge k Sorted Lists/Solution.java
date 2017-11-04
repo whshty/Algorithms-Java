@@ -18,7 +18,7 @@ public class Solution {
     }
 }
 
-
+// Comparator
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if(lists==null||lists.length==0) return null;
@@ -51,48 +51,65 @@ public class Solution {
 // Merge K sorted Array
 public class Solution {
     public static void main(String[] args) {
-        int[][] tes = {{1,3,5,7,},{2,8,11,19},{0,4,6,10}};
+        int[] input1 = new int[]{1, 3, 5, 7};
+        int[] input2 = new int[]{2, 8, 11, 19};
+        int[] input3 = new int[]{0, 4, 6, 10};
+
+        List<int[]> input = new ArrayList<>();
+        input.add(input1);
+        input.add(input2);
+        input.add(input3);
+
         Solution sol = new Solution();
-        int[] aws = sol.mergeKSortedArray(tes);
-        for(int i = 0 ; i < aws.length ; i++){
-            System.out.print(aws[i]);
+        int[] res = sol.mergeKSortedArray(input);
+        for (int i = 0; i < res.length; i++) {
+            System.out.print(res[i] + " ");
         }
     }
-    public int[] mergeKSortedArray(int[][] array){
-        int m = array.length;
-        int n = array[0].length;
-        int[] res = new int[m*n];
-        int index = 0;
-        PriorityQueue<List<Integer>> heap = new PriorityQueue<>(array.length, new Comparator<List<Integer>>() {
-            @Override
-            public int compare(List<Integer> o1, List<Integer> o2) {
-                if(o1.get(0)<o2.get(0)) return -1;
-                else if(o1.get(0)==o2.get(0)) return 0;
-                else return 1;
-            }
-        });
 
-        for( int i = 0 ; i < array.length ; i++ ){
-            List<Integer> tempList = new ArrayList<>();
-            tempList.add(array[i][0]);
-            tempList.add(n*i);
-            heap.add(new ArrayList<>(tempList));
+    public int[] mergeKSortedArray(List<int[]>input) {
+        int m = input.size();
+        int n = input.get(0).length;
+        int[] res = new int[m * n];
+        int index = 0;
+
+        PriorityQueue<Index> heap = new PriorityQueue<>((a,b) -> a.val - b.val);
+        for( int i = 0 ; i < input.size() ; i++ ){
+            int val = input.get(i)[0];
+            Index temp = new Index(val,0,i);
+            heap.add(temp);
         }
-        while(!heap.isEmpty()){
-            List<Integer> list = heap.poll();
-            int val = list.get(0);
-            res[index++] = val;
-            int pos = list.get(1);
-            int posY = pos / n;
-            int posX = pos % n;
-            if( posX + 1 < n ) {
-                List<Integer> newList = new ArrayList<>();
-                newList.add(array[posY][posX+1]);
-                newList.add(posY*n + posX +1);
-                heap.add(newList);
+
+        while (!heap.isEmpty()) {
+            Index temp = heap.poll();
+            int curVal = temp.val;
+            res[index++] = curVal;
+
+            int x = temp.x;
+            int y = temp.y;
+
+            int[] curArray = input.get(y);
+
+            if( x  + 1 < curArray.length ){
+                int nextVal = curArray[x+1];
+                int nextX = x + 1;
+                Index next = new Index(nextVal,nextX,y);
+                heap.add(next);
             }
         }
         return res;
+    }
+}
+
+class Index {
+    int val;
+    int x;
+    int y;
+
+    Index(int value, int xPos, int yPos) {
+        this.val = value;
+        this.x = xPos;
+        this.y = yPos;
     }
 }
 

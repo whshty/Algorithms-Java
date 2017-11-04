@@ -21,7 +21,54 @@ public class Solution {
 }
 ```
 ## 2.Merge K Sorted Array 
+```java
+public class Solution {
+    public int[] mergeKSortedArray(List<int[]>input) {
+        int m = input.size();
+        int n = input.get(0).length;
+        int[] res = new int[m * n];
+        int index = 0;
 
+        PriorityQueue<Index> heap = new PriorityQueue<>((a,b) -> a.val - b.val);
+        for( int i = 0 ; i < input.size() ; i++ ){
+            int val = input.get(i)[0];
+            Index temp = new Index(val,0,i);
+            heap.add(temp);
+        }
+
+        while (!heap.isEmpty()) {
+            Index temp = heap.poll();
+            int curVal = temp.val;
+            res[index++] = curVal;
+
+            int x = temp.x;
+            int y = temp.y;
+
+            int[] curArray = input.get(y);
+
+            if( x  + 1 < curArray.length ){
+                int nextVal = curArray[x+1];
+                int nextX = x + 1;
+                Index next = new Index(nextVal,nextX,y);
+                heap.add(next);
+            }
+        }
+        return res;
+    }
+}
+
+class Index {
+    int val;
+    int x;
+    int y;
+
+    Index(int value, int xPos, int yPos) {
+        this.val = value;
+        this.x = xPos;
+        this.y = yPos;
+    }
+}
+```
 
 ## 3.Merge K sorted Array Iterator
 
@@ -72,6 +119,5 @@ class Index{
         this.x = xPos;
         this.y = yPos;
     }
-
 }
 ```

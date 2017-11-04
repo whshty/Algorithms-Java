@@ -360,13 +360,14 @@
 * [718. Maximum Length of Repeated Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/718.%20Maximum%20Length%20of%20Repeated%20Subarray)
 
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D)
+* [10. Regular Expression Matching]
 * [647. Palindromic Substrings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/647.%20Palindromic%20Substrings)
 * [688. Knight Probability in Chessboard](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/688.%20Knight%20Probability%20in%20Chessboard)
 
 
 ### Other
 * [Can Win](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Can%20Win)
-* [10. Regular Expression Matching](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/10.%20Regular%20Expression%20Matching)
+
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [221. Maximal Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/221.%20Maximal%20Square)

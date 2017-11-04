@@ -95,3 +95,74 @@ public class Solution {
         return res;
     }
 }
+
+
+// Merge K sorted Array Iterator
+import java.util.*;
+public class Solution {
+     public static void main(String[] args) {
+         int[] input1 = new int[]{1,3,4,5,6};
+         int[] input2 = new int[]{2,8,11,19};
+         int[] input3 = new int[]{0,4,6};
+
+         List<int[]> input = new ArrayList<>();
+         input.add(input1);
+         input.add(input2);
+         input.add(input3);
+
+
+         Solution itr = new Solution();
+         itr.ListIterator(input);
+
+         while(itr.hasNext()){
+             System.out.print(itr.next() + ",");
+         }
+     }
+    PriorityQueue<Index> heap;
+    List<int[]> input;
+    public void ListIterator(List<int[]> list){
+        heap = new PriorityQueue<>((a,b) -> a.val - b.val);
+        input = list;
+
+        for( int i = 0 ; i < list.size() ; i++ ){
+            int val = list.get(i)[0];
+            Index temp = new Index(val,0,i);
+            heap.add(temp);
+        }
+    }
+
+    public boolean hasNext(){
+        return !heap.isEmpty();
+    }
+
+    public int next(){
+        Index temp = heap.poll();
+        int curVal = temp.val;
+
+        int x = temp.x;
+        int y = temp.y;
+
+        int[] curArray = input.get(y);
+
+        if( x  + 1 < curArray.length ){
+            int nextVal = curArray[x+1];
+            int nextX = x + 1;
+            Index next = new Index(nextVal,nextX,y);
+            heap.add(next);
+        }
+        return curVal;
+    }
+}
+
+class Index{
+    int val;
+    int x;
+    int y;
+    Index(int value , int xPos ,int yPos){
+        this.val = value;
+        this.x = xPos;
+        this.y = yPos;
+    }
+
+}
+

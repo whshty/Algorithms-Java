@@ -72,7 +72,7 @@ class Index {
 }
 ```
 
-## 3.Merge K sorted Array Iterator
+## 3.Merge K Sorted Array Iterator
 
 ```java
 public class Solution {

@@ -1,8 +1,8 @@
-### Method of building a tree
+## Method of Building a Tree
 * In-order : cannot find the root
 * Level-order : Waste of space 
 
-### Pre-Order
+## Pre-Order
 
 ```java
 public class Codec {

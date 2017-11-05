@@ -1,4 +1,4 @@
-## Memo DFS
+## 1.Memo DFS
 * Time: O(2^n)
 * Space: O(n)
 
@@ -6,7 +6,7 @@
 public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         if( s.length() == 0 ) return new ArrayList<String>();
-        return helper(s,wordDict, new HashMap<String, List<String>>());
+        return helper(s,wordDict, new HashMap<>());
     }
     public List<String> helper(String s, List<String> wordDict, HashMap<String, List<String>> map){
         if( map.containsKey(s)) return map.get(s);

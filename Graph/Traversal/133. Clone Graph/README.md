@@ -1,3 +1,7 @@
+
+
+## 1. Copy A Graph Node : HashMap To Saved Cloned Nodes
+
 ```java
 class UndirectedGraphNode {
 	int label;
@@ -8,8 +12,6 @@ class UndirectedGraphNode {
 	}
 }
 ```
-
-### HashMap To Saved Cloned Nodes
 ```java
 public class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
@@ -35,7 +37,7 @@ public class Solution {
 
 ```
 
-### Follow-Up : Copy A List of Graph Nodes
+## 2.Follow-Up : Copy A List of Graph Nodes
 
 ```java
 import java.util.*;

@@ -38,11 +38,11 @@ public class Solution {
 
     private void increaseSize() {
         this.size = this.size + SIZE_FACTOR;
-        Object newData[] = new Object[this.size];
+        Object newArray[] = new Object[this.size];
         for (int i = 0; i < data.length; i++) {
-            newData[i] = data[i];
+            newArray[i] = data[i];
         }
-        this.data = newData;
+        this.data = newArray;
     }
 
     public Object get(int index) throws Exception {

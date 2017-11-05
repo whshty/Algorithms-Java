@@ -1,5 +1,14 @@
 ## 1.Find One Solution 
 ### 1.1.Brtue Force BFS
+```
+"()" -> "()"
+"a(b)c)" -> "a(b)c" or "a(bc)"
+")(" -> ""
+"(((((" -> ""
+"(()()(" -> "()()"
+")(())(" -> "(())"
+
+```
 ```java
 public class Solution {
     public List<String> removeInvalidParentheses(String s) {

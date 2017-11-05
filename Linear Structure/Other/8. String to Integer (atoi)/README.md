@@ -20,20 +20,20 @@ public class Solution {
     	while (i < len && Character.isWhitespace(str.charAt(i))) i++;
     	int sign = 1;
     	if ( i < len && str.charAt(i) == '+' ) i++;
-		else if ( i < len && str.charAt(i) == '-'){
-			sign = -1;
-			i++;
+	else if ( i < len && str.charAt(i) == '-'){
+		sign = -1;
+		i++;
+	}
+	int num = 0;
+	while (i < len && Character.isDigit(str.charAt(i))){
+		int value = Character.getNumericValue(str.charAt(i));
+		if ( num > maxDiv10 || num == maxDiv10 && value > 7 ){
+			return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
 		}
-		int num = 0;
-		while (i < len && Character.isDigit(str.charAt(i))){
-			int value = Character.getNumericValue(str.charAt(i));
-			if ( num > maxDiv10 || num == maxDiv10 && value > 7 ){
-				return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-			}
-			num = num * 10 + value;
-			i++;
-		}
-		return sign*num;
+		num = num * 10 + value;
+		i++;
+	}
+	return sign*num;
     }
 }
 ```

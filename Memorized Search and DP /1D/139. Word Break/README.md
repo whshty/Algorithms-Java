@@ -1,4 +1,4 @@
-## 1.DFS
+## 1.1.DFS
 * Worst case : O(n^2)
 
 ```java
@@ -19,8 +19,8 @@ class Solution {
 ```
 
 
-## 2.DP
-
+## 1.2.DP
+* dp[i] is true if ther a word in the dictionary that end at ith of s adnd is also true at the beginning of the word
 * Time  : O(n^2)
 
 ```
@@ -33,7 +33,7 @@ t       t       t
          b o o k 
 ```
 
-dp[i] is true if ther a word in the dictionary that end at ith of s adnd is also true at the beginning of the word
+
 
 
 ```java
@@ -53,5 +53,32 @@ class Solution {
         return dp[len];
     }
 }
+```
+
+## 2.1 Follow-Up - Find Min Break Time : DFS
+
+```java
+public class Solution {
+    public int wordBreak(String s, List<String> wordDict) {
+        if (s.length() == 0) return 0;
+        return helper(s, wordDict, new HashMap<>());
+    }
+
+    public int helper(String s, List<String> wordDict, Map<String,Integer> map) {
+        if (s.isEmpty()) return 0;
+        if (map.containsKey(s)) return map.get(s);
+
+        int res = Integer.MAX_VALUE;
+        for (String word : wordDict) {
+            if (s.startsWith(word)) {
+                int cur = helper(s.substring(word.length()), wordDict, map) + 1;
+                res = Math.min(res, cur);
+            }
+        }
+        map.put(s,res);
+        return res;
+    }
+}
+
 ```
 

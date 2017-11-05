@@ -31,3 +31,26 @@ class Solution {
         return dp[len];
     }
 }
+
+//Follow-Up - Find Min Break Time : DFS
+public class Solution {
+    public int wordBreak(String s, List<String> wordDict) {
+        if (s.length() == 0) return 0;
+        return helper(s, wordDict, new HashMap<>());
+    }
+
+    public int helper(String s, List<String> wordDict, Map<String,Integer> map) {
+        if (s.isEmpty()) return 0;
+        if (map.containsKey(s)) return map.get(s);
+
+        int res = Integer.MAX_VALUE;
+        for (String word : wordDict) {
+            if (s.startsWith(word)) {
+                int cur = helper(s.substring(word.length()), wordDict, map) + 1;
+                res = Math.min(res, cur);
+            }
+        }
+        map.put(s,res);
+        return res;
+    }
+}

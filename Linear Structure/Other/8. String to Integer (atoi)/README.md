@@ -1,17 +1,14 @@
 
 * Overflow explanation: Integer.MAX_VALUE = 2147483647 and Integer.MIN_VALUE = -2147483648 is the largest/smallest value that an int primitive can contain.
 
-```java
-/*
 Let's simplify this problem. 
 Suppose str1 = " -a649b ", st2 = " a652b ", max = 647, min = -648. 
 So if atoi(str) > 647 || atoi(str) < -648 atoi will overflow. 
 In other words, when we've parsed num == 64 and the next char is also digit, 
 max / min can directly be returned if the next digit >= 8; or we've parsed num > 64, 
 directly return too.
-*/
 
-
+```java
 public class Solution {
     //“+0 123” return:0
     // “-123a2” return:-123

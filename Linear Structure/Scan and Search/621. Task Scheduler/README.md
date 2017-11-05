@@ -1,4 +1,4 @@
-### Can Reorder 
+## 1.Can Reorder 
 * The result is decided by the maximum count and the number of tasks with maximum count
 * The min result is the length of the tasks
 * Consider k+1 as a time slot
@@ -31,8 +31,9 @@ class Solution {
 }
 ```
 
-### Cannot Reorder 
+## 2.Cannot Reorder 
 * Use HashMap to save the end time of each task
+
 ```java
 class myCode {
     public static void main (String[] args) throws java.lang.Exception {

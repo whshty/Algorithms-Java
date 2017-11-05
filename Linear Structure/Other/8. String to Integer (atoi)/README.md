@@ -23,6 +23,7 @@ public class Solution {
     	while (i < len && Character.isWhitespace(str.charAt(i))) i++;
     	int sign = 1;
     	if ( i < len && str.charAt(i) == '+' ) i++;
+    	
 		else if ( i < len && str.charAt(i) == '-'){
 			sign = -1;
 			i++;

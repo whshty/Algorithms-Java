@@ -1,6 +1,6 @@
 public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
-        if( s.length() == 0 ) return new ArrayList<String>();
+        if( s.length() == 0 ) return new ArrayList<>();
         return helper(s,wordDict, new HashMap<>());
     }
     public List<String> helper(String s, List<String> wordDict, HashMap<String, List<String>> map){

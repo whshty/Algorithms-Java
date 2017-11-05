@@ -18,12 +18,11 @@ public class Solution {
     //“+—123 ” return:0
     
     public int myAtoi(String str) {
-        final int maxDiv10 = Integer.MAX_VALUE / 10;
+    	final int maxDiv10 = Integer.MAX_VALUE / 10;
     	int i = 0 , len = str.length();
     	while (i < len && Character.isWhitespace(str.charAt(i))) i++;
     	int sign = 1;
     	if ( i < len && str.charAt(i) == '+' ) i++;
-    	
 		else if ( i < len && str.charAt(i) == '-'){
 			sign = -1;
 			i++;

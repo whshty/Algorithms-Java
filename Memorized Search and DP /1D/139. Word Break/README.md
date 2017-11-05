@@ -34,8 +34,6 @@ t       t       t
 ```
 
 
-
-
 ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
@@ -55,7 +53,7 @@ class Solution {
 }
 ```
 
-## 2.1 Follow-Up - Find Min Break Time : DFS
+## 2.1.Follow-Up - Find Min Break Time : DFS
 
 ```java
 public class Solution {
@@ -81,4 +79,4 @@ public class Solution {
 }
 
 ```
-
+## 2.2.Follow-Up - Find Min Break Time : DP

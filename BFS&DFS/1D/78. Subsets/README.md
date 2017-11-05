@@ -119,7 +119,7 @@ class myCode {
 
 ```
 
-## 5.Follow-Up : min（sub）+ max（sub）<=k
+## 5.Follow-Up : min(sub) + max(sub) <= k
 
 ```java
 public class Solution {

@@ -50,3 +50,23 @@ public class Solution {
         return new ArrayList<>(set);
     }
 }
+
+// Follow - Up : min（s）+max（s）<=k
+public class Solution {
+    public List<List<Integer>> subsets(int[] nums, int k) {
+        List<List<Integer>> res = new ArrayList<>();
+        if(nums.length == 0) return res;
+        helper(res,new ArrayList<>(),nums,0 , Integer.MAX_VALUE, Integer.MIN_VALUE , k);
+        return res;
+    }
+    private void helper(List<List<Integer>> res,List<Integer> list, int[] nums, int pos , int min , int max , int k){
+        if( min + max >= k ) return;
+        res.add(new ArrayList<>(list));
+        for(int i=pos;i<nums.length;i++){
+            list.add(nums[i]);
+            //helper(res,list,nums,i+1,min,max,k);
+            helper(res,list,nums,i+1,Math.min(min,nums[i]),Math.max(max,nums[i]),k);
+            list.remove(list.size() -1);
+        }
+    }
+}

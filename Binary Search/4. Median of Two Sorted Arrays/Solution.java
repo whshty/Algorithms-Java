@@ -40,9 +40,17 @@ public class Solution {
         while (start <= end) {
             int mid1 = (start + end) >>> 1;
             int mid2 = len1 + len2 - mid1;
-
-            double left1 = (mid1 == 0) ? Integer.MIN_VALUE : nums1[(mid1 - 1) / 2];
-            double right1 = (mid1 == 2 * len1) ? Integer.MAX_VALUE : nums1[mid1 / 2];
+            double left1 , right1;
+            if( mid1 == 0 ) {
+                left1 = Integer.MIN_VALUE;
+            } else {
+                left1 = nums1[(mid1 - 1) / 2];
+            }
+            if ( mid1 == 2 * len1 ) {
+                right1 = Integer.MAX_VALUE;
+            } else {
+                right1 = nums1[mid1/2];
+            }
             double left2 = (mid2 == 0) ? Integer.MIN_VALUE : nums2[(mid2 - 1) / 2];
             double right2 = (mid2 == 2 * len2) ? Integer.MAX_VALUE : nums2[mid2 / 2];
 

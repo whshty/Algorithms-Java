@@ -1,4 +1,21 @@
 public class Solution {
+    public static void main(String[] args) throws Exception {
+        Solution list = new Solution();
+        list.add("0");
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
+        list.add("5");
+        list.add("6");
+        list.add("7");
+        list.add("8");
+        list.add("9");
+
+        list.remove(5);
+        System.out.println(list.get(7));
+    }
+
     private static final int SIZE_FACTOR = 5;
     private Object data[];
     private int index;
@@ -50,22 +67,4 @@ public class Solution {
         }
         this.index--;
     }
-
-    public static void main(String[] args) throws Exception {
-        Solution list = new Solution();
-        list.add("0");
-        list.add("1");
-        list.add("2");
-        list.add("3");
-        list.add("4");
-        list.add("5");
-        list.add("6");
-        list.add("7");
-        list.add("8");
-        list.add("9");
-
-        list.remove(5);
-        System.out.println(list.get(7));
-    }
-
 }

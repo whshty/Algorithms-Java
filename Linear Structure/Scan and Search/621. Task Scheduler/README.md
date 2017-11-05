@@ -49,7 +49,7 @@ class myCode {
                 int endTime = map.get(task) + k + 1;
                 if( endTime > res){
                     res = endTime;
-                } else{
+                } else {
                     res++;
                 }
             } else res++;

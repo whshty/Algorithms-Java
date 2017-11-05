@@ -1,18 +1,20 @@
+// DFS
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         return dfs(s,wordDict,new HashSet<String>());
     }
-    private boolean dfs(String s, List<String> wordDict, Set<String> visited) {
+    private boolean dfs(String s, List<String> wordDict, Set<String> isVisited) {
         if (s.isEmpty()) return true;
-        if (visited.contains(s)) return false;
-        visited.add(s);
+        if (isVisited.contains(s)) return false;
+        isVisited.add(s);
         for (String word : wordDict) {
-            if (s.startsWith(word) && dfs(s.substring(word.length()), wordDict, visited)) return true;
+            if (s.startsWith(word) && dfs(s.substring(word.length()), wordDict, isVisited)) return true;
         }
         return false;
     }
 }
 
+// DP
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int len = s.length();

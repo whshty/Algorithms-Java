@@ -54,3 +54,22 @@ public class Solution {
         return res;
     }
 }
+
+//Follow-Up - Find Min Break Time : DP
+public class Solution {
+    public int wordBreak(String s, List<String> wordDict) {
+        int len = s.length();
+        int[] dp = new int[len+1];
+        Arrays.fill(dp, Integer.MAX_VALUE );
+        dp[0] = 0;
+        for( int i = 1 ; i < len + 1 ; i++){
+            for( int j = 0 ; j < i ; j++ ){
+                if( dp[j]!= Integer.MAX_VALUE && wordDict.contains(s.substring(j,i))){
+                    dp[i] = Math.min(dp[i],dp[j]+1);
+                }
+            }
+
+        }
+        return dp[len];
+    }
+}

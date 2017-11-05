@@ -53,7 +53,7 @@ class Solution {
 }
 ```
 
-## 2.1.Follow-Up - Find Min Break Time : DFS
+## 2.1.Follow-Up - Find Min Break Number : DFS
 
 ```java
 public class Solution {
@@ -79,4 +79,26 @@ public class Solution {
 }
 
 ```
-## 2.2.Follow-Up - Find Min Break Time : DP
+## 2.2.Follow-Up - Find Min Break Number : DP
+
+
+```java
+public class Solution {
+    public int wordBreak(String s, List<String> wordDict) {
+        int len = s.length();
+        int[] dp = new int[len+1];
+        Arrays.fill(dp, Integer.MAX_VALUE );
+        dp[0] = 0;
+        for( int i = 1 ; i < len + 1 ; i++){
+            for( int j = 0 ; j < i ; j++ ){
+                if( dp[j]!= Integer.MAX_VALUE && wordDict.contains(s.substring(j,i))){
+                    dp[i] = Math.min(dp[i],dp[j]+1);
+                }
+            }
+
+        }
+        return dp[len];
+    }
+}
+
+```

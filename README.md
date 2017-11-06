@@ -22,6 +22,7 @@
 * [259. 3Sum Smaller](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/259.%203Sum%20Smaller)
 
 ### [Scan and Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search)
+* Monotonous Array
 * [Print Matrix in Diagonal Order](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/Print%20Matrix%20in%20Diagonal%20Order)
 * [26. Remove Duplicates from Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/26.%20Remove%20Duplicates%20from%20Sorted%20Array)
 * [38. Count and Say](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/38.%20Count%20and%20Say)

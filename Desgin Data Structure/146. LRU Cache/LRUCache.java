@@ -77,7 +77,6 @@ class Node{
 
 
 // Use LinkedHashMap
-
 class LRUCache {
     Map<Integer,Integer> map;
     int CAP;
@@ -94,8 +93,7 @@ class LRUCache {
             map.put(key,value);
             return value;
         }
-        return -1;
-        
+        return -1;        
     }
     
     public void put(int key, int value) {

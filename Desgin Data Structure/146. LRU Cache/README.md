@@ -78,7 +78,7 @@ class Node{
 }
 ```
  
-## LinkedHashMap
+## 2.LinkedHashMap
 ```java
 
 class LRUCache {
@@ -97,8 +97,7 @@ class LRUCache {
             map.put(key,value);
             return value;
         }
-        return -1;
-        
+        return -1;        
     }
     
     public void put(int key, int value) {

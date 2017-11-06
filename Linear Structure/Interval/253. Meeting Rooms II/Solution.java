@@ -19,24 +19,23 @@ class Solution {
     }
 }
 
-
-public class Solution {
+class Solution {
     public int minMeetingRooms(Interval[] intervals) {
         if ( intervals == null || intervals.length == 0) return 0;
         Arrays.sort(intervals, (a,b)->(a.start - b.start));
         PriorityQueue<Integer> minHeap = new PriorityQueue<>();
         
         for (Interval i : intervals) {
+            // dont need the first interval anymore, poll it out
             if ( !minHeap.isEmpty() && minHeap.peek() <= i.start){
                 minHeap.poll();    
             }
+            // Use or Create New Room
             minHeap.offer(i.end);
         }
         return minHeap.size();
     }
 }
-
-
 
 
 class Solution {

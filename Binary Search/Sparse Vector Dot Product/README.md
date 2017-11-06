@@ -1,4 +1,4 @@
-### Brute Force
+## 1.Brute Force
 ```java
 class Solution {
     public int dotProduct(int[] a, int[] b) {
@@ -12,8 +12,9 @@ class Solution {
 }
 ```
 
-### Sparse vector
-##### Int array to store index and value
+## 2.Sparse Vector
+* Int array to store index and value
+
 ```java
 class Solution {
     public int dotProduct(List<int[]> listA, List<int[]> listB){
@@ -40,7 +41,7 @@ class Solution {
 
 ```
 
-##### Create Vector Class
+## 3.Create Vector Class
 
 ```java
 class Vector{

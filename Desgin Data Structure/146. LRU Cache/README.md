@@ -38,8 +38,7 @@ class LRUCache {
             Node node = map.get(key);
             node.value = value;
             deleteNode(node);
-            addToHead(node);
-            
+            addToHead(node);  
         } else {
             Node node = new Node(key,value);
             map.put(key,node);

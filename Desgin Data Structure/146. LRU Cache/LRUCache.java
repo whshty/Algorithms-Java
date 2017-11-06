@@ -1,32 +1,23 @@
+// Double linked list + hashmap
 class LRUCache {
-    HashMap<Integer,Node> map;
-    int CAP, count;
+    Map<Integer,Node> map;
+    int SIZE;
+    int count;
     Node head;
     Node tail;
-
-    public LRUCache(int CAP) {
-        this.CAP = CAP;
+    
+    // Initial data structure
+    public LRUCache(int size) {
+        this.SIZE= size;
         map = new HashMap<>();
+        // Dummy head and tail node
         head = new Node(-1,-1);
         tail = new Node(-1,-1);
         head.next = tail;
         tail.pre = head;
-        
         head.pre = null;
         tail.next = null;
         count = 0;
-    }
-    
-    public void deleteNode(Node node){
-        node.pre.next = node.next;
-        node.next.pre = node.pre;
-    }
-    
-    public void addToHead(Node node){
-        node.next = head.next;
-        node.next.pre = node;
-        node.pre = head;
-        head.next = node;
     }
     
     public int get(int key) {
@@ -39,7 +30,6 @@ class LRUCache {
             return res;
         }
         return -1;
-        
     }
     
     public void put(int key, int value) {
@@ -52,7 +42,7 @@ class LRUCache {
         } else {
             Node node = new Node(key,value);
             map.put(key,node);
-            if( count < CAP ){
+            if( count < SIZE ){
                 count++;
                 addToHead(node);
             } else {
@@ -62,9 +52,21 @@ class LRUCache {
             }
         }
     }
+    // Two helper functions
+    public void deleteNode(Node node){
+        node.pre.next = node.next;
+        node.next.pre = node.pre;
+    }
+    
+    public void addToHead(Node node){
+        node.next = head.next;
+        node.next.pre = node;
+        node.pre = head;
+        head.next = node;
+    }
 }
 
-class Node{
+class Node {
     int key;
     int value;
     Node pre;
@@ -74,7 +76,6 @@ class Node{
         this.value = value;
     }
 }
-
 
 // Use LinkedHashMap
 class LRUCache {

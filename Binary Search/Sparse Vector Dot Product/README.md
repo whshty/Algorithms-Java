@@ -56,6 +56,6 @@ class Vector{
 
 ## 3.Follow - Up  : If input A is too long
 * Find the index of shorter list first
-* Binary search index B based on indexA
+* Binary search indexA based on indexB
 * Time : O(nlogm) (n = len(A), m =len(B))
 

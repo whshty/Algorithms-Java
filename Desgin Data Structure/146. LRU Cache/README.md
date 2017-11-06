@@ -16,8 +16,8 @@ class LRUCache {
         tail = new Node(-1,-1);
         head.next = tail;
         tail.pre = head;
-        head.pre = null;
-        tail.next = null;
+        //head.pre = null;
+        //tail.next = null;
         count = 0;
     }
     
@@ -38,7 +38,8 @@ class LRUCache {
             Node node = map.get(key);
             node.value = value;
             deleteNode(node);
-            addToHead(node);  
+            addToHead(node);
+            
         } else {
             Node node = new Node(key,value);
             map.put(key,node);

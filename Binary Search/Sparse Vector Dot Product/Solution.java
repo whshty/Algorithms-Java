@@ -1,5 +1,4 @@
-## 1.Brute Force
-```java
+// Brute Force
 class Solution {
     public int dotProduct(int[] a, int[] b) {
         int len = a.length;
@@ -10,12 +9,7 @@ class Solution {
         return res;
     }
 }
-```
-
-## 2.Sparse Vector
-* Int array to store index and value
-
-```java
+//Sparse Vector
 class Solution {
     public int dotProduct(List<int[]> listA, List<int[]> listB){
         int res = 0;
@@ -39,23 +33,4 @@ class Solution {
     }
 }
 
-```
-```java
-// Create Vector Class
-class Vector{
-    int index;
-    int value;
-    
-    Vector( int i, int v){
-        index = i;
-        value = v;
-    }
-}
-```
-
-
-## 3.Follow - Up  : If input A is too long
-* Find the index of shorter list first
-* Binary search index B based on indexA
-* Time : O(nlogm) (n = len(A), m =len(B))
-
+//If input B is too long

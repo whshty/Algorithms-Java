@@ -25,6 +25,8 @@ public class Solution {
 ```
 
 ## 2.Copy Node + Assign Random Pointer + Restore List
+* No extra space
+* Time : O(n) + Space : O(1)
 
 ```java
 

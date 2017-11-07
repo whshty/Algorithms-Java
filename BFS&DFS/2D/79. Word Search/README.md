@@ -1,7 +1,7 @@
-### BFS
+## 1.BFS
 * If you use BFS, you have to record the positions visited for each path, which can get Time Limit Exceeded.
 
-### DFS
+## 2.DFS
 * Time O(m * n * 4^k)
 
 ```java

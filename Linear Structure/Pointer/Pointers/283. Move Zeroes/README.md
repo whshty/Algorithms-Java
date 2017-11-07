@@ -1,5 +1,6 @@
-### Ordered, Write : O(n)
+## 1.Ordered, Write : O(n)
 * Java init array, the default value is 0
+
 ```java
 public class Solution {
     public void moveZeroes(int[] nums) {
@@ -19,7 +20,7 @@ public class Solution {
 
 ```
 
-### Two Pointers, Unordered and  Minium Writes
+## 2.Two Pointers, Unordered and  Minium Writes
 * Find the start that equals to 0
 * Find the end that not equals to 0
 

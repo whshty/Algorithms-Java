@@ -1,4 +1,4 @@
-## 1.BFS
+## 1.1.BFS - Input is Edge lists
 * Node 0 is the root
 * Keep on adding nodes to a set, if the nodes is already added, there is a cycle
 
@@ -32,8 +32,73 @@ public class Solution {
     }
 }
 ```
+## 1.2.BFS - Input is List of TreeNode
 
-### 2.DFS
+```java
+public class Solution {
+    public boolean validTree(List<TreeNode> list) {
+        Map<TreeNode, Set<TreeNode>> map = new HashMap<>();
+        Map<TreeNode, Integer> indegree = new HashMap<>();
+
+        for (TreeNode node : list) {
+            map.putIfAbsent(node, new HashSet<>());
+            indegree.putIfAbsent(node, 0);
+        }
+
+        for (TreeNode node : list) {
+            Set<TreeNode> set = map.get(node);
+            if (node.left != null) {
+                set.add(node.left);
+                indegree.put(node.left, indegree.get(node.left) + 1);
+            }
+            if (node.right != null) {
+                set.add(node.right);
+                indegree.put(node.right, indegree.get(node.right) + 1);
+            }
+        }
+        List<TreeNode> roots = new ArrayList<>();
+        for (TreeNode node : indegree.keySet()) {
+            if (indegree.get(node) == 0) roots.add(node);
+        }
+
+        if (roots.size() > 1 || roots.size() == 0) return false;
+        TreeNode root = roots.get(0);
+
+        Set<TreeNode> set = new HashSet<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (set.contains(node)) return false;
+
+            for (TreeNode temp : map.get(node)) {
+                indegree.put(temp,indegree.get(temp) -1 );
+                if( indegree.get(temp) == 0 ) {
+                    queue.add(temp);
+                }
+            }
+            set.add(node);
+        }
+        return set.size() == list.size();
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+```
+
+
+
+## 2.DFS
 
 ```
 public class Solution {

@@ -57,3 +57,87 @@ public class Solution {
         return true;
     }
 }
+
+// Input is List of TreeNode
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        TreeNode node1 = new TreeNode(1);
+        TreeNode node2 = new TreeNode(2);
+
+        node1.left = node2;
+        node1.right = null;
+        node2.left = node2.right = null;
+
+        List<TreeNode> input = new ArrayList<>();
+        input.add(node1);
+        input.add(node2);
+
+        Solution sol = new Solution();
+
+        System.out.println(sol.validTree(input));
+
+
+    }
+
+    public boolean validTree(List<TreeNode> list) {
+        Map<TreeNode, Set<TreeNode>> map = new HashMap<>();
+        Map<TreeNode, Integer> indegree = new HashMap<>();
+
+        for (TreeNode node : list) {
+            map.putIfAbsent(node, new HashSet<>());
+            indegree.putIfAbsent(node, 0);
+        }
+
+        for (TreeNode node : list) {
+            Set<TreeNode> set = map.get(node);
+            if (node.left != null) {
+                set.add(node.left);
+                indegree.put(node.left, indegree.get(node.left) + 1);
+            }
+            if (node.right != null) {
+                set.add(node.right);
+                indegree.put(node.right, indegree.get(node.right) + 1);
+            }
+        }
+        List<TreeNode> roots = new ArrayList<>();
+        for (TreeNode node : indegree.keySet()) {
+            if (indegree.get(node) == 0) roots.add(node);
+        }
+
+        if (roots.size() > 1 || roots.size() == 0) return false;
+        TreeNode root = roots.get(0);
+
+        Set<TreeNode> set = new HashSet<>();
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (set.contains(node)) return false;
+
+            for (TreeNode temp : map.get(node)) {
+                indegree.put(temp,indegree.get(temp) -1 );
+                if( indegree.get(temp) == 0 ) {
+                    queue.add(temp);
+                }
+            }
+            set.add(node);
+        }
+        return set.size() == list.size();
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+
+

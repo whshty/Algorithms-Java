@@ -1,7 +1,7 @@
-public class Solution {
+class Solution {
     public void moveZeroes(int[] nums) {
         if( nums == null || nums.length == 0 ) return;
-        int index = 0;
+        int index = 0; // index of non 0 elements
         for( int i = 0 ; i < nums.length ; i++ ){
             if( nums[i] != 0 ){
                 int temp = nums[index];
@@ -9,8 +9,7 @@ public class Solution {
                 nums[i] = temp;
                 index++;
             }
-        }
-    
+        }       
     }
 }
 

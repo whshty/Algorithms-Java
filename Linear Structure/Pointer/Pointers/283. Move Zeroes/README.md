@@ -1,11 +1,12 @@
-## 1.Ordered, Write : O(n)
+## 1.Ordered
 * Java init array, the default value is 0
+* Time : O(n)
 
 ```java
-public class Solution {
+class Solution {
     public void moveZeroes(int[] nums) {
         if( nums == null || nums.length == 0 ) return;
-        int index = 0; // index of 0 elements
+        int index = 0; // index of non 0 elements
         for( int i = 0 ; i < nums.length ; i++ ){
             if( nums[i] != 0 ){
                 int temp = nums[index];
@@ -13,11 +14,9 @@ public class Solution {
                 nums[i] = temp;
                 index++;
             }
-        }
-    
+        }       
     }
 }
-
 ```
 
 ## 2.Two Pointers, Unordered and  Minium Writes

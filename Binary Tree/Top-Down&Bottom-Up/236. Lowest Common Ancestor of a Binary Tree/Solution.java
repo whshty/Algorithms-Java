@@ -95,14 +95,13 @@ class Solution {
 }
 
 class Node {
-    public TreeNode node;
-    public int depth;
+    TreeNode node;
+    int depth;
 
-    public Node(TreeNode node, int depth) {
+    Node(TreeNode node, int depth) {
         this.node = node;
         this.depth = depth;
     }
-
 }
 
 class TreeNode {

@@ -58,7 +58,7 @@ public class Solution {
 
 ```
 
-## 3. Find the length of shortest path between two nodes in a tree
+## 3. Follow up - Find the length of shortest path between two nodes in a tree
 
 ```java
 public int getShortestDistance(TreeNode root, TreeNode p ,TreeNode q ){
@@ -72,5 +72,40 @@ public int getDepth(TreeNode root, int target, int level) {
     int leftLevel = getDepth(root.left, target, level + 1);
     if (leftLevel == -1) return getDepth(root.right, target, level);
     else return leftLevel;
+}
+```
+
+## 4.Follow Up - Find LCA of deepest nodes : Recursion
+
+```java
+class Solution {
+    public TreeNode findLCA(TreeNode root) {
+        Node res = helper(root);
+        return res.node;
+    }
+
+    private Node helper(TreeNode root) {
+        if (root == null) return new Node(null, 0);
+
+        int depth = 0;
+        Node left = helper(root.left);
+        Node right = helper(root.right);
+
+        depth = Math.max(left.depth, right.depth) + 1;
+        if (left.depth == right.depth) return new Node(root, depth);
+        else if (left.depth > right.depth) return new Node(left.node, depth);
+        else return new Node(right.node, depth);
+    }
+}
+
+class Node {
+    public TreeNode node;
+    public int depth;
+
+    public Node(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
+    }
+
 }
 ```

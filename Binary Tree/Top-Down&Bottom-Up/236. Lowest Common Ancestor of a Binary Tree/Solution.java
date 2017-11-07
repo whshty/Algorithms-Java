@@ -58,3 +58,63 @@ public int getDepth(TreeNode root, int target, int level) {
     if (leftLevel == -1) return getDepth(root.right, target, level);
     else return leftLevel;
 }
+
+// LCA of deeptest node - recursion 
+class Solution {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.left.left = new TreeNode(4);
+
+        root.right = new TreeNode(3);
+        root.right.left = new TreeNode(5);
+        root.right.right = new TreeNode(6);
+
+        Solution sol = new Solution();
+        System.out.println(sol.findLCA(root).val);
+
+    }
+
+    public TreeNode findLCA(TreeNode root) {
+        Node res = helper(root);
+        return res.node;
+    }
+
+    private Node helper(TreeNode root) {
+        if (root == null) return new Node(null, 0);
+
+        int depth = 0;
+        Node left = helper(root.left);
+        Node right = helper(root.right);
+
+        depth = Math.max(left.depth, right.depth) + 1;
+        if (left.depth == right.depth) return new Node(root, depth);
+        else if (left.depth > right.depth) return new Node(left.node, depth);
+        else return new Node(right.node, depth);
+    }
+}
+
+class Node {
+    public TreeNode node;
+    public int depth;
+
+    public Node(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
+    }
+
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+
+
+
+

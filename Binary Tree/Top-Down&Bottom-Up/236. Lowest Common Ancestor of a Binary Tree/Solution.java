@@ -113,7 +113,75 @@ class TreeNode {
         val = x;
     }
 }
+// LCA of deeptest node - Iteration
+class Solution {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        //root.left.left = new TreeNode(4);
 
+        root.right = new TreeNode(3);
+        root.right.left = new TreeNode(5);
+        root.right.right = new TreeNode(6);
+
+        Solution sol = new Solution();
+        System.out.println(sol.findLCA(root).val);
+
+    }
+
+    public TreeNode findLCA(TreeNode root) {
+        if(root == null) return root;
+        Map<TreeNode, TreeNode> map = new HashMap<>();
+
+        TreeNode start = null, end = null;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        map.put(root, null);
+        while(!queue.isEmpty()) {
+            start = null; end = null;
+            int size = queue.size();
+            while(size-- > 0) {
+                TreeNode node = queue.poll();
+                if(start == null) start = node;
+                if(size == 0) end = node;
+                if(node.left != null) {
+                    map.put(node.left, node);
+                    queue.offer(node.left);
+                }
+                if(node.right != null) {
+                    map.put(node.right, node);
+                    queue.offer(node.right);
+                }
+            }
+        }
+
+        while(start != end){
+            start = map.get(start);
+            end = map.get(end);
+        }
+        return start;
+    }
+}
+
+class Node {
+    TreeNode node;
+    int depth;
+
+    Node(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
 
 
 

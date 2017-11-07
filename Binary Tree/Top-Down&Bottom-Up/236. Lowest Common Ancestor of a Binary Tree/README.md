@@ -1,4 +1,4 @@
-## 1. Recursion 
+## 1.1.Recursion 
 * Time : O(n)
 * If We can find left and right, return root
 * If I can only find left or right, which means, p(or q) is the ancester of q(or p), we return p(or q)
@@ -22,7 +22,7 @@ public class Solution {
 
 ![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down%26Bottom-Up/236.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Tree/pic2.png)
 
-## 2.Iteration
+## 1.2.Iteration
 
 ```java
 public class Solution {
@@ -58,7 +58,7 @@ public class Solution {
 
 ```
 
-## 3. Follow up - Find the length of shortest path between two nodes in a tree
+## 2. Follow up - Find the length of shortest path between two nodes in a tree
 
 ```java
 public int getShortestDistance(TreeNode root, TreeNode p ,TreeNode q ){
@@ -75,7 +75,7 @@ public int getDepth(TreeNode root, int target, int level) {
 }
 ```
 
-## 4.Follow Up - Find LCA of deepest nodes : Recursion
+## 3.1.Follow Up - Find LCA of deepest nodes : Recursion
 
 ```java
 class Solution {
@@ -108,3 +108,62 @@ class Node {
     }
 }
 ```
+
+## 3.2.Follow Up - Find LCA of deepest nodes : Iteration
+```java
+class Solution {
+    public TreeNode findLCA(TreeNode root) {
+        if(root == null) return root;
+        Map<TreeNode, TreeNode> map = new HashMap<>();
+
+        TreeNode start = null, end = null;
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        queue.offer(root);
+        map.put(root, null);
+        while(!queue.isEmpty()) {
+            start = null; end = null;
+            int size = queue.size();
+            while(size-- > 0) {
+                TreeNode node = queue.poll();
+                if(start == null) start = node;
+                if(size == 0) end = node;
+                if(node.left != null) {
+                    map.put(node.left, node);
+                    queue.offer(node.left);
+                }
+                if(node.right != null) {
+                    map.put(node.right, node);
+                    queue.offer(node.right);
+                }
+            }
+        }
+
+        while(start != end){
+            start = map.get(start);
+            end = map.get(end);
+        }
+        return start;
+    }
+}
+
+class Node {
+    TreeNode node;
+    int depth;
+
+    Node(TreeNode node, int depth) {
+        this.node = node;
+        this.depth = depth;
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}
+```
+

@@ -338,7 +338,7 @@
 
 # [Memorized Search and DP](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20)
 ### [Stock Problem](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem)
-* 53. Maximum Subarray
+* [53. Maximum Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/53.%20Maximum%20Subarray)
 * [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 * [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 * [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)

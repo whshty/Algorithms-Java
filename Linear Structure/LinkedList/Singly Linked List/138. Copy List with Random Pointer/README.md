@@ -1,4 +1,7 @@
-// HashMap to Save Node
+## 1.HashMap to Save Node
+* Time : O(n) + Space : O(n)
+
+```
 public class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         if( head == null ) return null;
@@ -19,8 +22,12 @@ public class Solution {
         return map.get(head);
     }
 }
+```
 
-// Copy Node + Assign Random Pointer + Restore List
+## 2.Copy Node + Assign Random Pointer + Restore List
+
+```java
+
 class Solution {
     public RandomListNode copyRandomList(RandomListNode head) {
         RandomListNode node = head, next;
@@ -60,3 +67,5 @@ class Solution {
         return dummy.next;
     }
 }
+
+```

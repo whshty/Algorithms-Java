@@ -36,3 +36,90 @@ public class Codec {
         }
     }
 }
+
+// Follow Up - Use LinkedList and Recurion
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class Solution {
+    public static void main(String[] args) {
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.right.left = new TreeNode(4);
+        root.right.right = new TreeNode(5);
+
+        Solution sol = new Solution();
+        ListNode node = sol.serialize(root);
+//        while (node != null) {
+//            System.out.print(node.val + " ");
+//            node = node.next;
+//        }
+
+        TreeNode root2 = sol.deserialize(node);
+        ListNode node2 = sol.serialize(root2);
+
+    }
+
+
+    public ListNode serialize(TreeNode root) {
+        ListNode dummy = new ListNode(-1);
+        buildLinkedList(root, dummy);
+        return dummy.next;
+    }
+
+    private void buildLinkedList(TreeNode root, ListNode node) {
+        if (root == null) {
+            node.next = new ListNode(-1);
+            node = node.next;
+            return;
+        } else {
+            node.next = new ListNode(root.val);
+            node = node.next;
+            buildLinkedList(root.left, node);
+            while (node.next != null) node = node.next;
+            buildLinkedList(root.right, node);
+        }
+    }
+
+
+    public TreeNode deserialize(ListNode node) {
+        Deque<ListNode> deque = new ArrayDeque<>();
+        while (node != null) {
+            deque.add(node);
+            node = node.next;
+        }
+        return buildTree(deque);
+    }
+
+    private TreeNode buildTree(Deque<ListNode> deque) {
+        ListNode root = deque.removeFirst();
+        if (root.val == -1) return null;
+        else {
+            TreeNode node = new TreeNode(Integer.valueOf(root.val));
+            node.left = buildTree(deque);
+            node.right = buildTree(deque);
+            return node;
+        }
+    }
+}
+
+class ListNode {
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+    }
+}
+
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
+
+    TreeNode(int x) {
+        val = x;
+    }
+}

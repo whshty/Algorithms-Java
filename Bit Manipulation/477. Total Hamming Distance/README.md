@@ -1,4 +1,4 @@
-### Use XOR to find the different bit
+## 1.Brute Force - Use XOR to find the different bit
 ```java
 class Solution {
     public int totalHammingDistance(int[] nums) {
@@ -16,7 +16,7 @@ class Solution {
 }
 ```
 
-### Optimization
+## 2.Optimization
 * Suppose that i numbers have a rightmost 0-bit
 * and j numbers have a 1-bit. 
 * Then out of the pairs, i * j of them will have 1 in the rightmost bit of the XOR.

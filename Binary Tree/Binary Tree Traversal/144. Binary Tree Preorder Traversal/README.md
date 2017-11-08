@@ -29,7 +29,7 @@ public class Solution {
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        Deque<TreeNode> deque = new new ArrayDeque<>();
+        Deque<TreeNode> deque = new ArrayDeque<>();
         TreeNode node = root;
         while( node != null || !deque.isEmpty()){
             if ( node != null ){

@@ -1,4 +1,4 @@
-## 1.Scan Line
+## 1.1.Scan Line
 * O(nlogn)
 *  When we need extra room, end event occurs and there is a starting event happened before that ( generate overlapping)
 * Create a variable "current end time" to point to the current end event, and move the start event pointer
@@ -44,7 +44,7 @@ class Solution {
 }
 ```
 
-## 2.Heap
+## 1.2.Heap
 * O(nlogn)
 * minHeap for saving the end times
 
@@ -69,7 +69,7 @@ class Solution {
 ```
 
 
-## 3.TreeMap
+## 1.3.TreeMap
 * Sort using TreeMap by start and end 
 * Key is time
 * Value is frequency is this time, start is postive and end is negative
@@ -89,4 +89,69 @@ class Solution {
         return count;
     }
 }
+```
+
+## 2.Follow Up - Generate the Interval of Max Number of Room
+
+
+```
+public class Solution {
+    public List<Interval> findMostOverlappedInterval(List<Interval> intervals) {
+        List<Interval> res = new ArrayList<>();
+        if (intervals == null || intervals.size() == 0) return res;
+
+        Map<Integer, Integer> map = new HashMap<>();
+        Interval preOverlap = intervals.get(0);
+        for (int i = 1; i < intervals.size(); i++) {
+            Interval cur = intervals.get(i);
+            int startVal = -1, endVal = -1;
+
+            if (cur.start < preOverlap.end) startVal = cur.start;
+            else {
+                preOverlap = cur;
+                continue;
+            }
+            if (cur.end <= preOverlap.end) {
+                endVal = cur.end;
+            } else {
+                endVal = preOverlap.end;
+                preOverlap.end = cur.end;
+            }
+            for (int j = startVal; j < endVal; j++) {
+                map.put(j, map.getOrDefault(j, 1) + 1);
+            }
+        }
+        // if no over lap
+        if (map.size() == 0) return intervals;
+
+        int max = 0;
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() > max) {
+                max = entry.getValue();
+                res.clear();
+                res.add(new Interval(entry.getKey(), -1));
+            } else if (entry.getValue() == max) {
+                Interval temp = res.get(res.size() - 1);
+                if( temp.end == -1 ){
+                    temp.end = entry.getKey();
+                    res.set(res.size() - 1, temp);
+                } else {
+                    res.add(new Interval(entry.getKey(), -1));
+                }
+            }
+        }
+        return res;
+    }
+}
+
+class Interval {
+    int start;
+    int end;
+
+    Interval(int s, int e) {
+        start = s;
+        end = e;
+    }
+}
+
 ```

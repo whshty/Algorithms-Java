@@ -11,6 +11,8 @@ class Solution {
         return count;
     }
     public int hammingDistance(int x, int y) {
+        // 177 = 10110001
+    	 // Integer.bitCount(177) = 4
         return Integer.bitCount(x^y);
     }
 }

@@ -93,8 +93,7 @@ class Solution {
 
 ## 2.Follow Up - Generate the Interval of Max Number of Room
 
-
-```
+```java
 public class Solution {
     public List<Interval> findMostOverlappedInterval(List<Interval> intervals) {
         List<Interval> res = new ArrayList<>();

@@ -1,5 +1,5 @@
 
-## Recursion
+## 1.Recursion
 * Pick the first element from preorder as the root
 * Deterime the subtree by this root and inorder elements
 * Build left and right subtrees and recursion
@@ -33,4 +33,21 @@ public class Solution {
         return root;
     }
 }
+```
+
+## 2.Build Balanced BST based on Sorted Array
+
+```java
+public class Solution {
+    public TreeNode sortedArrayToTree(int[] input, int start, int end) {
+        if (start > end) return null;
+        int mid = (start + end) >>> 1;
+        TreeNode root = new TreeNode(input[mid]);
+
+        root.left = sortedArrayToTree(input, start, mid - 1);
+        root.right = sortedArrayToTree(input, mid + 1, end);
+        return root;
+    }
+}
+
 ```

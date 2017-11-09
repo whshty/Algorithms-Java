@@ -1,3 +1,5 @@
+## 1.DP
+```java
 public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int width = obstacleGrid[0].length;
@@ -12,26 +14,11 @@ public class Solution {
         return dp[width-1];
     }
 }
+```
 
-
-// Generate all path
-
-import java.util.*;
-
+## 2.Generate All Path
+```java
 public class Solution {
-
-    public static void main(String args[]) {
-        int[][] matrix = {{0, 0, 0},
-                            {1, 1, 0},
-                            {1, 1, 0}};
-        Solution sol = new Solution();
-        List<String> res = sol.printAllPath(matrix);
-        for(String s : res ){
-            System.out.println(s);
-        }
-    }
-
-
     public List<String>printAllPath(int[][] matrix) {
         List<String> res = new ArrayList<>();
         helper(matrix, matrix.length, matrix[0].length, 0, 0, "", res);
@@ -63,3 +50,4 @@ public class Solution {
         helper(input, row, col, x, y + 1, path,res);
     }
 }
+```

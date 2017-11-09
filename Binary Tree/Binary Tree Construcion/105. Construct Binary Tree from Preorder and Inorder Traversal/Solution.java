@@ -34,38 +34,3 @@ public class Solution {
         return root;
     }
 }
-
-// Build Balanced BST based on Sorted Array
-public class Solution {
-    public static void main(String[] args) {
-        int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7};
-        Solution sol = new Solution();
-        TreeNode root = sol.sortedArrayToTree(arr, 0, arr.length - 1);
-        System.out.println(root.val);
-
-    }
-
-    public TreeNode sortedArrayToTree(int[] input, int start, int end) {
-        if (start > end) return null;
-        int mid = (start + end) >>> 1;
-        TreeNode root = new TreeNode(input[mid]);
-
-        root.left = sortedArrayToTree(input, start, mid - 1);
-        root.right = sortedArrayToTree(input, mid + 1, end);
-        return root;
-
-
-    }
-
-}
-
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}

@@ -32,6 +32,7 @@ public class Solution {
 
 
 ## 2.DP
+* Time : O(n^2) + Space : O(n^2)
 * dp[i][j] to represent the shortest edit distance between word1[0,i) and word2[0,j)
 * then compare the character of word1[i] and word2[j], which are c and d respectively (c == word1[i-1], d == word2[j-1])
 * dp[i][j] = dp[i-1][j-1] ( c == d ) 
@@ -62,4 +63,4 @@ public class Solution {
     }
 }
 
-```
+``` 

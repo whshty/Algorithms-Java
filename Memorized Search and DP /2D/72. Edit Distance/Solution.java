@@ -1,10 +1,3 @@
-// dp[i][j] to represent the shortest edit distance between word1[0,i) and word2[0,j)
-// then compare the character of word1[i] and word2[j], which are c and d respectively (c == word1[i-1], d == word2[j-1])
-// if c == d, dp[i][j] = dp[i-1][j-1]
-// otherwise, we have three options
-// replace c with d , dp[i][j] = dp[i-1][i-j] + 1
-// add d after c, dp[i][j] = dp[i][j-1] + 1
-// delete c, dp[i][j] = dp[i-1][j] + 1 
 public class Solution {
     public int minDistance(String word1, String word2) {
         int[][] dp = new int[word1.length()+1][word2.length()+1];

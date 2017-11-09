@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public List<List<Integer>> combinationSum2(int[] input, int target) {
         Arrays.sort(input);
@@ -19,3 +20,4 @@ public class Solution {
         }
     }
 }
+```

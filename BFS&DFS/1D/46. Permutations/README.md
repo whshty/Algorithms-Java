@@ -1,6 +1,13 @@
-### BFS
+## 1.1.BFS
 * Time : O(n!)
 * Space : O(n!)
+
+```
+					[]
+					[1]
+		[1,2]                     [2,1]
+[3,1,2],[1,3,2],[1,2,3]   [3,2,1],[2,3,1],[2,1,3]
+```
 
 ```java
 class Solution {
@@ -25,9 +32,10 @@ class Solution {
 }
 ```
 
-### DFS
+## 1.2.DFS
 * Time O(n! * n )
 * space O(n)
+
 ```java
 public class Solution {
     public List<List<Integer>> permute(int[] nums) {
@@ -53,7 +61,7 @@ public class Solution {
 }
 ```
 
-### DFS + Swap
+## 1.3.DFS + Swap
 * Time O(n! )
 * Space O(n)
 
@@ -101,7 +109,7 @@ public class Solution {
 }
 ```
 
-### Follow-Up : Permute String
+## 2.Follow-Up : Permute String
 
 ```java
 public class Solution {

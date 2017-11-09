@@ -1,3 +1,4 @@
+## Trie
 ```java
 public class WordDictionary {
     class TrieNode {

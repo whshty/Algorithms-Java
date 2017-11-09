@@ -2,7 +2,7 @@
 * In-order : cannot find the root
 * Level-order : Waste of space 
 
-## 1.Pre-Order and Recurison
+## 1.1.Pre-Order and Recurison
 
 ```java
 public class Codec {
@@ -44,6 +44,8 @@ public class Codec {
     }
 }
 ```
+## 1.2.Pre-Order and Iteration
+
 
 ## 2.1.Follow Up - Use LinkedList and Recurion
 ```java

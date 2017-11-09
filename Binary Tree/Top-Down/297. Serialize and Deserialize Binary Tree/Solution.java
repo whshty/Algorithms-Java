@@ -1,3 +1,4 @@
+// Pre-Order and Recurison
 public class Codec {
     private String N = "N"; // N for null
     private String M = ","; // M for marker
@@ -37,11 +38,10 @@ public class Codec {
     }
 }
 
+// Pre-Order and Iteration
+
+
 // Follow Up - Use LinkedList and Recurion
-
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 public class Solution {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);

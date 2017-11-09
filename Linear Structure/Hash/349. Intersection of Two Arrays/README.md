@@ -1,4 +1,4 @@
-### Set
+## 1.Set
 ```java
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -24,7 +24,7 @@ public class Solution {
 }
 ```
 
-### Both Arrays Are Sorted + Two pointers
+## 2.Both Arrays Are Sorted + Two pointers
 ```java
 public class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
@@ -55,7 +55,7 @@ public class Solution {
 ```
 
 
-### Binary Search - Only One Input Array is sorted
+## 3.Binary Search - Only One Input Array is sorted
 
 ```java
 public class Solution {
@@ -93,7 +93,7 @@ public class Solution {
 }
 ```
 
-### Both Arrays Are Sorted : Binary Search In Two Pointers
+## 4.Both Arrays Are Sorted : Binary Search In Two Pointers
 
 ```java
 public class Solution {

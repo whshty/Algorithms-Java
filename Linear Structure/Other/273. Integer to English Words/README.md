@@ -1,7 +1,7 @@
 ## 1.Convert Every Three Digits from End 
 * 107 = One Hundred Seven
 * 1,234,567 -> "One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven"
-* 2^23 -1 = 8388607
+* In Java, the integer is also 32 bits, but ranges from -2,147,483,648 to +2,147,483,647. ( 2^31 − 1)
 * res.trim()  "One Hundred Twenty Three  " ->  "One Hundred Twenty Three"
 
 ```java

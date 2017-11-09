@@ -1,3 +1,16 @@
+## DFS
+
+```
+input = [2,3,6,7] and target = 7
+
+[
+  [7],
+  [2, 2, 3]
+]
+
+```
+
+```java
 public class Solution {
     public List<List<Integer>> combinationSum(int[] input, int target) {
         List<List<Integer>> res = new ArrayList<>();
@@ -18,3 +31,4 @@ public class Solution {
         }
     }
 }
+```

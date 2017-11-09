@@ -46,6 +46,54 @@ public class Codec {
 ```
 ## 1.2.Pre-Order and Iteration
 
+```java
+
+public class Codec {
+    private String N = "N"; // N for null
+    private String M = ","; // M for marker
+
+    // Encodes a tree to a single string.
+    public String serialize(TreeNode root) {
+        StringBuilder sb = new StringBuilder();
+        TreeNode node = root;
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        while ( node != null || !stack.isEmpty()) {
+            if ( node != null) {
+                sb.append(String.valueOf(node.val)).append(M);
+                stack.push(node);
+                node = node.left;
+            } else {
+                sb.append(N).append(M);
+                node = stack.pop();
+                node = node.right;
+            }
+        }
+        sb.append(N);
+        return sb.toString();
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String s) {
+        if( s.length() == 0 ) return null;
+        Deque<String> deque = new ArrayDeque<>();
+        deque.addAll(Arrays.asList(s.split(M)));
+        return buildTree(deque);
+    }
+    
+    private TreeNode buildTree(Deque<String> deque){
+        String root = deque.removeFirst();
+        if(root.equals(N)) return null;
+        else{
+            TreeNode node = new TreeNode(Integer.valueOf(root));
+            node.left = buildTree(deque);
+            node.right = buildTree(deque);
+            return node;
+        }
+    }
+}
+
+```
+
 
 ## 2.1.Follow Up - Use LinkedList and Recurion
 ```java

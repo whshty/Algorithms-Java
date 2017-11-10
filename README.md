@@ -360,6 +360,7 @@
 * [96. Unique Binary Search Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/96.%20Unique%20Binary%20Search%20Trees)
 * [139. Word Break](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/139.%20Word%20Break)
 * [140. Word Break II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/140.%20Word%20Break%20II)
+* [300. Longest Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/300.%20Longest%20Increasing%20Subsequence)
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/416.%20Partition%20Equal%20Subset%20Sum)
 * [718. Maximum Length of Repeated Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/718.%20Maximum%20Length%20of%20Repeated%20Subarray)
 
@@ -377,7 +378,6 @@
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [221. Maximal Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/221.%20Maximal%20Square)
 * [279. Perfect Squares](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/279.%20Perfect%20Squares)
-* [300. Longest Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/300.%20Longest%20Increasing%20Subsequence)
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/322.%20Coin%20Change  )
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
 * [338. Counting Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/338.%20Counting%20Bits)

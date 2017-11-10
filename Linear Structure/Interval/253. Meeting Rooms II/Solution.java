@@ -59,10 +59,7 @@ class Solution {
 
 
 // Generate the interval of max room
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 
 public class Solution {
@@ -72,6 +69,11 @@ public class Solution {
         input.add(new Interval(2, 7));
         input.add(new Interval(4, 8));
         input.add(new Interval(5, 9));
+
+        input.add(new Interval(11, 13));
+        input.add(new Interval(11, 13));
+        input.add(new Interval(11, 13));
+
 
         Solution sol = new Solution();
 
@@ -87,6 +89,8 @@ public class Solution {
 
         Map<Integer, Integer> map = new HashMap<>();
         Interval preOverlap = intervals.get(0);
+
+        int roomCount = Integer.MIN_VALUE;
         for (int i = 1; i < intervals.size(); i++) {
             Interval cur = intervals.get(i);
             int startVal = -1, endVal = -1;
@@ -102,29 +106,36 @@ public class Solution {
                 endVal = preOverlap.end;
                 preOverlap.end = cur.end;
             }
-            for (int j = startVal; j < endVal; j++) {
+
+            for (int j = startVal; j <= endVal; j++) {
                 map.put(j, map.getOrDefault(j, 1) + 1);
+                roomCount = Math.max(map.get(j), roomCount);
             }
         }
+
+
         // if no over lap
         if (map.size() == 0) return intervals;
 
-        int max = 0;
+        int start = -1;
+        int end = -1;
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > max) {
-                max = entry.getValue();
-                res.clear();
-                res.add(new Interval(entry.getKey(), -1));
-            } else if (entry.getValue() == max) {
-                Interval temp = res.get(res.size() - 1);
-                if( temp.end == -1 ){
-                    temp.end = entry.getKey();
-                    res.set(res.size() - 1, temp);
-                } else {
-                    res.add(new Interval(entry.getKey(), -1));
-                }
+            if (entry.getValue() != roomCount) continue;
+            int keyValue = entry.getKey();
+            if( start == - 1) {
+                start = keyValue;
+                continue;
+            }
+
+            if (end + 1 != keyValue && end != -1) {
+                res.add(new Interval(start,end));
+                start = keyValue;
+                end = keyValue;
+            } else {
+                end = keyValue;
             }
         }
+        res.add(new Interval(start,end));
         return res;
     }
 }

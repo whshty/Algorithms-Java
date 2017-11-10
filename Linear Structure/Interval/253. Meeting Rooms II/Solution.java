@@ -12,11 +12,13 @@ class Solution {
         int count = 0;
         int curEndIndex = 0;
         for( int i = 0 ; i < start.length ; i++ ){
-            if( start[i] < end[curEndIndex]) count++;
+            if( start[i] < end[curEndIndex]) {
+                System.out.println(start[i]); // the overlapped value
+                count++;
+            }
             else curEndIndex++;
         } 
-        return count;
-        
+        return count;  
     }
 }
 

@@ -1,4 +1,4 @@
-### HashMap
+## 1.HashMap
 
 ```java
 public class Solution {
@@ -24,7 +24,7 @@ public class Solution {
 }
 ```
 
-### Follow Up (Sorted Input) - Two Pointer
+## 2.Follow Up (Sorted Input) - Two Pointer
 
 ```java
 public class Solution {

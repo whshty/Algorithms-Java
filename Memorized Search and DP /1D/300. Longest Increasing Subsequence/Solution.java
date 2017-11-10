@@ -1,18 +1,18 @@
 public class Solution {
-    public int lengthOfLIS(int[] n) {
-        if(n == null || n.length == 0 ) return 0;
-        int[] dp = new int[n.length];
-        dp[0] = n[0];
-        int len = 0;
-        for( int i = 1; i < n.length; i++){
-            int pos = binarySearch(dp,len,n[i]);
-            if( n[i] < dp[pos]) dp[pos] = n[i];
-            if( pos > len){
-                len = pos;
-                dp[len] = n[i];
+    public int lengthOfLIS(int[] input) {
+        if(input == null || input.length == 0 ) return 0;
+        int[] dp = new int[input.length];
+        dp[0] = input[0];
+        int index = 0;
+        for( int i = 1; i < input.length; i++){
+            int pos = binarySearch(dp,index,input[i]);
+            if( input[i] < dp[pos]) dp[pos] = input[i];
+            if( pos > index){
+                index = pos;
+                dp[index] = input[i];
             }
         }
-        return len+1;
+        return index+1;
     }
     public int binarySearch(int[] arr, int len, int target){
         int start = 0;

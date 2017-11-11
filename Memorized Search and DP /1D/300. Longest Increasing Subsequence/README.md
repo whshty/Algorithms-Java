@@ -1,4 +1,8 @@
-## Binary Search + DP
+## 2.DP
+* Time : O(n^2)
+
+## 3.Binary Search + DP
+* Time : O(nlogn)
 ```
 10, 9, 2, 5, 3, 7, 101, 18
 

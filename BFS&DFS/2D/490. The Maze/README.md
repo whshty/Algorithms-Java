@@ -1,3 +1,4 @@
+```java
 public class Solution {
     public boolean hasPath(int[][] maze, int[] start, int[] destination) {
         if (maze == null || start == null || destination == null) {
@@ -43,3 +44,4 @@ public class Solution {
         return false;
     }
 }
+```

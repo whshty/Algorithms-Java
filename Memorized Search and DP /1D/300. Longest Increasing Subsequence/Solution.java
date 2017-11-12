@@ -1,5 +1,28 @@
 public class Solution {
     public int lengthOfLIS(int[] input) {
+        if (input.length == 0) return 0;
+        int len = input.length, max = 0;
+        // dp[i] means the longest length til ith position
+        int[] dp = new int[len];
+        
+        for (int i = 0; i < len; i++) {
+            dp[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (input[i] > input[j] && dp[j] + 1 > dp[i]) {
+                    dp[i] = dp[j] + 1;
+                }
+            }
+            max = Math.max(max, dp[i]);
+        }
+        return max;
+    }
+}
+
+
+
+
+public class Solution {
+    public int lengthOfLIS(int[] input) {
         if(input == null || input.length == 0 ) return 0;
         int[] dp = new int[input.length];
         dp[0] = input[0];

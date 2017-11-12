@@ -109,7 +109,7 @@ class Solution {
 	    for (int i = 0 ; i < size ; i++) {
 		    List<Integer> set = new ArrayList<>();
 		    for (int j = 0 ; j < input.length ; j++) {
-                System.out.println( " i: " + i + " j: " + j + " bit cal: " + (i & (1 << j)));
+                //System.out.println( " i: " + i + " j: " + j + " bit cal: " + (i & (1 << j)));
 			    if ((i & (1 << j)) != 0) {
 				    set.add(input[j]);
 			    }

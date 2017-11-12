@@ -58,7 +58,6 @@ public class Solution {
 
 ```java
 public class Solution {
-
     public int[] intersection(int[] nums1, int[] nums2) {
         List<Integer> list = new ArrayList<>();
         int i = 0;

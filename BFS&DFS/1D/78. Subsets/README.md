@@ -1,4 +1,4 @@
-## 1.BFS 
+## 1.1.BFS 
 * Tims : o(2^n)
 * Space : o(2^n*n)
 
@@ -37,7 +37,7 @@ public class Solution {
 
 ```
 
-## 2.DFS 
+## 1.2.DFS 
 * Time : o(2^n)
 * Space : o(n) for stack, o(2^n*n) for result
 
@@ -59,8 +59,71 @@ class Solution {
     }
 }
 ```
+## 1.2.Bit Manipulation 
 
-## 3.Follow-Up:Multiplication
+```
+
+ i: 0 j: 0 bit cal: 0
+ i: 0 j: 1 bit cal: 0
+ i: 0 j: 2 bit cal: 0
+ i: 1 j: 0 bit cal: 1
+ i: 1 j: 1 bit cal: 0
+ i: 1 j: 2 bit cal: 0
+ i: 2 j: 0 bit cal: 0
+ i: 2 j: 1 bit cal: 2
+ i: 2 j: 2 bit cal: 0
+ i: 3 j: 0 bit cal: 1
+ i: 3 j: 1 bit cal: 2
+ i: 3 j: 2 bit cal: 0
+ i: 4 j: 0 bit cal: 0
+ i: 4 j: 1 bit cal: 0
+ i: 4 j: 2 bit cal: 4
+ i: 5 j: 0 bit cal: 1
+ i: 5 j: 1 bit cal: 0
+ i: 5 j: 2 bit cal: 4
+ i: 6 j: 0 bit cal: 0
+ i: 6 j: 1 bit cal: 2
+ i: 6 j: 2 bit cal: 4
+ i: 7 j: 0 bit cal: 1
+ i: 7 j: 1 bit cal: 2
+ i: 7 j: 2 bit cal: 4
+ 
+ 
+0) 0 0 0  -> Dont take 3 , Dont take 2 , Dont take 1 = { } 
+1) 0 0 1  -> Dont take 3 , Dont take 2 , take 1       =  {1 } 
+2) 0 1 0  -> Dont take 3 ,    take 2 , Dont take 1 = { 2 } 
+3) 0 1 1  -> Dont take 3 ,    take 2 , take 1    = { 1 , 2 } 
+4) 1 0 0  -> take 3 , Dont take 2  , Dont take 1 = { 3 } 
+5) 1 0 1  -> take 3 , Dont take 2  , take 1     = { 1 , 3 } 
+6) 1 1 0  -> take 3 , take 2 , Dont take 1 = { 2 , 3 } 
+7) 1 1 1  -> take 3 , take 2 , take 1  = { 1 , 2 , 3 } 
+ 
+```
+
+```java
+class Solution {
+    public List<List<Integer>> subsets(int[] input) {
+	    Arrays.sort(input);
+	    int size = 1 << input.length;
+	    List<List<Integer>> res = new ArrayList<>();
+	    for (int i = 0 ; i < size ; i++) {
+		    List<Integer> set = new ArrayList<>();
+		    for (int j = 0 ; j < input.length ; j++) {
+                System.out.println( " i: " + i + " j: " + j + " bit cal: " + (i & (1 << j)));
+			    if ((i & (1 << j)) != 0) {
+				    set.add(input[j]);
+			    }
+		    }
+		    res.add(set);
+	    }
+	    return res;
+    }
+}
+```
+
+
+
+## 2.Follow-Up:Multiplication
 ```
 For example 
 [1,2,3]
@@ -93,7 +156,7 @@ public class Solution {
 }
 ```
 
-## 4.Follow-Up:Iterator
+## 3.Follow-Up:Iterator
 
 ```java
 class myCode {
@@ -119,7 +182,7 @@ class myCode {
 
 ```
 
-## 5.Follow-Up : min(sub) + max(sub) <= k
+## 4.Follow-Up : min(sub) + max(sub) <= k
 
 ```java
 public class Solution {

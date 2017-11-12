@@ -33,6 +33,26 @@ class Solution {
     }
 }
 
+// Bit 
+class Solution {
+    public List<List<Integer>> subsets(int[] input) {
+        Arrays.sort(input);
+        int size = 1 << input.length;
+        List<List<Integer>> res = new ArrayList<>();
+        for (int i = 0 ; i < size ; i++) {
+            List<Integer> set = new ArrayList<>();
+            for (int j = 0 ; j < input.length ; j++) {
+                System.out.println( " i: " + i + " j: " + j + " bit cal: " + (i & (1 << j)));
+                if ((i & (1 << j)) != 0) {
+                    set.add(input[j]);
+                }
+            }
+            res.add(set);
+        }
+        return res;
+    }
+}
+
 
 // Follow-Up:Multiplication
 public class Solution {

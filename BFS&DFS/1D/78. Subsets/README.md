@@ -90,11 +90,11 @@ class Solution {
  
  
 0) 0 0 0  -> Dont take 3 , Dont take 2 , Dont take 1 = { } 
-1) 0 0 1  -> Dont take 3 , Dont take 2 , take 1       =  {1 } 
-2) 0 1 0  -> Dont take 3 ,    take 2 , Dont take 1 = { 2 } 
-3) 0 1 1  -> Dont take 3 ,    take 2 , take 1    = { 1 , 2 } 
+1) 0 0 1  -> Dont take 3 , Dont take 2 , take 1 =  {1 } 
+2) 0 1 0  -> Dont take 3 , take 2 , Dont take 1 = { 2 } 
+3) 0 1 1  -> Dont take 3 , take 2 , take 1 = { 1 , 2 } 
 4) 1 0 0  -> take 3 , Dont take 2  , Dont take 1 = { 3 } 
-5) 1 0 1  -> take 3 , Dont take 2  , take 1     = { 1 , 3 } 
+5) 1 0 1  -> take 3 , Dont take 2  , take 1  = { 1 , 3 } 
 6) 1 1 0  -> take 3 , take 2 , Dont take 1 = { 2 , 3 } 
 7) 1 1 1  -> take 3 , take 2 , take 1  = { 1 , 2 , 3 } 
  

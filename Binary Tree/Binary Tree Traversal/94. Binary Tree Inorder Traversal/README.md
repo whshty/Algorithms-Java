@@ -38,15 +38,14 @@ public class Solution {
 public class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
+        if( root ==  null ) return res;
         helper(root,res);
         return res;
     }
     public void helper(TreeNode node, List<Integer> res){
-        if( node != null ){
-            if ( node.left != null ) helper(node.left,res);
-            res.add(node.val);
-            if( node.right != null ) helper(node.right,res);
-        }
+        if ( node.left != null ) helper(node.left,res);
+        res.add(node.val);
+        if( node.right != null ) helper(node.right,res);
     }
 }
 ```

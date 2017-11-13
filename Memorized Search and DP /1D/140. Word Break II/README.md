@@ -2,7 +2,7 @@
 * Time: O(2^n)
 * Space: O(n)
 
-```
+```java
 public class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         if( s.length() == 0 ) return new ArrayList<>();

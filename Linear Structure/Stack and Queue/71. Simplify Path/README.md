@@ -7,10 +7,10 @@ public class Solution {
         
         //"" for corner case of "/home//foo/"
         for(String dir : path.split("/")){
-            if( dir.equals("..")) {
+            if ( dir.equals(".") || dir.equals("") ) continue;
+            else if( dir.equals("..")) {
                 if( !stack.isEmpty()) stack.pop();
             }
-            else if ( dir.equals(".") || dir.equals("") ) continue;
             else stack.push(dir);
         }
         

@@ -2,22 +2,25 @@
 ```java
 public class Solution {
     public String simplifyPath(String path) {
+        if( path == null || path.length() == 0 ) return "";
         Deque<String> stack = new ArrayDeque<>();
-        Set<String> set = new HashSet<>(Arrays.asList("..",".",""));
+        
+        //"" for corner case of "/home//foo/"
         for(String dir : path.split("/")){
-            if( dir.equals("..") && !stack.isEmpty()){
-                stack.pop();
-            } else if ( !set.contains(dir) ){
-                stack.push(dir);
+            if( dir.equals("..")) {
+                if( !stack.isEmpty()) stack.pop();
             }
+            else if ( dir.equals(".") || dir.equals("") ) continue;
+            else stack.push(dir);
         }
-        String res = "";
-        if(stack.isEmpty()) return "/";
-        // "/abc/..." ->  "/abc/..."
-        for (String dir : stack) {
-            res = "/" + dir + res;
+        
+  
+        StringBuilder sb = new StringBuilder();
+        if( stack.isEmpty() ) sb.append("/");
+        while( !stack.isEmpty()){
+            sb.append("/").append(stack.pollLast());
         }
-        return res;
+        return sb.toString();
     }
 }
 ```

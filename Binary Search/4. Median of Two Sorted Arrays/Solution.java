@@ -1,3 +1,57 @@
+// Brute force Median of two sorted arrays of same size
+// A Simple Merge based O(n) solution
+// to find median of two sorted arrays
+class Solution {
+    public static void main(String[] args) {
+        int input1[] = {1, 12, 15, 26, 38};
+        int input2[] = {2, 13, 17, 30, 45};
+
+        int len1 = input1.length;
+        int len2 = input2.length;
+        Solution sol = new Solution();
+        System.out.println(sol.getMedian(input1,input2,len1));
+
+    }
+
+    public int getMedian(int input1[], int input2[], int index) {
+        int i = 0;
+        int j = 0;
+        int count = 0;
+        int value1 = -1, value2 = -1;
+
+        while ( count <= index ) {
+            /* Below is to handle case where all
+              elements of ar1[] are smaller than
+              smallest(or first) element of ar2[] */
+            if (i == index) {
+                value1 = value2;
+                value2 = input2[0];
+                break;
+            }
+
+            else if (j == index) {
+                value1 = value2;
+                value2 = input1[0];
+                break;
+            }
+
+            if (input1[i] < input2[j]) {
+                value1 = value2;
+                value2 = input1[i];
+                i++;
+            } else {
+                value1 = value2;
+                value2 = input2[j];
+                j++;
+            }
+            count++;
+        }
+
+        return (value1 + value2) / 2;
+    }
+}
+
+
 // Recursion 
 public class Solution {
     public double findMedianSortedArrays(int[] A, int[] B) {

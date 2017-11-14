@@ -1,4 +1,48 @@
-## Recursion
+## 1.Brute Force : Median of Two Sorted Arrays of Same Size
+
+```java
+class Solution {
+    public int getMedian(int input1[], int input2[], int index) {
+        int i = 0;
+        int j = 0;
+        int count = 0;
+        int value1 = -1, value2 = -1;
+
+        while ( count <= index ) {
+            /* Below is to handle case where all
+              elements of ar1[] are smaller than
+              smallest(or first) element of ar2[] */
+            if (i == index) {
+                value1 = value2;
+                value2 = input2[0];
+                break;
+            }
+
+            else if (j == index) {
+                value1 = value2;
+                value2 = input1[0];
+                break;
+            }
+
+            if (input1[i] < input2[j]) {
+                value1 = value2;
+                value2 = input1[i];
+                i++;
+            } else {
+                value1 = value2;
+                value2 = input2[j];
+                j++;
+            }
+            count++;
+        }
+
+        return (value1 + value2) / 2;
+    }
+}
+```
+
+
+## 2.1.Recursion
 * Time : O(log(min(m,n)) 
 
 ```java
@@ -34,7 +78,7 @@ public class Solution {
 }
 ```
 
-## Iteration
+## 2.2.Iteration
 ```java
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {

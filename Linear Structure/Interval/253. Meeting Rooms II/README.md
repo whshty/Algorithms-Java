@@ -164,3 +164,64 @@ class Interval {
     }
 }
 ```
+
+
+## 3.Follow Up - Generate Interval by Frequency
+```
+input [1,3],[2,5],[4,5]
+return [1,2,1],[2,3,2],[3,4,1],[4,5,2]，
+
+```
+
+```java
+class Solution {
+    public List<int[]> minMeetingRooms(List<Interval> intervals) {
+        Map<Integer, Integer> map = new TreeMap<>();
+        for (Interval interval : intervals) {
+            for (int i = interval.start; i < interval.end; i++) {
+                map.put(i, map.getOrDefault(i, 0) + 1);
+            }
+        }
+
+        List<int[]> res = new ArrayList<>();
+        int start = -1, end = -1, freq = -1;
+        for (Integer key : map.keySet()) {
+            int curFreq = map.get(key);
+
+            if (start == -1) {
+                start = key;
+                end = key;
+                freq = map.get(start);
+                continue;
+            }
+
+            if (curFreq == freq) {
+                end = key;
+            } else {
+                int[] temp = new int[3];
+                temp[0] = start;
+                temp[1] = end + 1;
+                temp[2] = map.get(start);
+                res.add(temp);
+                start = key;
+                end = key;
+                freq = curFreq;
+            }
+        }
+        res.add(new int[]{start,end+1,freq});
+        return res;
+    }
+}
+
+
+class Interval {
+    int start;
+    int end;
+
+    Interval(int s, int e) {
+        start = s;
+        end = e;
+    }
+}
+
+```

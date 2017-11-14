@@ -149,3 +149,78 @@ class Interval {
         end = e;
     }
 }
+
+
+// Follow Up - Generate Interval by Frequency
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
+
+class Solution {
+    public static void main(String[] args) {
+        List<Interval> input = new ArrayList<>();
+        //[1,3],[2,5],[4,5]
+        input.add(new Interval(1, 3));
+        input.add(new Interval(2, 5));
+        input.add(new Interval(4, 5));
+        input.add(new Interval(4, 5));
+
+        Solution sol = new Solution();
+
+        List<int[]> res = sol.minMeetingRooms(input);
+
+        for (int[] temp : res) {
+            System.out.println(temp[0] + " " + temp[1] + " " + temp[2]);
+        }
+    }
+
+    public List<int[]> minMeetingRooms(List<Interval> intervals) {
+        Map<Integer, Integer> map = new TreeMap<>();
+        for (Interval interval : intervals) {
+            for (int i = interval.start; i < interval.end; i++) {
+                map.put(i, map.getOrDefault(i, 0) + 1);
+            }
+        }
+
+        List<int[]> res = new ArrayList<>();
+        int start = -1, end = -1, freq = -1;
+        for (Integer key : map.keySet()) {
+            int curFreq = map.get(key);
+
+            if (start == -1) {
+                start = key;
+                end = key;
+                freq = map.get(start);
+                continue;
+            }
+
+            if (curFreq == freq) {
+                end = key;
+            } else {
+                int[] temp = new int[3];
+                temp[0] = start;
+                temp[1] = end + 1;
+                temp[2] = map.get(start);
+                res.add(temp);
+                start = key;
+                end = key;
+                freq = curFreq;
+            }
+        }
+        res.add(new int[]{start,end+1,freq});
+        return res;
+    }
+}
+
+
+class Interval {
+    int start;
+    int end;
+
+    Interval(int s, int e) {
+        start = s;
+        end = e;
+    }
+}

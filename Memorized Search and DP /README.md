@@ -1,3 +1,16 @@
+# DP Problem
+1. Count problem
+	* How many ways from A to B
+	* How many ways to generate K sum
+
+2. Calculate the min and max value
+	* Longest Consecutive Sequence
+
+3. Find if it's possible
+	* Can we find k sum which equals to a certain sum?
+
+
+
 ## 1.Fibonacci
 ### 1.1.Brute Force
 * O(2^n)

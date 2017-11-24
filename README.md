@@ -368,6 +368,7 @@
 * [10. Regular Expression Matching](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/10.%20Regular%20Expression%20Matching)
 * [72. Edit Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/72.%20Edit%20Distance)
 * [241. Different Ways to Add Parentheses](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/241.%20Different%20Ways%20to%20Add%20Parentheses)
+* 322. Coin Change
 * [647. Palindromic Substrings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/647.%20Palindromic%20Substrings)
 * [688. Knight Probability in Chessboard](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/2D/688.%20Knight%20Probability%20in%20Chessboard)
 

@@ -47,3 +47,8 @@ class Solution {
     }
 }
 ```
+## 3.DP
+* Assume we have coins of {2,5,7}
+* In the last step, we have 
+
+

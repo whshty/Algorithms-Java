@@ -372,7 +372,6 @@
 
 
 ### Other
-* [Can Win](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Can%20Win)
 * [198. House Robber](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/198.%20House%20Robber)
 * [213. House Robber II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/213.%20House%20Robber%20II)
 * [221. Maximal Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/221.%20Maximal%20Square)

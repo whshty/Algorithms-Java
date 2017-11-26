@@ -52,4 +52,23 @@ class Solution {
 * In the last step, we have f(27) = min{f(27-2)+1,f(27-5)+1,f(27-7)+1}
 * Initial condition : dp[0] = 0, we can can calculate dp[1],dp[2],.....,dp[27]
 
+```java
+class Solution {
+    public int coinChange(int[] coins, int amount) {
+        int[] dp = new int[amount+1];
+        dp[0] = 0;
+        for( int i = 1 ; i <= amount ; i++ ){
+            dp[i] = Integer.MAX_VALUE;
+            for( int j : coins ){
+                if( i >= j && dp[i-j] != Integer.MAX_VALUE){
+                    dp[i] = Math.min(dp[i],dp[i-j] +1 );
+                }
+            }
+        }
+        if (dp[amount] == Integer.MAX_VALUE) return -1;
+        return dp[amount];
+    }
+}
+```
+
 

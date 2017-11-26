@@ -1,13 +1,13 @@
-## DP
+## 1.DP
 1. Define status
-	* If the frog can jump to n-1, the last step is from i to n -1 ( i < n - 1)
+	* 最后一步:如果青蛙能跳到最后一块石头n-1，我们考虑它跳的最后一步
 	* dp[i] == true && n-1-i <= nums[i]
 
-2. Status transfer function
+2. 转移方程
 	* dp[i] ^= dp[i] && i + nums[i] >= j ( 0 <= i < j )
-3. Initial state
+3. 初始条件和边界情况
 	* dp[0] = true
-4. Order of calculation
+4. 动态规划组成部分四:计算顺序
 	* Init dp[0] 
 	* Calculate dp[1],dp[2],... dp[n-1]
 	* return dp[n-1]
@@ -32,7 +32,7 @@ public class Solution {
 
 
 
-## Greedy
+## 2.Greedy
 ```java 
 public class Solution {
     public boolean canJump(int[] nums) {

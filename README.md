@@ -94,7 +94,6 @@
 
 
 ### [Subarray Product](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product)
-* [152. Maximum Product Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/152.%20Maximum%20Product%20Subarray)
 * [238. Product of Array Except Self](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Product/238.%20Product%20of%20Array%20Except%20Self)
 
 ### [Subarry Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Subarray%20Sum)
@@ -342,6 +341,7 @@
 * [121. Best Time to Buy and Sell Stock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock)
 * [122. Best Time to Buy and Sell Stock II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II)
 * [123. Best Time to Buy and Sell Stock III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III)
+* [152. Maximum Product Subarray]()
 * [188. Best Time to Buy and Sell Stock IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/188.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20IV)
 * [309. Best Time to Buy and Sell Stock with Cooldown](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/309.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Cooldown)
 * [714. Best Time to Buy and Sell Stock with Transaction Fee](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem/714.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20with%20Transaction%20Fee)

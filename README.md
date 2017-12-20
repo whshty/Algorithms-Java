@@ -275,9 +275,9 @@
 * [632. Smallest Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/632.%20Smallest%20Range)
 * [692. Top K Frequent Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/692.%20Top%20K%20Frequent%20Words)
 
-# [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet)
+# [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeMap)
 * [683. K Empty Slots](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet/683.%20K%20Empty%20Slots)
-* 729. My Calendar I
+* [729. My Calendar I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeMap/729.%20My%20Calendar%20I)
 
 
 

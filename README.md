@@ -263,10 +263,18 @@
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [285. Inorder Successor in BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/285.%20Inorder%20Successor%20in%20BST)
 
-# [Other Tree Structure](
-### Trie
-* [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/208.%20Implement%20Trie%20(Prefix%20Tree))
-* [211. Add and Search Word - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Advanced%20Tree%20Structure/211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design)
+# [Other Tree Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure)
+### [Trie](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie)
+* [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/208.%20Implement%20Trie%20(Prefix%20Tree))
+* [211. Add and Search Word - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design)
+* [212. Word Search II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/212.%20Word%20Search%20II)
+
+
+### [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap)
+* [683. K Empty Slots](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap/683.%20K%20Empty%20Slots)
+* [729. My Calendar I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap/729.%20My%20Calendar%20I)
+* [731. My Calendar II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap/731.%20My%20Calendar%20II)
+
 
 # [Heap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap)
 * [23. Merge k Sorted Lists](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/23.%20Merge%20k%20Sorted%20Lists)
@@ -276,10 +284,6 @@
 * [632. Smallest Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/632.%20Smallest%20Range)
 * [692. Top K Frequent Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/692.%20Top%20K%20Frequent%20Words)
 
-# [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeMap)
-* [683. K Empty Slots](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeSet/683.%20K%20Empty%20Slots)
-* [729. My Calendar I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeMap/729.%20My%20Calendar%20I)
-* [731. My Calendar II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/TreeMap/731.%20My%20Calendar%20II)
 
 
 

@@ -408,6 +408,7 @@
 * [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/2D)
 
 # [Bit Manipulation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation)
+* 136. Single Number
 * [190. Reverse Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/190.%20Reverse%20Bits)
 * [191. Number of 1 Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/191.%20Number%20of%201%20Bits)
 * [260. Single Number III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/260.%20Single%20Number%20III)

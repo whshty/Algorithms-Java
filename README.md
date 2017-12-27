@@ -15,6 +15,7 @@
 * [167. Two Sum II - Input array is sorted](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/167.%20Two%20Sum%20II%20-%20Input%20array%20is%20sorted)
 * [170. Two Sum III - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/170.%20Two%20Sum%20III%20-%20Data%20structure%20design)
 * [259. 3Sum Smaller](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Sum/259.%203Sum%20Smaller)
+* 454. 4Sum II
 
 ### [Scan and Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search)
 * [Print Matrix in Diagonal Order](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/Print%20Matrix%20in%20Diagonal%20Order)

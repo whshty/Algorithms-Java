@@ -19,3 +19,20 @@ class Solution {
         return (int)res;
     }
 }
+
+class Solution {
+    public int smallestFactorization(int n) {
+        if ( n < 10 ) return n;
+        
+        long res = 0;
+        for( long i = 9, temp = 1; i > 1 ; i-- ){
+            while( n % i == 0 ){
+                res += i * temp;
+                if( res > Integer.MAX_VALUE ) return 0;
+                n /= i;
+                temp *= 10;
+            }
+        }
+        return n == 1 ? (int)res : 0;
+    }
+}

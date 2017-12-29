@@ -142,6 +142,7 @@
 * [141. Linked List Cycle](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/141.%20Linked%20List%20Cycle)
 * [206. Reverse Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/206.%20Reverse%20Linked%20List)
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
+* 445. Add Two Numbers II
 
 ### [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash)
 

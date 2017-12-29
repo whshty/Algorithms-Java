@@ -248,6 +248,7 @@
 * [543. Diameter of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/543.%20Diameter%20of%20Binary%20Tree)
 * [549. Binary Tree Longest Consecutive Sequence II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/549.%20Binary%20Tree%20Longest%20Consecutive%20Sequence%20II)
 * [572. Subtree of Another Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/572.%20Subtree%20of%20Another%20Tree)
+* 669. Trim a Binary Search Tree
 * [687. Longest Univalue Path](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Bottom-Up/687.%20Longest%20Univalue%20Path/Solution.java)
 
 

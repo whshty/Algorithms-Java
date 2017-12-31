@@ -39,6 +39,7 @@
 * 485. Max Consecutive Ones
 * [531. Lonely Pixel I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/531.%20Lonely%20Pixel%20I)
 * [561. Array Partition I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/561.%20Array%20Partition%20I)
+* 566. Reshape the Matrix
 * [609. Find Duplicate File in System](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/609.%20Find%20Duplicate%20File%20in%20System)
 * 625. Minimum Factorization
 * 628. Maximum Product of Three Numbers

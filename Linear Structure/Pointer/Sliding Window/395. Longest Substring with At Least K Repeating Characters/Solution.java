@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public int longestSubstring(String s, int count) {
         char[] str = s.toCharArray();
         int[] freq = new int[26];
@@ -9,23 +9,23 @@ public class Solution {
             int left = 0;
             int right = 0;
             int uniqueCount = 0;
-            int noLessThanK = 0;
+            int moreThanKCount = 0;
             while (right < str.length) {
                 if (uniqueCount <= i) {
                     int ch = str[right] - 'a';
                     if (freq[ch] == 0) uniqueCount++;
                     freq[ch]++;
-                    if (freq[ch] == count) noLessThanK++;
+                    if (freq[ch] == count) moreThanKCount++;
                     right++;
                 }
                 else {
                     int ch = str[left] - 'a';
-                    if (freq[ch] == count) noLessThanK--;
+                    if (freq[ch] == count) moreThanKCount--;
                     freq[ch]--;
                     if (freq[ch] == 0) uniqueCount--;
                     left++;
                 }
-                if (uniqueCount == i && uniqueCount == noLessThanK) res = Math.max(right - left, res);
+                if (uniqueCount == i && uniqueCount == moreThanKCount) res = Math.max(right - left, res);
             }
         }
         return res;

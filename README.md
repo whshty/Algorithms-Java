@@ -319,6 +319,7 @@
 * [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/254.%20Factor%20Combinations)
 * [282. Expression Add Operators](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/282.%20Expression%20Add%20Operators)
 * [301. Remove Invalid Parentheses](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/301.%20Remove%20Invalid%20Parentheses)
+* 339. Nested List Weight Sum
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
 

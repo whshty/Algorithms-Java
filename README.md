@@ -268,7 +268,7 @@
 * [617. Merge Two Binary Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/617.%20Merge%20Two%20Binary%20Trees)
 * [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
-* 669. Trim a Binary Search Tree
+* [669. Trim a Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/669.%20Trim%20a%20Binary%20Search%20Tree)
 
 
 ### [Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree)
@@ -319,7 +319,7 @@
 * [254. Factor Combinations](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/254.%20Factor%20Combinations)
 * [282. Expression Add Operators](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/282.%20Expression%20Add%20Operators)
 * [301. Remove Invalid Parentheses](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/301.%20Remove%20Invalid%20Parentheses)
-* 339. Nested List Weight Sum
+* [339. Nested List Weight Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/339.%20Nested%20List%20Weight%20Sum)
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
 

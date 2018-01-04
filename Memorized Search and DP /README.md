@@ -9,6 +9,8 @@
 3. Find if it's possible
 	* Can we find k sum which equals to a certain sum?
 
+Use recursion will generete lots of duplicate calculation, for example.
+
 # 2.How to solve DP problem
 1. Define status
 	* The last step

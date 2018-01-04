@@ -50,7 +50,7 @@ public class Solution {
 }
 ```
 
-## 2.Generate All Path
+## 3.Generate All Path
 ```java
 public class Solution {
     public List<String>printAllPath(int[][] matrix) {

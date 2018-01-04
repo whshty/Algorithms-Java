@@ -238,7 +238,7 @@
 * [606. Construct String from Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/606.%20Construct%20String%20from%20Binary%20Tree)
 * [637. Average of Levels in Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/637.%20Average%20of%20Levels%20in%20Binary%20Tree)
 * [655. Print Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down/655.%20Print%20Binary%20Tree)
-* 666. Path Sum IV
+* [666. Path Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Binary%20Tree/Top-Down/666.%20Path%20Sum%20IV/Solution.java)
 
 ### [Bottom-Up](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up)
 * [100. Same Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Bottom-Up/100.%20Same%20Tree)
@@ -269,7 +269,7 @@
 * [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
 * [617. Merge Two Binary Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/617.%20Merge%20Two%20Binary%20Trees)
 * [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
-* 662. Maximum Width of Binary Tree
+* [662. Maximum Width of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/662.%20Maximum%20Width%20of%20Binary%20Tree)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)
 * [669. Trim a Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/669.%20Trim%20a%20Binary%20Search%20Tree)
 
@@ -326,7 +326,7 @@
 * [339. Nested List Weight Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/339.%20Nested%20List%20Weight%20Sum)
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
-* 690. Employee Importance
+* [690. Employee Importance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/690.%20Employee%20Importance)
 
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [36. Valid Sudoku](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/36.%20Valid%20Sudoku)
@@ -341,7 +341,7 @@
 * [490. The Maze](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/490.%20The%20Maze)
 * [505. The Maze II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/505.%20The%20Maze%20II)
 * [542. 01 Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/542.%2001%20Matrix)
-* 661. Image Smoother
+* [661. Image Smoother](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/661.%20Image%20Smoother)
 * [694. Number of Distinct Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/694.%20Number%20of%20Distinct%20Islands)
 * [695. Max Area of Island](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/695.%20Max%20Area%20of%20Island)
 
@@ -427,7 +427,7 @@
 
 # [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)
 * [330. Patching Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy/330.%20Patching%20Array)
-* 665. Non-decreasing Array
+* [665. Non-decreasing Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy/665.%20Non-decreasing%20Array)
 
 # [Reservoir Sampling](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling)
 * [382. Linked List Random Node](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Reservoir%20Sampling/382.%20Linked%20List%20Random%20Node)

@@ -11,6 +11,8 @@
 
 Use recursion will generete lots of duplicate calculation, for example.
 
+![alt text](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Memorized%20Search%20and%20DP%20/recursionexample.png)
+
 # 2.How to solve DP problem
 1. Define status
 	* The last step

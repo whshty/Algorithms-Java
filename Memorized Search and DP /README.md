@@ -19,8 +19,9 @@
 
 
 
-## 1.Fibonacci
-### 1.1.Brute Force
+# 3.Example
+### 3.11.Fibonacci
+#### Brute Force
 * O(2^n)
 
 ```
@@ -50,7 +51,7 @@ class myCode {
 ```
 
 
-### 1.2.Iteration
+#### Iteration
 * O(n)
 
 ```
@@ -74,4 +75,3 @@ class myCode {
 }
 
 ```
-### Knapsack Problem 

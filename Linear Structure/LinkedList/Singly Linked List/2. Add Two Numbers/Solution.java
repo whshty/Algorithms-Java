@@ -1,21 +1,22 @@
-public class Solution {
+class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
+        ListNode dummy = new ListNode(-1);
         ListNode node1 = l1;
         ListNode node2 = l2;
         ListNode cur = dummy;
-        int carry = 0;
-        while ( node1 != null || node2 != null ){
-            int x = ( node1 != null ) ? node1.val : 0;
-            int y = ( node2 != null ) ? node2.val : 0;
-            int sum = x + y + carry;
-            carry = sum / 10;
-            cur.next = new ListNode(sum%10);
+        int val = 0;
+        
+        while( node1 != null || node2 != null){
+            if( node1 != null ) val += node1.val;
+            if( node2 != null ) val += node2.val;
+            cur.next = new ListNode(val%10);
             cur = cur.next;
-            if ( node1 != null ) node1 = node1.next;
-            if ( node2 != null ) node2 = node2.next;
+            val /= 10;
+            
+            if( node1 != null ) node1 = node1.next;
+            if( node2 != null ) node2 = node2.next;
         }
-        if (carry == 1) cur.next = new ListNode(1);
+        if( val == 1 ) cur.next = new ListNode(1);
         return dummy.next;
     }
 }

@@ -387,6 +387,7 @@
 * [64. Minimum Path Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/64.%20Minimum%20Path%20Sum)
 * [303. Range Sum Query - Immutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/303.%20Range%20Sum%20Query%20-%20Immutable)
 * [304. Range Sum Query 2D - Immutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/304.%20Range%20Sum%20Query%202D%20-%20Immutable)
+* 361. Bomb Enemy
 
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D)
 * [55. Jump Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/55.%20Jump%20Game)

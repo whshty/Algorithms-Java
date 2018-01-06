@@ -1,3 +1,5 @@
+## 1.DP
+```java
 public class Solution {
     public int maxKilledEnemies(char[][] grid) {
         int res = 0;
@@ -62,8 +64,11 @@ public class Solution {
         return res;
     }
 }
+```
 
+## 2.DP
 
+```java
 public class Solution {
     public int maxKilledEnemies(char[][] grid) {
         int res = 0;
@@ -108,3 +113,4 @@ public class Solution {
         return num;
     }
 }
+```

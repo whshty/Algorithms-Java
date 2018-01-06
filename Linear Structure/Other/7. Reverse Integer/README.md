@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int reverse(int x) {
         long res = 0 ;
@@ -11,3 +12,4 @@ class Solution {
         
     }
 }
+```

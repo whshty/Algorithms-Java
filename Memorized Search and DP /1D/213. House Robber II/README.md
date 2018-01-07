@@ -1,3 +1,5 @@
+## DP ( Based on House Robber 1 )
+```java
 public class Solution {
     public int rob(int[] nums) {
         if(nums.length == 0) return 0;
@@ -28,7 +30,9 @@ public class Solution {
         return Math.max(notVisitedPrevious,visitedPrevious);
     }
 }
+```
 
+```java
 public class Solution {
     public int rob(int[] nums) {
         if(nums.length == 0) return 0;
@@ -47,3 +51,4 @@ public class Solution {
         return Math.max(curr1,curr0);
     }
 }
+```

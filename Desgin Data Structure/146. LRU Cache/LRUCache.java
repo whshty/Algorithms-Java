@@ -100,9 +100,10 @@ class LRUCache {
     public void put(int key, int value) {
         if(map.containsKey(key)) {
             map.remove(key);
-            map.put(key,value);
         }
-        else if(map.size() == CAP) map.remove(map.entrySet().iterator().next().getKey());
+        else if(map.size() == CAP) {
+            map.remove(map.entrySet().iterator().next().getKey());
+        }
         map.put(key,value);
     }
 }

@@ -1,8 +1,3 @@
-## DP
-
-* dp[i] = max{1,dp[j]+1 | Ej can be put inside Ei}
-
-```java
 class Solution {
     public int maxEnvelopes(int[][] input) {
         if ( input == null || input.length == 0 ) return 0;
@@ -23,4 +18,3 @@ class Solution {
         return res;
     }
 }
-```

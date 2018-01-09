@@ -288,6 +288,7 @@
 * [208. Implement Trie (Prefix Tree)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/208.%20Implement%20Trie%20(Prefix%20Tree))
 * [211. Add and Search Word - Data structure design](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/211.%20Add%20and%20Search%20Word%20-%20Data%20structure%20design)
 * [212. Word Search II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/212.%20Word%20Search%20II)
+* 648. Replace Words
 
 
 ### [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap)

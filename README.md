@@ -126,6 +126,7 @@
 * [31. Next Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/31.%20Next%20Permutation)
 * [65. Valid Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Other/65.%20Valid%20Number/Solution.java)
 * [246. Strobogrammatic Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/246.%20Strobogrammatic%20Number)
+* [263. Ugly Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/263.%20Ugly%20Number)
 * [273. Integer to English Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/273.%20Integer%20to%20English%20Words)
 * [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/311.%20Sparse%20Matrix%20Multiplication)
 * [405. Convert a Number to Hexadecimal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/405.%20Convert%20a%20Number%20to%20Hexadecimal)

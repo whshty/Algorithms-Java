@@ -186,6 +186,7 @@
 * [636. Exclusive Time of Functions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/636.%20Exclusive%20Time%20of%20Functions)
 * [682. Baseball Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/682.%20Baseball%20Game)
 * [739. Daily Temperatures](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/739.%20Daily%20Temperatures)
+* 752. Open the Lock
 
 
 

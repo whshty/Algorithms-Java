@@ -137,7 +137,7 @@
 * [311. Sparse Matrix Multiplication](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/311.%20Sparse%20Matrix%20Multiplication)
 * [405. Convert a Number to Hexadecimal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/405.%20Convert%20a%20Number%20to%20Hexadecimal)
 * [593. Valid Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/593.%20Valid%20Square)
-* 750. Number Of Corner Rectangles
+* [750. Number Of Corner Rectangles](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/750.%20Number%20Of%20Corner%20Rectangles)
 * [754. Reach a Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/754.%20Reach%20a%20Number)
 
 

@@ -108,6 +108,7 @@
 * [557. Reverse Words in a String III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/557.%20Reverse%20Words%20in%20a%20String%20III)
 * [616. Add Bold Tag in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/616.%20Add%20Bold%20Tag%20in%20String)
 * [686. Repeated String Match](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/686.%20Repeated%20String%20Match)
+* 756. Pyramid Transition Matrix
 
 
 

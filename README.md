@@ -375,7 +375,7 @@
 * [323. Number of Connected Components in an Undirected Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph)
 * [684. Redundant Connection](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/684.%20Redundant%20Connection)
 * [721. Accounts Merge](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/721.%20Accounts%20Merge)
-* 743. Network Delay Time
+* [743. Network Delay Time](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/743.%20Network%20Delay%20Time)
 
 ### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)
 * [207. Course Schedule](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/207.%20Course%20Schedule)

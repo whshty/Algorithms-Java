@@ -2,10 +2,10 @@ class Solution {
     public int networkDelayTime(int[][] times, int N, int K) {
         if(times == null || times.length == 0) return -1;
 
-        Map<Integer,Map<Integer, Integer>> path = new HashMap<>();
+        Map<Integer,Map<Integer, Integer>> map = new HashMap<>();
         for(int[] time : times){
-            path.putIfAbsent(time[0],new HashMap<>());
-            Map<Integer, Integer> sourceMap = path.get(time[0]);
+            map.putIfAbsent(time[0],new HashMap<>());
+            Map<Integer, Integer> sourceMap = map.get(time[0]);
             Integer dist = sourceMap.get(time[1]);
             if( dist == null || dist > time[2]) sourceMap.put(time[1], time[2]);
         }
@@ -22,7 +22,7 @@ class Solution {
 
             if(distMap.containsKey(node) && distMap.get(node) < distance) continue;
 
-            Map<Integer, Integer> sourceMap = path.get(node);
+            Map<Integer, Integer> sourceMap = map.get(node);
             if(sourceMap == null) continue;
 
             for(Map.Entry<Integer, Integer> entry : sourceMap.entrySet()){
@@ -33,7 +33,6 @@ class Solution {
                 heap.offer(new int[]{targetNode, newDist});
             }
         }
-        // get the largest absolute distance.
         for(int val : distMap.values()) if(val > max) max = val;
         return distMap.size() == N ? max : -1;
     }

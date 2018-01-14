@@ -216,7 +216,7 @@
 * [410. Split Array Largest Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/410.%20Split%20Array%20Largest%20Sum)
 * [540. Single Element in a Sorted Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/540.%20Single%20Element%20in%20a%20Sorted%20Array)
 * [719. Find K-th Smallest Pair Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/719.%20Find%20K-th%20Smallest%20Pair%20Distance)
-* 744. Find Smallest Letter Greater Than Target
+* [744. Find Smallest Letter Greater Than Target](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
 
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

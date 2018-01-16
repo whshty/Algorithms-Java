@@ -10,6 +10,5 @@ class Solution {
             if( cur == 0 ) res.add(i);
         }
         return res;
-
     }
 }

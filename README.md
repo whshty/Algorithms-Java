@@ -90,6 +90,7 @@
 * [567. Permutation in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/567.%20Permutation%20in%20String)
 * [643. Maximum Average Subarray I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/643.%20Maximum%20Average%20Subarray%20I)
 * [713. Subarray Product Less Than K](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Sliding%20Window/713.%20Subarray%20Product%20Less%20Than%20K)
+* 763. Partition Labels
 
 ###### [D. Calculation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Calculation)
 * [43. Multiply Strings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Pointer/Calculation/43.%20Multiply%20Strings)

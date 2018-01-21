@@ -11,8 +11,8 @@ class Solution {
     }
     public void dfs(char[][] board, int i , int j , TrieNode node, List<String> res){
         char ch = board[i][j];
-        if ( ch == '#' || node.nodes[ch-'a'] == null ) return;
-        node = node.nodes[ch-'a'];
+        if ( ch == '#' || !node.containsKey(ch) ) return;
+        node = node.get(ch);
         if( node.word != null ){
             res.add(node.word);
             node.word = null;
@@ -28,19 +28,32 @@ class Solution {
     public TrieNode buildTrie(String[] words){
         TrieNode root = new TrieNode();
         for(String word : words ){
-            TrieNode temp = root;
+            TrieNode node = root;
             for( char ch : word.toCharArray() ){
-                int val = ch - 'a';
-                if( temp.nodes[val] == null ) temp.nodes[val] = new TrieNode();
-                temp = temp.nodes[val];
+                if( !node.containsKey(ch)) node.put(ch,new TrieNode());
+                node = node.get(ch);
             }
-            temp.word = word;
+            node.word = word;
         }
         return root;
     } 
 }
 
 class TrieNode {
-    TrieNode[] nodes = new TrieNode[26];
+    TrieNode[] nodes;
+    int SIZE = 26;
     String word;
+    public TrieNode(){
+        nodes = new TrieNode[SIZE];
+    }
+    public boolean containsKey(char ch) {
+        return nodes[ch -'a'] != null;
+    }
+    public TrieNode get(char ch) {
+        return nodes[ch -'a'];
+    }
+    public void put(char ch, TrieNode node) {
+        nodes[ch -'a'] = node;
+    }
+
 }

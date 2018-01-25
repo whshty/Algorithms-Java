@@ -41,9 +41,7 @@ class Solution {
                 if (dfs(arr, visited, count - 1 )) return true;
                 arr[i] = arr[j] / pre;
                 if (dfs(arr, visited, count - 1 )) return true;
-
                 visited[j] = false;
-
             }
             arr[i] = pre;
         }

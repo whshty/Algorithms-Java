@@ -289,6 +289,7 @@
 * [501. Find Mode in Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/501.%20Find%20Mode%20in%20Binary%20Search%20Tree)
 * [508. Most Frequent Subtree Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/508.%20Most%20Frequent%20Subtree%20Sum)
 * [617. Merge Two Binary Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/617.%20Merge%20Two%20Binary%20Trees)
+* 652. Find Duplicate Subtrees
 * [653. Two Sum IV - Input is a BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/653.%20Two%20Sum%20IV%20-%20Input%20is%20a%20BST)
 * [662. Maximum Width of Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/662.%20Maximum%20Width%20of%20Binary%20Tree)
 * [671. Second Minimum Node In a Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Top-Down%26Bottom-Up/671.%20Second%20Minimum%20Node%20In%20a%20Binary%20Tree)

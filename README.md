@@ -51,6 +51,7 @@
 * [670. Maximum Swap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/blob/master/Linear%20Structure/Scan%20and%20Search/670.%20Maximum%20Swap/Solution.java)
 * [674. Longest Continuous Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/674.%20Longest%20Continuous%20Increasing%20Subsequence)
 * [696. Count Binary Substrings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/696.%20Count%20Binary%20Substrings)
+* 697. Degree of an Array
 * [722. Remove Comments](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/722.%20Remove%20Comments)
 * [728. Self Dividing Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/728.%20Self%20Dividing%20Numbers)
 * [747. Largest Number At Least Twice of Others](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/747.%20Largest%20Number%20At%20Least%20Twice%20of%20Others)

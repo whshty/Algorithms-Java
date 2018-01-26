@@ -431,7 +431,7 @@
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/322.%20Coin%20Change)
 * [354. Russian Doll Envelopes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/354.%20Russian%20Doll%20Envelopes)
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/416.%20Partition%20Equal%20Subset%20Sum)
-* 651. 4 Keys Keyboard
+* [651. 4 Keys Keyboard](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/651.%204%20Keys%20Keyboard)
 * [718. Maximum Length of Repeated Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/718.%20Maximum%20Length%20of%20Repeated%20Subarray)
 * [740. Delete and Earn](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/740.%20Delete%20and%20Earn)
 * [746. Min Cost Climbing Stairs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/746.%20Min%20Cost%20Climbing%20Stairs)

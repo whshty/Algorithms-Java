@@ -303,6 +303,7 @@
 * [235. Lowest Common Ancestor of a Binary Search Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree)
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [285. Inorder Successor in BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/285.%20Inorder%20Successor%20in%20BST)
+* 783. Minimum Distance Between BST Nodes
 
 # [Other Tree Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure)
 ### [Trie](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie)

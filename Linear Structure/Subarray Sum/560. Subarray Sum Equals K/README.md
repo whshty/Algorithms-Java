@@ -21,7 +21,7 @@ class Solution {
 
 ### Avoid overflow
 
-```
+```java
 class Solution {
     public int subarraySum(int[] nums, int k) {
         if( nums == null || nums.length == 0 ) return 0;

@@ -1,3 +1,4 @@
+```java
 class TwoSum {
     List<Integer> list;
     Map<Integer,Integer> map;
@@ -24,3 +25,4 @@ class TwoSum {
         return false;
     }
 }
+```

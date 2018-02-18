@@ -1,3 +1,6 @@
+### Map
+
+```java
 class Solution {
     public int subarraySum(int[] nums, int k) {
         if( nums == null || nums.length == 0 ) return 0;
@@ -14,7 +17,11 @@ class Solution {
         return count;
     }
 }
+```
 
+### Avoid overflow
+
+```
 class Solution {
     public int subarraySum(int[] nums, int k) {
         if( nums == null || nums.length == 0 ) return 0;
@@ -30,3 +37,5 @@ class Solution {
         return count;
     }
 }
+```
+

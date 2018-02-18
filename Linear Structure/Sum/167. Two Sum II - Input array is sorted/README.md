@@ -1,4 +1,6 @@
-// 167. Two Sum II - Input array is sorted
+* O(n)
+
+```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -17,3 +19,4 @@ class Solution {
         return res;
     }
 }
+```

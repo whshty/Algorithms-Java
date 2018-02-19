@@ -1,5 +1,5 @@
 ```java
-public class Solution {
+class Solution {
     public String longestPalindrome(String s) {
         int start = 0;
         int end = 0;

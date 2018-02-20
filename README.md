@@ -223,7 +223,7 @@
 * [658. Find K Closest Elements](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/658.%20Find%20K%20Closest%20Elements)
 * [719. Find K-th Smallest Pair Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/719.%20Find%20K-th%20Smallest%20Pair%20Distance)
 * [744. Find Smallest Letter Greater Than Target](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/744.%20Find%20Smallest%20Letter%20Greater%20Than%20Target)
-* 774. Minimize Max Distance to Gas Station
+* [774. Minimize Max Distance to Gas Station](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Search/774.%20Minimize%20Max%20Distance%20to%20Gas%20Station)
 
 # [Binary Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree)
 

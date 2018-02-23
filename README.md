@@ -313,8 +313,8 @@
 * [212. Word Search II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/212.%20Word%20Search%20II)
 * [648. Replace Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie/648.%20Replace%20Words)
 
-### [Binary Indexed Tree]
-* 308. Range Sum Query 2D - Mutable
+### [Binary Indexed Tree](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Binary%20Indexed%20Tree)
+* [308. Range Sum Query 2D - Mutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Binary%20Indexed%20Tree/308.%20Range%20Sum%20Query%202D%20-%20Mutable)
 
 
 ### [TreeMap](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/TreeMap)

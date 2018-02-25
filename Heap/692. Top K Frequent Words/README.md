@@ -1,4 +1,6 @@
-// minHeap
+## Min Heap
+
+```java
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         List<String> res = new LinkedList<>();
@@ -21,3 +23,6 @@ class Solution {
         return res;
     }
 }
+```
+
+## Max Heap

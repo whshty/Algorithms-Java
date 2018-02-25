@@ -10,8 +10,10 @@
 
 
 ## 2.Two Ways of Creating minHeap
-
+```java
+PriorityQueue<ListNode> heap = new PriorityQueue<ListNode>((a,b) -> a.val - b.val );
 ```
+```java
  PriorityQueue<ListNode> heap = new PriorityQueue<ListNode>(lists.length, new Comparator<ListNode>(){
  		@Override
  		public int compare(ListNode o1, ListNode o2){
@@ -23,8 +25,9 @@
         
 ```
 
-```
+```java
 PriorityQueue<ListNode> heap = new PriorityQueue<ListNode>((a,b) -> a.val - b.val );
 ```
+
 
 ## 3.Design Heap

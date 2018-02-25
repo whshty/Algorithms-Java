@@ -114,6 +114,7 @@
 * [686. Repeated String Match](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/686.%20Repeated%20String%20Match)
 * [748. Shortest Completing Word](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/748.%20Shortest%20Completing%20Word)
 * [756. Pyramid Transition Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/756.%20Pyramid%20Transition%20Matrix)
+* 758. Bold Words in String
 
 
 

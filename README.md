@@ -381,7 +381,6 @@
 
 # [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 ### [Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal)
-* [785. Is Graph Bipartite?](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/Check%20Bipartite%20Graph)
 * [126. Word Ladder II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/126.%20Word%20Ladder%20II)
 * [127. Word Ladder](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/127.%20Word%20Ladder)
 * [130. Surrounded Regions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/130.%20Surrounded%20Regions)
@@ -391,6 +390,7 @@
 * [684. Redundant Connection](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/684.%20Redundant%20Connection)
 * [721. Accounts Merge](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/721.%20Accounts%20Merge)
 * [743. Network Delay Time](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/743.%20Network%20Delay%20Time)
+* [785. Is Graph Bipartite?](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/785.%20Is%20Graph%20Bipartite%3F)
 
 ### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)
 * [207. Course Schedule](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort/207.%20Course%20Schedule)

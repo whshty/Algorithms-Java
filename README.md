@@ -145,6 +145,7 @@
 * [593. Valid Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/593.%20Valid%20Square)
 * [750. Number Of Corner Rectangles](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/750.%20Number%20Of%20Corner%20Rectangles)
 * [754. Reach a Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/754.%20Reach%20a%20Number)
+* 738. Monotone Increasing Digits
 
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)

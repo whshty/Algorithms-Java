@@ -1,3 +1,5 @@
+## Union Find
+```java
 class Solution {
     public int[] findRedundantConnection(int[][] edges) {
         int[] union = new int[2001];
@@ -19,3 +21,4 @@ class Solution {
         return union[id];
     }
 }
+```

@@ -1,3 +1,4 @@
+```java
 class Solution {
     public boolean areSentencesSimilar(String[] words1, String[] words2, String[][] pairs) {
         if( words1.length != words2.length ) return false;
@@ -16,3 +17,4 @@ class Solution {
         return true;
     }
 }
+```

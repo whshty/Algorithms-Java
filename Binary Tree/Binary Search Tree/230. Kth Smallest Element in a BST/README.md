@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
         int leftCount = countAmount(root.left);
@@ -11,3 +12,5 @@ class Solution {
         return 1 + countAmount(node.left) + countAmount(node.right);
     }
 }
+
+```

@@ -2,9 +2,10 @@
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         if( s.length() < 1 ) return 0;
-        Map<Character,Integer> map = new HashMap<Character,Integer>();
+        Map<Character,Integer> map = new HashMap<>();
         int start = 0 , end = 0;
         int maxLen = 0;
+        
         while( end < s.length() ){
             if( map.size() <= k ){
                 char ch = s.charAt(end);
@@ -19,6 +20,7 @@ class Solution {
             }
             maxLen = Math.max(maxLen,end-start);
         }
+        
         return maxLen;
     }
     private int findtheLeftMost(Map<Character,Integer> map){

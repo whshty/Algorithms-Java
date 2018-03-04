@@ -367,7 +367,7 @@
 * [51. N-Queens](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/51.%20N-Queens)
 * [73. Set Matrix Zeroes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/73.%20Set%20Matrix%20Zeroes)
 * [79. Word Search](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/79.%20Word%20Search)
-* [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/200.%20Number%20of%20Islands)
+* [200. Number of Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/200.%20Number%20of%20Islands)
 * [289. Game of Life](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/289.%20Game%20of%20Life)
 * [317. Shortest Distance from All Buildings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/317.%20Shortest%20Distance%20from%20All%20Buildings)
 * [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)

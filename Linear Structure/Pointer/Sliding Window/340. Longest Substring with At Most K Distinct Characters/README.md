@@ -1,29 +1,27 @@
 ```java
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
-        if( s.length() < 1 ) return 0;
+        if( s.length()  < 1 ) return 0;
         Map<Character,Integer> map = new HashMap<>();
         int start = 0 , end = 0;
-        int maxLen = 0;
+        int max = 0;
         
         while( end < s.length() ){
             if( map.size() <= k ){
-                char ch = s.charAt(end);
-                map.put(ch,end);
+                map.put(s.charAt(end),end);
                 end++;
-            } 
-            if( map.size() > k ){
-                int leftMost = findtheLeftMost(map);
-                char ch = s.charAt(leftMost);
-                map.remove(ch);
-                start = leftMost + 1;
             }
-            maxLen = Math.max(maxLen,end-start);
+            if( map.size() > k ) {
+                int leftMostIndex = findLeftMost(map);
+                map.remove(s.charAt(leftMostIndex));
+                start = leftMostIndex + 1;
+            }
+            max = Math.max(end-start,max);
         }
         
-        return maxLen;
+        return max;
     }
-    private int findtheLeftMost(Map<Character,Integer> map){
+    private int findLeftMost(Map<Character,Integer> map){
         int res = Integer.MAX_VALUE;
         for(int i : map.values()){
             res = Math.min(res,i);

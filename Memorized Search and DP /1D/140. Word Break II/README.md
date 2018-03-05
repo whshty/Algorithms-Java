@@ -21,8 +21,7 @@ class Solution {
                     List<String> strs = helper(s.substring(word.length()),wordDict,map);
                     for( String str : strs ){
                         StringBuilder sb = new StringBuilder();
-                        sb.append(word).append(" ");
-                        sb.append(str);
+                        sb.append(word).append(" ").append(str);
                         res.add(sb.toString());
                     }
                 }

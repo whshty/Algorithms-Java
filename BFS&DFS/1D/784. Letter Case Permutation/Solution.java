@@ -1,15 +1,13 @@
 class Solution {
-    public List<String> letterCasePermutation(String S) {
-        if (S == null) {
-            return new LinkedList<>();
-        }
+    public List<String> letterCasePermutation(String s) {
+        if (s == null) return new LinkedList<>();
         
         List<String> res = new LinkedList<>();
-        dfs(S, res, 0);
+        dfs(s, res, 0);
         return res;
     }
     
-    public void helper(String s, List<String> res, int pos) {
+    public void dfs(String s, List<String> res, int pos) {
         if (pos == s.length()) {
             res.add(s);
             return;

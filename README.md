@@ -114,8 +114,8 @@
 * [686. Repeated String Match](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/686.%20Repeated%20String%20Match)
 * [748. Shortest Completing Word](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/748.%20Shortest%20Completing%20Word)
 * [756. Pyramid Transition Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/756.%20Pyramid%20Transition%20Matrix)
-* 758. Bold Words in String
-* 777. Swap Adjacent in LR String
+* [758. Bold Words in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/758.%20Bold%20Words%20in%20String)
+* [777. Swap Adjacent in LR String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/777.%20Swap%20Adjacent%20in%20LR%20String)
 
 
 
@@ -145,7 +145,7 @@
 * [593. Valid Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/593.%20Valid%20Square)
 * [750. Number Of Corner Rectangles](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/750.%20Number%20Of%20Corner%20Rectangles)
 * [754. Reach a Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/754.%20Reach%20a%20Number)
-* 738. Monotone Increasing Digits
+* [738. Monotone Increasing Digits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Other/738.%20Monotone%20Increasing%20Digits)
 
 
 ### [LinkedList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList)
@@ -307,7 +307,7 @@
 * [270. Closest Binary Search Tree Value](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/270.%20Closest%20Binary%20Search%20Tree%20Value)
 * [285. Inorder Successor in BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/285.%20Inorder%20Successor%20in%20BST)
 * [783. Minimum Distance Between BST Nodes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/783.%20Minimum%20Distance%20Between%20BST%20Nodes)
-* 776. Split BST
+* [776. Split BST](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Binary%20Tree/Binary%20Search%20Tree/776.%20Split%20BST)
 
 # [Other Tree Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure)
 ### [Trie](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Other%20Tree%20Structure/Trie)
@@ -362,7 +362,7 @@
 * [690. Employee Importance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/690.%20Employee%20Importance)
 * [737. Sentence Similarity II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/737.%20Sentence%20Similarity%20II)
 * [679. 24 Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/679.%2024%20Game)
-* 784. Letter Case Permutation
+* [784. Letter Case Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/784.%20Letter%20Case%20Permutation)
 
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [36. Valid Sudoku](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/36.%20Valid%20Sudoku)

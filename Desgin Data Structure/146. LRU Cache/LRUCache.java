@@ -80,11 +80,11 @@ class Node {
 // Use LinkedHashMap
 class LRUCache {
     Map<Integer,Integer> map;
-    int CAP;
+    int SIZE;
 
-    public LRUCache(int capacity) {
+    public LRUCache(int size) {
         map = new LinkedHashMap<>();
-        this.CAP = capacity;
+        this.SIZE = size;
     }
     
     public int get(int key) {
@@ -101,12 +101,11 @@ class LRUCache {
         if(map.containsKey(key)) {
             map.remove(key);
         }
-        else if(map.size() == CAP) {
+        else if(map.size() == SIZE) {
             map.remove(map.entrySet().iterator().next().getKey());
         }
         map.put(key,value);
     }
 }
-
 
 

@@ -22,11 +22,11 @@ class Solution {
 ```java
 class Solution {
     public int maxProfit(int[] prices) {
-        int min = Integer.MAX_VALUE;
-        int res = 0;
-        for( int i = 0 ; i < prices.length ; i++){
-            min = Math.min(prices[i],min);
-            res = Math.max(prices[i] - min, res);
+        int res = 0, min = Integer.MAX_VALUE;
+        
+        for( int i : prices ){
+            min = Math.min(min,i);
+            res = Math.max(i-min,res);
         }
         return res;
     }

@@ -508,7 +508,7 @@
 * [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/380.%20Insert%20Delete%20GetRandom%20O(1))
 * [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)
 * [384. Shuffle an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/384.%20Shuffle%20an%20Array)
-* [460. LFU Cache]
+* 460. LFU Cache
 * [535. Encode and Decode TinyURL](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/535.%20Encode%20and%20Decode%20TinyURL)
 * [677. Map Sum Pairs](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/677.%20Map%20Sum%20Pairs)
 

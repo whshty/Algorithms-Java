@@ -408,6 +408,7 @@
 # [Memorized Search and DP](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20)
 
 ### [Basic](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Basic)
+* Max Sum Subsequence Non-Adjacent
 * [357. Count Numbers with Unique Digits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Basic/357.%20Count%20Numbers%20with%20Unique%20Digits)
 
 ### [Stock Problem](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Stock%20Problem)

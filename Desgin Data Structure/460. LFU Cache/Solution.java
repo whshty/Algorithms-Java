@@ -20,7 +20,6 @@ class LFUCache {
         listMap.get(freq).remove(key);
         if( freq == min && listMap.get(freq).size() == 0) min++;
         listMap.putIfAbsent(freq+1,new LinkedHashSet<>());
-    
         listMap.get(freq+1).add(key);
         return valMap.get(key);
     }
@@ -32,6 +31,7 @@ class LFUCache {
             get(key);
             return;
         }
+        // new key
         if(valMap.size() >= size){
             int evit = listMap.get(min).iterator().next();
             listMap.get(min).remove(evit);
@@ -43,10 +43,3 @@ class LFUCache {
         listMap.get(1).add(key);
     }
 }
-
-/**
- * Your LFUCache object will be instantiated and called as such:
- * LFUCache obj = new LFUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
- */

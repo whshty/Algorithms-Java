@@ -36,4 +36,17 @@ public class Solution {
     }
 }
 ```
+## Stream
+
+```java
+list.stream().map((x) -> x*x).forEach(System.out::println);
+```
+
+## Mapreduce
+
+```java
+List<Integer> list = Arrays.asList(1,2,3,4,5,6,7);
+int sum = list.stream().map(x -> x*x).reduce((x,y) -> x + y).get();
+System.out.println(sum);
+```
 

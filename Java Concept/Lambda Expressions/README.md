@@ -2,6 +2,16 @@
 
 ## Concept
 
+```
+(param1,param2, ..., paramN) -> {
+  statment1;
+  statment2;
+  //.............
+  return statmentM;
+}
+```
+
+
 One Parameter
 If the method you are matching your Java lambda expression against takes one parameter, you can write the lambda expression like this:
 

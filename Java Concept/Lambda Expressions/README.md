@@ -60,3 +60,56 @@ int sum = list.stream().map(x -> x*x).reduce((x,y) -> x + y).get();
 System.out.println(sum);
 ```
 
+## Collector
+
+Accumulate names into a List
+
+```java
+List<String> list = people.stream().map(Person::getName).collect(Collectors.toList());
+```
+
+Accumulate names into a TreeSet
+
+```java
+Set<String> set = people.stream().map(Person::getName).collect(Collectors.toCollection(TreeSet::new));
+```
+
+Convert elements to strings and concatenate them, separated by commas
+
+```java
+String joined = things.stream()
+                      .map(Object::toString)
+                      .collect(Collectors.joining(", "));
+``` 
+                      
+Compute sum of salaries of employee        
+
+```java
+int total = employees.stream()
+                     .collect(Collectors.summingInt(Employee::getSalary)));
+```       
+
+Group employees by department     
+
+```java
+Map<Department, List<Employee>> byDept
+         = employees.stream()
+                    .collect(Collectors.groupingBy(Employee::getDepartment));
+```  
+
+Compute sum of salaries by department
+
+```java
+Map<Department, Integer> totalByDept
+         = employees.stream()
+                    .collect(Collectors.groupingBy(Employee::getDepartment,Collectors.summingInt(Employee::getSalary)));
+```
+
+Partition students into passing and failing
+
+```java
+Map<Boolean, List<Student>> passingFailing = students.stream().collect(Collectors.partitioningBy(s -> s.getGrade() >= PASS_THRESHOLD));
+```
+ 
+ 
+ 

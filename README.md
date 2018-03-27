@@ -382,6 +382,10 @@
 * [694. Number of Distinct Islands](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/694.%20Number%20of%20Distinct%20Islands)
 * [695. Max Area of Island](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/695.%20Max%20Area%20of%20Island)
 
+### [Dijkstra](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/Dijkstra)
+* [787. Cheapest Flights Within K Stops](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/Dijkstra/787.%20Cheapest%20Flights%20Within%20K%20Stops)
+
+
 
 # [Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph)
 ### [Traversal](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal)

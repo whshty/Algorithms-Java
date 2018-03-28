@@ -21,9 +21,9 @@ class Solution {
 ```
 
 ## 2.Iteration
-```
+```java
 class Solution {
-    public int closestValue(TreeNode root, double target) {
+    public int closestValue(TreeNode root, double target) {  
         int res = root.val;
         while( root != null ){
             // Update cloest value

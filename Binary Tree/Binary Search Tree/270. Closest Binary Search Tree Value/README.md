@@ -4,18 +4,15 @@
 ```java
 class Solution {
     public int closestValue(TreeNode root, double target) {
-        int curVal = root.val;
+        int cur = root.val;
         
-        if( target == curVal ) return curVal;
-        if( target < curVal ) root = root.left;
-        else root = root.right;
+        if( target == cur ) return cur;
+        root = target < cur ? root.left : root.right;
+        if( root == null ) return cur;
+        int next = closestValue(root,target);
         
-        if( root == null ) return curVal;
-        
-        int nextVal = closestValue(root,target);
-        if( Math.abs( nextVal - target ) < Math.abs( curVal - target) ) return nextVal;
-        
-        else return curVal;
+        return Math.abs( next - target ) < Math.abs( cur - target) ?
+                next : cur;     
     }
 }
 ```

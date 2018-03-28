@@ -1,7 +1,7 @@
 // Pre-Order and Recurison
 public class Codec {
-    private String N = "N"; // N for null
-    private String M = ","; // M for marker
+    private final String N = "N"; // N for null
+    private final String M = ","; // M for marker
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -27,10 +27,10 @@ public class Codec {
     }
     
     private TreeNode buildTree(Deque<String> deque){
-        String root = deque.removeFirst();
-        if(root.equals(N)) return null;
+        String nodeVal = deque.removeFirst();
+        if(nodeVal.equals(N)) return null;
         else{
-            TreeNode node = new TreeNode(Integer.valueOf(root));
+            TreeNode node = new TreeNode(Integer.valueOf(nodeVal));
             node.left = buildTree(deque);
             node.right = buildTree(deque);
             return node;

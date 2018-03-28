@@ -1,4 +1,4 @@
-```
+```java
 class Solution {
     public int longestConsecutive(TreeNode root) {
         if( root == null ) return 0;

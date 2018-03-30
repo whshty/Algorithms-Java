@@ -1,3 +1,6 @@
+## Two Pointers
+
+```java
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if ( head == null || head.next == null ) return null;
@@ -20,3 +23,4 @@ class Solution {
         return dummy.next;
     }
 }
+```

@@ -23,12 +23,12 @@ public class Solution {
 * Space : O(n)
 
 ```java
-public class Solution {
+class Solution {
     public boolean isValidBST(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
+        Deque<TreeNode> stack = new ArrayDeque<>();
         TreeNode node = root;
         TreeNode pre = null;
-        while( !stack.isEmpty() || node != null ){
+        while( node != null || !stack.isEmpty() ){
             if( node != null ){
                 stack.push(node);
                 node = node.left;
@@ -40,7 +40,6 @@ public class Solution {
             }
         }
         return true;
-    
     }
 }
 ```

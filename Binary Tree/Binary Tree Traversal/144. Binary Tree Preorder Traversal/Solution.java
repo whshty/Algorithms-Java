@@ -14,7 +14,7 @@ public class Solution {
 }
 
 // stack
-public class Solution {
+class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Deque<TreeNode> deque = new ArrayDeque<>();
@@ -22,10 +22,10 @@ public class Solution {
         while( node != null || !deque.isEmpty()){
             if ( node != null ){
                 res.add(node.val);
-                deque.addFirst(node);
+                deque.push(node);
                 node = node.left;
             } else {
-                node = deque.removeFirst(); 
+                node = deque.pop(); 
                 node = node.right;
             }
         }

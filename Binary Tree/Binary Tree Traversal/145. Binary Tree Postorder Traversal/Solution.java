@@ -18,6 +18,7 @@ class Solution {
         LinkedList<Integer> res = new LinkedList<>();
         Deque<TreeNode> deque = new ArrayDeque<>();
         TreeNode node = root;
+        // Right first
         while( node != null || !deque.isEmpty()){
             if ( node != null ){
                 deque.push(node);

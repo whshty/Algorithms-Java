@@ -8,20 +8,20 @@ class Solution {
         List<List<Integer>> res = new ArrayList<>();
         if( root == null ) return res;
         // map for generating output basde on weight values
-        Map<Integer,ArrayList<Integer>> posToRes = new HashMap<>();
+        Map<Integer,ArrayList<Integer>> posToList = new HashMap<>();
         // assign weigth values in BFS
         Map<TreeNode,Integer> nodeToWeight = new HashMap<>(); 
-        int minPos = traverseTree(root,posToRes,nodeToWeight);
+        int minPos = traverseTree(root,posToList,nodeToWeight);
         
-        while( posToRes.containsKey(minPos)){
-            res.add(posToRes.get(minPos++));
+        while( posToList.containsKey(minPos)){
+            res.add(posToList.get(minPos++));
         } 
         return res;
     }
     
     private int traverseTree(
         TreeNode root,
-        Map<Integer,ArrayList<Integer>> posToRes, 
+        Map<Integer,ArrayList<Integer>> posToList, 
         Map<TreeNode,Integer> nodeToWeight){
             Queue<TreeNode> queue = new LinkedList<>();
             queue.add(root);
@@ -32,8 +32,8 @@ class Solution {
                 TreeNode node = queue.poll();
                 int curWeight = nodeToWeight.get(node);
             
-                posToRes.putIfAbsent(curWeight,new ArrayList<>());
-                posToRes.get(curWeight).add(node.val);
+                posToList.putIfAbsent(curWeight,new ArrayList<>());
+                posToList.get(curWeight).add(node.val);
             
                 if( node.left != null){
                     queue.add(node.left);

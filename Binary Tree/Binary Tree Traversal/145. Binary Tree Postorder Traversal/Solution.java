@@ -13,19 +13,19 @@ public class Solution {
     }
 }
 
-public class Solution {
+class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         LinkedList<Integer> res = new LinkedList<>();
         Deque<TreeNode> deque = new ArrayDeque<>();
         TreeNode node = root;
         while( node != null || !deque.isEmpty()){
             if ( node != null ){
-                deque.addFirst(node);
+                deque.push(node);
                 res.addFirst(node.val);
                 node = node.right;
             } else {
-                TreeNode temp = deque.removeFirst();
-                node = temp.left;
+                node = deque.pop();
+                node = node.left;
             }
         }
         return res;

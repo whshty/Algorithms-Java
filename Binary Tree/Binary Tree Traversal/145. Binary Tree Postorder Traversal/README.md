@@ -14,7 +14,7 @@ class Solution {
                 res.addFirst(node.val);
                 node = node.right;
             } else {
-                node = deque.removeFirst();
+                node = deque.pop();
                 node = node.left;
             }
         }

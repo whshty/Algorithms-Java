@@ -24,23 +24,23 @@ class Solution {
             int min = 0;
 
             while( !queue.isEmpty()){
-            TreeNode node = queue.poll();
-            int curWeight = nodeToWeight.get(node);
+                TreeNode node = queue.poll();
+                int curWeight = nodeToWeight.get(node);
             
-            posToRes.putIfAbsent(curWeight,new ArrayList<>());
-            posToRes.get(curWeight).add(node.val);
+                posToRes.putIfAbsent(curWeight,new ArrayList<>());
+                posToRes.get(curWeight).add(node.val);
             
-            if( node.left != null){
-                queue.add(node.left);
-                nodeToWeight.put(node.left,curWeight-1);
+                if( node.left != null){
+                    queue.add(node.left);
+                    nodeToWeight.put(node.left,curWeight-1);
+                }
+            
+                if( node.right != null ){
+                    queue.add(node.right);
+                    nodeToWeight.put(node.right,curWeight+1);
+                }
+                min = Math.min(min,curWeight);
             }
-            
-            if( node.right != null ){
-                queue.add(node.right);
-                nodeToWeight.put(node.right,curWeight+1);
-            }
-            min = Math.min(min,curWeight);
-        }
         return min;
     }
 }

@@ -1,14 +1,4 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode(int x) { val = x; }
- * }
- */
-
-public class Solution {
+class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         if( preorder.length != inorder.length ) return null;
         if( preorder.length == 0 || inorder.length == 0 ) return null;
@@ -16,10 +6,12 @@ public class Solution {
     }
     
     public TreeNode helper(int[]preorder, int preStart, int preEnd, int inorder[], int inStart, int inEnd ){
+        // Base case
         if( preStart > preEnd || inStart > inEnd ) return null;
     
         TreeNode root = new TreeNode(preorder[preStart]);
         int inorderRoot = inStart;
+        // Find inorder root
         for( int i = inStart ; i <= inEnd ; i++ ){
             if( inorder[i] == root.val){
                 inorderRoot = i;

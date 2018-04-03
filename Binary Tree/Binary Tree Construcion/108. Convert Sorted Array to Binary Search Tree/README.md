@@ -2,7 +2,7 @@
 * Time : O(n)
 
 ```java
-public class Solution {
+class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums.length == 0) return null;
         return helper(nums,0,nums.length-1);

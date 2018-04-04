@@ -1,3 +1,4 @@
+```java
 class Solution {
     public void connect(TreeLinkNode root) {
         TreeLinkNode cur = root;
@@ -12,3 +13,4 @@ class Solution {
         }
     }
 }
+```

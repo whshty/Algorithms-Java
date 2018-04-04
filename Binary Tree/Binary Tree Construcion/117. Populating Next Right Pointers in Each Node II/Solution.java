@@ -1,3 +1,25 @@
+// Queue + BFS 
+class Solution {
+    public void connect(TreeLinkNode root) {
+        Queue<TreeLinkNode> queue = new LinkedList<>();
+        if( root == null ) return;
+        queue.offer(root);
+        
+        while( !queue.isEmpty() ){
+            int size = queue.size();
+            TreeLinkNode temp = null;
+            for(int i = 0 ; i < size ; i++){
+                TreeLinkNode node = queue.poll();
+                node.next = temp;
+                temp = node;
+                if( node.right != null) queue.offer(node.right);
+                if( node.left != null) queue.offer(node.left);
+            }
+        }
+    }
+}
+
+// Pointers
 class Solution {
     public void connect(TreeLinkNode root) {
         TreeLinkNode node = root, dummy = new TreeLinkNode(-1);

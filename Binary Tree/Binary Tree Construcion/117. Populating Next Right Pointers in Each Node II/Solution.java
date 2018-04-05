@@ -19,6 +19,31 @@ class Solution {
     }
 }
 
+// DFS
+class Solution {
+    public void connect(TreeLinkNode root) {
+        if (root == null) return;
+        Map<Integer, TreeLinkNode> map = new HashMap<>();
+        dfs(root, map, 0);
+    }
+
+    public void dfs(TreeLinkNode root, Map<Integer, TreeLinkNode> map, int level) {
+        if (root == null) return;
+        if (!map.containsKey(level)) {
+            map.put(level, root);
+        }
+        else {
+            TreeLinkNode pre = map.get(level);
+            pre.next = root;
+            map.put(level, root);
+        }
+
+        dfs(root.left, map, level+1);
+        dfs(root.right, map, level+1);
+    }
+}
+
+
 // Pointers
 class Solution {
     public void connect(TreeLinkNode root) {

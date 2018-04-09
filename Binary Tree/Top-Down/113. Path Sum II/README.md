@@ -1,3 +1,4 @@
+```java
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new ArrayList<>();
@@ -24,3 +25,4 @@ class Solution {
         list.remove(list.size()-1);
     }
 }
+```

@@ -1,3 +1,4 @@
+```java
 class Solution {
     public TreeNode str2tree(String s) {
         // Base case
@@ -30,3 +31,4 @@ class Solution {
         return root;
     }
 }
+```

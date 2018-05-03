@@ -1,3 +1,6 @@
+## Random 6 Digits key
+
+```java
 public class Codec {
     Map<String,String> keyToLongUrl = new HashMap<>();
     Map<String,String> longUrlToKey = new HashMap<>();
@@ -28,3 +31,4 @@ public class Codec {
         return sb.toString();
     }
 }
+```

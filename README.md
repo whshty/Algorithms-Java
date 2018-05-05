@@ -55,6 +55,7 @@
 * [722. Remove Comments](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/722.%20Remove%20Comments)
 * [728. Self Dividing Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/728.%20Self%20Dividing%20Numbers)
 * [747. Largest Number At Least Twice of Others](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/747.%20Largest%20Number%20At%20Least%20Twice%20of%20Others)
+* 822. Card Flipping Game
 
 
 

@@ -122,6 +122,7 @@
 * [756. Pyramid Transition Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/756.%20Pyramid%20Transition%20Matrix)
 * [758. Bold Words in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/758.%20Bold%20Words%20in%20String)
 * [777. Swap Adjacent in LR String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/777.%20Swap%20Adjacent%20in%20LR%20String)
+* 796. Rotate String
 
 
 

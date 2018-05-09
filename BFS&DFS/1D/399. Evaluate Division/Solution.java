@@ -25,14 +25,20 @@ public class Solution {
         return res;
     }
     
-    private double dfs(String start, String end, Map<String, ArrayList<String>> pairs, Map<String, ArrayList<Double>> values, HashSet<String> set, double value) {
+    private double dfs(
+        String start, 
+        String end, 
+        Map<String, ArrayList<String>> pairs, 
+        Map<String, ArrayList<Double>> values, 
+        HashSet<String> set, double value) {
+        
         if (set.contains(start)) return 0.0;
         if (!pairs.containsKey(start)) return 0.0;
         if (start.equals(end)) return value;
         set.add(start);
         
-        ArrayList<String> strList = pairs.get(start);
-        ArrayList<Double> valueList = values.get(start);
+        List<String> strList = pairs.get(start);
+        List<Double> valueList = values.get(start);
         double res = 0.0;
         for (int i = 0; i < strList.size(); i++) {
             res = dfs(strList.get(i), end, pairs, values, set, value*valueList.get(i));

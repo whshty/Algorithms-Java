@@ -371,6 +371,7 @@
 * [737. Sentence Similarity II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/737.%20Sentence%20Similarity%20II)
 * [679. 24 Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/679.%2024%20Game)
 * [784. Letter Case Permutation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/784.%20Letter%20Case%20Permutation)
+* 797. All Paths From Source to Target
 
 ### [2D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D)
 * [36. Valid Sudoku](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/2D/36.%20Valid%20Sudoku)

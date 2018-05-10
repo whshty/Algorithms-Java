@@ -1,3 +1,5 @@
+## DFS
+```java
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
         Map<String, List<String>> valueAToValueB = new HashMap<>();
@@ -44,8 +46,10 @@ class Solution {
         return res;
     }
 }
+```
 
-// Union find
+## Union find
+```java
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
         Map<String, String> valueMap = new HashMap<>();
@@ -89,3 +93,4 @@ class Solution {
         return result * get(x1ToX2, x1ToResult, root);
     }
 }
+```

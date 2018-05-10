@@ -32,7 +32,7 @@
 * [217. Contains Duplicate](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/217.%20Contains%20Duplicate)
 * [223. Rectangle Area](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/223.%20Rectangle%20Area)
 * [228. Summary Ranges](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/228.%20Summary%20Ranges)
-* 242. Valid Anagram
+* [242. Valid Anagram](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/242.%20Valid%20Anagram)
 * [268. Missing Number](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/268.%20Missing%20Number)
 * [277. Find the Celebrity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/277.%20Find%20the%20Celebrity)
 * [334. Increasing Triplet Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/334.%20Increasing%20Triplet%20Subsequence)
@@ -56,10 +56,9 @@
 * [722. Remove Comments](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/722.%20Remove%20Comments)
 * [728. Self Dividing Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/728.%20Self%20Dividing%20Numbers)
 * [747. Largest Number At Least Twice of Others](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/747.%20Largest%20Number%20At%20Least%20Twice%20of%20Others)
-* 819. Most Common Word
-* 820. Short Encoding of Words
-* 821. Shortest Distance to a Character
-* 822. Card Flipping Game
+* [819. Most Common Word](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/819.%20Most%20Common%20Word)
+* [821. Shortest Distance to a Character](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/821.%20Shortest%20Distance%20to%20a%20Character)
+* [822. Card Flipping Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Scan%20and%20Search/822.%20Card%20Flipping%20Game)
 
 
 
@@ -122,7 +121,8 @@
 * [756. Pyramid Transition Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/756.%20Pyramid%20Transition%20Matrix)
 * [758. Bold Words in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/758.%20Bold%20Words%20in%20String)
 * [777. Swap Adjacent in LR String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/777.%20Swap%20Adjacent%20in%20LR%20String)
-* 796. Rotate String
+* [796. Rotate String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/796.%20Rotate%20String)
+* [820. Short Encoding of Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/820.%20Short%20Encoding%20of%20Words)
 
 
 
@@ -173,7 +173,7 @@
 * [234. Palindrome Linked List](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/234.%20Palindrome%20Linked%20List)
 * [445. Add Two Numbers II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/445.%20Add%20Two%20Numbers%20II)
 * [725. Split Linked List in Parts](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/725.%20Split%20Linked%20List%20in%20Parts)
-* 817. Linked List Components
+* [817. Linked List Components](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/LinkedList/Singly%20Linked%20List/817.%20Linked%20List%20Components)
 
 ### [Hash](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash)
 

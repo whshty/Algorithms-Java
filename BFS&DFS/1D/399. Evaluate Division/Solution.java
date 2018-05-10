@@ -5,15 +5,10 @@ public class Solution {
         for (int i = 0; i < equations.length; i++) {
             String[] equation = equations[i];
             
-            pairs.putIfAbsent(equation[0], new ArrayList<>());
-            valuesPair.putIfAbsent(equation[0], new ArrayList<>());
-            pairs.putIfAbsent(equation[1], new ArrayList<>());
-            valuesPair.putIfAbsent(equation[1], new ArrayList<>());
-
-            pairs.get(equation[0]).add(equation[1]);
-            pairs.get(equation[1]).add(equation[0]);
-            valuesPair.get(equation[0]).add(values[i]);
-            valuesPair.get(equation[1]).add(1/values[i]);
+            pairs.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(equation[1]);
+            pairs.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(equation[0]);
+            valuesPair.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(values[i]);
+            valuesPair.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(1/values[i]);
         }
         
         double[] res = new double[queries.length];

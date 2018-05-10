@@ -1,7 +1,7 @@
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
-        Map<String, ArrayList<String>> valueToValue = new HashMap<>();
-        Map<String, ArrayList<Double>> valueToResult = new HashMap<>();
+        Map<String, List<String>> valueToValue = new HashMap<>();
+        Map<String, List<Double>> valueToResult = new HashMap<>();
         for (int i = 0; i < equations.length; i++) {
             String[] equation = equations[i];
 
@@ -23,8 +23,8 @@ class Solution {
     private double dfs(
             String start,
             String end,
-            Map<String, ArrayList<String>> valueToValue,
-            Map<String, ArrayList<Double>> valueToResult,
+            Map<String, List<String>> valueToValue,
+            Map<String, List<Double>> valueToResult,
             Set<String> set,
             double value) {
 

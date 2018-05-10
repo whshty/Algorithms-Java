@@ -114,7 +114,7 @@
 * [165. Compare Version Numbers](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/165.%20Compare%20Version%20Numbers)
 * [214. Shortest Palindrome](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/214.%20Shortest%20Palindrome)
 * [468. Validate IP Address](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/468.%20Validate%20IP%20Address)
-* 551. Student Attendance Record I
+* [551. Student Attendance Record I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/551.%20Student%20Attendance%20Record%20I)
 * [557. Reverse Words in a String III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/557.%20Reverse%20Words%20in%20a%20String%20III)
 * [616. Add Bold Tag in String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/616.%20Add%20Bold%20Tag%20in%20String)
 * [686. Repeated String Match](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/String/686.%20Repeated%20String%20Match)

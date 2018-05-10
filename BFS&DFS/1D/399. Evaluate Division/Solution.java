@@ -1,4 +1,4 @@
-public class Solution {
+class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
         Map<String, ArrayList<String>> valueToValue = new HashMap<>();
         Map<String, ArrayList<Double>> valueToResult = new HashMap<>();
@@ -25,7 +25,7 @@ public class Solution {
             String end,
             Map<String, ArrayList<String>> valueToValue,
             Map<String, ArrayList<Double>> valueToResult,
-            HashSet<String> set,
+            Set<String> set,
             double value) {
 
         if (set.contains(start)) return 0.0;
@@ -40,6 +40,7 @@ public class Solution {
             res = dfs(strList.get(i), end, valueToValue, valueToResult, set, value*valueList.get(i));
             if (res != 0.0) break;
         }
+        // Backtracking
         set.remove(start);
         return res;
     }

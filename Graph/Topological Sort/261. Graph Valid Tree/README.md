@@ -1,4 +1,4 @@
-## 1.1.BFS - Input is Edge lists
+## 1.BFS - Input is Edge lists
 * Node 0 is the root
 * Keep on adding nodes to a set, if the nodes is already added, there is a cycle
 
@@ -33,7 +33,46 @@ class Solution {
     }
 }
 ```
-## 1.2.BFS - Input is List of TreeNode
+## 2.DFS
+
+```java
+class Solution {
+    public boolean validTree(int n, int[][] edges) {
+        if( n < 1 ) return false;
+        Map<Integer,Set<Integer>> map = buildGraph(edges);
+        Set<Integer> set = new HashSet<>();
+        if(hasCycle(map,set,0,-1)) return false;
+        
+        for (int i = 0; i < n ; i++) {
+            if (!set.contains(i)) return false;
+        }
+
+        return true;
+    }
+    
+    private boolean hasCycle(Map<Integer,Set<Integer>> map, Set<Integer> set, int current, int parent) {
+        set.add(current);
+    
+        for (int i : map.getOrDefault(current,new HashSet<>())){
+            if ( i == parent ) continue;
+            if (set.contains(i) || hasCycle(map,set,i,current)) return true;
+        }
+        return false;
+    }
+    
+    private Map<Integer,Set<Integer>> buildGraph(int[][] edges) {
+        Map<Integer,Set<Integer>> map = new HashMap<>();
+        for (int[] edge : edges) {
+            map.computeIfAbsent(edge[0], set -> new HashSet<>()).add(edge[1]);
+            map.computeIfAbsent(edge[1], set -> new HashSet<>()).add(edge[0]);
+        }
+        return map;
+    }
+}
+```
+
+
+## Follow-Up: Input is List of TreeNode
 
 ```java
 public class Solution {
@@ -95,41 +134,4 @@ class TreeNode {
         val = x;
     }
 }
-```
-
-
-
-## 2.DFS
-
-```
-public class Solution {
-    public boolean validTree(int n, int[][] edges) {
-        if( n < 1 ) return false;
-        Map<Integer,Set<Integer>> map = new HashMap<>();
-        for( int i = 0 ; i < n ; i++ ) map.put(i,new HashSet<>());
-        for(int[] edge : edges ){
-            map.get(edge[0]).add(edge[1]);
-            map.get(edge[1]).add(edge[0]);
-        }    
-        Set<Integer> set = new HashSet<>();
-        set.add(0);
-        boolean res = hasCycle(map,set,0,-1);
-        if(!res) return false;
-        return set.size() == n;
-    }
-    
-    private boolean hasCycle( Map<Integer,Set<Integer>> map, Set<Integer> set , int cur, int parent){
-        Set<Integer> list= map.get(cur);
-        
-        for( int i : list){
-            if( i == parent ) continue;
-            if( set.contains(i) ) return false;
-            set.add(i);
-            boolean res = hasCycle(map,set,i,cur);
-            if( !res ) return false;
-        }
-        return true;
-    }
-}
-
 ```

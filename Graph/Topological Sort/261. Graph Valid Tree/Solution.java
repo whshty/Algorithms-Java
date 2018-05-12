@@ -1,3 +1,4 @@
+//BFS
 class Solution {
     public boolean validTree(int n, int[][] edges) {
         if( n < 1 ) return false;
@@ -28,7 +29,7 @@ class Solution {
     }
 }
 
-
+//DFS
 public class Solution {
     public boolean validTree(int n, int[][] edges) {
         if( n < 1 ) return false;

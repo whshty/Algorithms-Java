@@ -3,32 +3,33 @@
 * Keep on adding nodes to a set, if the nodes is already added, there is a cycle
 
 ```java
-public class Solution {
+class Solution {
     public boolean validTree(int n, int[][] edges) {
         if( n < 1 ) return false;
-        Map<Integer,Set<Integer>> map = new HashMap<>();
-        for( int i = 0 ; i < n ; i++ ) {
-            map.put(i,new HashSet<>());
-        }
-        for (int[] edge : edges) {
-            map.get(edge[0]).add(edge[1]);
-            map.get(edge[1]).add(edge[0]);
-        }
+        Map<Integer,Set<Integer>> map = buildGraph(edges);
         Set<Integer> set = new HashSet<>();
-        Queue<Integer> queue = new LinkedList<>();
-        
+        Queue<Integer> queue = new LinkedList<>();        
         queue.add(0);
-        
-        while(!queue.isEmpty()){
+
+        while (!queue.isEmpty()) {
             int node = queue.poll();
             if( set.contains(node)) return false;
-            for( int temp : map.get(node)){
+            for( int temp : map.getOrDefault(node,new HashSet<>())){
                 queue.add(temp);
                 map.get(temp).remove(node);
             }
             set.add(node);
         }
         return set.size() == n;
+    }
+    
+    private Map<Integer,Set<Integer>> buildGraph(int[][] edges) {
+        Map<Integer,Set<Integer>> map = new HashMap<>();
+        for (int[] edge : edges) {
+            map.computeIfAbsent(edge[0], set -> new HashSet<>()).add(edge[1]);
+            map.computeIfAbsent(edge[1], set -> new HashSet<>()).add(edge[0]);
+        }
+        return map;
     }
 }
 ```

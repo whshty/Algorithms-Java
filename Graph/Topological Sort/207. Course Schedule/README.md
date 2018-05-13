@@ -1,3 +1,4 @@
+## BFS
 ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] pre) {
@@ -23,6 +24,39 @@ class Solution {
             count--;
         }
         return count == 0;
+    }
+    
+    private Map<Integer,List<Integer>> buildAdjList(int[][] pre){
+        Map<Integer,List<Integer>> map = new HashMap<>();
+        for( int i = 0 ; i < pre.length ; i++ ){
+            map.computeIfAbsent(pre[i][1],list->new ArrayList<>()).add(pre[i][0]);
+        }
+        return map;
+    }
+}
+```
+
+## DFS
+```java
+class Solution {
+    public boolean canFinish(int numCourses, int[][] pre) {
+        Queue<Integer> queue = new LinkedList<>();        
+        Map<Integer,List<Integer>> map = buildAdjList(pre);
+        
+        for (int i = 0 ; i < numCourses ; i++) {
+            if (!dfs(map,new HashSet<>(),i)) return false;
+        }
+        return true;
+    }
+    
+    private boolean dfs(Map<Integer,List<Integer>> map, Set<Integer> set, int course) {
+        if (set.contains(course)) return false;
+        set.add(course);
+        for (int i : map.getOrDefault(course, new ArrayList<>())) {
+            if(!dfs(map,set,i)) return false;
+        }
+        set.remove(course);
+        return true;
     }
     
     private Map<Integer,List<Integer>> buildAdjList(int[][] pre){

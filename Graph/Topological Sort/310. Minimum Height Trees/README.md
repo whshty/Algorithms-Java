@@ -1,4 +1,5 @@
-// Remove nodes from leave to root
+## Remove nodes from leave to root
+```java
 public class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
         List<Integer> res = new ArrayList<>();
@@ -36,3 +37,4 @@ public class Solution {
         return map;
     }
 }
+```

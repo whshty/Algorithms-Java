@@ -1,36 +1,37 @@
 public class Solution {
     public List<Integer> findMinHeightTrees(int n, int[][] edges) {
-        List<Integer> entry = new ArrayList<>();
-        if( n ==  1) {
-            entry.add(0);
-            return entry;
+        List<Integer> res = new ArrayList<>();
+        if (n == 1) {
+            res.add(0);
+            return res;
         }
-        List<Set<Integer>> list = new ArrayList<>();
-        for( int i = 0 ; i < n ; i++ ){
-            list.add(new HashSet<>());
-        }
-        for( int[] edge : edges ){
-            list.get(edge[0]).add(edge[1]);
-            list.get(edge[1]).add(edge[0]);
-        }
-        
-        for( int i = 0 ; i < n ; i++ ){
-            if( list.get(i).size() == 1 ) entry.add(i);
-        }
-        
+        Map<Integer,Set<Integer>> map = buildAdjList(edges,res);
+
         int count = n;
-        while( count > 2 ){
-            count -= entry.size();
+        while (count > 2) {
+            count -= res.size();
             List<Integer> newEntry = new ArrayList<>();
-            for( int i : entry ){
-                int temp = list.get(i).iterator().next();
-                list.get(temp).remove(i);
-                if( list.get(temp).size() == 1 ){
+            for (int i : res) {
+                int temp = map.get(i).iterator().next();
+                map.get(temp).remove(i);
+                if (map.get(temp).size() == 1) {
                     newEntry.add(temp);
                 }
             }
-            entry = newEntry;
+            res = newEntry;
         }
-        return entry;
+        return res;
+    }
+
+    private Map<Integer, Set<Integer>> buildAdjList(int[][] edges, List<Integer> res) {
+        Map<Integer, Set<Integer>> map = new HashMap<>();
+        for (int[] edge : edges) {
+            map.computeIfAbsent(edge[0], set -> new HashSet<>()).add(edge[1]);
+            map.computeIfAbsent(edge[1], set -> new HashSet<>()).add(edge[0]);
+        }
+        map.forEach((k, v) -> {
+            if (v.size() == 1) res.add(k);
+        });
+        return map;
     }
 }

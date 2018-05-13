@@ -1,12 +1,12 @@
-public class Solution {
+class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if( node == null ) return null;
-        Queue<UndirectedGraphNode> queue = new LinkedList<UndirectedGraphNode>();
+        Queue<UndirectedGraphNode> queue = new LinkedList<>();
         queue.add(node);
         Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
         map.put(node, new UndirectedGraphNode(node.label));
         
-        while( !queue.isEmpty() ){
+        while (!queue.isEmpty()) {
             UndirectedGraphNode cur = queue.poll();
             for(UndirectedGraphNode neighbor : cur.neighbors){
                 if( !map.containsKey(neighbor)){
@@ -19,7 +19,6 @@ public class Solution {
         return map.get(node);
     }
 }
-
 
 
 // Give a list of graph node

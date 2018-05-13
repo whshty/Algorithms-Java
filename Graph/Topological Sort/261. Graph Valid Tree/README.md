@@ -1,4 +1,30 @@
-## 1.BFS - Input is Edge lists
+## 1.Union Find
+
+```java
+class Solution {
+    public boolean validTree(int n, int[][] edges) {
+        int[] nums = new int[n];
+        Arrays.fill(nums,-1);
+        
+        for (int i = 0 ; i < edges.length ; i++) {
+            int x = find(nums,edges[i][0]);
+            int y = find(nums,edges[i][1]);
+            
+            if (x == y) return false; 
+            // union
+            nums[x] = y;
+        }
+        return edges.length == n - 1;
+    }
+    
+    private int find(int[] nums, int i) {
+        if (nums[i] == -1) return i;
+        return find(nums,nums[i]);
+    }
+}
+```
+
+## 2.BFS
 * Node 0 is the root
 * Keep on adding nodes to a set, if the nodes is already added, there is a cycle
 
@@ -33,7 +59,7 @@ class Solution {
     }
 }
 ```
-## 2.DFS
+## 3.DFS
 
 ```java
 class Solution {

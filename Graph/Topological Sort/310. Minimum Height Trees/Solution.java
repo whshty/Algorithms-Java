@@ -10,15 +10,15 @@ public class Solution {
         int count = n;
         while (count > 2) {
             count -= res.size();
-            List<Integer> newEntry = new ArrayList<>();
+            List<Integer> newRes= new ArrayList<>();
             for (int i : res) {
                 int temp = map.get(i).iterator().next();
                 map.get(temp).remove(i);
                 if (map.get(temp).size() == 1) {
-                    newEntry.add(temp);
+                    newRes.add(temp);
                 }
             }
-            res = newEntry;
+            res = newRes;
         }
         return res;
     }

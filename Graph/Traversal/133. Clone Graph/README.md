@@ -5,7 +5,7 @@
 ```java
 class Solution {
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
-        if( node == null ) return null;
+        if (node == null) return null;
         Queue<UndirectedGraphNode> queue = new LinkedList<>();
         queue.add(node);
         Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
@@ -13,8 +13,8 @@ class Solution {
         
         while (!queue.isEmpty()) {
             UndirectedGraphNode cur = queue.poll();
-            for(UndirectedGraphNode neighbor : cur.neighbors){
-                if( !map.containsKey(neighbor)){
+            for (UndirectedGraphNode neighbor : cur.neighbors) {
+                if (!map.containsKey(neighbor)) {
                     map.put(neighbor, new UndirectedGraphNode(neighbor.label));
                     queue.add(neighbor);
                 }
@@ -26,8 +26,30 @@ class Solution {
 }
 
 ```
+## DFS
 
-## 2.Follow-Up : Copy A List of Graph Nodes
+```java
+class Solution {
+    public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
+        return dfs(node, new HashMap<>());
+    }
+    
+    private UndirectedGraphNode dfs(UndirectedGraphNode node, Map<Integer,UndirectedGraphNode> map) {
+        if (node == null) return null;
+        if (map.containsKey(node.label)) return map.get(node.label);
+        
+        UndirectedGraphNode clonedNode = new UndirectedGraphNode(node.label);
+        map.put(clonedNode.label, clonedNode);
+        
+        for (UndirectedGraphNode neighbor : node.neighbors) {
+            clonedNode.neighbors.add(dfs(neighbor,map));
+        }
+        return clonedNode;
+    }
+}
+```
+
+## 3.Follow-Up : Copy A List of Graph Nodes
 
 ```java
 import java.util.*;

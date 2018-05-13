@@ -1,3 +1,6 @@
+## DFS
+
+```java
 class Solution {
     public List<String> findItinerary(String[][] tickets) {
         Map<String, PriorityQueue<String>> map = new HashMap<>();
@@ -16,3 +19,4 @@ class Solution {
         res.addFirst(start);
     }
 }
+```

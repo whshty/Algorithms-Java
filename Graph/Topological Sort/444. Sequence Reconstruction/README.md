@@ -1,3 +1,5 @@
+## BFS
+```
 class Solution {
     public boolean sequenceReconstruction(int[] org, List<List<Integer>> seqs) {
         Map<Integer, Set<Integer>> map = new HashMap<>();
@@ -58,3 +60,4 @@ class Solution {
     
     
 }
+```

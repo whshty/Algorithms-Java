@@ -1,39 +1,39 @@
 class Solution {
-    public int networkDelayTime(int[][] times, int N, int K) {
-        if(times == null || times.length == 0) return -1;
+    public int networkDelayTime(int[][] times, int n, int dept) {
+        if (times == null || times.length == 0) return -1;
 
-        Map<Integer,Map<Integer, Integer>> map = new HashMap<>();
-        for(int[] time : times){
-            map.putIfAbsent(time[0],new HashMap<>());
+        Map<Integer, Map<Integer, Integer>> map = new HashMap<>();
+        for (int[] time : times) {
+            map.putIfAbsent(time[0], new HashMap<>());
             Map<Integer, Integer> sourceMap = map.get(time[0]);
-            Integer dist = sourceMap.get(time[1]);
-            if( dist == null || dist > time[2]) sourceMap.put(time[1], time[2]);
+            Integer cost = sourceMap.get(time[1]);
+            if (cost == null || cost > time[2]) sourceMap.put(time[1], time[2]);
         }
 
-        Map<Integer, Integer> distMap = new HashMap<>();
-        distMap.put(K, 0);
-        PriorityQueue<int[]> heap = new PriorityQueue<>((i1, i2) -> i1[1] - i2[1]);
-        heap.offer(new int[]{K, 0});
+        Map<Integer, Integer> nodeToDist = new HashMap<>();
+        nodeToDist.put(dept, 0);
+        PriorityQueue<int[]> heap = new PriorityQueue<>(Comparator.comparingInt(i -> i[1]));
+        heap.offer(new int[]{dept, 0});
         int max = -1;
-        while(!heap.isEmpty()){
-            int[] cur = heap.poll();
-            int node = cur[0];
-            int distance = cur[1];
+        while (!heap.isEmpty()) {
+            int[] nodeAndCost = heap.poll();
+            int node = nodeAndCost[0];
+            int cost = nodeAndCost[1];
 
-            if(distMap.containsKey(node) && distMap.get(node) < distance) continue;
+            if (nodeToDist.containsKey(node) && nodeToDist.get(node) < cost) continue;
 
-            Map<Integer, Integer> sourceMap = map.get(node);
-            if(sourceMap == null) continue;
+            Map<Integer, Integer> targetToCost = map.get(node);
+            if (targetToCost == null) continue;
 
-            for(Map.Entry<Integer, Integer> entry : sourceMap.entrySet()){
-                int newDist = distance + entry.getValue();
-                int targetNode = entry.getKey();
-                if(distMap.containsKey(targetNode) && distMap.get(targetNode) <= newDist ) continue;
-                distMap.put(targetNode, newDist);
-                heap.offer(new int[]{targetNode, newDist});
+            for (Map.Entry<Integer, Integer> entry : targetToCost.entrySet()) {
+                int newCost = cost + entry.getValue();
+                int target = entry.getKey();
+                if (nodeToDist.containsKey(target) && nodeToDist.get(target) <= newCost) continue;
+                nodeToDist.put(target, newCost);
+                heap.offer(new int[]{target, newCost});
             }
         }
-        for(int val : distMap.values()) if(val > max) max = val;
-        return distMap.size() == N ? max : -1;
+        for (int val : nodeToDist.values()) if (val > max) max = val;
+        return nodeToDist.size() == n ? max : -1;
     }
 }

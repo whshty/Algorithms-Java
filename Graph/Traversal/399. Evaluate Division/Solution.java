@@ -1,20 +1,17 @@
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
-        Map<String, List<String>> valueAToValueB = new HashMap<>();
-        Map<String, List<Double>> valueToResult = new HashMap<>();
+        Map<String, List<Result>> aToRes = new HashMap<>();
         for (int i = 0; i < equations.length; i++) {
             String[] equation = equations[i];
 
-            valueAToValueB.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(equation[1]);
-            valueAToValueB.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(equation[0]);
-            valueToResult.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(values[i]);
-            valueToResult.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(1 / values[i]);
+            aToRes.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(new Result(equation[1],values[i]));
+            aToRes.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(new Result(equation[0],1 / values[i]));
         }
 
         double[] res = new double[queries.length];
         for (int i = 0; i < queries.length; i++) {
             String[] query = queries[i];
-            res[i] = dfs(query[0], query[1], valueAToValueB, valueToResult, new HashSet<>(), 1.0);
+            res[i] = dfs(query[0], query[1], aToRes, new HashSet<>(), 1.0);
             if (res[i] == 0.0) res[i] = -1.0;
         }
         return res;
@@ -23,25 +20,33 @@ class Solution {
     private double dfs(
             String start,
             String end,
-            Map<String, List<String>> valueAToValueB,
-            Map<String, List<Double>> valueToResult,
+            Map<String, List<Result>> aToRes,
             Set<String> set,
             double value) {
 
-        if (set.contains(start) || !valueAToValueB.containsKey(start)) return 0.0;
+        if (set.contains(start) || !aToRes.containsKey(start)) return 0.0;
         if (start.equals(end)) return value;
         set.add(start);
 
-        List<String> values = valueAToValueB.get(start);
-        List<Double> results = valueToResult.get(start);
+        List<Result> results = aToRes.get(start);
         double res = 0.0;
-        for (int i = 0; i < values.size(); i++) {
-            res = dfs(values.get(i), end, valueAToValueB, valueToResult, set, value * results.get(i));
+        for (int i = 0; i < results.size(); i++) {
+            res = dfs(results.get(i).dividend, end, aToRes, set, value * results.get(i).res);
             if (res != 0.0) break;
         }
         // Backtracking
         set.remove(start);
         return res;
+    }
+
+    class Result {
+        String dividend;
+        double res;
+
+        Result(String dividend, double res) {
+            this.dividend = dividend;
+            this.res = res;
+        }
     }
 }
 

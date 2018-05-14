@@ -1,3 +1,31 @@
+// Union Find
+class Solution {
+    public int countComponents(int n, int[][] edges) {
+        if ( n <= 1 ) return n;
+        int res = n;
+        int[] nums = new int[n];
+        
+        for (int i = 0 ; i < n ; i++) nums[i] = i;
+        
+        for (int[] edge : edges) {
+            int x = find(nums, edge[0]);
+            int y = find(nums, edge[1]);
+            if (x != y) {
+                nums[x] = y;
+                res--;
+            }
+        }
+        return res;
+    }
+    
+    private int find(int[] nums, int id) {
+        if (nums[id] == id) return id;
+        nums[id] = find(nums, nums[id]);
+        return nums[id];
+    }
+}
+
+
 // BFS 
 class Solution {
     public int countComponents(int n, int[][] edges) {

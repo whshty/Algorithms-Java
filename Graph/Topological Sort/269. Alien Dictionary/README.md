@@ -1,3 +1,5 @@
+## BFS
+```java
 class Solution {
     public String alienOrder(String[] words) {
         Map<Character, Set<Character>> map = new HashMap<>();
@@ -56,3 +58,4 @@ class Solution {
         return sb.toString();
     }
 }
+```

@@ -1,3 +1,6 @@
+## 1.DFs
+
+```java
 public class Solution {
     public int countComponents(int n, int[][] edges) {
         int res = 0;
@@ -23,3 +26,4 @@ public class Solution {
         }
     }
 }
+```

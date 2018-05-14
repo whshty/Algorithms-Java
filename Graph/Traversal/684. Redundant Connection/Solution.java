@@ -4,8 +4,8 @@ class Solution {
         for (int i = 0 ; i < nums.length ; i++) nums[i] = i;
         
         for (int[] edge : edges) {
-            int edge1 = edge[0] , edge2 = edge[1];
-            int id1 = find(nums,edge1), id2 = find(nums,edge2);
+            int x = edge[0] , y = edge[1];
+            int id1 = find(nums, x), id2 = find(nums, y);
             if( id1 == id2 ) return edge;
             else nums[id2] = id1;
         }

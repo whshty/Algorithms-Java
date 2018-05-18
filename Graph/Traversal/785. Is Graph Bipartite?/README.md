@@ -38,25 +38,23 @@ class Solution {
 // color 2 : 2
 class Solution {
     public boolean isBipartite(int[][] graph) {
-        if ( graph == null || graph.length == 0 ) return true;
-        int[] color = new int[graph.length];
+        if (graph == null || graph.length == 0) return true;
+        int[] colors = new int[graph.length];
         
-        for( int i = 0 ; i < graph.length ; i++ ){
-            if( color[i] == 0 && !isValid(graph,color,i,1)){
-                return false;
-            } 
+        for (int i = 0 ; i < graph.length ; i++) {
+            if (colors[i] == 0 && !isValid(graph, colors, i, 1)) return false;
         }
         return true;
     }
     
-    public boolean isValid(int[][] graph, int[] color, int index, int val){
-        if( color[index] != 0 ) {
-            return color[index] == val;
+    public boolean isValid(int[][] graph, int[] colors, int index, int val){
+        if (colors[index] != 0 ) {
+            return colors[index] == val;
         }
-        color[index] = val;
+        colors[index] = val;
         int nextVal = val == 1 ? 2 : 1;
         for( int node : graph[index] ){
-            if(!isValid(graph,color,node,nextVal)) return false;
+            if(!isValid(graph, colors, node, nextVal)) return false;
         }
         return true;
     }

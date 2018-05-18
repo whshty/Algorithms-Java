@@ -409,7 +409,7 @@
 * [721. Accounts Merge](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/721.%20Accounts%20Merge)
 * [743. Network Delay Time](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/743.%20Network%20Delay%20Time)
 * [785. Is Graph Bipartite?](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/785.%20Is%20Graph%20Bipartite%3F)
-* 802. Find Eventual Safe States
+* [802. Find Eventual Safe States](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/802.%20Find%20Eventual%20Safe%20States)
 * [815. Bus Routes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/815.%20Bus%20Routes)
 
 ### [Topological Sort](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Topological%20Sort)

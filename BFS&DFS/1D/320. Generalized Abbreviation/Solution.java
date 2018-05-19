@@ -6,7 +6,7 @@ class Solution {
     }
     private void helper (List<String> res, StringBuilder sb, char[] word, int pos, int count) {
         int len = sb.length();
-        if( pos == word.length ){
+        if (pos == word.length) {
             if (count > 0) sb.append(count);
             res.add(sb.toString());
         } else {

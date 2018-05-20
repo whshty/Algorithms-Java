@@ -3,7 +3,6 @@ class Solution {
         Map<String, List<Result>> valToRes = new HashMap<>();
         for (int i = 0; i < equations.length; i++) {
             String[] equation = equations[i];
-
             valToRes.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(new Result(equation[1],values[i]));
             valToRes.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(new Result(equation[0],1 / values[i]));
         }
@@ -11,8 +10,8 @@ class Solution {
         double[] res = new double[queries.length];
         for (int i = 0; i < queries.length; i++) {
             String[] query = queries[i];
-            res[i] = dfs(query[0], query[1], valToRes, new HashSet<>(), 1.0);
-            if (res[i] == 0.0) res[i] = -1.0;
+            double val = dfs(query[0], query[1], valToRes, new HashSet<>(), 1.0);
+            res[i] = val == 0.0 ? -1.0 : val;
         }
         return res;
     }
@@ -23,20 +22,17 @@ class Solution {
             Map<String, List<Result>> valToRes,
             Set<String> set,
             double value) {
-
         if (set.contains(start) || !valToRes.containsKey(start)) return 0.0;
         if (start.equals(end)) return value;
         set.add(start);
 
-        List<Result> results = valToRes.get(start);
-        double res = 0.0;
+        List<Result> results = valToRes.get(start);        
         for (int i = 0; i < results.size(); i++) {
-            res = dfs(results.get(i).dividend, end, valToRes, set, value * results.get(i).res);
-            if (res != 0.0) break;
+            double res = dfs(results.get(i).dividend, end, valToRes, set, value * results.get(i).res);
+            if (res != 0.0) return res;
         }
-        // Backtracking
         set.remove(start);
-        return res;
+        return 0.0;
     }
 
     class Result {

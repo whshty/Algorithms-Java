@@ -1,17 +1,17 @@
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
-        Map<String, List<Result>> aToRes = new HashMap<>();
+        Map<String, List<Result>> valToRes = new HashMap<>();
         for (int i = 0; i < equations.length; i++) {
             String[] equation = equations[i];
 
-            aToRes.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(new Result(equation[1],values[i]));
-            aToRes.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(new Result(equation[0],1 / values[i]));
+            valToRes.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(new Result(equation[1],values[i]));
+            valToRes.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(new Result(equation[0],1 / values[i]));
         }
 
         double[] res = new double[queries.length];
         for (int i = 0; i < queries.length; i++) {
             String[] query = queries[i];
-            res[i] = dfs(query[0], query[1], aToRes, new HashSet<>(), 1.0);
+            res[i] = dfs(query[0], query[1], valToRes, new HashSet<>(), 1.0);
             if (res[i] == 0.0) res[i] = -1.0;
         }
         return res;
@@ -20,18 +20,18 @@ class Solution {
     private double dfs(
             String start,
             String end,
-            Map<String, List<Result>> aToRes,
+            Map<String, List<Result>> valToRes,
             Set<String> set,
             double value) {
 
-        if (set.contains(start) || !aToRes.containsKey(start)) return 0.0;
+        if (set.contains(start) || !valToRes.containsKey(start)) return 0.0;
         if (start.equals(end)) return value;
         set.add(start);
 
-        List<Result> results = aToRes.get(start);
+        List<Result> results = valToRes.get(start);
         double res = 0.0;
         for (int i = 0; i < results.size(); i++) {
-            res = dfs(results.get(i).dividend, end, aToRes, set, value * results.get(i).res);
+            res = dfs(results.get(i).dividend, end, valToRes, set, value * results.get(i).res);
             if (res != 0.0) break;
         }
         // Backtracking

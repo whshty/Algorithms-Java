@@ -1,48 +1,42 @@
+// DFS
 class Solution {
     public double[] calcEquation(String[][] equations, double[] values, String[][] queries) {
-        Map<String, List<Result>> valToRes = new HashMap<>();
-        for (int i = 0; i < equations.length; i++) {
+        Map<String, Set<Result>> map = new HashMap<>();
+        
+        for (int i = 0 ; i < equations.length ; i++) {
             String[] equation = equations[i];
-            valToRes.computeIfAbsent(equation[0], list -> new ArrayList<>()).add(new Result(equation[1],values[i]));
-            valToRes.computeIfAbsent(equation[1], list -> new ArrayList<>()).add(new Result(equation[0],1 / values[i]));
+            map.computeIfAbsent(equation[0], set -> new HashSet<>()).add(new Result(equation[1],values[i]));
+            map.computeIfAbsent(equation[1], set -> new HashSet<>()).add(new Result(equation[0],1/values[i]));
         }
-
         double[] res = new double[queries.length];
         for (int i = 0; i < queries.length; i++) {
-            String[] query = queries[i];
-            double val = dfs(query[0], query[1], valToRes, new HashSet<>(), 1.0);
-            res[i] = val == 0.0 ? -1.0 : val;
+            double value = dfs(map, new HashSet<>(), queries[i][0], queries[i][1], 1.0);
+            res[i] = value == 0.0 ? -1.0 : value;
         }
         return res;
     }
-
-    private double dfs(
-            String start,
-            String end,
-            Map<String, List<Result>> valToRes,
-            Set<String> set,
-            double value) {
-        if (set.contains(start) || !valToRes.containsKey(start)) return 0.0;
+    
+    private double dfs(Map<String,Set<Result>> map, Set<String> set, String start, String end, double value) {
+        if (set.contains(start) || !map.containsKey(start)) return 0.0;
         if (start.equals(end)) return value;
+        
         set.add(start);
-
-        List<Result> results = valToRes.get(start);        
-        for (int i = 0; i < results.size(); i++) {
-            double res = dfs(results.get(i).dividend, end, valToRes, set, value * results.get(i).res);
-            if (res != 0.0) return res;
+        for (Result res : map.get(start)) {
+            double temp = dfs(map, set, res.divident, end, value * res.value);
+            if (temp != 0.0) return temp;
         }
         set.remove(start);
         return 0.0;
     }
+}
 
-    class Result {
-        String dividend;
-        double res;
-
-        Result(String dividend, double res) {
-            this.dividend = dividend;
-            this.res = res;
-        }
+class Result {
+    String divident;
+    double value;
+    
+    Result(String divident, double value) {
+        this.divident = divident;
+        this.value = value;
     }
 }
 

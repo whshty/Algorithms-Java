@@ -402,13 +402,13 @@
 * [127. Word Ladder](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/127.%20Word%20Ladder)
 * [130. Surrounded Regions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/130.%20Surrounded%20Regions)
 * [133. Clone Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/133.%20Clone%20Graph)
-* 305. Number of Islands II
+* [305. Number of Islands II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/305.%20Number%20of%20Islands%20II)
 * [323. Number of Connected Components in an Undirected Graph](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/323.%20Number%20of%20Connected%20Components%20in%20an%20Undirected%20Graph)
 * [332. Reconstruct Itinerary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/332.%20Reconstruct%20Itinerary)
 * [399. Evaluate Division](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/399.%20Evaluate%20Division)
 * [684. Redundant Connection](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/684.%20Redundant%20Connection)
 * [721. Accounts Merge](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/721.%20Accounts%20Merge)
-* [734. Sentence Similarity]
+* [734. Sentence Similarity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/734.%20Sentence%20Similarity)
 * [743. Network Delay Time](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/743.%20Network%20Delay%20Time)
 * [785. Is Graph Bipartite?](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/785.%20Is%20Graph%20Bipartite%3F)
 * [802. Find Eventual Safe States](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/802.%20Find%20Eventual%20Safe%20States)

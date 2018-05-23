@@ -185,8 +185,6 @@
 * [350. Intersection of Two Arrays II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/350.%20Intersection%20of%20Two%20Arrays%20II)
 * [720. Longest Word in Dictionary](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/720.%20Longest%20Word%20in%20Dictionary)
 * [760. Find Anagram Mappings](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/760.%20Find%20Anagram%20Mappings)
-* [734. Sentence Similarity](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Hash/734.%20Sentence%20Similarity)
-
 
 ### [Interval](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval)
 * [56. Merge Intervals](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Interval/56.%20Merge%20Intervals)
@@ -410,6 +408,7 @@
 * [399. Evaluate Division](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/399.%20Evaluate%20Division)
 * [684. Redundant Connection](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/684.%20Redundant%20Connection)
 * [721. Accounts Merge](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/721.%20Accounts%20Merge)
+* [734. Sentence Similarity]
 * [743. Network Delay Time](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/743.%20Network%20Delay%20Time)
 * [785. Is Graph Bipartite?](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/785.%20Is%20Graph%20Bipartite%3F)
 * [802. Find Eventual Safe States](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Graph/Traversal/802.%20Find%20Eventual%20Safe%20States)

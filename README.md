@@ -447,7 +447,7 @@
 * [221. Maximal Square](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/221.%20Maximal%20Square)
 * [303. Range Sum Query - Immutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/303.%20Range%20Sum%20Query%20-%20Immutable)
 * [304. Range Sum Query 2D - Immutable](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/304.%20Range%20Sum%20Query%202D%20-%20Immutable)
-* [329. Longest Increasing Path in a Matrix]()
+* [329. Longest Increasing Path in a Matrix](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/329.%20Longest%20Increasing%20Path%20in%20a%20Matrix)
 * [361. Bomb Enemy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/Coordinate%20DP/361.%20Bomb%20Enemy)
 
 ### [1D](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D)

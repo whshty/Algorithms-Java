@@ -1,58 +1,59 @@
 class Solution {
     public String alienOrder(String[] words) {
-        Map<Character, Set<Character>> map = new HashMap<>();
-        Map<Character, Integer> degree = new HashMap<>();
-        initIndegree(words, degree);
-        updateAdjListAndDegree(words, map, degree);
-        return getResult(map, degree);
+        Map<Character,Set<Character>> map = new HashMap<>();
+        Map<Character,Integer> indegree = new HashMap<>();
+        initMapAndIndegree(words, map, indegree);
+        return getResult(map,indegree);
     }
-
-    private void initIndegree(String[] words, Map<Character, Integer> degree) {
-        for (String s : words) {
-            for (char c : s.toCharArray()) {
-                degree.put(c, 0);
+    
+    private void initMapAndIndegree(String[] words, Map<Character,Set<Character>> map, Map<Character,Integer> indegree) {
+        for (String word : words) {
+            for (Character ch : word.toCharArray()) {
+                indegree.put(ch,0);
             }
         }
-    }
-
-    private void updateAdjListAndDegree(String[] words, Map<Character, Set<Character>> map, Map<Character, Integer> degree) {
+        
         for (int i = 0; i < words.length - 1; i++) {
             String one = words[i];
-            String two = words[i + 1];
-            int length = Math.min(one.length(), two.length());
-            for (int j = 0; j < length; j++) {
+            String two = words[i+1];
+            int len = Math.min(one.length(), two.length());
+            
+            for (int j = 0; j < len; j++) {
                 char ch1 = one.charAt(j);
                 char ch2 = two.charAt(j);
+                
                 if (ch1 != ch2) {
-                    Set<Character> set = map.getOrDefault(ch1, new HashSet<>());
+                    Set<Character> set = map.getOrDefault(ch1,new HashSet<>());
                     if (!set.contains(ch2)) {
                         set.add(ch2);
                         map.put(ch1, set);
-                        degree.put(ch2, degree.getOrDefault(ch2,0) + 1);
-                    }
-                    break;
+                        indegree.put(ch2, indegree.getOrDefault(ch2,0) + 1);
+                    }                  
+                    break; 
                 }
-            }
-        }
+            } 
+        }    
     }
-
-    private String getResult(Map<Character, Set<Character>> map, Map<Character, Integer> degree) {
+    
+    private String getResult(Map<Character,Set<Character>> map, Map<Character,Integer> indegree) {
         StringBuilder sb = new StringBuilder();
         Queue<Character> queue = new LinkedList<>();
-        for (char ch : degree.keySet()) {
-            if (degree.get(ch) == 0) queue.add(ch);
+        for (char ch : indegree.keySet()) {
+            if (indegree.get(ch) == 0) queue.add(ch);
         }
+        
         while (!queue.isEmpty()) {
-            char ch = queue.remove();
+            char ch = queue.poll();
             sb.append(ch);
             if (map.containsKey(ch)) {
-                for (char ch2 : map.get(ch)) {
-                    degree.put(ch2, degree.get(ch2) - 1);
-                    if (degree.get(ch2) == 0) queue.add(ch2);
-                }
+               for (char nextCh : map.get(ch)) {
+                    indegree.put(nextCh, indegree.get(nextCh) - 1);
+                    if (indegree.get(nextCh) == 0) queue.add(nextCh);
+               } 
             }
         }
-        if (sb.length() != degree.size()) return "";
-        return sb.toString();
+        
+        if (sb.length() != indegree.size()) return "";
+        return sb.toString();      
     }
 }

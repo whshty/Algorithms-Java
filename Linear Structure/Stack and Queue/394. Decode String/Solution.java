@@ -1,26 +1,27 @@
 class Solution {
     public String decodeString(String s) {
-        Stack<Integer> numStack = new Stack<>();
-        Stack<StringBuilder> strStack = new Stack<>();
+        Deque<Integer> valStack = new ArrayDeque<>();
+        Deque<StringBuilder> sbStack = new ArrayDeque<>();
         StringBuilder sb = new StringBuilder();
-        int val = 0 ;
+        int val = 0;
         
-        for (char c : s.toCharArray()) {
-            if (Character.isDigit(c)){
-                val = val * 10 + c - '0';
-            } else if( c == '['){
-                numStack.push(val);
+        
+        for (char ch : s.toCharArray()) {
+            if (Character.isDigit(ch)) val = val * 10 + ch - '0';
+            else if (ch == '[') {
+                valStack.push(val);
                 val = 0;
-                strStack.push(sb);
+                sbStack.push(sb);
                 sb = new StringBuilder();
-            } else if ( c == ']'){
+            } else if (ch == ']') {
                 StringBuilder tempSb = sb;
-                sb = strStack.pop();
-                for (int i = numStack.pop() - 1; i >= 0; i--){
+                sb = sbStack.pop();
+                int count = valStack.pop();
+                for (int i = 0; i < count; i++) {
                     sb.append(tempSb);
-                }
+                }            
             } else {
-                sb.append(c);
+                sb.append(ch);
             }
         }
         return sb.toString();

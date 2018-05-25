@@ -1,13 +1,13 @@
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        int leftCount = countAmount(root.left);
-        if( k <= leftCount ) return kthSmallest(root.left,k);
-        else if( k > leftCount + 1 ) return kthSmallest(root.right,k-1-leftCount);
-        return root.val;
+        int leftTreeCount = findLeftTreeCount(root.left);
+        if (k == leftTreeCount + 1) return root.val;
+        else if (k <= leftTreeCount) return kthSmallest(root.left, k);
+        else return kthSmallest(root.right, k - leftTreeCount -1);   
     }
     
-    private int countAmount(TreeNode node){
-        if( node == null ) return 0;
-        return 1 + countAmount(node.left) + countAmount(node.right);
+    private int findLeftTreeCount(TreeNode node) {
+        if (node == null) return 0;
+        else return 1 + findLeftTreeCount(node.left) + findLeftTreeCount(node.right);        
     }
 }

@@ -3,25 +3,25 @@
 class Solution {
     public List<String> findItinerary(String[][] tickets) {
         Map<String, PriorityQueue<String>> map = new HashMap<>();
-        LinkedList<String> res = new LinkedList<>();
-        for (String[] ticket : tickets) {
-            map.computeIfAbsent(ticket[0], queue -> new PriorityQueue<>()).add(ticket[1]);
+        List<String> res = new ArrayList<>();
+
+        for(String[] ticket : tickets) {
+            map.computeIfAbsent(ticket[0], pq -> new PriorityQueue()).add(ticket[1]);
         }
-        
-        String cur = "JFK";
-        Stack<String> stack = new Stack<>();
-        
-        for (int i = 0; i < tickets.length ;i++) {
-            // Invalid path
-            while (!map.containsKey(cur) || map.get(cur).isEmpty()) {
-                stack.push(cur);
-                cur = res.remove(res.size()-1);
+        Deque<String> stack = new ArrayDeque<>();
+        String node = "JFK";
+
+        for (int i = 0; i < tickets.length; i++) {
+            // invalid path
+            while (!map.containsKey(node) || map.get(node).isEmpty()) {
+                stack.push(node);
+                node = res.remove(res.size() - 1);
             }
-            res.add(cur);
-            cur = map.get(cur).poll();
+            res.add(node);
+            node = map.get(node).poll();
         }
-        res.add(cur);
-        while(!stack.isEmpty()) res.add(stack.pop());
+        res.add(node);
+        if (!stack.isEmpty()) res.add(stack.pop());
         return res;
     }
 }

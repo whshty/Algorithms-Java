@@ -1,33 +1,34 @@
 public class Codec {
-
-    private String MARK = ",";
-    private String NULL = "N";
+    
+    private final static String NULL = "N";
+    private final static String COMMA = ",";
+    
     public String serialize(TreeNode root) {
         StringBuilder sb = new StringBuilder();
-        buildTree(root,sb);
+        buildString(sb, root);
         return sb.toString();
     }
-    private void buildTree(TreeNode node, StringBuilder sb){
-        if( node == null ) sb.append(NULL).append(MARK);
-        else{
-            sb.append(node.val).append(MARK);
-            buildTree(node.left,sb);
-            buildTree(node.right,sb);
+    
+    private void buildString(StringBuilder sb, TreeNode node) {
+        if (node == null) sb.append(NULL).append(COMMA);
+        else {
+            sb.append(node.val).append(COMMA);
+            buildString(sb, node.left);
+            buildString(sb, node.right);
         }
     }
-    
+
+    // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        Deque<String> deque  = new  LinkedList<>();
-        deque.addAll(Arrays.asList(data.split(MARK)));
+        Deque<String> deque = new ArrayDeque<>(Arrays.asList(data.split(COMMA)));
         return buildTree(deque);
     }
     
-    
-    private TreeNode buildTree(Deque<String> deque){
-        String root = deque.remove();
-        if(root.equals(NULL)) return null;
-        else{ 
-            TreeNode node = new TreeNode(Integer.valueOf(root));
+    private TreeNode buildTree(Deque<String> deque) {
+        String val = deque.poll();
+        if (val.equals(NULL)) return null;
+        else {
+            TreeNode node = new TreeNode(Integer.valueOf(val));
             node.left = buildTree(deque);
             node.right = buildTree(deque);
             return node;

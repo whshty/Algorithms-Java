@@ -25,6 +25,21 @@ class Solution {
 
 ## DP
 
+1. Last step
+	* dp[n] = min(dp[j] + 1), (n - j * j) is valid and dp[j] has value
+
+2. Tranfer function
+	* `dp[n] = Min{ dp[n - i*i] + 1 },  n - i*i >=0 && i >= 1`
+
+3. Initial and boundary conditions
+ 	* dp[0] = 0
+
+4. Calculation order
+	* Init dp[0]
+	* Calculate dp[1],dp[2],... dp[n]
+	* return dp[n]
+
+
 ```java
 class Solution {
     public int numSquares(int n) {

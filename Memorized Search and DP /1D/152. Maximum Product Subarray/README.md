@@ -18,7 +18,7 @@
 	* The anser is max{max[0], max[1], max[2], ..., max[n-1]}
 
 
-```
+```java
 class Solution {
     public int maxProduct(int[] nums) {
         int[] max = new int[nums.length];

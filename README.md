@@ -368,7 +368,6 @@
 * [301. Remove Invalid Parentheses](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/301.%20Remove%20Invalid%20Parentheses)
 * [320. Generalized Abbreviation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/320.%20Generalized%20Abbreviation)
 * [339. Nested List Weight Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/339.%20Nested%20List%20Weight%20Sum)
-* [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [401. Binary Watch](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/401.%20Binary%20Watch)
 * [690. Employee Importance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/690.%20Employee%20Importance)
 * [679. 24 Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/BFS%26DFS/1D/679.%2024%20Game)
@@ -464,6 +463,7 @@
 * [300. Longest Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/300.%20Longest%20Increasing%20Subsequence)
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/322.%20Coin%20Change)
 * [354. Russian Doll Envelopes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/354.%20Russian%20Doll%20Envelopes)
+* [377. Combination Sum IV]
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/416.%20Partition%20Equal%20Subset%20Sum)
 * [651. 4 Keys Keyboard](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/651.%204%20Keys%20Keyboard)
 * [718. Maximum Length of Repeated Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/718.%20Maximum%20Length%20of%20Repeated%20Subarray)
@@ -489,7 +489,6 @@
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/322.%20Coin%20Change)
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
 * [338. Counting Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/338.%20Counting%20Bits)
-* [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/377.%20Combination%20Sum%20IV)
 * [494. Target Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/494.%20Target%20Sum)
 * [518. Coin Change 2](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/518.%20Coin%20Change%202)
 * [639. Decode Ways II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/639.%20Decode%20Ways%20II)

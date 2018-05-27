@@ -1,3 +1,5 @@
+## Brute Force DFS 
+```java
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
         if( nums == null || nums.length == 0 || target <= 0 ) return 0;
@@ -15,25 +17,27 @@ public class Solution {
         return res;
     }
 }
+```
 
+## Memo DFS
+
+```java
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
-        if( nums == null || nums.length == 0 || target <= 0 ){
-            return 0;
-        }
+        if (nums == null || nums.length == 0 || target <= 0) return 0;
         Map<Integer,Integer> map = new HashMap<>();
-        helper(nums,map,target);
+        dfs(nums,map,target);
         return map.get(target);
     }
     
-    private int helper(int[] nums, Map<Integer,Integer> map, int sum ){
-        if( sum < 0 ) return 0;
-        if( sum == 0 ) return 1;
-        if( map.containsKey(sum)) return map.get(sum);
+    private int dfs(int[] nums, Map<Integer,Integer> map, int sum) {
+        if (sum < 0) return 0;
+        if (sum == 0) return 1;
+        if (map.containsKey(sum)) return map.get(sum);
         
         int res = 0;
-        for( int i = 0 ; i < nums.length ; i++ ){
-            res += helper(nums,map,sum - nums[i]);
+        for (int i = 0; i < nums.length; i++ ){
+            res += dfs(nums,map,sum - nums[i]);
         }
         map.put(sum,res);
         return map.get(sum);  
@@ -41,6 +45,14 @@ public class Solution {
 }
 
 
+```
+
+## DP
+* Based on the recurison rule of memo DFS
+* Recurison rule : helper(i) = sumOf(helper(i-nums[j])), i - nums[j] >= 0
+* Induction rule : dp[i] = sumOf(dp[i-nums[j]]), i - nums[j] >= 0
+
+```java
 public class Solution {
     public int combinationSum4(int[] nums, int target) {
         int[] dp = new int[target+1];
@@ -55,3 +67,5 @@ public class Solution {
         return dp[target];
     }
 }
+
+```

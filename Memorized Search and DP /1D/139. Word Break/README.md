@@ -25,6 +25,21 @@ class Solution {
 * dp[i] is true if ther a word in the dictionary that end at ith of s adnd is also true at the beginning of the word
 * Time  : O(n^2)
 
+1. Last step
+	* dp[len-1] == true && dp[len-1-wordLen] == true
+
+2. Transfer function
+	* dp[i] ^= dp[j] && wordDict.contains(s.substring(j,i)
+
+3. Initial and boundary conditions
+
+	* dp[0] = true
+
+4. Calculation order
+	* Init dp[0]
+	* Calculate dp[1],dp[2],... dp[len]
+	* return dp[len]
+
 ```
 s = "facebook"
 words = ["face" , "book"]

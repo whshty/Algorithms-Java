@@ -4,7 +4,7 @@
 	* dp[i] == true && n-1-i <= nums[i]
 
 2. Transfer function
-	* dp[i] ^= dp[i] && i + nums[i] >= j ( 0 <= i < j )
+	* dp[j] ^= dp[i] && i + nums[i] >= j ( 0 <= i < j )
 3. Initial and boundary conditions
 	* dp[0] = true
 4. Calculation order

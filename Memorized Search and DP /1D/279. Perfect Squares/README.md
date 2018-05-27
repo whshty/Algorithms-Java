@@ -1,4 +1,4 @@
-## MEMO DFS
+## Memo DFS
 ```java
 class Solution {
     public int numSquares(int n) {

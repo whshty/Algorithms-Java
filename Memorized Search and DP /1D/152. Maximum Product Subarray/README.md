@@ -7,11 +7,8 @@
 	* Calculate the max and min result of product array of a[j] at the same time
 	* Both situtaion need max and min product array result of a[j-1]
 2. Transfer function
-	* `f[j] = max{ a[j], max{a[j]*f[j-1], a[j]*g[j-1]}| j>0}`
-	* f[j] =  以a[j]结尾的连续子序列的最大乘积
-	* a[j] : 情况1:子序列 就是a[j]本身
-	* `max{a[j]*f[j-1], a[j]*g[j-1]}` : 情况2:以a[j-1]结尾的连续子序 列的最大/最小乘积，乘上a[j]
-	* g[j] =以a[j]结尾的连续子序列的最小乘积
+	* `max[j] = max{ a[j], max{a[j]*max[j-1], a[j]*min[j-1]}| j>0}`
+	* `max{a[j]*max[j-1], a[j]*min[j-1]}` 
 	* `g[j] = min{ a[j], min{a[j]*f[j-1], a[j]*g[j-1]}| j>0}`
 3. Initial and boundary conditions
 	* None

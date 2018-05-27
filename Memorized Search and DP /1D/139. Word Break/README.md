@@ -3,15 +3,17 @@
 
 ```java
 class Solution {
-    public boolean wordBreak(String s, List<String> wordDict) {
-        return dfs(s,wordDict,new HashSet<String>());
+    public boolean wordBreak(String s, List<String> dict) {
+        return dfs(s, dict, new HashSet<>());
     }
-    private boolean dfs(String s, List<String> wordDict, Set<String> isVisited) {
+    
+    private boolean dfs(String s, List<String> dict, Set<String> set) {
         if (s.isEmpty()) return true;
-        if (isVisited.contains(s)) return false;
-        isVisited.add(s);
-        for (String word : wordDict) {
-            if (s.startsWith(word) && dfs(s.substring(word.length()), wordDict, isVisited)) return true;
+        if (set.contains(s)) return false;
+         
+        set.add(s);
+        for (String word : dict) {
+            if (s.startsWith(word) && dfs(s.substring(word.length()), dict, set)) return true;
         }
         return false;
     }

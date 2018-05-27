@@ -48,24 +48,29 @@ public class Solution {
 ```
 
 ## DP
-* Based on the recurison rule of memo DFS
-* Recurison rule : helper(i) = sumOf(helper(i-nums[j])), i - nums[j] >= 0
-* Induction rule : dp[i] = sumOf(dp[i-nums[j]]), i - nums[j] >= 0
+1. Last step
+	* dp[target] = sumOf(dp[target-nums[i]), 0 <= i < len
+2. Tranfer function
+	* dp[i] = sumOf(dp[i-nums[j]]), i - nums[j] >= 0
+3. Initial and boundary conditions
+	* dp[0] = true
+4. Calculation order
+	* Init dp[0]
+	* Calculate dp[1],dp[2],... dp[target]
+	* return dp[target]
 
 ```java
-public class Solution {
+class Solution {
     public int combinationSum4(int[] nums, int target) {
         int[] dp = new int[target+1];
         dp[0] = 1;
-        for( int i = 1 ; i < dp.length ; i++){
-            for( int j = 0 ; j < nums.length ; j++ ){
-                if( i - nums[j] >= 0 ){
-                    dp[i] += dp[i-nums[j]];
-                }
+        
+        for (int i = 1; i < target + 1; i++) {
+            for (int j = 0; j < nums.length ; j++) {
+                if (i - nums[j] >= 0) dp[i] += dp[i-nums[j]];
             }
         }
         return dp[target];
     }
 }
-
 ```

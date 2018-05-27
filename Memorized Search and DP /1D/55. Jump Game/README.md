@@ -1,6 +1,6 @@
 ## 1.DP
-1. Define status
-	* Last step:frog in rock n-1
+1. Last step
+	* Frog in rock n-1
 	* dp[i] == true && n-1-i <= nums[i]
 
 2. Transfer function

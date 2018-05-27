@@ -1,13 +1,13 @@
 ## 1.DP
 1. Define status
-	* 最后一步:如果青蛙能跳到最后一块石头n-1，我们考虑它跳的最后一步
+	* Last step:frog in rock n-1
 	* dp[i] == true && n-1-i <= nums[i]
 
-2. 转移方程
+2. Transfer function
 	* dp[i] ^= dp[i] && i + nums[i] >= j ( 0 <= i < j )
-3. 初始条件和边界情况
+3. Initial and boundary conditions
 	* dp[0] = true
-4. 动态规划组成部分四:计算顺序
+4. Calculation order
 	* Init dp[0] 
 	* Calculate dp[1],dp[2],... dp[n-1]
 	* return dp[n-1]

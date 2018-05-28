@@ -204,6 +204,7 @@
 * [496. Next Greater Element I](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/496.%20Next%20Greater%20Element%20I)
 * [503. Next Greater Element II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/503.%20Next%20Greater%20Element%20II)
 * [636. Exclusive Time of Functions](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/636.%20Exclusive%20Time%20of%20Functions)
+* [678. Valid Parenthesis String]
 * [682. Baseball Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/682.%20Baseball%20Game)
 * [739. Daily Temperatures](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/739.%20Daily%20Temperatures)
 * [752. Open the Lock](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Linear%20Structure/Stack%20and%20Queue/752.%20Open%20the%20Lock)
@@ -489,7 +490,6 @@
 * [494. Target Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/494.%20Target%20Sum)
 * [518. Coin Change 2](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/518.%20Coin%20Change%202)
 * [639. Decode Ways II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/639.%20Decode%20Ways%20II)
-* [678. Valid Parenthesis String](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/678.%20Valid%20Parenthesis%20String)
 
 
 # [Greedy](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Greedy)

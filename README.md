@@ -463,6 +463,7 @@
 * [279. Perfect Squares](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/279.%20Perfect%20Squares)
 * [300. Longest Increasing Subsequence](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/300.%20Longest%20Increasing%20Subsequence)
 * [322. Coin Change](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/322.%20Coin%20Change)
+* [338. Counting Bits]
 * [354. Russian Doll Envelopes](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/354.%20Russian%20Doll%20Envelopes)
 * [377. Combination Sum IV](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/377.%20Combination%20Sum%20IV)
 * [416. Partition Equal Subset Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/416.%20Partition%20Equal%20Subset%20Sum)
@@ -485,7 +486,6 @@
 
 ### Other
 * [337. House Robber III](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/337.%20House%20Robber%20III)
-* [338. Counting Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/338.%20Counting%20Bits)
 * [494. Target Sum](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/494.%20Target%20Sum)
 * [518. Coin Change 2](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/518.%20Coin%20Change%202)
 * [639. Decode Ways II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/639.%20Decode%20Ways%20II)

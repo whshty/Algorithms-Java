@@ -48,9 +48,17 @@ class Solution {
 }
 ```
 ## 3.DP
+
 * Assume we have coins of {2,5,7} and the total value is 27
 * In the last step, we have f(27) = min{f(27-2)+1,f(27-5)+1,f(27-7)+1}
 * Initial condition : dp[0] = 0, we can can calculate dp[1],dp[2],.....,dp[27]
+
+
+1. Last step
+	* Use first n - 1 coins to get the amount
+	* Use first n - 1 coins to get the amount - A[n-1]
+
+
 
 ```java
 class Solution {

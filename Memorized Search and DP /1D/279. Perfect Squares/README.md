@@ -40,7 +40,7 @@ class Solution {
 	* Calculate dp[1],dp[2],... dp[n]
 	* return dp[n]
 
-Time : \sqrt{n} * n
+Time : sqrt(n) * n
 
 
 ```java

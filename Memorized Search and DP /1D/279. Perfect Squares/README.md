@@ -30,6 +30,7 @@ class Solution {
 
 2. Tranfer function
 	* `dp[n] = Min{ dp[n - i*i] + 1 },  n - i*i >=0 && i >= 1`
+	* `1 <= i * i < j`
 
 3. Initial and boundary conditions
  	* dp[0] = 0
@@ -38,6 +39,8 @@ class Solution {
 	* Init dp[0]
 	* Calculate dp[1],dp[2],... dp[n]
 	* return dp[n]
+
+Time : \sqrt{n} * n
 
 
 ```java

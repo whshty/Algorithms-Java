@@ -36,6 +36,23 @@ class Solution {
 ```
 
 ## 2.DP
+
+1. Last step and status
+	* If B[m-1] is a regular character, we need A[n-1] = B[m-1]
+	* If B[m-1] is ., then A[n-1] is a match
+	* If B[m-1] = c is *, then B[m-2] can be duplicated multiple times, we need to consider A[m-1] is 0 c or last c of a mutilpe c.
+		* If A[n-1] is 0 c. check if A[0,n1] matches B[0,n-3]
+		* If A[n-1] is the last c, check is A[0,n-2] matchs B[0,n-1], A[m-1] = c or c ='.'
+
+
+2. Transfer function
+
+3. Initial and boundary conditions
+
+4. Calculation order
+
+
+
  
  If p.charAt(j) == s.charAt(i) :  dp[i][j] = dp[i-1][j-1];
  

@@ -32,35 +32,49 @@ public class Solution {
 
 
 ## 2.DP
-* Time : O(n^2) + Space : O(n^2)
-* dp[i][j] to represent the shortest edit distance between word1[0,i) and word2[0,j)
-* then compare the character of word1[i] and word2[j], which are c and d respectively (c == word1[i-1], d == word2[j-1])
-* dp[i][j] = dp[i-1][j-1], if c == d  
-* otherwise, we have three options
-	1. eplace c with d , dp[i][j] = dp[i-1][i-j] + 1
-	2. add d after c, dp[i][j] = dp[i][j-1] + 1
-	3. delete c, dp[i][j] = dp[i-1][j] + 1 
+1. Last step and define status
+	* Situation 1: Insert A in the end of B[n-1]
+	* Situation 2: Change the last character of A to B[n-1]
+	* Situation 3: Delete the last character of A
+	* Situation 4: A[n-1] = B[m-1], do nothing
+	* dp[i][j]: the min edit distance of A[0,i-1] and B[0,j-1]
+
+2. Transfer function
+	* dp[i][j] = min(dp[i][j-1]+1,dp[i-1][j-1]+1,dp[i-1][j-1] +1, dp[i-1][j-1] | A[i-1] = B[j-1])
+
+3. Initial and boundary conditions
+
+4. Calculation order
+	* dp[0][j] = j
+	* dp[i][0] = i
+
+Time : O(n^2) + Space : O(n^2)
+
 
 ```java
-public class Solution {
+class Solution {
     public int minDistance(String word1, String word2) {
-        int[][] dp = new int[word1.length()+1][word2.length()+1];
-        // dp[i][j] indicate the min operation from matching word1[0 ~ i-1] and word2[0 ~ j-1] 
-        for( int j = 1 ; j < word2.length() +1  ; j++){
-            dp[0][j] = j;
-        }
-        for( int i =  1 ; i < word1.length() + 1 ; i++ ){
-            dp[i][0] = i;
-            for( int j = 1 ; j < word2.length() + 1 ; j++ ){
-                if( word1.charAt(i-1) == word2.charAt(j-1)){
-                    dp[i][j] = dp[i-1][j-1];
-                } else{
-                    dp[i][j] = Math.min(dp[i-1][j-1],Math.min(dp[i-1][j],dp[i][j-1])) + 1;
+        int[][] dp = new int[word1.length() + 1][word2.length() + 1];
+
+        for (int i = 0; i < word1.length() + 1; i++) {
+            for (int j = 0; j < word2.length() + 1; j++) {
+                if (i == 0) {
+                    dp[i][j] = j;
+                    continue;
+                }
+                if (j == 0) {
+                    dp[i][j] = i;
+                    continue;
+                }
+
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i - 1][j], dp[i][j - 1])) + 1;
                 }
             }
         }
         return dp[word1.length()][word2.length()];
     }
 }
-
 ``` 

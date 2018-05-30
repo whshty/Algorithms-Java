@@ -46,11 +46,15 @@ class Solution {
 
 
 2. Transfer function
+	* dp[i][j] = dp[i-1][j-1] (i > 0 && B[j-1] == '.' || A[i-1] == B[j-1])
+	* dp[i][j] = dp[i][j-2] || (dp[i-1][j] && B[j-2]='.' || B[j-2]= A[i-1]) if B[j-1] =  *
 
 3. Initial and boundary conditions
+	* dp[0][0] = true 
+	* dp[1][0] .... dp[n][0] = false
 
 4. Calculation order
-
+	* return dp[m][n]
 
 
  
@@ -67,57 +71,37 @@ class Solution {
 	* or dp[i][j] = dp[i][j-2] :  a* counts as empty
 
 
-
-Input word = aab pattern = ``c*a*.``
-
-First loop 
-
-|   | i   | 0     | 1   | 2   | 3   | 4   | 5   |
-|---|-----|-------|-----|-----|-----|-----|-----|
-| j |     |pattern| 0:c | 1:* | 2:a | 3:* | 4:. |
-| 0 | word| T     |     | T   |     | T   |     |
-| 1 | 0:a |       |     |     |     |     |     |
-| 2 | 1:a |       |     |     |     |     |     |
-| 3 | 2:b |       |     |     |     |     |     |
-
-Second loop
-
-|   | i   | 0 | 1   | 2   | 3   | 4   | 5   |
-|---|-----|---|-----|-----|-----|-----|-----|
-| j |     | p | 0:c | 1:* | 2:a | 3:* | 4:. |
-| 0 | w   | T |     | T   |     | T   |     |
-| 1 | 0:a |   |     |     | T   |     |     |
-| 2 | 1:a |   |     |     |     | T   |     |
-| 3 | 2:b |   |     |     |     |     | T   |
-
 ```java
-public class Solution {
-    public boolean isMatch(String s, String p) {
-        int m = s.length()+1;
-        int n = p.length()+1;
-        char[] sc = s.toCharArray();
-        char[] pc = p.toCharArray();
+class Solution {
+    public boolean isMatch(String a, String b) {
+        int m = a.length();
+        int n = b.length();
+
         boolean[][] dp = new boolean[m+1][n+1];
-        dp[0][0] = true;
-        
-        for( int i = 2 ; i < n ; i++){
-            if(pc[i-1] == '*') dp[0][i] = dp[0][i-2];
-        }
-        
-        for( int i = 0 ; i < s.length() ; i++){
-            for( int j = 0 ; j < p.length(); j++){
-                if( pc[j] == '.') dp[i+1][j+1] = dp[i][j];
-                if( pc[j] == sc[i] ) dp[i+1][j+1] = dp[i][j];
-                if( pc[j] == '*'){
-                    if(pc[j-1] != sc[i] && pc[j-1] != '.' ){
-                        dp[i+1][j+1] = dp[i+1][j-1];
-                    } else{
-                        dp[i+1][j+1] = (dp[i+1][j] || dp[i][j+1] || dp[i+1][j-1]);
+
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; j++) {
+                if (j == 0) {
+                    dp[i][j] = (i==0);
+                    continue;
+                }
+                // j > 0
+                if (b.charAt(j-1) == '*') {
+                    if (j > 1) {
+                        dp[i][j] |= dp[i][j-2];
+                        if (i > 0 && (a.charAt(i-1) == b.charAt(j-2) || b.charAt(j-2) == '.')) {
+                            dp[i][j] |= dp[i-1][j];
+                        }
+                    }
+
+                } else {
+                    if (i > 0 && (a.charAt(i-1) == b.charAt(j-1) || b.charAt(j-1) == '.')) {
+                        dp[i][j] |= dp[i-1][j-1];
                     }
                 }
             }
         }
-        return dp[m-1][n-1];
+        return dp[m][n];
     }
 }
 ```

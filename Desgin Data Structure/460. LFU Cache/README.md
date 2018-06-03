@@ -1,3 +1,4 @@
+```java
 class LFUCache {
     Map<Integer, Integer> keyToVal;
     Map<Integer, Integer> keyToFreq;
@@ -41,3 +42,5 @@ class LFUCache {
         freqToKeys.get(1).add(key);
     }
 }
+s
+```

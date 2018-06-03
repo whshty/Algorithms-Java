@@ -1,25 +1,24 @@
-class Solution {
-    public boolean isMatch(String s, String p) {  
-        return helper(s, p, 0, 0);  
-    }  
-      
-    public boolean helper(String s, String p, int i, int j){  
-        if( j == p.length()) return i == s.length();  
+## DP
+1. Last step and status
+	* If a[n-1] == b[m-1], then it depends on a[0,n-2] and b[0,n-2]
+	* If b[m-1] is ?, then it depends on a[0,n-2] and b[0,n-2]
+	* If B[m-1] is *
+		* If A[n-1] can not be matched by *, then it depends on A[0,n-1] and B[0,n-2]
+		* If A[n-1] can be matched by *, then it depends on A[0,n-2] and B[0,n-1]
 
-        if( p.charAt(j) != '*'){  
-            if( i >= s.length() || ( s.charAt(i) != p.charAt(j) && p.charAt(j) != '?'))  return false;  
-            else return helper(s, p, i + 1, j + 1);  
-        }  
-        else{  
-            while( i < s.length() ){  
-                if(helper(s, p, i, j + 1))  return true;  
-                i++;  
-            }  
-        }  
-        return helper(s, p, i, j + 1);  
-    }  
-}
+2. Transfer function
+	* dp[i][j] = dp[i-1][j-1], if i > 0 and B[j-1] = '?' or A[i-1] = B[j-1]
+	* dp[i-1][j] or dp[i][j-1], if B[j-1] = '*'
 
+3. Initial and boundary conditions
+	* dp[0][0] = true
+	* dp[1][0] .... dp[n][0] = false
+
+4. Calculation order
+	* return dp[m][n]
+
+
+```java
 class Solution {
     public boolean isMatch(String a, String b) {
         int m = a.length();
@@ -50,3 +49,4 @@ class Solution {
         return dp[m][n];
     }
 }
+```

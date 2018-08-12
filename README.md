@@ -516,7 +516,7 @@
 * [477. Total Hamming Distance](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/477.%20Total%20Hamming%20Distance)
 * [693. Binary Number with Alternating Bits](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/693.%20Binary%20Number%20with%20Alternating%20Bits)
 * [762. Prime Number of Set Bits in Binary Representation](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Bit%20Manipulation/762.%20Prime%20Number%20of%20Set%20Bits%20in%20Binary%20Representation)
-* [868. Binary Gap]
+* [868. Binary Gap]()
 
 # [Design Data Structure](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure)
 * [Design ArrayList](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/Design%20ArrayList)

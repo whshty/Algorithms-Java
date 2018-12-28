@@ -1,3 +1,4 @@
+```java
 class Solution {
     public int pathSum(int[] nums) {
         if (nums.length == 0) return 0;
@@ -27,3 +28,4 @@ class Solution {
         return sum;
     }
 }
+```

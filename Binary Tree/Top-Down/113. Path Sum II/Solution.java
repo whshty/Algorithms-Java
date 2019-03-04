@@ -6,7 +6,7 @@ class Solution {
         return res;
     }
     public void helper(TreeNode node, List<List<Integer>> res , List<Integer> list , int value){
-        //if( node == null ) return;
+        if( node == null ) return;
         list.add(node.val);
         if( node.left == null && node.right == null ){
             if( value == node.val ){
@@ -15,12 +15,10 @@ class Solution {
                 return;
             }
         }
-        if(node.left != null ) {
-            helper(node.left,res,list,value-node.val);
-        }
-        if(node.right != null) {
-            helper(node.right,res,list,value-node.val);
-        }
+
+        helper(node.left,res,list,value-node.val);
+        helper(node.right,res,list,value-node.val);
+
         list.remove(list.size()-1);
     }
 }

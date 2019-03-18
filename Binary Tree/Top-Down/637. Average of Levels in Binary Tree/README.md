@@ -1,4 +1,4 @@
-```
+```java
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<>();

@@ -3,7 +3,7 @@ int is a primitive type, you pass a int variable to a method it simply makes a c
 
 For example:
 
-```
+```java
 void parentMethod() {
   int a = 0;
   int[] arr = new int[1];
@@ -17,4 +17,32 @@ void childMethod(int a, int[] arr) {
   arr[0]++;
 }
 
+```
+
+```java
+public class Solution {
+    public int countUnivalSubtrees(TreeNode root) {
+        int[] count = new int[1];
+        helper(root,count);
+        return count[0];
+    }
+
+    public boolean helper(TreeNode node, int[] count){
+        if( node == null ) return true;
+        boolean left = helper(node.left,count);
+        boolean right = helper(node.right,count);
+
+        if( left && right ){
+            if( node.left != null && node.val != node.left.val ){
+                return false;
+            }
+            if( node.right != null && node.val != node.right.val ){
+                return false;
+            }
+            count[0]++;
+            return true;
+        }
+        return false;
+    }
+}
 ```

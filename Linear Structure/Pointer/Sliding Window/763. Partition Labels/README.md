@@ -1,3 +1,4 @@
+```java
 class Solution {
     public List<Integer> partitionLabels(String input) {
         if (input == null || input.length() == 0) return null;
@@ -19,3 +20,4 @@ class Solution {
         return res;
     }
 }
+```

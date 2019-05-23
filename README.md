@@ -345,6 +345,7 @@
 * [373. Find K Pairs with Smallest Sums](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/373.%20Find%20K%20Pairs%20with%20Smallest%20Sums)
 * [632. Smallest Range](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/632.%20Smallest%20Range)
 * [692. Top K Frequent Words](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Heap/692.%20Top%20K%20Frequent%20Words)
+* [973. K Closest Points to Origin](https://github.com/whshty/Algorithms-Java/tree/master/Heap/973.%20K%20Closest%20Points%20to%20Origin)
 
 
 

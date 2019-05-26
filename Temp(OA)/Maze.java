@@ -1,74 +1,69 @@
-
 import java.util.LinkedList;
-import java.util.PriorityQueue;
 import java.util.Queue;
 
-class Solution {
+public class Maze {
+    private final static int[] dirX = {-1, 0, 0, 1};
+    private final static int[] dirY = {0, 1, -1, 0};
 
     public static void main(String[] args) {
+        Maze maze = new Maze();
 
+        int[][] input = {
+                {1,0,0,0,0},
+                {1,1,1,1,1},
+                {1,0,0,0,0},
+                {0,0,9,0,0}};
+
+        System.out.println(maze.traverse(input));
+
+        int[][] input2 = {
+                {1,0,0,0,0},
+                {1,1,1,1,1},
+                {1,0,0,0,1},
+                {0,0,9,1,1}};
+
+        System.out.println(maze.traverse(input2));
+
+        int[][] input3 = {
+                {1,1,1,1},
+                {1,0,0,0},
+                {1,9,0,0}};
+        System.out.println(maze.traverse(input3));
+
+        int[][] input4 = {
+                {1,1,1,1,1,1},
+                {1,1,1,1,0,0},
+                {0,0,1,0,0,0},
+                {1,1,1,1,1,1},
+                {1,0,0,0,1,0},
+                {1,1,1,0,9,0}};
+        System.out.println(maze.traverse(input4));
     }
 
-    public boolean bfs(int[][] map, int initX, int initY) {
 
-        if (map == null || map.length == 0 || map[0].length == 0) return false;
-
-        int width = map[0].length;
-        int height = map.length;
-
-        Queue<Position> queue = new LinkedList<>();
-        Position start = new Position(initX, initY, map[initX][initY]);
-        queue.offer(start);
-
-        Position temp = queue.poll();
-
-        while (temp.value != 9) {
-            int x = temp.x;
-            int y = temp.y;
-            // Marked as visited
-            map[x][y] = 1;
-            if ((x + 1) < height) {
-                if (map[x + 1][y] > 0) {
-                    queue.offer(new Position(x + 1, y, map[x + 1][y]));
+    public int traverse(int[][] matrix) {
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
+        if (matrix[0][0] == 9) return 1;
+        int row = matrix.length, col = matrix[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        queue.offer(new int[]{0, 0});
+        matrix[0][0] = -1;
+        while (!queue.isEmpty()) {
+            int[] cur = queue.poll();
+            for (int i = 0; i < 4; i++) {
+                int tempX = cur[0] + dirX[i];
+                int tempY = cur[1] + dirY[i];
+                if (tempX >= 0 && tempX < row && tempY >= 0 && tempY < col) {
+                    if (matrix[tempX][tempY] == -1) continue;
+                    if (matrix[tempX][tempY] == 9) return 1;
+                    else if (matrix[tempX][tempY] == 1) {
+                        queue.offer(new int[]{tempX,tempY});
+                        matrix[tempX][tempY] = -1;
+                    }
                 }
             }
-            if ((x - 1) >= 0) {
-                if (map[x - 1][y] > 0) {
-                    queue.offer(new Position(x - 1, y, map[x - 1][y]));
-                }
-            }
-            if ((y + 1) < width)
-                if (map[x][(y + 1)] > 0) {
-                    queue.offer(new Position(x, (y + 1), map[x][(y + 1)]));
-                }
-
-            if ((y - 1) >= 0)
-                if (map[x][(y - 1)] > 0) {
-                    queue.offer(new Position(x, (y - 1), map[x][(y - 1)]));
-                }
-
-            if (queue.isEmpty()) {
-                break;
-            } else
-                temp = queue.poll();
-
-
         }
-        return temp.value == 9;
+        // Didn't find
+        return 0;
     }
 }
-
-class Position {
-    int x;
-    int y;
-    int value;
-
-    Position(int x, int y, int value) {
-        this.x = x;
-        this.y = y;
-        this.value = value;
-    }
-}
-
-
-

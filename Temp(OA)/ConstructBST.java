@@ -46,7 +46,7 @@ public class ConstructBST {
         TreeNode root = new TreeNode(values[0]);
         for (int i = 1; i < values.length; i++) {
             TreeNode node = root;
-            while (node != null) {
+            while (true) {
                 if (values[i] < node.value) {
                     if (node.left == null) {
                         TreeNode tempLeft = new TreeNode((values[i]));

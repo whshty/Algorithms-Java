@@ -533,7 +533,7 @@
 * [341. Flatten Nested List Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/341.%20Flatten%20Nested%20List%20Iterator)
 * [348. Design Tic-Tac-Toe](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/348.%20Design%20Tic-Tac-Toe)
 * [359. Logger Rate Limiter](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/359.%20Logger%20Rate%20Limiter)
-* [380. Insert Delete GetRandom](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/380.%20Insert%20Delete%20GetRandom%20O(1)
+* [380. Insert Delete GetRandom](https://github.com/whshty/Algorithms-Java/tree/master/Desgin%20Data%20Structure/380.%20Insert%20Delete%20GetRandom)
 * [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)
 * [384. Shuffle an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/384.%20Shuffle%20an%20Array)
 * [460. LFU Cache](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/460.%20LFU%20Cache)

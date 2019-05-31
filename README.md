@@ -456,7 +456,7 @@
 * [55. Jump Game](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/55.%20Jump%20Game)
 * [91. Decode Ways](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/91.%20Decode%20Ways)
 * [96. Unique Binary Search Trees](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/96.%20Unique%20Binary%20Search%20Trees)
-* 132. Palindrome Partitioning II
+* [132. Palindrome Partitioning II](https://github.com/whshty/Algorithms-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/132.%20Palindrome%20Partitioning%20II)
 * [152. Maximum Product Subarray](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/152.%20Maximum%20Product%20Subarray)
 * [139. Word Break](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/139.%20Word%20Break)
 * [140. Word Break II](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Memorized%20Search%20and%20DP%20/1D/140.%20Word%20Break%20II)
@@ -533,7 +533,7 @@
 * [341. Flatten Nested List Iterator](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/341.%20Flatten%20Nested%20List%20Iterator)
 * [348. Design Tic-Tac-Toe](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/348.%20Design%20Tic-Tac-Toe)
 * [359. Logger Rate Limiter](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/359.%20Logger%20Rate%20Limiter)
-* [380. Insert Delete GetRandom O(1)](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/380.%20Insert%20Delete%20GetRandom%20O(1)
+* [380. Insert Delete GetRandom](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/380.%20Insert%20Delete%20GetRandom%20O(1)
 * [381. Insert Delete GetRandom O(1) - Duplicates allowed](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/381.%20Insert%20Delete%20GetRandom%20O(1)%20-%20Duplicates%20allowed)
 * [384. Shuffle an Array](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/384.%20Shuffle%20an%20Array)
 * [460. LFU Cache](https://github.com/RagingPsyduck/Data-Structures-and-Algorithms-in-Java/tree/master/Desgin%20Data%20Structure/460.%20LFU%20Cache)

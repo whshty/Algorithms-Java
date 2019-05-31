@@ -1,10 +1,9 @@
 ## 1.Brute force
-
 ```java
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         if (s.length() == 0) return new ArrayList<>();
-        return helper(s,wordDict);
+        return helper(s, wordDict);
     }
     public List<String> helper(String s, List<String> wordDict) {
         List<String> res = new ArrayList<>();

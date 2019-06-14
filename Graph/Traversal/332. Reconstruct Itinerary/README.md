@@ -8,24 +8,22 @@ class Solution {
         for(List<String> ticket : tickets) {
             map.computeIfAbsent(ticket.get(0), pq -> new PriorityQueue()).add(ticket.get(1));
         }
-        Queue<String> queue = new LinkedList<>();
+        Deque<String> stack = new ArrayDeque<>();
         String node = "JFK";
 
         for (int i = 0; i < tickets.size(); i++) {
             // invalid path
             while (!map.containsKey(node) || map.get(node).isEmpty()) {
-                queue.add(node);
+                stack.add(node);
                 node = res.remove(res.size() - 1);
             }
             res.add(node);
             node = map.get(node).poll();
         }
         res.add(node);
-        if (!queue.isEmpty()) res.add(queue.poll());
+        if (!stack.isEmpty()) res.add(stack.pop());
         return res;
     }
-        
-    
 }
 ```
 

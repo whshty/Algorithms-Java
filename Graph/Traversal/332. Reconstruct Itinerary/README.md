@@ -1,29 +1,31 @@
 ## Iteration
 ```java
 class Solution {
-    public List<String> findItinerary(String[][] tickets) {
+    public List<String> findItinerary(List<List<String>> tickets) {
         Map<String, PriorityQueue<String>> map = new HashMap<>();
         List<String> res = new ArrayList<>();
 
-        for(String[] ticket : tickets) {
-            map.computeIfAbsent(ticket[0], pq -> new PriorityQueue()).add(ticket[1]);
+        for(List<String> ticket : tickets) {
+            map.computeIfAbsent(ticket.get(0), pq -> new PriorityQueue()).add(ticket.get(1));
         }
-        Deque<String> stack = new ArrayDeque<>();
+        Queue<String> queue = new LinkedList<>();
         String node = "JFK";
 
-        for (int i = 0; i < tickets.length; i++) {
+        for (int i = 0; i < tickets.size(); i++) {
             // invalid path
             while (!map.containsKey(node) || map.get(node).isEmpty()) {
-                stack.push(node);
+                queue.add(node);
                 node = res.remove(res.size() - 1);
             }
             res.add(node);
             node = map.get(node).poll();
         }
         res.add(node);
-        if (!stack.isEmpty()) res.add(stack.pop());
+        if (!queue.isEmpty()) res.add(queue.poll());
         return res;
     }
+        
+    
 }
 ```
 
